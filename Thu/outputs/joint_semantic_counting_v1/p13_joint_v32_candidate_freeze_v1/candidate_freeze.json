@@ -1,0 +1,89 @@
+{
+  "project": "CountGD++",
+  "candidate": "Joint V3.2 — Semantic Reliability",
+  "stage": "P13 candidate freeze",
+  "selection_basis": "previously_exposed_FSC_VAL_development",
+  "independent_evaluation": false,
+  "method": {
+    "base": "Frozen CountGD V4",
+    "semantic": "Frozen A3",
+    "router": "P8 soft logistic router",
+    "magnitude": "shared structural Ridge heads",
+    "reliability": "P11 joint semantic risk",
+    "acceptance_rule": "predicted_MAE_gain_positive_AND_predicted_MSE_gain_positive"
+  },
+  "primary_baseline": "V4",
+  "ablation_baselines": [
+    "P11_structural",
+    "P11_joint_structrisk"
+  ],
+  "development_metrics": {
+    "V4": {
+      "mae": 7.996946328743991,
+      "rmse": 40.939014501425305,
+      "bias": -0.23288943369410828
+    },
+    "P11_structural": {
+      "mae": 8.053884974571911,
+      "rmse": 40.78438221146693,
+      "bias": -0.19711507092596547
+    },
+    "P11_joint_structrisk": {
+      "mae": 7.559525919095235,
+      "rmse": 40.432581095803975,
+      "bias": -1.102172182507681
+    },
+    "P11_joint_semrisk": {
+      "mae": 7.531166780623352,
+      "rmse": 40.45704072330555,
+      "bias": -1.273472150935216
+    }
+  },
+  "limitations": [
+    "FSC VAL previously used for method development",
+    "FSC TRAIN base-model OOF not fully nested",
+    "Undercount remains worse than frozen V4",
+    "Incremental semantic features in reliability controller not established",
+    "Official FSC TEST and LVIS semantic TEST previously exposed"
+  ],
+  "next_step": "Prospective untouched benchmark evaluation",
+  "no_further_fsc_val_tuning": true,
+  "artifacts": {
+    "v4_checkpoint": {
+      "path": "outputs/instance_relation_encoder_v4/best_count.pt",
+      "sha256": "310343ac678e6cc421749b4165c4a3253f047dd109795605dbd27b8212d98507"
+    },
+    "a3_checkpoint": {
+      "path": "outputs/joint_semantic_counting_v1/s1_verifier_a3_clip_v1/s1_a3_seed42/best.pt",
+      "sha256": "683e6009a0dad1f1f5bf9d1d1bb1b61365d82b1e0d844bf47de2e9ca17b62dc5"
+    },
+    "p11_source": {
+      "path": "scripts/experiment_joint_v3_p11_reliability.py",
+      "sha256": "dcccee284d7de8bbff3e841a4f74f9d47ed3f58cce9cdc209ae924632a9c87b0"
+    },
+    "p8_source": {
+      "path": "scripts/experiment_joint_v3_p8_soft_router.py",
+      "sha256": "17e39b9ba1ab98b0f7bea5bdddc271e32ea3267347fc03a39b5562f0b21fc1b4"
+    },
+    "p12_source": {
+      "path": "scripts/experiment_joint_v3_p12_locked_transfer.py",
+      "sha256": "48acd2eb8befcfa966fba32d260fec0aadfb28ce756f725a8a09ff028145f1c9"
+    },
+    "p12_model": {
+      "path": "outputs/joint_semantic_counting_v1/joint_v3_p12_locked_transfer_v1/locked_p11_models.joblib",
+      "sha256": "890e6393d910476e2470d4cd851406e8144569c670a60c124984fc07319ec40d"
+    },
+    "p12_predictions": {
+      "path": "outputs/joint_semantic_counting_v1/joint_v3_p12_locked_transfer_v1/p12_fsc_val_predictions.csv",
+      "sha256": "47b8f0bdcfb3339916f9309633ac379c7ec03b5b6de94778c751183a49bc4b9f"
+    },
+    "p12_audit": {
+      "path": "outputs/joint_semantic_counting_v1/joint_v3_p12_locked_transfer_v1/development_audit.json",
+      "sha256": "f5c583f9ab731c12d2acacd39c90b9989c3aa004fab739cb1e71ba026c856df8"
+    },
+    "p12_lock": {
+      "path": "outputs/joint_semantic_counting_v1/joint_v3_p12_locked_transfer_v1/lock_manifest.json",
+      "sha256": "efeb64e97529c40c4af5d1b7c850ad72e2b989decb55bee8516cab7baa1e153d"
+    }
+  }
+}
