@@ -1,0 +1,1302 @@
+group_id,image_name,target,pair_type,source_class,gt_count,baseline_count,v7_count,v72_fixed_count,v73_count,v72_count,changed,err_v7,err_v72,err_v73,delta_err
+CAND__1463__r1__mandm_pieces,1463.jpg,m&m pieces,HARD_NEGATIVE,keyboard keys,0,59,0,0,0,0,False,0,0,0,0
+HARD__1537__r1__m_m_pieces,1537.jpg,m&m pieces,HARD_NEGATIVE,keyboard keys,0,73,0,0,0,0,False,0,0,0,0
+HARD__1887__r2__cows,1887.jpg,cows,HARD_NEGATIVE,elephants,0,9,0,0,0,0,False,0,0,0,0
+HARD__1888__r2__cows,1888.jpg,cows,HARD_NEGATIVE,elephants,0,10,0,0,0,0,False,0,0,0,0
+HARD__1888__r3__goats,1888.jpg,goats,HARD_NEGATIVE,elephants,0,10,0,0,0,0,False,0,0,0,0
+CAND__2__r1__cupcakes,2.jpg,cupcakes,HARD_NEGATIVE,sea shells,0,8,0,0,0,0,False,0,0,0,0
+CAND__2__r2__finger_foods,2.jpg,finger foods,HARD_NEGATIVE,sea shells,0,8,0,0,0,0,False,0,0,0,0
+HARD__2011__r1__oysters,2011.jpg,oysters,HARD_NEGATIVE,sunglasses,0,146,0,0,0,0,False,0,0,0,0
+HARD__2019__r3__people,2019.jpg,people,HARD_NEGATIVE,sunglasses,0,22,0,0,0,0,False,0,0,0,0
+HARD__2020__r2__watches,2020.jpg,watches,HARD_NEGATIVE,sunglasses,0,73,0,0,0,0,False,0,0,0,0
+CAND__2175__r1__strawberries,2175.jpg,strawberries,HARD_NEGATIVE,apples,0,68,0,0,0,0,False,0,0,0,0
+CAND__2213__r1__oranges,2213.jpg,oranges,HARD_NEGATIVE,apples,0,35,0,0,0,0,False,0,0,0,0
+CAND__2219__r1__red_beans,2219.jpg,red beans,HARD_NEGATIVE,apples,0,422,0,0,0,0,False,0,0,0,0
+HARD__2612__r2__camels,2612.jpg,camels,HARD_NEGATIVE,deers,0,24,0,0,0,0,False,0,0,0,0
+HARD__2619__r3__horses,2619.jpg,horses,HARD_NEGATIVE,deers,0,48,0,0,0,0,False,0,0,0,0
+HARD__287__r2__grapes,287.jpg,grapes,HARD_NEGATIVE,strawberries,0,19,0,0,0,0,False,0,0,0,0
+HARD__2908__r1__comic_books,2908.jpg,comic books,HARD_NEGATIVE,stamps,0,33,0,0,0,0,False,0,0,0,0
+HARD__2915__r1__comic_books,2915.jpg,comic books,HARD_NEGATIVE,stamps,0,59,0,0,0,0,False,0,0,0,0
+CAND__2923__r1__comic_books,2923.jpg,comic books,HARD_NEGATIVE,stamps,0,72,0,0,0,0,False,0,0,0,0
+CAND__3112__r1__spring_rolls,3112.jpg,spring rolls,HARD_NEGATIVE,crab cakes,0,11,0,0,0,0,False,0,0,0,0
+CAND__3114__r1__prawn_crackers,3114.jpg,prawn crackers,HARD_NEGATIVE,crab cakes,0,16,16,16,16,16,False,16,16,16,0
+CAND__312__r1__grapes,312.jpg,grapes,HARD_NEGATIVE,strawberries,0,60,0,0,0,0,False,0,0,0,0
+HARD__3154__r2__fishes,3154.jpg,fishes,HARD_NEGATIVE,cashew nuts,0,43,0,0,0,0,False,0,0,0,0
+HARD__3154__r1__prawn_crackers,3154.jpg,prawn crackers,HARD_NEGATIVE,cashew nuts,0,45,0,0,0,0,False,0,0,0,0
+HARD__3157__r1__prawn_crackers,3157.jpg,prawn crackers,HARD_NEGATIVE,cashew nuts,0,40,0,0,0,0,False,0,0,0,0
+HARD__3275__r3__clams,3275.jpg,clams,HARD_NEGATIVE,finger foods,0,12,0,0,0,0,False,0,0,0,0
+HARD__3315__r3__apples,3315.jpg,apples,HARD_NEGATIVE,green peas,0,214,0,0,0,0,False,0,0,0,0
+CAND__3328__r1__potatoes,3328.jpg,potatoes,HARD_NEGATIVE,green peas,0,85,0,0,0,0,False,0,0,0,0
+CAND__3338__r1__kidney_beans,3338.jpg,kidney beans,HARD_NEGATIVE,green peas,0,14,0,0,0,0,False,0,0,0,0
+CAND__3341__r1__crows,3341.jpg,crows,HARD_NEGATIVE,sea shells,0,36,0,0,0,0,False,0,0,0,0
+HARD__3494__r2__potatoes,3494.jpg,potatoes,HARD_NEGATIVE,red beans,0,39,0,0,0,0,False,0,0,0,0
+HARD__3500__r1__fishes,3500.jpg,fishes,HARD_NEGATIVE,red beans,0,15,0,0,0,0,False,0,0,0,0
+HARD__3500__r3__nuts,3500.jpg,nuts,HARD_NEGATIVE,red beans,0,15,0,0,0,0,False,0,0,0,0
+HARD__3500__r2__potatoes,3500.jpg,potatoes,HARD_NEGATIVE,red beans,0,15,0,0,0,0,False,0,0,0,0
+CAND__3646__r1__biscuits,3646.jpg,biscuits,HARD_NEGATIVE,cashew nuts,0,17,0,0,0,0,False,0,0,0,0
+CAND__3658__r1__pills,3658.jpg,pills,HARD_NEGATIVE,cashew nuts,0,38,0,0,0,0,False,0,0,0,0
+CAND__3659__r1__bananas,3659.jpg,bananas,HARD_NEGATIVE,cashew nuts,0,49,0,0,0,0,False,0,0,0,0
+CAND__3695__r1__bees,3695.jpg,bees,HARD_NEGATIVE,candy pieces,0,16,0,0,0,0,False,0,0,0,0
+CAND__3697__r1__beads,3697.jpg,beads,HARD_NEGATIVE,candy pieces,0,11,0,0,0,0,False,0,0,0,0
+CAND__3697__r2__buns,3697.jpg,buns,HARD_NEGATIVE,candy pieces,0,11,11,11,11,11,False,11,11,11,0
+CAND__4061__r1__screws,4061.jpg,screws,HARD_NEGATIVE,marbles,0,103,0,0,0,0,False,0,0,0,0
+HARD__4062__r2__watches,4062.jpg,watches,HARD_NEGATIVE,marbles,0,278,0,0,0,0,False,0,0,0,0
+CAND__4064__r1__legos,4064.jpg,legos,HARD_NEGATIVE,marbles,0,143,0,0,0,0,False,0,0,0,0
+HARD__4065__r3__legos,4065.jpg,legos,HARD_NEGATIVE,marbles,0,37,0,0,0,0,False,0,0,0,0
+CAND__4078__r1__candy_pieces,4078.jpg,candy pieces,HARD_NEGATIVE,marbles,0,60,60,60,60,60,False,60,60,60,0
+HARD__4116__r3__clams,4116.jpg,clams,HARD_NEGATIVE,finger foods,0,15,0,0,0,0,False,0,0,0,0
+CAND__4170__r1__comic_books,4170.jpg,comic books,HARD_NEGATIVE,potato chips,0,36,0,0,0,0,False,0,0,0,0
+CAND__4170__r2__matches,4170.jpg,matches,HARD_NEGATIVE,potato chips,0,36,0,0,0,0,False,0,0,0,0
+CAND__4174__r1__prawn_crackers,4174.jpg,prawn crackers,HARD_NEGATIVE,potato chips,0,28,28,28,28,28,False,28,28,28,0
+CAND__4405__r1__boats,4405.jpg,boats,HARD_NEGATIVE,hot air balloons,0,11,0,0,0,0,False,0,0,0,0
+HARD__4409__r2__cranes,4409.jpg,cranes,HARD_NEGATIVE,hot air balloons,0,9,9,9,9,9,False,9,9,9,0
+CAND__4423__r1__cranes,4423.jpg,cranes,HARD_NEGATIVE,hot air balloons,0,13,0,0,0,0,False,0,0,0,0
+HARD__4494__r1__carrom_board_pieces,4494.jpg,carrom board pieces,HARD_NEGATIVE,skis,0,29,0,0,0,0,False,0,0,0,0
+CAND__4497__r1__carrom_board_pieces,4497.jpg,carrom board pieces,HARD_NEGATIVE,skis,0,14,0,0,0,0,False,0,0,0,0
+CAND__4499__r1__carrom_board_pieces,4499.jpg,carrom board pieces,HARD_NEGATIVE,skis,0,2,0,0,0,0,False,0,0,0,0
+CAND__4905__r1__tomatoes,4905.jpg,tomatoes,HARD_NEGATIVE,strawberries,0,235,115,115,115,115,False,115,115,115,0
+HARD__4943__r2__nuts,4943.jpg,nuts,HARD_NEGATIVE,tree logs,0,66,0,0,0,0,False,0,0,0,0
+HARD__4952__r3__coins,4952.jpg,coins,HARD_NEGATIVE,tree logs,0,255,0,0,0,0,False,0,0,0,0
+HARD__4952__r2__nuts,4952.jpg,nuts,HARD_NEGATIVE,tree logs,0,251,131,131,131,131,False,131,131,131,0
+CAND__5463__r1__bullets,5463.jpg,bullets,HARD_NEGATIVE,green peas,0,13,0,0,0,0,False,0,0,0,0
+CAND__5512__r1__coffee_beans,5512.jpg,coffee beans,HARD_NEGATIVE,green peas,0,76,0,0,0,0,False,0,0,0,0
+CAND__5513__r1__tomatoes,5513.jpg,tomatoes,HARD_NEGATIVE,green peas,0,92,0,0,0,0,False,0,0,0,0
+CAND__5567__r1__goldfish_snack,5567.jpg,goldfish snack,HARD_NEGATIVE,finger foods,0,56,0,0,0,0,False,0,0,0,0
+CAND__5595__r1__cartridges,5595.jpg,cartridges,HARD_NEGATIVE,marbles,0,16,0,0,0,0,False,0,0,0,0
+CAND__5817__r1__lipstick,5817.jpg,lipstick,HARD_NEGATIVE,strawberries,0,44,0,0,0,0,False,0,0,0,0
+CAND__5922__r1__alcohol_bottles,5922.jpg,alcohol bottles,HARD_NEGATIVE,eggs,0,37,0,0,0,0,False,0,0,0,0
+HARD__5925__r3__caps,5925.jpg,caps,HARD_NEGATIVE,eggs,0,22,0,0,0,0,False,0,0,0,0
+CAND__5938__r1__jade_stones,5938.jpg,jade stones,HARD_NEGATIVE,eggs,0,34,0,0,0,0,False,0,0,0,0
+CAND__6282__r1__balls,6282.jpg,balls,HARD_NEGATIVE,apples,0,75,31,31,31,31,False,31,31,31,0
+HARD__6645__r3__legos,6645.jpg,legos,HARD_NEGATIVE,markers,0,37,0,0,0,0,False,0,0,0,0
+CAND__6655__r1__pencils,6655.jpg,pencils,HARD_NEGATIVE,markers,0,233,0,0,0,0,False,0,0,0,0
+HARD__6661__r3__legos,6661.jpg,legos,HARD_NEGATIVE,markers,0,362,0,0,0,0,False,0,0,0,0
+HARD__6713__r3__crows,6713.jpg,crows,HARD_NEGATIVE,sheep,0,194,0,0,0,0,False,0,0,0,0
+CAND__6735__r1__bottles,6735.jpg,bottles,HARD_NEGATIVE,markers,0,75,0,0,0,0,False,0,0,0,0
+HARD__6736__r1__stamps,6736.jpg,stamps,HARD_NEGATIVE,comic books,0,102,1,1,1,1,False,1,1,1,0
+CAND__682__r1__pearls,682.jpg,pearls,HARD_NEGATIVE,watches,0,16,0,0,0,0,False,0,0,0,0
+CAND__6827__r1__cups,6827.jpg,cups,HARD_NEGATIVE,sauce bottles,0,19,19,19,19,19,False,19,19,19,0
+HARD__6833__r2__camels,6833.jpg,camels,HARD_NEGATIVE,deers,0,17,0,0,0,0,False,0,0,0,0
+HARD__6833__r1__goats,6833.jpg,goats,HARD_NEGATIVE,deers,0,16,0,0,0,0,False,0,0,0,0
+HARD__685__r1__peaches,685.jpg,peaches,HARD_NEGATIVE,apples,0,97,0,0,0,0,False,0,0,0,0
+HARD__685__r2__tomatoes,685.jpg,tomatoes,HARD_NEGATIVE,apples,0,95,0,0,0,0,False,0,0,0,0
+HARD__6856__r2__jade_stones,6856.jpg,jade stones,HARD_NEGATIVE,legos,0,16,0,0,0,0,False,0,0,0,0
+HARD__686__r2__tomatoes,686.jpg,tomatoes,HARD_NEGATIVE,apples,0,42,0,0,0,0,False,0,0,0,0
+CAND__6876__r1__bricks,6876.jpg,bricks,HARD_NEGATIVE,eggs,0,147,0,0,0,0,False,0,0,0,0
+HARD__6938__r1__cans,6938.jpg,cans,HARD_NEGATIVE,sauce bottles,0,45,0,0,0,0,False,0,0,0,0
+CAND__6964__r1__stamps,6964.jpg,stamps,HARD_NEGATIVE,sticky notes,0,71,0,0,0,0,False,0,0,0,0
+HARD__7034__r3__sauce_bottles,7034.jpg,sauce bottles,HARD_NEGATIVE,nail polish,0,44,0,0,0,0,False,0,0,0,0
+HARD__7042__r2__pigeons,7042.jpg,pigeons,HARD_NEGATIVE,sheep,0,106,0,0,0,0,False,0,0,0,0
+HARD__7043__r3__sauce_bottles,7043.jpg,sauce bottles,HARD_NEGATIVE,nail polish,0,95,0,0,0,0,False,0,0,0,0
+HARD__7082__r2__pigeons,7082.jpg,pigeons,HARD_NEGATIVE,sheep,0,133,0,0,0,0,False,0,0,0,0
+HARD__7097__r1__stamps,7097.jpg,stamps,HARD_NEGATIVE,sticky notes,0,8,0,0,0,0,False,0,0,0,0
+CAND__7171__r1__mosaic_tiles,7171.jpg,mosaic tiles,HARD_NEGATIVE,legos,0,6,1,1,1,1,False,1,1,1,0
+CAND__7192__r1__plates,7192.jpg,plates,HARD_NEGATIVE,carrom board pieces,0,20,19,19,19,19,False,19,19,19,0
+CAND__7339__r1__sausages,7339.jpg,sausages,HARD_NEGATIVE,markers,0,108,0,0,0,0,False,0,0,0,0
+CAND__7359__r1__legos,7359.jpg,legos,HARD_NEGATIVE,comic books,0,39,0,0,0,0,False,0,0,0,0
+CAND__7386__r1__shoes,7386.jpg,shoes,HARD_NEGATIVE,sunglasses,0,92,0,0,0,0,False,0,0,0,0
+CAND__7387__r1__cars,7387.jpg,cars,HARD_NEGATIVE,nail polish,0,67,0,0,0,0,False,0,0,0,0
+HARD__7440__r1__cupcake_tray,7440.jpg,cupcake tray,HARD_NEGATIVE,legos,0,30,0,0,0,0,False,0,0,0,0
+HARD__7440__r2__jade_stones,7440.jpg,jade stones,HARD_NEGATIVE,legos,0,32,0,0,0,0,False,0,0,0,0
+HARD__7440__r3__shallots,7440.jpg,shallots,HARD_NEGATIVE,legos,0,31,0,0,0,0,False,0,0,0,0
+CAND__7491__r1__go_game,7491.jpg,go game,HARD_NEGATIVE,sunglasses,0,203,0,0,0,0,False,0,0,0,0
+HARD__7573__r3__caps,7573.jpg,caps,HARD_NEGATIVE,carrom board pieces,0,20,20,20,20,20,False,20,20,20,0
+HARD__7573__r1__marbles,7573.jpg,marbles,HARD_NEGATIVE,carrom board pieces,0,20,20,20,20,20,False,20,20,20,0
+HARD__7573__r2__oyster_shells,7573.jpg,oyster shells,HARD_NEGATIVE,carrom board pieces,0,21,0,0,0,0,False,0,0,0,0
+CAND__7592__r1__mandm_pieces,7592.jpg,m&m pieces,HARD_NEGATIVE,keyboard keys,0,102,0,0,0,0,False,0,0,0,0
+CAND__7635__r1__rice_bags,7635.jpg,rice bags,HARD_NEGATIVE,apples,0,20,0,0,0,0,False,0,0,0,0
+CAND__7639__r1__buffaloes,7639.jpg,buffaloes,HARD_NEGATIVE,sheep,0,17,0,0,0,0,False,0,0,0,0
+HARD__7645__r1__cans,7645.jpg,cans,HARD_NEGATIVE,sauce bottles,0,16,0,0,0,0,False,0,0,0,0
+HARD__7645__r2__lighters,7645.jpg,lighters,HARD_NEGATIVE,sauce bottles,0,15,0,0,0,0,False,0,0,0,0
+HARD__988__r3__gemstones,988.jpg,gemstones,HARD_NEGATIVE,watches,0,12,0,0,0,0,False,0,0,0,0
+HARD__993__r2__cars,993.jpg,cars,HARD_NEGATIVE,watches,0,16,0,0,0,0,False,0,0,0,0
+POS__1050.jpg,1050.jpg,sheep,POSITIVE,sheep,136,140,140,140,140,140,False,4,4,4,0
+POS__1053.jpg,1053.jpg,sheep,POSITIVE,sheep,207,226,226,226,226,226,False,19,19,19,0
+POS__1061.jpg,1061.jpg,sheep,POSITIVE,sheep,22,30,30,30,30,30,False,8,8,8,0
+POS__1106.jpg,1106.jpg,markers,POSITIVE,markers,49,96,96,96,96,96,False,47,47,47,0
+POS__1123.jpg,1123.jpg,markers,POSITIVE,markers,3701,0,0,0,403,0,True,3701,3701,3298,-403
+POS__1130.jpg,1130.jpg,markers,POSITIVE,markers,61,32,32,32,32,32,False,29,29,29,0
+POS__1455.jpg,1455.jpg,keyboard keys,POSITIVE,keyboard keys,63,63,63,63,63,63,False,0,0,0,0
+POS__1456.jpg,1456.jpg,keyboard keys,POSITIVE,keyboard keys,184,3,1,1,1,1,False,183,183,183,0
+POS__1458.jpg,1458.jpg,keyboard keys,POSITIVE,keyboard keys,162,3,1,1,1,1,False,161,161,161,0
+POS__1461.jpg,1461.jpg,keyboard keys,POSITIVE,keyboard keys,99,1,0,0,0,0,False,99,99,99,0
+POS__1462.jpg,1462.jpg,keyboard keys,POSITIVE,keyboard keys,409,7,7,7,7,7,False,402,402,402,0
+POS__1463.jpg,1463.jpg,keyboard keys,POSITIVE,keyboard keys,60,59,59,59,59,59,False,1,1,1,0
+POS__1464.jpg,1464.jpg,keyboard keys,POSITIVE,keyboard keys,59,59,59,59,59,59,False,0,0,0,0
+POS__1467.jpg,1467.jpg,keyboard keys,POSITIVE,keyboard keys,70,1,0,0,0,0,False,70,70,70,0
+POS__1493.jpg,1493.jpg,keyboard keys,POSITIVE,keyboard keys,67,1,0,0,0,0,False,67,67,67,0
+POS__1497.jpg,1497.jpg,keyboard keys,POSITIVE,keyboard keys,207,2,2,2,2,2,False,205,205,205,0
+POS__1509.jpg,1509.jpg,keyboard keys,POSITIVE,keyboard keys,50,26,6,6,6,6,False,44,44,44,0
+POS__1537.jpg,1537.jpg,keyboard keys,POSITIVE,keyboard keys,110,106,106,106,106,106,False,4,4,4,0
+POS__1572.jpg,1572.jpg,carrom board pieces,POSITIVE,carrom board pieces,25,12,12,12,12,12,False,13,13,13,0
+POS__1873.jpg,1873.jpg,elephants,POSITIVE,elephants,12,9,9,9,9,9,False,3,3,3,0
+POS__1874.jpg,1874.jpg,elephants,POSITIVE,elephants,11,14,14,14,14,14,False,3,3,3,0
+POS__1875.jpg,1875.jpg,elephants,POSITIVE,elephants,54,63,63,63,63,63,False,9,9,9,0
+POS__1881.jpg,1881.jpg,elephants,POSITIVE,elephants,11,15,15,15,15,15,False,4,4,4,0
+POS__1884.jpg,1884.jpg,elephants,POSITIVE,elephants,16,16,16,16,16,16,False,0,0,0,0
+POS__1886.jpg,1886.jpg,elephants,POSITIVE,elephants,12,14,14,14,14,14,False,2,2,2,0
+POS__1887.jpg,1887.jpg,elephants,POSITIVE,elephants,10,11,11,11,11,11,False,1,1,1,0
+POS__1888.jpg,1888.jpg,elephants,POSITIVE,elephants,11,11,11,11,11,11,False,0,0,0,0
+POS__1889.jpg,1889.jpg,elephants,POSITIVE,elephants,17,17,17,17,17,17,False,0,0,0,0
+POS__2.jpg,2.jpg,sea shells,POSITIVE,sea shells,8,8,8,8,8,8,False,0,0,0,0
+POS__2004.jpg,2004.jpg,sunglasses,POSITIVE,sunglasses,226,411,411,411,411,411,False,185,185,185,0
+POS__2005.jpg,2005.jpg,sunglasses,POSITIVE,sunglasses,140,265,265,265,265,265,False,125,125,125,0
+POS__2007.jpg,2007.jpg,sunglasses,POSITIVE,sunglasses,108,161,161,161,161,161,False,53,53,53,0
+POS__2008.jpg,2008.jpg,sunglasses,POSITIVE,sunglasses,42,66,66,66,66,66,False,24,24,24,0
+POS__2009.jpg,2009.jpg,sunglasses,POSITIVE,sunglasses,198,375,375,375,375,375,False,177,177,177,0
+POS__2010.jpg,2010.jpg,sunglasses,POSITIVE,sunglasses,15,28,28,28,28,28,False,13,13,13,0
+POS__2011.jpg,2011.jpg,sunglasses,POSITIVE,sunglasses,79,148,148,148,148,148,False,69,69,69,0
+POS__2012.jpg,2012.jpg,sunglasses,POSITIVE,sunglasses,69,90,90,90,90,90,False,21,21,21,0
+POS__2013.jpg,2013.jpg,sunglasses,POSITIVE,sunglasses,49,143,143,143,143,143,False,94,94,94,0
+POS__2014.jpg,2014.jpg,sunglasses,POSITIVE,sunglasses,18,29,29,29,29,29,False,11,11,11,0
+POS__2015.jpg,2015.jpg,sunglasses,POSITIVE,sunglasses,25,38,11,11,11,11,False,14,14,14,0
+POS__2016.jpg,2016.jpg,sunglasses,POSITIVE,sunglasses,24,49,0,0,0,0,False,24,24,24,0
+POS__2017.jpg,2017.jpg,sunglasses,POSITIVE,sunglasses,104,144,144,144,144,144,False,40,40,40,0
+POS__2018.jpg,2018.jpg,sunglasses,POSITIVE,sunglasses,68,135,135,135,135,135,False,67,67,67,0
+POS__2019.jpg,2019.jpg,sunglasses,POSITIVE,sunglasses,14,32,32,32,32,32,False,18,18,18,0
+POS__2020.jpg,2020.jpg,sunglasses,POSITIVE,sunglasses,36,75,23,23,23,23,False,13,13,13,0
+POS__2021.jpg,2021.jpg,sunglasses,POSITIVE,sunglasses,44,68,68,68,68,68,False,24,24,24,0
+POS__2025.jpg,2025.jpg,sunglasses,POSITIVE,sunglasses,60,106,106,106,106,106,False,46,46,46,0
+POS__2026.jpg,2026.jpg,sunglasses,POSITIVE,sunglasses,16,28,28,28,28,28,False,12,12,12,0
+POS__2027.jpg,2027.jpg,sunglasses,POSITIVE,sunglasses,23,32,0,0,0,0,False,23,23,23,0
+POS__2028.jpg,2028.jpg,sunglasses,POSITIVE,sunglasses,19,22,22,22,22,22,False,3,3,3,0
+POS__2029.jpg,2029.jpg,sunglasses,POSITIVE,sunglasses,79,148,148,148,148,148,False,69,69,69,0
+POS__2030.jpg,2030.jpg,sunglasses,POSITIVE,sunglasses,29,62,62,62,62,62,False,33,33,33,0
+POS__2031.jpg,2031.jpg,sunglasses,POSITIVE,sunglasses,31,56,5,5,5,5,False,26,26,26,0
+POS__2032.jpg,2032.jpg,sunglasses,POSITIVE,sunglasses,12,14,14,14,14,14,False,2,2,2,0
+POS__2033.jpg,2033.jpg,sunglasses,POSITIVE,sunglasses,20,20,20,20,20,20,False,0,0,0,0
+POS__2035.jpg,2035.jpg,sunglasses,POSITIVE,sunglasses,28,43,43,43,43,43,False,15,15,15,0
+POS__2036.jpg,2036.jpg,sunglasses,POSITIVE,sunglasses,27,55,55,55,55,55,False,28,28,28,0
+POS__2037.jpg,2037.jpg,sunglasses,POSITIVE,sunglasses,134,205,205,205,205,205,False,71,71,71,0
+POS__2038.jpg,2038.jpg,sunglasses,POSITIVE,sunglasses,198,380,380,380,380,380,False,182,182,182,0
+POS__2039.jpg,2039.jpg,sunglasses,POSITIVE,sunglasses,81,88,8,8,8,8,False,73,73,73,0
+POS__2040.jpg,2040.jpg,sunglasses,POSITIVE,sunglasses,32,51,51,51,51,51,False,19,19,19,0
+POS__2041.jpg,2041.jpg,sunglasses,POSITIVE,sunglasses,88,179,179,179,179,179,False,91,91,91,0
+POS__2042.jpg,2042.jpg,sunglasses,POSITIVE,sunglasses,81,98,19,19,19,19,False,62,62,62,0
+POS__2043.jpg,2043.jpg,sunglasses,POSITIVE,sunglasses,90,127,127,127,127,127,False,37,37,37,0
+POS__2044.jpg,2044.jpg,sunglasses,POSITIVE,sunglasses,27,30,0,0,0,0,False,27,27,27,0
+POS__2045.jpg,2045.jpg,sunglasses,POSITIVE,sunglasses,22,35,35,35,35,35,False,13,13,13,0
+POS__2046.jpg,2046.jpg,sunglasses,POSITIVE,sunglasses,20,22,22,22,22,22,False,2,2,2,0
+POS__2047.jpg,2047.jpg,sunglasses,POSITIVE,sunglasses,30,12,12,12,12,12,False,18,18,18,0
+POS__2048.jpg,2048.jpg,sunglasses,POSITIVE,sunglasses,43,35,0,0,0,0,False,43,43,43,0
+POS__2049.jpg,2049.jpg,sunglasses,POSITIVE,sunglasses,79,143,143,143,143,143,False,64,64,64,0
+POS__2051.jpg,2051.jpg,sunglasses,POSITIVE,sunglasses,15,25,25,25,25,25,False,10,10,10,0
+POS__2052.jpg,2052.jpg,sunglasses,POSITIVE,sunglasses,8,9,9,9,9,9,False,1,1,1,0
+POS__2053.jpg,2053.jpg,sunglasses,POSITIVE,sunglasses,47,89,89,89,89,89,False,42,42,42,0
+POS__2054.jpg,2054.jpg,sunglasses,POSITIVE,sunglasses,63,139,62,62,62,62,False,1,1,1,0
+POS__2138.jpg,2138.jpg,apples,POSITIVE,apples,29,33,33,33,33,33,False,4,4,4,0
+POS__2139.jpg,2139.jpg,apples,POSITIVE,apples,61,58,58,58,58,58,False,3,3,3,0
+POS__2140.jpg,2140.jpg,apples,POSITIVE,apples,21,21,21,21,21,21,False,0,0,0,0
+POS__2141.jpg,2141.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__2142.jpg,2142.jpg,apples,POSITIVE,apples,35,39,39,39,39,39,False,4,4,4,0
+POS__2143.jpg,2143.jpg,apples,POSITIVE,apples,9,9,9,9,9,9,False,0,0,0,0
+POS__2145.jpg,2145.jpg,apples,POSITIVE,apples,14,15,15,15,15,15,False,1,1,1,0
+POS__2146.jpg,2146.jpg,apples,POSITIVE,apples,23,25,25,25,25,25,False,2,2,2,0
+POS__2147.jpg,2147.jpg,apples,POSITIVE,apples,37,45,45,45,45,45,False,8,8,8,0
+POS__2150.jpg,2150.jpg,apples,POSITIVE,apples,9,9,9,9,9,9,False,0,0,0,0
+POS__2151.jpg,2151.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__2152.jpg,2152.jpg,apples,POSITIVE,apples,22,22,22,22,22,22,False,0,0,0,0
+POS__2153.jpg,2153.jpg,apples,POSITIVE,apples,12,11,11,11,11,11,False,1,1,1,0
+POS__2155.jpg,2155.jpg,apples,POSITIVE,apples,18,17,17,17,17,17,False,1,1,1,0
+POS__2156.jpg,2156.jpg,apples,POSITIVE,apples,68,75,75,75,75,75,False,7,7,7,0
+POS__2157.jpg,2157.jpg,apples,POSITIVE,apples,116,117,117,117,117,117,False,1,1,1,0
+POS__2159.jpg,2159.jpg,apples,POSITIVE,apples,621,728,728,728,728,728,False,107,107,107,0
+POS__2162.jpg,2162.jpg,apples,POSITIVE,apples,34,30,30,30,30,30,False,4,4,4,0
+POS__2163.jpg,2163.jpg,apples,POSITIVE,apples,13,13,13,13,13,13,False,0,0,0,0
+POS__2164.jpg,2164.jpg,apples,POSITIVE,apples,23,23,23,23,23,23,False,0,0,0,0
+POS__2165.jpg,2165.jpg,apples,POSITIVE,apples,24,26,26,26,26,26,False,2,2,2,0
+POS__2166.jpg,2166.jpg,apples,POSITIVE,apples,119,83,31,31,31,31,False,88,88,88,0
+POS__2168.jpg,2168.jpg,apples,POSITIVE,apples,175,195,195,195,195,195,False,20,20,20,0
+POS__2170.jpg,2170.jpg,apples,POSITIVE,apples,147,155,155,155,155,155,False,8,8,8,0
+POS__2171.jpg,2171.jpg,apples,POSITIVE,apples,20,20,20,20,20,20,False,0,0,0,0
+POS__2172.jpg,2172.jpg,apples,POSITIVE,apples,86,101,101,101,101,101,False,15,15,15,0
+POS__2173.jpg,2173.jpg,apples,POSITIVE,apples,169,190,190,190,190,190,False,21,21,21,0
+POS__2174.jpg,2174.jpg,apples,POSITIVE,apples,41,44,44,44,44,44,False,3,3,3,0
+POS__2175.jpg,2175.jpg,apples,POSITIVE,apples,91,121,121,121,121,121,False,30,30,30,0
+POS__2176.jpg,2176.jpg,apples,POSITIVE,apples,73,61,26,26,26,26,False,47,47,47,0
+POS__2177.jpg,2177.jpg,apples,POSITIVE,apples,27,35,35,35,35,35,False,8,8,8,0
+POS__2178.jpg,2178.jpg,apples,POSITIVE,apples,10,10,10,10,10,10,False,0,0,0,0
+POS__2179.jpg,2179.jpg,apples,POSITIVE,apples,16,16,16,16,16,16,False,0,0,0,0
+POS__2180.jpg,2180.jpg,apples,POSITIVE,apples,223,234,0,0,0,0,False,223,223,223,0
+POS__2181.jpg,2181.jpg,apples,POSITIVE,apples,12,13,13,13,13,13,False,1,1,1,0
+POS__2182.jpg,2182.jpg,apples,POSITIVE,apples,39,46,46,46,46,46,False,7,7,7,0
+POS__2184.jpg,2184.jpg,apples,POSITIVE,apples,33,38,38,38,38,38,False,5,5,5,0
+POS__2189.jpg,2189.jpg,apples,POSITIVE,apples,8,8,8,8,8,8,False,0,0,0,0
+POS__2190.jpg,2190.jpg,apples,POSITIVE,apples,23,24,24,24,24,24,False,1,1,1,0
+POS__2191.jpg,2191.jpg,apples,POSITIVE,apples,42,50,50,50,50,50,False,8,8,8,0
+POS__2192.jpg,2192.jpg,apples,POSITIVE,apples,24,25,25,25,25,25,False,1,1,1,0
+POS__2193.jpg,2193.jpg,apples,POSITIVE,apples,32,36,36,36,36,36,False,4,4,4,0
+POS__2194.jpg,2194.jpg,apples,POSITIVE,apples,38,40,40,40,40,40,False,2,2,2,0
+POS__2195.jpg,2195.jpg,apples,POSITIVE,apples,13,14,14,14,14,14,False,1,1,1,0
+POS__2197.jpg,2197.jpg,apples,POSITIVE,apples,90,103,103,103,103,103,False,13,13,13,0
+POS__2198.jpg,2198.jpg,apples,POSITIVE,apples,27,30,30,30,30,30,False,3,3,3,0
+POS__2199.jpg,2199.jpg,apples,POSITIVE,apples,13,16,16,16,16,16,False,3,3,3,0
+POS__2202.jpg,2202.jpg,apples,POSITIVE,apples,99,102,102,102,102,102,False,3,3,3,0
+POS__2203.jpg,2203.jpg,apples,POSITIVE,apples,22,22,22,22,22,22,False,0,0,0,0
+POS__2204.jpg,2204.jpg,apples,POSITIVE,apples,9,9,9,9,9,9,False,0,0,0,0
+POS__2206.jpg,2206.jpg,apples,POSITIVE,apples,88,107,107,107,107,107,False,19,19,19,0
+POS__2207.jpg,2207.jpg,apples,POSITIVE,apples,10,10,10,10,10,10,False,0,0,0,0
+POS__2208.jpg,2208.jpg,apples,POSITIVE,apples,13,15,15,15,15,15,False,2,2,2,0
+POS__2209.jpg,2209.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__2210.jpg,2210.jpg,apples,POSITIVE,apples,41,47,47,47,47,47,False,6,6,6,0
+POS__2211.jpg,2211.jpg,apples,POSITIVE,apples,49,50,50,50,50,50,False,1,1,1,0
+POS__2213.jpg,2213.jpg,apples,POSITIVE,apples,97,42,42,42,42,42,False,55,55,55,0
+POS__2215.jpg,2215.jpg,apples,POSITIVE,apples,55,57,57,57,57,57,False,2,2,2,0
+POS__2216.jpg,2216.jpg,apples,POSITIVE,apples,36,45,45,45,45,45,False,9,9,9,0
+POS__2217.jpg,2217.jpg,apples,POSITIVE,apples,25,29,29,29,29,29,False,4,4,4,0
+POS__2218.jpg,2218.jpg,apples,POSITIVE,apples,15,15,15,15,15,15,False,0,0,0,0
+POS__2219.jpg,2219.jpg,apples,POSITIVE,apples,356,474,474,474,474,474,False,118,118,118,0
+POS__2220.jpg,2220.jpg,apples,POSITIVE,apples,16,17,17,17,17,17,False,1,1,1,0
+POS__2223.jpg,2223.jpg,apples,POSITIVE,apples,30,34,34,34,34,34,False,4,4,4,0
+POS__2225.jpg,2225.jpg,apples,POSITIVE,apples,19,19,19,19,19,19,False,0,0,0,0
+POS__2226.jpg,2226.jpg,apples,POSITIVE,apples,47,66,66,66,66,66,False,19,19,19,0
+POS__2227.jpg,2227.jpg,apples,POSITIVE,apples,11,12,12,12,12,12,False,1,1,1,0
+POS__2229.jpg,2229.jpg,apples,POSITIVE,apples,111,90,90,90,90,90,False,21,21,21,0
+POS__2232.jpg,2232.jpg,apples,POSITIVE,apples,96,98,98,98,98,98,False,2,2,2,0
+POS__2233.jpg,2233.jpg,apples,POSITIVE,apples,64,82,82,82,82,82,False,18,18,18,0
+POS__2234.jpg,2234.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__2235.jpg,2235.jpg,apples,POSITIVE,apples,16,20,20,20,20,20,False,4,4,4,0
+POS__2236.jpg,2236.jpg,apples,POSITIVE,apples,98,105,105,105,105,105,False,7,7,7,0
+POS__2237.jpg,2237.jpg,apples,POSITIVE,apples,20,25,25,25,25,25,False,5,5,5,0
+POS__2238.jpg,2238.jpg,apples,POSITIVE,apples,26,24,24,24,24,24,False,2,2,2,0
+POS__2239.jpg,2239.jpg,apples,POSITIVE,apples,17,17,17,17,17,17,False,0,0,0,0
+POS__2240.jpg,2240.jpg,apples,POSITIVE,apples,54,64,64,64,64,64,False,10,10,10,0
+POS__2241.jpg,2241.jpg,apples,POSITIVE,apples,25,31,31,31,31,31,False,6,6,6,0
+POS__2243.jpg,2243.jpg,apples,POSITIVE,apples,544,560,560,560,560,560,False,16,16,16,0
+POS__2244.jpg,2244.jpg,apples,POSITIVE,apples,12,14,14,14,14,14,False,2,2,2,0
+POS__2245.jpg,2245.jpg,apples,POSITIVE,apples,82,67,67,67,67,67,False,15,15,15,0
+POS__2246.jpg,2246.jpg,apples,POSITIVE,apples,37,43,43,43,43,43,False,6,6,6,0
+POS__2247.jpg,2247.jpg,apples,POSITIVE,apples,16,17,17,17,17,17,False,1,1,1,0
+POS__2248.jpg,2248.jpg,apples,POSITIVE,apples,53,53,53,53,53,53,False,0,0,0,0
+POS__2252.jpg,2252.jpg,apples,POSITIVE,apples,82,86,86,86,86,86,False,4,4,4,0
+POS__2255.jpg,2255.jpg,apples,POSITIVE,apples,20,20,20,20,20,20,False,0,0,0,0
+POS__2256.jpg,2256.jpg,apples,POSITIVE,apples,59,81,81,81,81,81,False,22,22,22,0
+POS__2257.jpg,2257.jpg,apples,POSITIVE,apples,23,29,29,29,29,29,False,6,6,6,0
+POS__2258.jpg,2258.jpg,apples,POSITIVE,apples,75,83,83,83,83,83,False,8,8,8,0
+POS__2259.jpg,2259.jpg,apples,POSITIVE,apples,174,235,235,235,235,235,False,61,61,61,0
+POS__2260.jpg,2260.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__2261.jpg,2261.jpg,apples,POSITIVE,apples,174,162,162,162,162,162,False,12,12,12,0
+POS__2262.jpg,2262.jpg,apples,POSITIVE,apples,9,9,9,9,9,9,False,0,0,0,0
+POS__2264.jpg,2264.jpg,apples,POSITIVE,apples,12,13,13,13,13,13,False,1,1,1,0
+POS__2265.jpg,2265.jpg,apples,POSITIVE,apples,57,56,56,56,56,56,False,1,1,1,0
+POS__2267.jpg,2267.jpg,apples,POSITIVE,apples,9,9,9,9,9,9,False,0,0,0,0
+POS__2268.jpg,2268.jpg,apples,POSITIVE,apples,74,85,85,85,85,85,False,11,11,11,0
+POS__2269.jpg,2269.jpg,apples,POSITIVE,apples,11,14,14,14,14,14,False,3,3,3,0
+POS__2270.jpg,2270.jpg,apples,POSITIVE,apples,50,54,54,54,54,54,False,4,4,4,0
+POS__2271.jpg,2271.jpg,apples,POSITIVE,apples,42,48,48,48,48,48,False,6,6,6,0
+POS__2272.jpg,2272.jpg,apples,POSITIVE,apples,15,17,17,17,17,17,False,2,2,2,0
+POS__2273.jpg,2273.jpg,apples,POSITIVE,apples,165,160,160,160,160,160,False,5,5,5,0
+POS__2274.jpg,2274.jpg,apples,POSITIVE,apples,66,61,61,61,61,61,False,5,5,5,0
+POS__2275.jpg,2275.jpg,apples,POSITIVE,apples,38,38,38,38,38,38,False,0,0,0,0
+POS__2276.jpg,2276.jpg,apples,POSITIVE,apples,30,34,34,34,34,34,False,4,4,4,0
+POS__2277.jpg,2277.jpg,apples,POSITIVE,apples,49,49,49,49,49,49,False,0,0,0,0
+POS__2279.jpg,2279.jpg,apples,POSITIVE,apples,37,39,39,39,39,39,False,2,2,2,0
+POS__2280.jpg,2280.jpg,apples,POSITIVE,apples,157,181,181,181,181,181,False,24,24,24,0
+POS__2281.jpg,2281.jpg,apples,POSITIVE,apples,22,23,23,23,23,23,False,1,1,1,0
+POS__2282.jpg,2282.jpg,apples,POSITIVE,apples,47,48,48,48,48,48,False,1,1,1,0
+POS__2284.jpg,2284.jpg,apples,POSITIVE,apples,25,31,31,31,31,31,False,6,6,6,0
+POS__2285.jpg,2285.jpg,apples,POSITIVE,apples,48,50,50,50,50,50,False,2,2,2,0
+POS__2286.jpg,2286.jpg,apples,POSITIVE,apples,14,15,15,15,15,15,False,1,1,1,0
+POS__2287.jpg,2287.jpg,apples,POSITIVE,apples,195,176,176,176,176,176,False,19,19,19,0
+POS__2288.jpg,2288.jpg,apples,POSITIVE,apples,18,20,20,20,20,20,False,2,2,2,0
+POS__2607.jpg,2607.jpg,deers,POSITIVE,deers,36,36,36,36,36,36,False,0,0,0,0
+POS__2611.jpg,2611.jpg,deers,POSITIVE,deers,18,29,29,29,29,29,False,11,11,11,0
+POS__2612.jpg,2612.jpg,deers,POSITIVE,deers,28,26,26,26,26,26,False,2,2,2,0
+POS__2613.jpg,2613.jpg,deers,POSITIVE,deers,15,19,19,19,19,19,False,4,4,4,0
+POS__2614.jpg,2614.jpg,deers,POSITIVE,deers,20,21,21,21,21,21,False,1,1,1,0
+POS__2615.jpg,2615.jpg,deers,POSITIVE,deers,9,10,10,10,10,10,False,1,1,1,0
+POS__2617.jpg,2617.jpg,deers,POSITIVE,deers,41,45,45,45,45,45,False,4,4,4,0
+POS__2619.jpg,2619.jpg,deers,POSITIVE,deers,47,53,53,53,53,53,False,6,6,6,0
+POS__285.jpg,285.jpg,strawberries,POSITIVE,strawberries,28,29,29,29,29,29,False,1,1,1,0
+POS__286.jpg,286.jpg,strawberries,POSITIVE,strawberries,10,10,10,10,10,10,False,0,0,0,0
+POS__287.jpg,287.jpg,strawberries,POSITIVE,strawberries,21,20,20,20,20,20,False,1,1,1,0
+POS__288.jpg,288.jpg,strawberries,POSITIVE,strawberries,26,29,29,29,29,29,False,3,3,3,0
+POS__289.jpg,289.jpg,strawberries,POSITIVE,strawberries,26,27,27,27,27,27,False,1,1,1,0
+POS__290.jpg,290.jpg,strawberries,POSITIVE,strawberries,13,14,14,14,14,14,False,1,1,1,0
+POS__2907.jpg,2907.jpg,stamps,POSITIVE,stamps,28,23,23,23,23,23,False,5,5,5,0
+POS__2908.jpg,2908.jpg,stamps,POSITIVE,stamps,33,33,33,33,33,33,False,0,0,0,0
+POS__291.jpg,291.jpg,strawberries,POSITIVE,strawberries,14,14,14,14,14,14,False,0,0,0,0
+POS__2910.jpg,2910.jpg,stamps,POSITIVE,stamps,14,14,14,14,14,14,False,0,0,0,0
+POS__2912.jpg,2912.jpg,stamps,POSITIVE,stamps,72,72,72,72,72,72,False,0,0,0,0
+POS__2913.jpg,2913.jpg,stamps,POSITIVE,stamps,15,15,15,15,15,15,False,0,0,0,0
+POS__2914.jpg,2914.jpg,stamps,POSITIVE,stamps,28,28,28,28,28,28,False,0,0,0,0
+POS__2915.jpg,2915.jpg,stamps,POSITIVE,stamps,61,58,58,58,58,58,False,3,3,3,0
+POS__2916.jpg,2916.jpg,stamps,POSITIVE,stamps,202,202,202,202,202,202,False,0,0,0,0
+POS__2917.jpg,2917.jpg,stamps,POSITIVE,stamps,20,20,20,20,20,20,False,0,0,0,0
+POS__2918.jpg,2918.jpg,stamps,POSITIVE,stamps,25,26,26,26,26,26,False,1,1,1,0
+POS__292.jpg,292.jpg,strawberries,POSITIVE,strawberries,32,32,32,32,32,32,False,0,0,0,0
+POS__2920.jpg,2920.jpg,stamps,POSITIVE,stamps,13,11,11,11,11,11,False,2,2,2,0
+POS__2921.jpg,2921.jpg,stamps,POSITIVE,stamps,27,27,27,27,27,27,False,0,0,0,0
+POS__2922.jpg,2922.jpg,stamps,POSITIVE,stamps,19,19,19,19,19,19,False,0,0,0,0
+POS__2923.jpg,2923.jpg,stamps,POSITIVE,stamps,86,85,85,85,85,85,False,1,1,1,0
+POS__2924.jpg,2924.jpg,stamps,POSITIVE,stamps,54,54,54,54,54,54,False,0,0,0,0
+POS__2925.jpg,2925.jpg,stamps,POSITIVE,stamps,65,64,64,64,64,64,False,1,1,1,0
+POS__2926.jpg,2926.jpg,stamps,POSITIVE,stamps,24,24,24,24,24,24,False,0,0,0,0
+POS__2927.jpg,2927.jpg,stamps,POSITIVE,stamps,49,51,51,51,51,51,False,2,2,2,0
+POS__2928.jpg,2928.jpg,stamps,POSITIVE,stamps,45,25,25,25,25,25,False,20,20,20,0
+POS__2929.jpg,2929.jpg,stamps,POSITIVE,stamps,77,87,87,87,87,87,False,10,10,10,0
+POS__293.jpg,293.jpg,strawberries,POSITIVE,strawberries,41,47,47,47,47,47,False,6,6,6,0
+POS__2930.jpg,2930.jpg,stamps,POSITIVE,stamps,60,60,60,60,60,60,False,0,0,0,0
+POS__2931.jpg,2931.jpg,stamps,POSITIVE,stamps,43,46,46,46,46,46,False,3,3,3,0
+POS__2932.jpg,2932.jpg,stamps,POSITIVE,stamps,25,25,25,25,25,25,False,0,0,0,0
+POS__2933.jpg,2933.jpg,stamps,POSITIVE,stamps,45,45,45,45,45,45,False,0,0,0,0
+POS__2934.jpg,2934.jpg,stamps,POSITIVE,stamps,56,57,57,57,57,57,False,1,1,1,0
+POS__2935.jpg,2935.jpg,stamps,POSITIVE,stamps,13,13,13,13,13,13,False,0,0,0,0
+POS__2936.jpg,2936.jpg,stamps,POSITIVE,stamps,23,24,24,24,24,24,False,1,1,1,0
+POS__2937.jpg,2937.jpg,stamps,POSITIVE,stamps,78,75,75,75,75,75,False,3,3,3,0
+POS__2938.jpg,2938.jpg,stamps,POSITIVE,stamps,9,10,10,10,10,10,False,1,1,1,0
+POS__2939.jpg,2939.jpg,stamps,POSITIVE,stamps,52,52,52,52,52,52,False,0,0,0,0
+POS__294.jpg,294.jpg,strawberries,POSITIVE,strawberries,124,123,123,123,123,123,False,1,1,1,0
+POS__2941.jpg,2941.jpg,stamps,POSITIVE,stamps,17,18,18,18,18,18,False,1,1,1,0
+POS__2942.jpg,2942.jpg,stamps,POSITIVE,stamps,25,25,25,25,25,25,False,0,0,0,0
+POS__2943.jpg,2943.jpg,stamps,POSITIVE,stamps,29,29,29,29,29,29,False,0,0,0,0
+POS__2944.jpg,2944.jpg,stamps,POSITIVE,stamps,68,69,69,69,69,69,False,1,1,1,0
+POS__2945.jpg,2945.jpg,stamps,POSITIVE,stamps,14,14,14,14,14,14,False,0,0,0,0
+POS__2946.jpg,2946.jpg,stamps,POSITIVE,stamps,12,12,12,12,12,12,False,0,0,0,0
+POS__2947.jpg,2947.jpg,stamps,POSITIVE,stamps,36,36,36,36,36,36,False,0,0,0,0
+POS__2948.jpg,2948.jpg,stamps,POSITIVE,stamps,11,11,11,11,11,11,False,0,0,0,0
+POS__2949.jpg,2949.jpg,stamps,POSITIVE,stamps,24,24,24,24,24,24,False,0,0,0,0
+POS__295.jpg,295.jpg,strawberries,POSITIVE,strawberries,64,65,65,65,65,65,False,1,1,1,0
+POS__2951.jpg,2951.jpg,stamps,POSITIVE,stamps,14,15,15,15,15,15,False,1,1,1,0
+POS__2952.jpg,2952.jpg,stamps,POSITIVE,stamps,67,68,68,68,68,68,False,1,1,1,0
+POS__2953.jpg,2953.jpg,stamps,POSITIVE,stamps,22,32,32,32,32,32,False,10,10,10,0
+POS__2954.jpg,2954.jpg,stamps,POSITIVE,stamps,38,38,38,38,38,38,False,0,0,0,0
+POS__2955.jpg,2955.jpg,stamps,POSITIVE,stamps,105,107,107,107,107,107,False,2,2,2,0
+POS__2956.jpg,2956.jpg,stamps,POSITIVE,stamps,25,25,25,25,25,25,False,0,0,0,0
+POS__296.jpg,296.jpg,strawberries,POSITIVE,strawberries,30,30,30,30,30,30,False,0,0,0,0
+POS__297.jpg,297.jpg,strawberries,POSITIVE,strawberries,12,14,14,14,14,14,False,2,2,2,0
+POS__298.jpg,298.jpg,strawberries,POSITIVE,strawberries,33,33,33,33,33,33,False,0,0,0,0
+POS__299.jpg,299.jpg,strawberries,POSITIVE,strawberries,16,21,21,21,21,21,False,5,5,5,0
+POS__3.jpg,3.jpg,hot air balloons,POSITIVE,hot air balloons,11,11,11,11,11,11,False,0,0,0,0
+POS__300.jpg,300.jpg,strawberries,POSITIVE,strawberries,33,33,33,33,33,33,False,0,0,0,0
+POS__301.jpg,301.jpg,strawberries,POSITIVE,strawberries,28,32,32,32,32,32,False,4,4,4,0
+POS__302.jpg,302.jpg,strawberries,POSITIVE,strawberries,20,24,24,24,24,24,False,4,4,4,0
+POS__303.jpg,303.jpg,strawberries,POSITIVE,strawberries,51,53,53,53,53,53,False,2,2,2,0
+POS__305.jpg,305.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__306.jpg,306.jpg,strawberries,POSITIVE,strawberries,30,31,31,31,31,31,False,1,1,1,0
+POS__307.jpg,307.jpg,strawberries,POSITIVE,strawberries,21,21,21,21,21,21,False,0,0,0,0
+POS__308.jpg,308.jpg,strawberries,POSITIVE,strawberries,27,28,28,28,28,28,False,1,1,1,0
+POS__309.jpg,309.jpg,strawberries,POSITIVE,strawberries,113,107,107,107,107,107,False,6,6,6,0
+POS__310.jpg,310.jpg,strawberries,POSITIVE,strawberries,65,71,71,71,71,71,False,6,6,6,0
+POS__311.jpg,311.jpg,strawberries,POSITIVE,strawberries,55,57,57,57,57,57,False,2,2,2,0
+POS__3111.jpg,3111.jpg,crab cakes,POSITIVE,crab cakes,20,19,0,0,0,0,False,20,20,20,0
+POS__3112.jpg,3112.jpg,crab cakes,POSITIVE,crab cakes,10,11,10,10,10,10,False,0,0,0,0
+POS__3114.jpg,3114.jpg,crab cakes,POSITIVE,crab cakes,17,16,16,16,16,16,False,1,1,1,0
+POS__312.jpg,312.jpg,strawberries,POSITIVE,strawberries,53,60,60,60,60,60,False,7,7,7,0
+POS__313.jpg,313.jpg,strawberries,POSITIVE,strawberries,23,23,23,23,23,23,False,0,0,0,0
+POS__315.jpg,315.jpg,strawberries,POSITIVE,strawberries,53,63,63,63,63,63,False,10,10,10,0
+POS__3153.jpg,3153.jpg,cashew nuts,POSITIVE,cashew nuts,24,24,24,24,24,24,False,0,0,0,0
+POS__3154.jpg,3154.jpg,cashew nuts,POSITIVE,cashew nuts,47,46,46,46,46,46,False,1,1,1,0
+POS__3155.jpg,3155.jpg,cashew nuts,POSITIVE,cashew nuts,45,49,49,49,49,49,False,4,4,4,0
+POS__3156.jpg,3156.jpg,cashew nuts,POSITIVE,cashew nuts,50,51,51,51,51,51,False,1,1,1,0
+POS__3157.jpg,3157.jpg,cashew nuts,POSITIVE,cashew nuts,42,40,40,40,40,40,False,2,2,2,0
+POS__3158.jpg,3158.jpg,cashew nuts,POSITIVE,cashew nuts,43,51,51,51,51,51,False,8,8,8,0
+POS__3159.jpg,3159.jpg,cashew nuts,POSITIVE,cashew nuts,58,72,72,72,72,72,False,14,14,14,0
+POS__316.jpg,316.jpg,strawberries,POSITIVE,strawberries,25,29,29,29,29,29,False,4,4,4,0
+POS__3160.jpg,3160.jpg,cashew nuts,POSITIVE,cashew nuts,13,13,13,13,13,13,False,0,0,0,0
+POS__317.jpg,317.jpg,strawberries,POSITIVE,strawberries,14,14,14,14,14,14,False,0,0,0,0
+POS__319.jpg,319.jpg,strawberries,POSITIVE,strawberries,12,12,12,12,12,12,False,0,0,0,0
+POS__320.jpg,320.jpg,strawberries,POSITIVE,strawberries,16,16,16,16,16,16,False,0,0,0,0
+POS__321.jpg,321.jpg,strawberries,POSITIVE,strawberries,39,43,43,43,43,43,False,4,4,4,0
+POS__322.jpg,322.jpg,strawberries,POSITIVE,strawberries,27,25,25,25,25,25,False,2,2,2,0
+POS__323.jpg,323.jpg,strawberries,POSITIVE,strawberries,25,25,25,25,25,25,False,0,0,0,0
+POS__324.jpg,324.jpg,strawberries,POSITIVE,strawberries,11,10,10,10,10,10,False,1,1,1,0
+POS__325.jpg,325.jpg,strawberries,POSITIVE,strawberries,33,35,35,35,35,35,False,2,2,2,0
+POS__326.jpg,326.jpg,strawberries,POSITIVE,strawberries,18,20,20,20,20,20,False,2,2,2,0
+POS__3268.jpg,3268.jpg,finger foods,POSITIVE,finger foods,19,19,19,19,19,19,False,0,0,0,0
+POS__3269.jpg,3269.jpg,finger foods,POSITIVE,finger foods,20,20,20,20,20,20,False,0,0,0,0
+POS__327.jpg,327.jpg,strawberries,POSITIVE,strawberries,12,12,12,12,12,12,False,0,0,0,0
+POS__3270.jpg,3270.jpg,finger foods,POSITIVE,finger foods,19,19,19,19,19,19,False,0,0,0,0
+POS__3271.jpg,3271.jpg,finger foods,POSITIVE,finger foods,21,0,0,0,0,0,False,21,21,21,0
+POS__3274.jpg,3274.jpg,finger foods,POSITIVE,finger foods,9,0,0,0,0,0,False,9,9,9,0
+POS__3275.jpg,3275.jpg,finger foods,POSITIVE,finger foods,12,12,12,12,12,12,False,0,0,0,0
+POS__3276.jpg,3276.jpg,finger foods,POSITIVE,finger foods,18,18,18,18,18,18,False,0,0,0,0
+POS__3278.jpg,3278.jpg,finger foods,POSITIVE,finger foods,30,30,30,30,30,30,False,0,0,0,0
+POS__3279.jpg,3279.jpg,finger foods,POSITIVE,finger foods,23,23,23,23,23,23,False,0,0,0,0
+POS__328.jpg,328.jpg,strawberries,POSITIVE,strawberries,35,36,36,36,36,36,False,1,1,1,0
+POS__3281.jpg,3281.jpg,finger foods,POSITIVE,finger foods,15,15,15,15,15,15,False,0,0,0,0
+POS__3282.jpg,3282.jpg,finger foods,POSITIVE,finger foods,31,0,0,7,7,7,False,31,24,24,0
+POS__3283.jpg,3283.jpg,finger foods,POSITIVE,finger foods,37,37,37,37,37,37,False,0,0,0,0
+POS__3284.jpg,3284.jpg,finger foods,POSITIVE,finger foods,16,0,0,0,0,0,False,16,16,16,0
+POS__3285.jpg,3285.jpg,finger foods,POSITIVE,finger foods,34,0,0,7,7,7,False,34,27,27,0
+POS__329.jpg,329.jpg,strawberries,POSITIVE,strawberries,19,19,19,19,19,19,False,0,0,0,0
+POS__330.jpg,330.jpg,strawberries,POSITIVE,strawberries,25,25,25,25,25,25,False,0,0,0,0
+POS__3308.jpg,3308.jpg,green peas,POSITIVE,green peas,153,157,157,157,157,157,False,4,4,4,0
+POS__3309.jpg,3309.jpg,green peas,POSITIVE,green peas,16,16,16,16,16,16,False,0,0,0,0
+POS__331.jpg,331.jpg,strawberries,POSITIVE,strawberries,33,34,34,34,34,34,False,1,1,1,0
+POS__3310.jpg,3310.jpg,green peas,POSITIVE,green peas,31,31,31,31,31,31,False,0,0,0,0
+POS__3311.jpg,3311.jpg,green peas,POSITIVE,green peas,154,0,0,141,141,141,False,154,13,13,0
+POS__3312.jpg,3312.jpg,green peas,POSITIVE,green peas,136,123,123,123,123,123,False,13,13,13,0
+POS__3313.jpg,3313.jpg,green peas,POSITIVE,green peas,63,64,64,64,64,64,False,1,1,1,0
+POS__3314.jpg,3314.jpg,green peas,POSITIVE,green peas,92,97,97,97,97,97,False,5,5,5,0
+POS__3315.jpg,3315.jpg,green peas,POSITIVE,green peas,210,0,0,140,140,140,False,210,70,70,0
+POS__3317.jpg,3317.jpg,green peas,POSITIVE,green peas,43,55,55,55,55,55,False,12,12,12,0
+POS__3318.jpg,3318.jpg,green peas,POSITIVE,green peas,185,0,0,191,191,191,False,185,6,6,0
+POS__3319.jpg,3319.jpg,green peas,POSITIVE,green peas,68,63,63,63,63,63,False,5,5,5,0
+POS__332.jpg,332.jpg,strawberries,POSITIVE,strawberries,11,9,9,9,9,9,False,2,2,2,0
+POS__3320.jpg,3320.jpg,green peas,POSITIVE,green peas,159,167,167,167,167,167,False,8,8,8,0
+POS__3321.jpg,3321.jpg,green peas,POSITIVE,green peas,49,47,47,47,47,47,False,2,2,2,0
+POS__3322.jpg,3322.jpg,green peas,POSITIVE,green peas,450,442,442,442,442,442,False,8,8,8,0
+POS__3323.jpg,3323.jpg,green peas,POSITIVE,green peas,9,9,9,9,9,9,False,0,0,0,0
+POS__3324.jpg,3324.jpg,green peas,POSITIVE,green peas,56,59,59,59,59,59,False,3,3,3,0
+POS__3326.jpg,3326.jpg,green peas,POSITIVE,green peas,122,0,0,68,68,68,False,122,54,54,0
+POS__3327.jpg,3327.jpg,green peas,POSITIVE,green peas,33,33,33,33,33,33,False,0,0,0,0
+POS__3328.jpg,3328.jpg,green peas,POSITIVE,green peas,99,100,100,100,100,100,False,1,1,1,0
+POS__3329.jpg,3329.jpg,green peas,POSITIVE,green peas,178,243,243,243,243,243,False,65,65,65,0
+POS__333.jpg,333.jpg,strawberries,POSITIVE,strawberries,32,32,32,32,32,32,False,0,0,0,0
+POS__3330.jpg,3330.jpg,green peas,POSITIVE,green peas,57,65,65,65,65,65,False,8,8,8,0
+POS__3331.jpg,3331.jpg,green peas,POSITIVE,green peas,133,137,137,137,137,137,False,4,4,4,0
+POS__3332.jpg,3332.jpg,green peas,POSITIVE,green peas,66,12,12,12,12,12,False,54,54,54,0
+POS__3333.jpg,3333.jpg,green peas,POSITIVE,green peas,113,3,3,3,3,3,False,110,110,110,0
+POS__3334.jpg,3334.jpg,green peas,POSITIVE,green peas,146,147,147,147,147,147,False,1,1,1,0
+POS__3335.jpg,3335.jpg,green peas,POSITIVE,green peas,350,333,333,333,333,333,False,17,17,17,0
+POS__3336.jpg,3336.jpg,green peas,POSITIVE,green peas,72,87,87,87,87,87,False,15,15,15,0
+POS__3337.jpg,3337.jpg,green peas,POSITIVE,green peas,295,281,281,281,281,281,False,14,14,14,0
+POS__3338.jpg,3338.jpg,green peas,POSITIVE,green peas,258,264,264,264,264,264,False,6,6,6,0
+POS__3339.jpg,3339.jpg,sea shells,POSITIVE,sea shells,25,25,25,25,25,25,False,0,0,0,0
+POS__334.jpg,334.jpg,strawberries,POSITIVE,strawberries,35,37,37,37,37,37,False,2,2,2,0
+POS__3341.jpg,3341.jpg,sea shells,POSITIVE,sea shells,36,36,36,36,36,36,False,0,0,0,0
+POS__3342.jpg,3342.jpg,sea shells,POSITIVE,sea shells,12,12,12,12,12,12,False,0,0,0,0
+POS__335.jpg,335.jpg,strawberries,POSITIVE,strawberries,12,12,12,12,12,12,False,0,0,0,0
+POS__336.jpg,336.jpg,strawberries,POSITIVE,strawberries,16,16,16,16,16,16,False,0,0,0,0
+POS__337.jpg,337.jpg,strawberries,POSITIVE,strawberries,13,14,14,14,14,14,False,1,1,1,0
+POS__339.jpg,339.jpg,strawberries,POSITIVE,strawberries,18,18,18,18,18,18,False,0,0,0,0
+POS__340.jpg,340.jpg,strawberries,POSITIVE,strawberries,14,14,14,14,14,14,False,0,0,0,0
+POS__341.jpg,341.jpg,strawberries,POSITIVE,strawberries,13,13,13,13,13,13,False,0,0,0,0
+POS__342.jpg,342.jpg,strawberries,POSITIVE,strawberries,63,67,67,67,67,67,False,4,4,4,0
+POS__3424.jpg,3424.jpg,crab cakes,POSITIVE,crab cakes,12,12,12,12,12,12,False,0,0,0,0
+POS__343.jpg,343.jpg,strawberries,POSITIVE,strawberries,16,29,29,29,29,29,False,13,13,13,0
+POS__344.jpg,344.jpg,strawberries,POSITIVE,strawberries,43,44,44,44,44,44,False,1,1,1,0
+POS__345.jpg,345.jpg,strawberries,POSITIVE,strawberries,63,70,70,70,70,70,False,7,7,7,0
+POS__346.jpg,346.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__347.jpg,347.jpg,strawberries,POSITIVE,strawberries,41,42,42,42,42,42,False,1,1,1,0
+POS__348.jpg,348.jpg,strawberries,POSITIVE,strawberries,27,30,30,30,30,30,False,3,3,3,0
+POS__349.jpg,349.jpg,strawberries,POSITIVE,strawberries,39,40,40,40,40,40,False,1,1,1,0
+POS__3493.jpg,3493.jpg,red beans,POSITIVE,red beans,45,52,52,52,52,52,False,7,7,7,0
+POS__3494.jpg,3494.jpg,red beans,POSITIVE,red beans,37,39,39,39,39,39,False,2,2,2,0
+POS__3495.jpg,3495.jpg,red beans,POSITIVE,red beans,107,119,119,119,119,119,False,12,12,12,0
+POS__3496.jpg,3496.jpg,red beans,POSITIVE,red beans,103,109,109,109,109,109,False,6,6,6,0
+POS__3497.jpg,3497.jpg,red beans,POSITIVE,red beans,161,173,173,173,173,173,False,12,12,12,0
+POS__3498.jpg,3498.jpg,red beans,POSITIVE,red beans,96,98,98,98,98,98,False,2,2,2,0
+POS__3499.jpg,3499.jpg,red beans,POSITIVE,red beans,91,92,92,92,92,92,False,1,1,1,0
+POS__350.jpg,350.jpg,strawberries,POSITIVE,strawberries,17,17,17,17,17,17,False,0,0,0,0
+POS__3500.jpg,3500.jpg,red beans,POSITIVE,red beans,15,15,15,15,15,15,False,0,0,0,0
+POS__3501.jpg,3501.jpg,red beans,POSITIVE,red beans,60,63,63,63,63,63,False,3,3,3,0
+POS__3502.jpg,3502.jpg,red beans,POSITIVE,red beans,70,73,73,73,73,73,False,3,3,3,0
+POS__351.jpg,351.jpg,strawberries,POSITIVE,strawberries,41,46,46,46,46,46,False,5,5,5,0
+POS__3643.jpg,3643.jpg,cashew nuts,POSITIVE,cashew nuts,59,56,56,56,56,56,False,3,3,3,0
+POS__3644.jpg,3644.jpg,cashew nuts,POSITIVE,cashew nuts,13,13,13,13,13,13,False,0,0,0,0
+POS__3645.jpg,3645.jpg,cashew nuts,POSITIVE,cashew nuts,60,60,60,60,60,60,False,0,0,0,0
+POS__3646.jpg,3646.jpg,cashew nuts,POSITIVE,cashew nuts,15,15,15,15,15,15,False,0,0,0,0
+POS__3647.jpg,3647.jpg,cashew nuts,POSITIVE,cashew nuts,87,74,74,74,74,74,False,13,13,13,0
+POS__3648.jpg,3648.jpg,cashew nuts,POSITIVE,cashew nuts,35,40,40,40,40,40,False,5,5,5,0
+POS__3649.jpg,3649.jpg,cashew nuts,POSITIVE,cashew nuts,35,40,40,40,40,40,False,5,5,5,0
+POS__3650.jpg,3650.jpg,cashew nuts,POSITIVE,cashew nuts,14,14,14,14,14,14,False,0,0,0,0
+POS__3651.jpg,3651.jpg,cashew nuts,POSITIVE,cashew nuts,11,11,11,11,11,11,False,0,0,0,0
+POS__3652.jpg,3652.jpg,cashew nuts,POSITIVE,cashew nuts,46,43,43,43,43,43,False,3,3,3,0
+POS__3653.jpg,3653.jpg,cashew nuts,POSITIVE,cashew nuts,65,80,80,80,80,80,False,15,15,15,0
+POS__3655.jpg,3655.jpg,cashew nuts,POSITIVE,cashew nuts,13,14,14,14,14,14,False,1,1,1,0
+POS__3656.jpg,3656.jpg,cashew nuts,POSITIVE,cashew nuts,45,43,43,43,43,43,False,2,2,2,0
+POS__3657.jpg,3657.jpg,cashew nuts,POSITIVE,cashew nuts,24,25,25,25,25,25,False,1,1,1,0
+POS__3658.jpg,3658.jpg,cashew nuts,POSITIVE,cashew nuts,36,38,38,38,38,38,False,2,2,2,0
+POS__3659.jpg,3659.jpg,cashew nuts,POSITIVE,cashew nuts,41,45,45,45,45,45,False,4,4,4,0
+POS__3693.jpg,3693.jpg,candy pieces,POSITIVE,candy pieces,36,36,36,36,36,36,False,0,0,0,0
+POS__3694.jpg,3694.jpg,candy pieces,POSITIVE,candy pieces,34,34,34,34,34,34,False,0,0,0,0
+POS__3695.jpg,3695.jpg,candy pieces,POSITIVE,candy pieces,16,16,16,16,16,16,False,0,0,0,0
+POS__3696.jpg,3696.jpg,candy pieces,POSITIVE,candy pieces,8,9,0,0,0,0,False,8,8,8,0
+POS__3697.jpg,3697.jpg,candy pieces,POSITIVE,candy pieces,11,11,0,0,0,0,False,11,11,11,0
+POS__3698.jpg,3698.jpg,candy pieces,POSITIVE,candy pieces,111,116,116,116,116,116,False,5,5,5,0
+POS__4.jpg,4.jpg,hot air balloons,POSITIVE,hot air balloons,10,11,11,11,11,11,False,1,1,1,0
+POS__4061.jpg,4061.jpg,marbles,POSITIVE,marbles,95,100,100,100,100,100,False,5,5,5,0
+POS__4062.jpg,4062.jpg,marbles,POSITIVE,marbles,275,75,75,75,75,75,False,200,200,200,0
+POS__4063.jpg,4063.jpg,marbles,POSITIVE,marbles,11,11,11,11,11,11,False,0,0,0,0
+POS__4064.jpg,4064.jpg,marbles,POSITIVE,marbles,119,111,111,111,111,111,False,8,8,8,0
+POS__4065.jpg,4065.jpg,marbles,POSITIVE,marbles,37,37,37,37,37,37,False,0,0,0,0
+POS__4066.jpg,4066.jpg,marbles,POSITIVE,marbles,9,10,10,10,10,10,False,1,1,1,0
+POS__4067.jpg,4067.jpg,marbles,POSITIVE,marbles,42,40,40,40,40,40,False,2,2,2,0
+POS__4068.jpg,4068.jpg,marbles,POSITIVE,marbles,10,10,10,10,10,10,False,0,0,0,0
+POS__4069.jpg,4069.jpg,marbles,POSITIVE,marbles,118,118,118,118,118,118,False,0,0,0,0
+POS__4070.jpg,4070.jpg,marbles,POSITIVE,marbles,76,76,76,76,76,76,False,0,0,0,0
+POS__4071.jpg,4071.jpg,marbles,POSITIVE,marbles,48,49,49,49,49,49,False,1,1,1,0
+POS__4072.jpg,4072.jpg,marbles,POSITIVE,marbles,11,12,12,12,12,12,False,1,1,1,0
+POS__4073.jpg,4073.jpg,marbles,POSITIVE,marbles,25,25,25,25,25,25,False,0,0,0,0
+POS__4074.jpg,4074.jpg,marbles,POSITIVE,marbles,23,23,23,23,23,23,False,0,0,0,0
+POS__4077.jpg,4077.jpg,marbles,POSITIVE,marbles,221,208,208,208,208,208,False,13,13,13,0
+POS__4078.jpg,4078.jpg,marbles,POSITIVE,marbles,58,59,59,59,59,59,False,1,1,1,0
+POS__4079.jpg,4079.jpg,marbles,POSITIVE,marbles,24,24,24,24,24,24,False,0,0,0,0
+POS__4080.jpg,4080.jpg,marbles,POSITIVE,marbles,54,54,54,54,54,54,False,0,0,0,0
+POS__4082.jpg,4082.jpg,marbles,POSITIVE,marbles,108,120,120,120,120,120,False,12,12,12,0
+POS__4083.jpg,4083.jpg,marbles,POSITIVE,marbles,94,93,93,93,93,93,False,1,1,1,0
+POS__4084.jpg,4084.jpg,marbles,POSITIVE,marbles,12,12,12,12,12,12,False,0,0,0,0
+POS__4085.jpg,4085.jpg,marbles,POSITIVE,marbles,86,87,87,87,87,87,False,1,1,1,0
+POS__4086.jpg,4086.jpg,marbles,POSITIVE,marbles,12,12,12,12,12,12,False,0,0,0,0
+POS__4087.jpg,4087.jpg,marbles,POSITIVE,marbles,118,120,120,120,120,120,False,2,2,2,0
+POS__4088.jpg,4088.jpg,marbles,POSITIVE,marbles,28,28,28,28,28,28,False,0,0,0,0
+POS__4089.jpg,4089.jpg,marbles,POSITIVE,marbles,59,60,60,60,60,60,False,1,1,1,0
+POS__4110.jpg,4110.jpg,finger foods,POSITIVE,finger foods,12,13,13,13,13,13,False,1,1,1,0
+POS__4111.jpg,4111.jpg,finger foods,POSITIVE,finger foods,24,24,24,24,24,24,False,0,0,0,0
+POS__4112.jpg,4112.jpg,finger foods,POSITIVE,finger foods,11,16,16,16,16,16,False,5,5,5,0
+POS__4113.jpg,4113.jpg,finger foods,POSITIVE,finger foods,37,40,40,40,40,40,False,3,3,3,0
+POS__4114.jpg,4114.jpg,finger foods,POSITIVE,finger foods,12,12,12,12,12,12,False,0,0,0,0
+POS__4115.jpg,4115.jpg,finger foods,POSITIVE,finger foods,8,9,9,9,9,9,False,1,1,1,0
+POS__4116.jpg,4116.jpg,finger foods,POSITIVE,finger foods,15,15,15,15,15,15,False,0,0,0,0
+POS__4118.jpg,4118.jpg,finger foods,POSITIVE,finger foods,13,14,14,14,14,14,False,1,1,1,0
+POS__4119.jpg,4119.jpg,finger foods,POSITIVE,finger foods,12,12,12,12,12,12,False,0,0,0,0
+POS__4120.jpg,4120.jpg,finger foods,POSITIVE,finger foods,46,47,47,47,47,47,False,1,1,1,0
+POS__4121.jpg,4121.jpg,finger foods,POSITIVE,finger foods,10,10,10,10,10,10,False,0,0,0,0
+POS__4122.jpg,4122.jpg,finger foods,POSITIVE,finger foods,12,13,13,13,13,13,False,1,1,1,0
+POS__4123.jpg,4123.jpg,finger foods,POSITIVE,finger foods,13,13,13,13,13,13,False,0,0,0,0
+POS__4170.jpg,4170.jpg,potato chips,POSITIVE,potato chips,34,34,34,34,34,34,False,0,0,0,0
+POS__4173.jpg,4173.jpg,potato chips,POSITIVE,potato chips,11,11,11,11,11,11,False,0,0,0,0
+POS__4174.jpg,4174.jpg,potato chips,POSITIVE,potato chips,36,40,40,40,40,40,False,4,4,4,0
+POS__4175.jpg,4175.jpg,potato chips,POSITIVE,potato chips,21,19,19,19,19,19,False,2,2,2,0
+POS__4283.jpg,4283.jpg,green peas,POSITIVE,green peas,65,75,75,75,75,75,False,10,10,10,0
+POS__4284.jpg,4284.jpg,green peas,POSITIVE,green peas,91,108,108,108,108,108,False,17,17,17,0
+POS__4285.jpg,4285.jpg,green peas,POSITIVE,green peas,115,116,116,116,116,116,False,1,1,1,0
+POS__4286.jpg,4286.jpg,green peas,POSITIVE,green peas,333,318,318,318,318,318,False,15,15,15,0
+POS__4287.jpg,4287.jpg,green peas,POSITIVE,green peas,27,28,28,28,28,28,False,1,1,1,0
+POS__4288.jpg,4288.jpg,green peas,POSITIVE,green peas,118,140,140,140,140,140,False,22,22,22,0
+POS__4289.jpg,4289.jpg,green peas,POSITIVE,green peas,43,41,41,41,41,41,False,2,2,2,0
+POS__4290.jpg,4290.jpg,green peas,POSITIVE,green peas,25,25,25,25,25,25,False,0,0,0,0
+POS__4291.jpg,4291.jpg,green peas,POSITIVE,green peas,323,328,328,328,328,328,False,5,5,5,0
+POS__4292.jpg,4292.jpg,green peas,POSITIVE,green peas,11,11,11,11,11,11,False,0,0,0,0
+POS__4294.jpg,4294.jpg,green peas,POSITIVE,green peas,221,217,217,217,217,217,False,4,4,4,0
+POS__4295.jpg,4295.jpg,green peas,POSITIVE,green peas,110,123,123,123,123,123,False,13,13,13,0
+POS__4296.jpg,4296.jpg,green peas,POSITIVE,green peas,32,33,33,33,33,33,False,1,1,1,0
+POS__4297.jpg,4297.jpg,green peas,POSITIVE,green peas,108,104,104,104,104,104,False,4,4,4,0
+POS__4298.jpg,4298.jpg,green peas,POSITIVE,green peas,44,54,54,54,54,54,False,10,10,10,0
+POS__4300.jpg,4300.jpg,green peas,POSITIVE,green peas,83,95,95,95,95,95,False,12,12,12,0
+POS__4301.jpg,4301.jpg,green peas,POSITIVE,green peas,44,46,46,46,46,46,False,2,2,2,0
+POS__4302.jpg,4302.jpg,green peas,POSITIVE,green peas,131,0,0,129,129,129,False,131,2,2,0
+POS__4303.jpg,4303.jpg,green peas,POSITIVE,green peas,191,201,201,201,201,201,False,10,10,10,0
+POS__4304.jpg,4304.jpg,green peas,POSITIVE,green peas,15,15,15,15,15,15,False,0,0,0,0
+POS__4305.jpg,4305.jpg,green peas,POSITIVE,green peas,77,83,83,83,83,83,False,6,6,6,0
+POS__4405.jpg,4405.jpg,hot air balloons,POSITIVE,hot air balloons,12,12,12,12,12,12,False,0,0,0,0
+POS__4406.jpg,4406.jpg,hot air balloons,POSITIVE,hot air balloons,12,12,12,12,12,12,False,0,0,0,0
+POS__4407.jpg,4407.jpg,hot air balloons,POSITIVE,hot air balloons,69,68,68,68,68,68,False,1,1,1,0
+POS__4408.jpg,4408.jpg,hot air balloons,POSITIVE,hot air balloons,14,14,14,14,14,14,False,0,0,0,0
+POS__4409.jpg,4409.jpg,hot air balloons,POSITIVE,hot air balloons,9,9,9,9,9,9,False,0,0,0,0
+POS__4412.jpg,4412.jpg,hot air balloons,POSITIVE,hot air balloons,10,10,10,10,10,10,False,0,0,0,0
+POS__4413.jpg,4413.jpg,hot air balloons,POSITIVE,hot air balloons,11,12,12,12,12,12,False,1,1,1,0
+POS__4414.jpg,4414.jpg,hot air balloons,POSITIVE,hot air balloons,11,11,11,11,11,11,False,0,0,0,0
+POS__4415.jpg,4415.jpg,hot air balloons,POSITIVE,hot air balloons,16,16,16,16,16,16,False,0,0,0,0
+POS__4416.jpg,4416.jpg,hot air balloons,POSITIVE,hot air balloons,13,14,14,14,14,14,False,1,1,1,0
+POS__4417.jpg,4417.jpg,hot air balloons,POSITIVE,hot air balloons,63,73,73,73,73,73,False,10,10,10,0
+POS__4418.jpg,4418.jpg,hot air balloons,POSITIVE,hot air balloons,30,34,34,34,34,34,False,4,4,4,0
+POS__4419.jpg,4419.jpg,hot air balloons,POSITIVE,hot air balloons,15,13,13,13,13,13,False,2,2,2,0
+POS__4421.jpg,4421.jpg,hot air balloons,POSITIVE,hot air balloons,8,8,8,8,8,8,False,0,0,0,0
+POS__4422.jpg,4422.jpg,hot air balloons,POSITIVE,hot air balloons,10,10,10,10,10,10,False,0,0,0,0
+POS__4423.jpg,4423.jpg,hot air balloons,POSITIVE,hot air balloons,12,12,12,12,12,12,False,0,0,0,0
+POS__4492.jpg,4492.jpg,skis,POSITIVE,skis,12,12,12,12,12,12,False,0,0,0,0
+POS__4493.jpg,4493.jpg,skis,POSITIVE,skis,18,20,20,20,20,20,False,2,2,2,0
+POS__4494.jpg,4494.jpg,skis,POSITIVE,skis,26,26,26,26,26,26,False,0,0,0,0
+POS__4495.jpg,4495.jpg,skis,POSITIVE,skis,10,5,5,5,5,5,False,5,5,5,0
+POS__4496.jpg,4496.jpg,skis,POSITIVE,skis,13,15,15,15,15,15,False,2,2,2,0
+POS__4497.jpg,4497.jpg,skis,POSITIVE,skis,14,14,14,14,14,14,False,0,0,0,0
+POS__4498.jpg,4498.jpg,skis,POSITIVE,skis,12,11,11,11,11,11,False,1,1,1,0
+POS__4499.jpg,4499.jpg,skis,POSITIVE,skis,10,9,9,9,9,9,False,1,1,1,0
+POS__4500.jpg,4500.jpg,skis,POSITIVE,skis,8,8,8,8,8,8,False,0,0,0,0
+POS__4501.jpg,4501.jpg,skis,POSITIVE,skis,18,18,18,18,18,18,False,0,0,0,0
+POS__4502.jpg,4502.jpg,skis,POSITIVE,skis,21,21,21,21,21,21,False,0,0,0,0
+POS__4874.jpg,4874.jpg,strawberries,POSITIVE,strawberries,68,69,69,69,69,69,False,1,1,1,0
+POS__4875.jpg,4875.jpg,strawberries,POSITIVE,strawberries,40,40,40,40,40,40,False,0,0,0,0
+POS__4876.jpg,4876.jpg,strawberries,POSITIVE,strawberries,42,43,43,43,43,43,False,1,1,1,0
+POS__4877.jpg,4877.jpg,strawberries,POSITIVE,strawberries,44,47,47,47,47,47,False,3,3,3,0
+POS__4878.jpg,4878.jpg,strawberries,POSITIVE,strawberries,126,139,139,139,139,139,False,13,13,13,0
+POS__4879.jpg,4879.jpg,strawberries,POSITIVE,strawberries,76,78,78,78,78,78,False,2,2,2,0
+POS__4880.jpg,4880.jpg,strawberries,POSITIVE,strawberries,32,36,36,36,36,36,False,4,4,4,0
+POS__4881.jpg,4881.jpg,strawberries,POSITIVE,strawberries,35,35,35,35,35,35,False,0,0,0,0
+POS__4882.jpg,4882.jpg,strawberries,POSITIVE,strawberries,28,29,29,29,29,29,False,1,1,1,0
+POS__4883.jpg,4883.jpg,strawberries,POSITIVE,strawberries,15,16,16,16,16,16,False,1,1,1,0
+POS__4884.jpg,4884.jpg,strawberries,POSITIVE,strawberries,101,95,95,95,95,95,False,6,6,6,0
+POS__4885.jpg,4885.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__4886.jpg,4886.jpg,strawberries,POSITIVE,strawberries,37,41,41,41,41,41,False,4,4,4,0
+POS__4887.jpg,4887.jpg,strawberries,POSITIVE,strawberries,32,33,33,33,33,33,False,1,1,1,0
+POS__4888.jpg,4888.jpg,strawberries,POSITIVE,strawberries,14,16,16,16,16,16,False,2,2,2,0
+POS__4889.jpg,4889.jpg,strawberries,POSITIVE,strawberries,27,28,28,28,28,28,False,1,1,1,0
+POS__4890.jpg,4890.jpg,strawberries,POSITIVE,strawberries,64,71,71,71,71,71,False,7,7,7,0
+POS__4891.jpg,4891.jpg,strawberries,POSITIVE,strawberries,27,26,26,26,26,26,False,1,1,1,0
+POS__4892.jpg,4892.jpg,strawberries,POSITIVE,strawberries,50,52,52,52,52,52,False,2,2,2,0
+POS__4893.jpg,4893.jpg,strawberries,POSITIVE,strawberries,28,30,30,30,30,30,False,2,2,2,0
+POS__4894.jpg,4894.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__4895.jpg,4895.jpg,strawberries,POSITIVE,strawberries,8,8,8,8,8,8,False,0,0,0,0
+POS__4896.jpg,4896.jpg,strawberries,POSITIVE,strawberries,83,94,94,94,94,94,False,11,11,11,0
+POS__4897.jpg,4897.jpg,strawberries,POSITIVE,strawberries,35,37,37,37,37,37,False,2,2,2,0
+POS__4898.jpg,4898.jpg,strawberries,POSITIVE,strawberries,51,52,52,52,52,52,False,1,1,1,0
+POS__4900.jpg,4900.jpg,strawberries,POSITIVE,strawberries,14,16,16,16,16,16,False,2,2,2,0
+POS__4901.jpg,4901.jpg,strawberries,POSITIVE,strawberries,16,19,19,19,19,19,False,3,3,3,0
+POS__4903.jpg,4903.jpg,strawberries,POSITIVE,strawberries,18,18,18,18,18,18,False,0,0,0,0
+POS__4904.jpg,4904.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__4905.jpg,4905.jpg,strawberries,POSITIVE,strawberries,250,291,291,291,291,291,False,41,41,41,0
+POS__4906.jpg,4906.jpg,strawberries,POSITIVE,strawberries,78,84,84,84,84,84,False,6,6,6,0
+POS__4908.jpg,4908.jpg,strawberries,POSITIVE,strawberries,24,24,24,24,24,24,False,0,0,0,0
+POS__4909.jpg,4909.jpg,strawberries,POSITIVE,strawberries,16,18,18,18,18,18,False,2,2,2,0
+POS__4910.jpg,4910.jpg,strawberries,POSITIVE,strawberries,14,16,16,16,16,16,False,2,2,2,0
+POS__4911.jpg,4911.jpg,strawberries,POSITIVE,strawberries,30,30,30,30,30,30,False,0,0,0,0
+POS__4912.jpg,4912.jpg,strawberries,POSITIVE,strawberries,39,53,53,53,53,53,False,14,14,14,0
+POS__4913.jpg,4913.jpg,strawberries,POSITIVE,strawberries,10,10,10,10,10,10,False,0,0,0,0
+POS__4915.jpg,4915.jpg,strawberries,POSITIVE,strawberries,87,92,92,92,92,92,False,5,5,5,0
+POS__4916.jpg,4916.jpg,strawberries,POSITIVE,strawberries,91,100,100,100,100,100,False,9,9,9,0
+POS__4917.jpg,4917.jpg,strawberries,POSITIVE,strawberries,37,37,37,37,37,37,False,0,0,0,0
+POS__4918.jpg,4918.jpg,strawberries,POSITIVE,strawberries,95,94,94,94,94,94,False,1,1,1,0
+POS__4919.jpg,4919.jpg,strawberries,POSITIVE,strawberries,31,31,31,31,31,31,False,0,0,0,0
+POS__4920.jpg,4920.jpg,strawberries,POSITIVE,strawberries,20,51,10,10,10,10,False,10,10,10,0
+POS__4921.jpg,4921.jpg,strawberries,POSITIVE,strawberries,13,13,13,13,13,13,False,0,0,0,0
+POS__4922.jpg,4922.jpg,strawberries,POSITIVE,strawberries,8,8,8,8,8,8,False,0,0,0,0
+POS__4923.jpg,4923.jpg,strawberries,POSITIVE,strawberries,31,31,31,31,31,31,False,0,0,0,0
+POS__4924.jpg,4924.jpg,strawberries,POSITIVE,strawberries,67,71,71,71,71,71,False,4,4,4,0
+POS__4925.jpg,4925.jpg,strawberries,POSITIVE,strawberries,142,159,159,159,159,159,False,17,17,17,0
+POS__4926.jpg,4926.jpg,strawberries,POSITIVE,strawberries,40,45,45,45,45,45,False,5,5,5,0
+POS__4927.jpg,4927.jpg,strawberries,POSITIVE,strawberries,63,77,77,77,77,77,False,14,14,14,0
+POS__4928.jpg,4928.jpg,strawberries,POSITIVE,strawberries,40,40,40,40,40,40,False,0,0,0,0
+POS__4929.jpg,4929.jpg,strawberries,POSITIVE,strawberries,36,37,37,37,37,37,False,1,1,1,0
+POS__4930.jpg,4930.jpg,strawberries,POSITIVE,strawberries,74,68,68,68,68,68,False,6,6,6,0
+POS__4931.jpg,4931.jpg,strawberries,POSITIVE,strawberries,58,72,72,72,72,72,False,14,14,14,0
+POS__4932.jpg,4932.jpg,strawberries,POSITIVE,strawberries,56,63,63,63,63,63,False,7,7,7,0
+POS__4933.jpg,4933.jpg,strawberries,POSITIVE,strawberries,54,56,56,56,56,56,False,2,2,2,0
+POS__4934.jpg,4934.jpg,strawberries,POSITIVE,strawberries,19,19,19,19,19,19,False,0,0,0,0
+POS__4935.jpg,4935.jpg,strawberries,POSITIVE,strawberries,9,9,9,9,9,9,False,0,0,0,0
+POS__4937.jpg,4937.jpg,strawberries,POSITIVE,strawberries,11,11,11,11,11,11,False,0,0,0,0
+POS__4938.jpg,4938.jpg,tree logs,POSITIVE,tree logs,58,71,71,71,71,71,False,13,13,13,0
+POS__4939.jpg,4939.jpg,tree logs,POSITIVE,tree logs,20,20,20,20,20,20,False,0,0,0,0
+POS__4940.jpg,4940.jpg,tree logs,POSITIVE,tree logs,31,31,31,31,31,31,False,0,0,0,0
+POS__4941.jpg,4941.jpg,tree logs,POSITIVE,tree logs,175,186,186,186,186,186,False,11,11,11,0
+POS__4942.jpg,4942.jpg,tree logs,POSITIVE,tree logs,56,45,45,45,45,45,False,11,11,11,0
+POS__4943.jpg,4943.jpg,tree logs,POSITIVE,tree logs,65,66,66,66,66,66,False,1,1,1,0
+POS__4944.jpg,4944.jpg,tree logs,POSITIVE,tree logs,49,53,53,53,53,53,False,4,4,4,0
+POS__4945.jpg,4945.jpg,tree logs,POSITIVE,tree logs,41,40,40,40,40,40,False,1,1,1,0
+POS__4946.jpg,4946.jpg,tree logs,POSITIVE,tree logs,71,82,82,82,82,82,False,11,11,11,0
+POS__4947.jpg,4947.jpg,tree logs,POSITIVE,tree logs,205,224,224,224,224,224,False,19,19,19,0
+POS__4948.jpg,4948.jpg,tree logs,POSITIVE,tree logs,18,19,19,19,19,19,False,1,1,1,0
+POS__4949.jpg,4949.jpg,tree logs,POSITIVE,tree logs,95,110,110,110,110,110,False,15,15,15,0
+POS__4950.jpg,4950.jpg,tree logs,POSITIVE,tree logs,33,34,34,34,34,34,False,1,1,1,0
+POS__4951.jpg,4951.jpg,tree logs,POSITIVE,tree logs,166,187,187,187,187,187,False,21,21,21,0
+POS__4952.jpg,4952.jpg,tree logs,POSITIVE,tree logs,247,249,249,249,249,249,False,2,2,2,0
+POS__4953.jpg,4953.jpg,tree logs,POSITIVE,tree logs,51,55,55,55,55,55,False,4,4,4,0
+POS__4954.jpg,4954.jpg,tree logs,POSITIVE,tree logs,29,39,39,39,39,39,False,10,10,10,0
+POS__4955.jpg,4955.jpg,tree logs,POSITIVE,tree logs,145,145,145,145,145,145,False,0,0,0,0
+POS__4956.jpg,4956.jpg,tree logs,POSITIVE,tree logs,102,109,109,109,109,109,False,7,7,7,0
+POS__4957.jpg,4957.jpg,tree logs,POSITIVE,tree logs,93,112,112,112,112,112,False,19,19,19,0
+POS__4958.jpg,4958.jpg,tree logs,POSITIVE,tree logs,118,109,109,109,109,109,False,9,9,9,0
+POS__4959.jpg,4959.jpg,tree logs,POSITIVE,tree logs,31,38,38,38,38,38,False,7,7,7,0
+POS__4960.jpg,4960.jpg,tree logs,POSITIVE,tree logs,29,28,28,28,28,28,False,1,1,1,0
+POS__4961.jpg,4961.jpg,tree logs,POSITIVE,tree logs,363,351,351,351,351,351,False,12,12,12,0
+POS__4962.jpg,4962.jpg,tree logs,POSITIVE,tree logs,30,31,31,31,31,31,False,1,1,1,0
+POS__4963.jpg,4963.jpg,tree logs,POSITIVE,tree logs,218,224,224,224,224,224,False,6,6,6,0
+POS__4964.jpg,4964.jpg,tree logs,POSITIVE,tree logs,51,56,56,56,56,56,False,5,5,5,0
+POS__4965.jpg,4965.jpg,tree logs,POSITIVE,tree logs,15,15,15,15,15,15,False,0,0,0,0
+POS__4966.jpg,4966.jpg,tree logs,POSITIVE,tree logs,46,48,48,48,48,48,False,2,2,2,0
+POS__4967.jpg,4967.jpg,tree logs,POSITIVE,tree logs,19,21,21,21,21,21,False,2,2,2,0
+POS__4969.jpg,4969.jpg,tree logs,POSITIVE,tree logs,109,128,128,128,128,128,False,19,19,19,0
+POS__4970.jpg,4970.jpg,tree logs,POSITIVE,tree logs,44,51,51,51,51,51,False,7,7,7,0
+POS__5.jpg,5.jpg,hot air balloons,POSITIVE,hot air balloons,113,116,116,116,116,116,False,3,3,3,0
+POS__5141.jpg,5141.jpg,cashew nuts,POSITIVE,cashew nuts,30,40,40,40,40,40,False,10,10,10,0
+POS__5142.jpg,5142.jpg,cashew nuts,POSITIVE,cashew nuts,193,174,174,174,174,174,False,19,19,19,0
+POS__5143.jpg,5143.jpg,cashew nuts,POSITIVE,cashew nuts,63,64,64,64,64,64,False,1,1,1,0
+POS__5144.jpg,5144.jpg,cashew nuts,POSITIVE,cashew nuts,87,74,74,74,74,74,False,13,13,13,0
+POS__5145.jpg,5145.jpg,cashew nuts,POSITIVE,cashew nuts,15,15,15,15,15,15,False,0,0,0,0
+POS__5147.jpg,5147.jpg,cashew nuts,POSITIVE,cashew nuts,46,43,43,43,43,43,False,3,3,3,0
+POS__5148.jpg,5148.jpg,cashew nuts,POSITIVE,cashew nuts,36,37,37,37,37,37,False,1,1,1,0
+POS__5149.jpg,5149.jpg,cashew nuts,POSITIVE,cashew nuts,111,110,110,110,110,110,False,1,1,1,0
+POS__5356.jpg,5356.jpg,marbles,POSITIVE,marbles,16,16,16,16,16,16,False,0,0,0,0
+POS__5357.jpg,5357.jpg,marbles,POSITIVE,marbles,12,12,12,12,12,12,False,0,0,0,0
+POS__5358.jpg,5358.jpg,marbles,POSITIVE,marbles,25,25,25,25,25,25,False,0,0,0,0
+POS__5359.jpg,5359.jpg,marbles,POSITIVE,marbles,33,33,33,33,33,33,False,0,0,0,0
+POS__5360.jpg,5360.jpg,marbles,POSITIVE,marbles,65,65,65,65,65,65,False,0,0,0,0
+POS__5361.jpg,5361.jpg,marbles,POSITIVE,marbles,27,25,25,25,25,25,False,2,2,2,0
+POS__5362.jpg,5362.jpg,marbles,POSITIVE,marbles,18,0,0,22,22,22,False,18,4,4,0
+POS__5363.jpg,5363.jpg,marbles,POSITIVE,marbles,35,37,37,37,37,37,False,2,2,2,0
+POS__5364.jpg,5364.jpg,marbles,POSITIVE,marbles,23,23,23,23,23,23,False,0,0,0,0
+POS__5365.jpg,5365.jpg,marbles,POSITIVE,marbles,9,0,0,0,0,0,False,9,9,9,0
+POS__5366.jpg,5366.jpg,marbles,POSITIVE,marbles,57,58,58,58,58,58,False,1,1,1,0
+POS__5367.jpg,5367.jpg,marbles,POSITIVE,marbles,150,150,150,150,150,150,False,0,0,0,0
+POS__5368.jpg,5368.jpg,marbles,POSITIVE,marbles,153,156,156,156,156,156,False,3,3,3,0
+POS__5369.jpg,5369.jpg,marbles,POSITIVE,marbles,26,25,25,25,25,25,False,1,1,1,0
+POS__5371.jpg,5371.jpg,marbles,POSITIVE,marbles,44,44,44,44,44,44,False,0,0,0,0
+POS__5372.jpg,5372.jpg,marbles,POSITIVE,marbles,31,31,31,31,31,31,False,0,0,0,0
+POS__5373.jpg,5373.jpg,marbles,POSITIVE,marbles,40,42,42,42,42,42,False,2,2,2,0
+POS__5374.jpg,5374.jpg,finger foods,POSITIVE,finger foods,16,16,16,16,16,16,False,0,0,0,0
+POS__5375.jpg,5375.jpg,finger foods,POSITIVE,finger foods,18,13,13,13,13,13,False,5,5,5,0
+POS__5376.jpg,5376.jpg,finger foods,POSITIVE,finger foods,13,10,10,10,10,10,False,3,3,3,0
+POS__5377.jpg,5377.jpg,finger foods,POSITIVE,finger foods,9,9,9,9,9,9,False,0,0,0,0
+POS__5378.jpg,5378.jpg,finger foods,POSITIVE,finger foods,11,11,11,11,11,11,False,0,0,0,0
+POS__5379.jpg,5379.jpg,finger foods,POSITIVE,finger foods,9,0,0,0,0,0,False,9,9,9,0
+POS__5380.jpg,5380.jpg,finger foods,POSITIVE,finger foods,9,9,9,9,9,9,False,0,0,0,0
+POS__5381.jpg,5381.jpg,finger foods,POSITIVE,finger foods,9,9,9,9,9,9,False,0,0,0,0
+POS__5382.jpg,5382.jpg,finger foods,POSITIVE,finger foods,9,9,9,9,9,9,False,0,0,0,0
+POS__5383.jpg,5383.jpg,finger foods,POSITIVE,finger foods,10,10,10,10,10,10,False,0,0,0,0
+POS__5385.jpg,5385.jpg,finger foods,POSITIVE,finger foods,9,9,9,9,9,9,False,0,0,0,0
+POS__5386.jpg,5386.jpg,finger foods,POSITIVE,finger foods,14,14,14,14,14,14,False,0,0,0,0
+POS__5387.jpg,5387.jpg,finger foods,POSITIVE,finger foods,8,0,0,0,0,0,False,8,8,8,0
+POS__5388.jpg,5388.jpg,finger foods,POSITIVE,finger foods,13,11,11,11,11,11,False,2,2,2,0
+POS__5390.jpg,5390.jpg,finger foods,POSITIVE,finger foods,14,14,14,14,14,14,False,0,0,0,0
+POS__5391.jpg,5391.jpg,finger foods,POSITIVE,finger foods,12,12,12,12,12,12,False,0,0,0,0
+POS__5458.jpg,5458.jpg,green peas,POSITIVE,green peas,25,25,25,25,25,25,False,0,0,0,0
+POS__5459.jpg,5459.jpg,green peas,POSITIVE,green peas,72,73,73,73,73,73,False,1,1,1,0
+POS__5460.jpg,5460.jpg,green peas,POSITIVE,green peas,131,141,141,141,141,141,False,10,10,10,0
+POS__5461.jpg,5461.jpg,green peas,POSITIVE,green peas,18,18,18,18,18,18,False,0,0,0,0
+POS__5463.jpg,5463.jpg,green peas,POSITIVE,green peas,11,12,12,12,12,12,False,1,1,1,0
+POS__5464.jpg,5464.jpg,green peas,POSITIVE,green peas,54,53,53,53,53,53,False,1,1,1,0
+POS__5503.jpg,5503.jpg,green peas,POSITIVE,green peas,131,141,141,141,141,141,False,10,10,10,0
+POS__5504.jpg,5504.jpg,green peas,POSITIVE,green peas,122,125,125,125,125,125,False,3,3,3,0
+POS__5505.jpg,5505.jpg,green peas,POSITIVE,green peas,89,108,108,108,108,108,False,19,19,19,0
+POS__5506.jpg,5506.jpg,green peas,POSITIVE,green peas,88,95,95,95,95,95,False,7,7,7,0
+POS__5507.jpg,5507.jpg,green peas,POSITIVE,green peas,262,269,269,269,269,269,False,7,7,7,0
+POS__5508.jpg,5508.jpg,green peas,POSITIVE,green peas,84,101,101,101,101,101,False,17,17,17,0
+POS__5509.jpg,5509.jpg,green peas,POSITIVE,green peas,155,151,151,151,151,151,False,4,4,4,0
+POS__5510.jpg,5510.jpg,green peas,POSITIVE,green peas,121,137,137,137,137,137,False,16,16,16,0
+POS__5511.jpg,5511.jpg,green peas,POSITIVE,green peas,18,18,18,18,18,18,False,0,0,0,0
+POS__5512.jpg,5512.jpg,green peas,POSITIVE,green peas,72,80,80,80,80,80,False,8,8,8,0
+POS__5513.jpg,5513.jpg,green peas,POSITIVE,green peas,89,93,93,93,93,93,False,4,4,4,0
+POS__5514.jpg,5514.jpg,green peas,POSITIVE,green peas,112,104,104,104,104,104,False,8,8,8,0
+POS__5562.jpg,5562.jpg,finger foods,POSITIVE,finger foods,13,12,12,12,12,12,False,1,1,1,0
+POS__5563.jpg,5563.jpg,finger foods,POSITIVE,finger foods,189,0,0,0,0,0,False,189,189,189,0
+POS__5564.jpg,5564.jpg,finger foods,POSITIVE,finger foods,16,6,6,6,6,6,False,10,10,10,0
+POS__5565.jpg,5565.jpg,finger foods,POSITIVE,finger foods,8,8,8,8,8,8,False,0,0,0,0
+POS__5566.jpg,5566.jpg,finger foods,POSITIVE,finger foods,33,34,34,34,34,34,False,1,1,1,0
+POS__5567.jpg,5567.jpg,finger foods,POSITIVE,finger foods,51,52,52,52,52,52,False,1,1,1,0
+POS__5568.jpg,5568.jpg,finger foods,POSITIVE,finger foods,30,30,30,30,30,30,False,0,0,0,0
+POS__5571.jpg,5571.jpg,marbles,POSITIVE,marbles,20,20,20,20,20,20,False,0,0,0,0
+POS__5572.jpg,5572.jpg,marbles,POSITIVE,marbles,9,9,9,9,9,9,False,0,0,0,0
+POS__5573.jpg,5573.jpg,marbles,POSITIVE,marbles,26,26,26,26,26,26,False,0,0,0,0
+POS__5574.jpg,5574.jpg,marbles,POSITIVE,marbles,90,68,68,68,68,68,False,22,22,22,0
+POS__5575.jpg,5575.jpg,marbles,POSITIVE,marbles,12,12,12,12,12,12,False,0,0,0,0
+POS__5576.jpg,5576.jpg,marbles,POSITIVE,marbles,67,69,69,69,69,69,False,2,2,2,0
+POS__5577.jpg,5577.jpg,marbles,POSITIVE,marbles,51,52,52,52,52,52,False,1,1,1,0
+POS__5578.jpg,5578.jpg,marbles,POSITIVE,marbles,32,33,33,33,33,33,False,1,1,1,0
+POS__5579.jpg,5579.jpg,marbles,POSITIVE,marbles,33,33,33,33,33,33,False,0,0,0,0
+POS__5580.jpg,5580.jpg,marbles,POSITIVE,marbles,42,42,42,42,42,42,False,0,0,0,0
+POS__5581.jpg,5581.jpg,marbles,POSITIVE,marbles,8,8,8,8,8,8,False,0,0,0,0
+POS__5582.jpg,5582.jpg,marbles,POSITIVE,marbles,47,47,47,47,47,47,False,0,0,0,0
+POS__5583.jpg,5583.jpg,marbles,POSITIVE,marbles,12,12,12,12,12,12,False,0,0,0,0
+POS__5584.jpg,5584.jpg,marbles,POSITIVE,marbles,51,51,51,51,51,51,False,0,0,0,0
+POS__5585.jpg,5585.jpg,marbles,POSITIVE,marbles,32,32,32,32,32,32,False,0,0,0,0
+POS__5587.jpg,5587.jpg,marbles,POSITIVE,marbles,16,16,16,16,16,16,False,0,0,0,0
+POS__5588.jpg,5588.jpg,marbles,POSITIVE,marbles,49,49,49,49,49,49,False,0,0,0,0
+POS__5590.jpg,5590.jpg,marbles,POSITIVE,marbles,17,17,17,17,17,17,False,0,0,0,0
+POS__5591.jpg,5591.jpg,marbles,POSITIVE,marbles,32,32,32,32,32,32,False,0,0,0,0
+POS__5592.jpg,5592.jpg,marbles,POSITIVE,marbles,93,93,93,93,93,93,False,0,0,0,0
+POS__5593.jpg,5593.jpg,marbles,POSITIVE,marbles,23,23,23,23,23,23,False,0,0,0,0
+POS__5594.jpg,5594.jpg,marbles,POSITIVE,marbles,15,15,15,15,15,15,False,0,0,0,0
+POS__5595.jpg,5595.jpg,marbles,POSITIVE,marbles,15,15,15,15,15,15,False,0,0,0,0
+POS__5596.jpg,5596.jpg,marbles,POSITIVE,marbles,40,40,40,40,40,40,False,0,0,0,0
+POS__5597.jpg,5597.jpg,marbles,POSITIVE,marbles,128,51,51,51,51,51,False,77,77,77,0
+POS__5598.jpg,5598.jpg,marbles,POSITIVE,marbles,23,23,23,23,23,23,False,0,0,0,0
+POS__5599.jpg,5599.jpg,marbles,POSITIVE,marbles,33,33,33,33,33,33,False,0,0,0,0
+POS__5600.jpg,5600.jpg,marbles,POSITIVE,marbles,149,48,48,48,48,48,False,101,101,101,0
+POS__5601.jpg,5601.jpg,marbles,POSITIVE,marbles,22,22,22,22,22,22,False,0,0,0,0
+POS__5602.jpg,5602.jpg,marbles,POSITIVE,marbles,21,21,21,21,21,21,False,0,0,0,0
+POS__5791.jpg,5791.jpg,cashew nuts,POSITIVE,cashew nuts,35,44,44,44,44,44,False,9,9,9,0
+POS__5792.jpg,5792.jpg,cashew nuts,POSITIVE,cashew nuts,21,21,21,21,21,21,False,0,0,0,0
+POS__5793.jpg,5793.jpg,cashew nuts,POSITIVE,cashew nuts,48,47,47,47,47,47,False,1,1,1,0
+POS__5794.jpg,5794.jpg,cashew nuts,POSITIVE,cashew nuts,13,13,13,13,13,13,False,0,0,0,0
+POS__5795.jpg,5795.jpg,cashew nuts,POSITIVE,cashew nuts,84,84,84,84,84,84,False,0,0,0,0
+POS__5796.jpg,5796.jpg,cashew nuts,POSITIVE,cashew nuts,71,77,77,77,77,77,False,6,6,6,0
+POS__5797.jpg,5797.jpg,cashew nuts,POSITIVE,cashew nuts,58,60,60,60,60,60,False,2,2,2,0
+POS__5798.jpg,5798.jpg,cashew nuts,POSITIVE,cashew nuts,45,43,43,43,43,43,False,2,2,2,0
+POS__5799.jpg,5799.jpg,cashew nuts,POSITIVE,cashew nuts,50,51,51,51,51,51,False,1,1,1,0
+POS__5800.jpg,5800.jpg,cashew nuts,POSITIVE,cashew nuts,12,13,13,13,13,13,False,1,1,1,0
+POS__5801.jpg,5801.jpg,cashew nuts,POSITIVE,cashew nuts,157,174,174,174,174,174,False,17,17,17,0
+POS__5802.jpg,5802.jpg,cashew nuts,POSITIVE,cashew nuts,14,14,14,14,14,14,False,0,0,0,0
+POS__5803.jpg,5803.jpg,cashew nuts,POSITIVE,cashew nuts,35,37,37,37,37,37,False,2,2,2,0
+POS__5804.jpg,5804.jpg,cashew nuts,POSITIVE,cashew nuts,43,41,41,41,41,41,False,2,2,2,0
+POS__5805.jpg,5805.jpg,cashew nuts,POSITIVE,cashew nuts,31,34,34,34,34,34,False,3,3,3,0
+POS__5806.jpg,5806.jpg,cashew nuts,POSITIVE,cashew nuts,46,43,43,43,43,43,False,3,3,3,0
+POS__5807.jpg,5807.jpg,cashew nuts,POSITIVE,cashew nuts,110,110,110,110,110,110,False,0,0,0,0
+POS__5808.jpg,5808.jpg,cashew nuts,POSITIVE,cashew nuts,53,59,59,59,59,59,False,6,6,6,0
+POS__5809.jpg,5809.jpg,cashew nuts,POSITIVE,cashew nuts,26,25,25,25,25,25,False,1,1,1,0
+POS__5810.jpg,5810.jpg,strawberries,POSITIVE,strawberries,90,95,95,95,95,95,False,5,5,5,0
+POS__5811.jpg,5811.jpg,strawberries,POSITIVE,strawberries,37,38,38,38,38,38,False,1,1,1,0
+POS__5812.jpg,5812.jpg,strawberries,POSITIVE,strawberries,51,56,56,56,56,56,False,5,5,5,0
+POS__5813.jpg,5813.jpg,strawberries,POSITIVE,strawberries,12,12,12,12,12,12,False,0,0,0,0
+POS__5814.jpg,5814.jpg,strawberries,POSITIVE,strawberries,34,37,37,37,37,37,False,3,3,3,0
+POS__5815.jpg,5815.jpg,strawberries,POSITIVE,strawberries,146,143,143,143,143,143,False,3,3,3,0
+POS__5816.jpg,5816.jpg,strawberries,POSITIVE,strawberries,101,108,108,108,108,108,False,7,7,7,0
+POS__5817.jpg,5817.jpg,strawberries,POSITIVE,strawberries,41,43,43,43,43,43,False,2,2,2,0
+POS__5818.jpg,5818.jpg,strawberries,POSITIVE,strawberries,56,56,56,56,56,56,False,0,0,0,0
+POS__5819.jpg,5819.jpg,strawberries,POSITIVE,strawberries,9,9,9,9,9,9,False,0,0,0,0
+POS__5820.jpg,5820.jpg,strawberries,POSITIVE,strawberries,23,23,23,23,23,23,False,0,0,0,0
+POS__5821.jpg,5821.jpg,strawberries,POSITIVE,strawberries,96,98,98,98,98,98,False,2,2,2,0
+POS__5822.jpg,5822.jpg,strawberries,POSITIVE,strawberries,128,131,131,131,131,131,False,3,3,3,0
+POS__5823.jpg,5823.jpg,strawberries,POSITIVE,strawberries,69,78,78,78,78,78,False,9,9,9,0
+POS__5824.jpg,5824.jpg,strawberries,POSITIVE,strawberries,24,19,19,19,19,19,False,5,5,5,0
+POS__5825.jpg,5825.jpg,strawberries,POSITIVE,strawberries,14,14,14,14,14,14,False,0,0,0,0
+POS__5826.jpg,5826.jpg,strawberries,POSITIVE,strawberries,47,54,54,54,54,54,False,7,7,7,0
+POS__5827.jpg,5827.jpg,strawberries,POSITIVE,strawberries,56,57,57,57,57,57,False,1,1,1,0
+POS__5828.jpg,5828.jpg,strawberries,POSITIVE,strawberries,12,12,12,12,12,12,False,0,0,0,0
+POS__5829.jpg,5829.jpg,strawberries,POSITIVE,strawberries,165,172,172,172,172,172,False,7,7,7,0
+POS__5830.jpg,5830.jpg,strawberries,POSITIVE,strawberries,35,34,34,34,34,34,False,1,1,1,0
+POS__5831.jpg,5831.jpg,strawberries,POSITIVE,strawberries,101,125,125,125,125,125,False,24,24,24,0
+POS__5832.jpg,5832.jpg,strawberries,POSITIVE,strawberries,122,133,133,133,133,133,False,11,11,11,0
+POS__5833.jpg,5833.jpg,strawberries,POSITIVE,strawberries,92,91,91,91,91,91,False,1,1,1,0
+POS__5834.jpg,5834.jpg,strawberries,POSITIVE,strawberries,27,32,32,32,32,32,False,5,5,5,0
+POS__5835.jpg,5835.jpg,strawberries,POSITIVE,strawberries,79,80,80,80,80,80,False,1,1,1,0
+POS__5836.jpg,5836.jpg,strawberries,POSITIVE,strawberries,18,19,19,19,19,19,False,1,1,1,0
+POS__5837.jpg,5837.jpg,strawberries,POSITIVE,strawberries,18,18,18,18,18,18,False,0,0,0,0
+POS__5838.jpg,5838.jpg,strawberries,POSITIVE,strawberries,113,115,115,115,115,115,False,2,2,2,0
+POS__5839.jpg,5839.jpg,strawberries,POSITIVE,strawberries,45,45,45,45,45,45,False,0,0,0,0
+POS__5840.jpg,5840.jpg,strawberries,POSITIVE,strawberries,111,118,118,118,118,118,False,7,7,7,0
+POS__5841.jpg,5841.jpg,strawberries,POSITIVE,strawberries,51,50,50,50,50,50,False,1,1,1,0
+POS__5842.jpg,5842.jpg,strawberries,POSITIVE,strawberries,52,53,53,53,53,53,False,1,1,1,0
+POS__5843.jpg,5843.jpg,strawberries,POSITIVE,strawberries,74,79,79,79,79,79,False,5,5,5,0
+POS__5844.jpg,5844.jpg,strawberries,POSITIVE,strawberries,75,73,73,73,73,73,False,2,2,2,0
+POS__5845.jpg,5845.jpg,strawberries,POSITIVE,strawberries,57,58,58,58,58,58,False,1,1,1,0
+POS__5846.jpg,5846.jpg,strawberries,POSITIVE,strawberries,34,38,38,38,38,38,False,4,4,4,0
+POS__5847.jpg,5847.jpg,strawberries,POSITIVE,strawberries,13,13,13,13,13,13,False,0,0,0,0
+POS__5848.jpg,5848.jpg,strawberries,POSITIVE,strawberries,21,22,22,22,22,22,False,1,1,1,0
+POS__5849.jpg,5849.jpg,strawberries,POSITIVE,strawberries,38,44,44,44,44,44,False,6,6,6,0
+POS__5850.jpg,5850.jpg,strawberries,POSITIVE,strawberries,9,9,9,9,9,9,False,0,0,0,0
+POS__5851.jpg,5851.jpg,strawberries,POSITIVE,strawberries,43,49,49,49,49,49,False,6,6,6,0
+POS__5852.jpg,5852.jpg,strawberries,POSITIVE,strawberries,42,50,50,50,50,50,False,8,8,8,0
+POS__5853.jpg,5853.jpg,strawberries,POSITIVE,strawberries,95,96,96,96,96,96,False,1,1,1,0
+POS__5854.jpg,5854.jpg,strawberries,POSITIVE,strawberries,25,26,26,26,26,26,False,1,1,1,0
+POS__5855.jpg,5855.jpg,strawberries,POSITIVE,strawberries,135,139,139,139,139,139,False,4,4,4,0
+POS__5856.jpg,5856.jpg,strawberries,POSITIVE,strawberries,78,82,82,82,82,82,False,4,4,4,0
+POS__5915.jpg,5915.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__5916.jpg,5916.jpg,eggs,POSITIVE,eggs,38,54,54,54,54,54,False,16,16,16,0
+POS__5917.jpg,5917.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__5918.jpg,5918.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__5919.jpg,5919.jpg,eggs,POSITIVE,eggs,39,44,44,44,44,44,False,5,5,5,0
+POS__5920.jpg,5920.jpg,eggs,POSITIVE,eggs,18,18,18,18,18,18,False,0,0,0,0
+POS__5921.jpg,5921.jpg,eggs,POSITIVE,eggs,30,30,30,30,30,30,False,0,0,0,0
+POS__5922.jpg,5922.jpg,eggs,POSITIVE,eggs,35,36,36,36,36,36,False,1,1,1,0
+POS__5923.jpg,5923.jpg,eggs,POSITIVE,eggs,13,13,13,13,13,13,False,0,0,0,0
+POS__5924.jpg,5924.jpg,eggs,POSITIVE,eggs,16,17,17,17,17,17,False,1,1,1,0
+POS__5925.jpg,5925.jpg,eggs,POSITIVE,eggs,22,22,22,22,22,22,False,0,0,0,0
+POS__5926.jpg,5926.jpg,eggs,POSITIVE,eggs,10,10,10,10,10,10,False,0,0,0,0
+POS__5927.jpg,5927.jpg,eggs,POSITIVE,eggs,11,11,11,11,11,11,False,0,0,0,0
+POS__5928.jpg,5928.jpg,eggs,POSITIVE,eggs,58,66,66,66,66,66,False,8,8,8,0
+POS__5929.jpg,5929.jpg,eggs,POSITIVE,eggs,76,76,76,76,76,76,False,0,0,0,0
+POS__5930.jpg,5930.jpg,eggs,POSITIVE,eggs,14,14,14,14,14,14,False,0,0,0,0
+POS__5931.jpg,5931.jpg,eggs,POSITIVE,eggs,9,9,9,9,9,9,False,0,0,0,0
+POS__5932.jpg,5932.jpg,eggs,POSITIVE,eggs,20,20,20,20,20,20,False,0,0,0,0
+POS__5933.jpg,5933.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__5934.jpg,5934.jpg,eggs,POSITIVE,eggs,17,17,17,17,17,17,False,0,0,0,0
+POS__5935.jpg,5935.jpg,eggs,POSITIVE,eggs,15,16,16,16,16,16,False,1,1,1,0
+POS__5936.jpg,5936.jpg,eggs,POSITIVE,eggs,18,18,18,18,18,18,False,0,0,0,0
+POS__5937.jpg,5937.jpg,eggs,POSITIVE,eggs,10,10,10,10,10,10,False,0,0,0,0
+POS__5938.jpg,5938.jpg,eggs,POSITIVE,eggs,31,32,32,32,32,32,False,1,1,1,0
+POS__5939.jpg,5939.jpg,eggs,POSITIVE,eggs,8,8,8,8,8,8,False,0,0,0,0
+POS__5940.jpg,5940.jpg,eggs,POSITIVE,eggs,27,28,28,28,28,28,False,1,1,1,0
+POS__5941.jpg,5941.jpg,eggs,POSITIVE,eggs,10,10,10,10,10,10,False,0,0,0,0
+POS__5942.jpg,5942.jpg,eggs,POSITIVE,eggs,10,10,10,10,10,10,False,0,0,0,0
+POS__5943.jpg,5943.jpg,eggs,POSITIVE,eggs,48,47,47,47,47,47,False,1,1,1,0
+POS__5944.jpg,5944.jpg,eggs,POSITIVE,eggs,15,15,15,15,15,15,False,0,0,0,0
+POS__6.jpg,6.jpg,hot air balloons,POSITIVE,hot air balloons,9,8,8,8,8,8,False,1,1,1,0
+POS__6042.jpg,6042.jpg,stamps,POSITIVE,stamps,12,9,9,9,9,9,False,3,3,3,0
+POS__6043.jpg,6043.jpg,keyboard keys,POSITIVE,keyboard keys,102,99,99,99,99,99,False,3,3,3,0
+POS__6044.jpg,6044.jpg,keyboard keys,POSITIVE,keyboard keys,86,4,4,4,4,4,False,82,82,82,0
+POS__6045.jpg,6045.jpg,keyboard keys,POSITIVE,keyboard keys,42,31,31,31,31,31,False,11,11,11,0
+POS__6046.jpg,6046.jpg,keyboard keys,POSITIVE,keyboard keys,60,60,60,60,60,60,False,0,0,0,0
+POS__6047.jpg,6047.jpg,keyboard keys,POSITIVE,keyboard keys,185,3,3,3,3,3,False,182,182,182,0
+POS__6048.jpg,6048.jpg,keyboard keys,POSITIVE,keyboard keys,103,1,1,1,1,1,False,102,102,102,0
+POS__6049.jpg,6049.jpg,keyboard keys,POSITIVE,keyboard keys,82,30,30,30,30,30,False,52,52,52,0
+POS__6050.jpg,6050.jpg,keyboard keys,POSITIVE,keyboard keys,104,1,1,1,1,1,False,103,103,103,0
+POS__6051.jpg,6051.jpg,keyboard keys,POSITIVE,keyboard keys,84,80,80,80,80,80,False,4,4,4,0
+POS__6052.jpg,6052.jpg,keyboard keys,POSITIVE,keyboard keys,47,1,1,1,1,1,False,46,46,46,0
+POS__6053.jpg,6053.jpg,keyboard keys,POSITIVE,keyboard keys,108,15,1,1,1,1,False,107,107,107,0
+POS__6054.jpg,6054.jpg,keyboard keys,POSITIVE,keyboard keys,112,1,1,1,1,1,False,111,111,111,0
+POS__6240.jpg,6240.jpg,apples,POSITIVE,apples,34,33,33,33,33,33,False,1,1,1,0
+POS__6241.jpg,6241.jpg,apples,POSITIVE,apples,293,275,275,275,275,275,False,18,18,18,0
+POS__6242.jpg,6242.jpg,apples,POSITIVE,apples,73,87,87,87,87,87,False,14,14,14,0
+POS__6243.jpg,6243.jpg,apples,POSITIVE,apples,24,26,26,26,26,26,False,2,2,2,0
+POS__6244.jpg,6244.jpg,apples,POSITIVE,apples,39,45,45,45,45,45,False,6,6,6,0
+POS__6245.jpg,6245.jpg,apples,POSITIVE,apples,12,12,12,12,12,12,False,0,0,0,0
+POS__6246.jpg,6246.jpg,apples,POSITIVE,apples,35,31,31,31,31,31,False,4,4,4,0
+POS__6247.jpg,6247.jpg,apples,POSITIVE,apples,15,15,15,15,15,15,False,0,0,0,0
+POS__6248.jpg,6248.jpg,apples,POSITIVE,apples,82,82,82,82,82,82,False,0,0,0,0
+POS__6249.jpg,6249.jpg,apples,POSITIVE,apples,111,130,130,130,130,130,False,19,19,19,0
+POS__6250.jpg,6250.jpg,apples,POSITIVE,apples,42,49,49,49,49,49,False,7,7,7,0
+POS__6251.jpg,6251.jpg,apples,POSITIVE,apples,25,27,27,27,27,27,False,2,2,2,0
+POS__6252.jpg,6252.jpg,apples,POSITIVE,apples,89,91,91,91,91,91,False,2,2,2,0
+POS__6253.jpg,6253.jpg,apples,POSITIVE,apples,74,74,74,74,74,74,False,0,0,0,0
+POS__6254.jpg,6254.jpg,apples,POSITIVE,apples,34,35,35,35,35,35,False,1,1,1,0
+POS__6255.jpg,6255.jpg,apples,POSITIVE,apples,49,52,52,52,52,52,False,3,3,3,0
+POS__6256.jpg,6256.jpg,apples,POSITIVE,apples,41,44,44,44,44,44,False,3,3,3,0
+POS__6257.jpg,6257.jpg,apples,POSITIVE,apples,12,12,12,12,12,12,False,0,0,0,0
+POS__6258.jpg,6258.jpg,apples,POSITIVE,apples,13,13,13,13,13,13,False,0,0,0,0
+POS__6259.jpg,6259.jpg,apples,POSITIVE,apples,74,83,83,83,83,83,False,9,9,9,0
+POS__6260.jpg,6260.jpg,apples,POSITIVE,apples,76,69,69,69,69,69,False,7,7,7,0
+POS__6261.jpg,6261.jpg,apples,POSITIVE,apples,324,379,379,379,379,379,False,55,55,55,0
+POS__6262.jpg,6262.jpg,apples,POSITIVE,apples,74,81,81,81,81,81,False,7,7,7,0
+POS__6263.jpg,6263.jpg,apples,POSITIVE,apples,23,25,25,25,25,25,False,2,2,2,0
+POS__6264.jpg,6264.jpg,apples,POSITIVE,apples,16,16,16,16,16,16,False,0,0,0,0
+POS__6265.jpg,6265.jpg,apples,POSITIVE,apples,90,94,94,94,94,94,False,4,4,4,0
+POS__6266.jpg,6266.jpg,apples,POSITIVE,apples,17,17,17,17,17,17,False,0,0,0,0
+POS__6267.jpg,6267.jpg,apples,POSITIVE,apples,95,102,102,102,102,102,False,7,7,7,0
+POS__6268.jpg,6268.jpg,apples,POSITIVE,apples,25,25,25,25,25,25,False,0,0,0,0
+POS__6269.jpg,6269.jpg,apples,POSITIVE,apples,50,49,49,49,49,49,False,1,1,1,0
+POS__6270.jpg,6270.jpg,apples,POSITIVE,apples,92,98,98,98,98,98,False,6,6,6,0
+POS__6271.jpg,6271.jpg,apples,POSITIVE,apples,240,256,256,256,256,256,False,16,16,16,0
+POS__6272.jpg,6272.jpg,apples,POSITIVE,apples,118,133,133,133,133,133,False,15,15,15,0
+POS__6273.jpg,6273.jpg,apples,POSITIVE,apples,34,39,39,39,39,39,False,5,5,5,0
+POS__6274.jpg,6274.jpg,apples,POSITIVE,apples,10,10,10,10,10,10,False,0,0,0,0
+POS__6275.jpg,6275.jpg,apples,POSITIVE,apples,32,48,48,48,48,48,False,16,16,16,0
+POS__6276.jpg,6276.jpg,apples,POSITIVE,apples,36,37,37,37,37,37,False,1,1,1,0
+POS__6277.jpg,6277.jpg,apples,POSITIVE,apples,42,45,45,45,45,45,False,3,3,3,0
+POS__6278.jpg,6278.jpg,apples,POSITIVE,apples,45,50,50,50,50,50,False,5,5,5,0
+POS__6279.jpg,6279.jpg,apples,POSITIVE,apples,10,10,10,10,10,10,False,0,0,0,0
+POS__6280.jpg,6280.jpg,apples,POSITIVE,apples,41,41,41,41,41,41,False,0,0,0,0
+POS__6281.jpg,6281.jpg,apples,POSITIVE,apples,675,724,724,724,724,724,False,49,49,49,0
+POS__6282.jpg,6282.jpg,apples,POSITIVE,apples,66,73,73,73,73,73,False,7,7,7,0
+POS__6283.jpg,6283.jpg,apples,POSITIVE,apples,21,23,23,23,23,23,False,2,2,2,0
+POS__6284.jpg,6284.jpg,apples,POSITIVE,apples,89,95,95,95,95,95,False,6,6,6,0
+POS__6285.jpg,6285.jpg,apples,POSITIVE,apples,101,107,107,107,107,107,False,6,6,6,0
+POS__6547.jpg,6547.jpg,sunglasses,POSITIVE,sunglasses,72,132,132,132,132,132,False,60,60,60,0
+POS__6548.jpg,6548.jpg,sunglasses,POSITIVE,sunglasses,18,18,18,18,18,18,False,0,0,0,0
+POS__6549.jpg,6549.jpg,sunglasses,POSITIVE,sunglasses,16,48,48,48,48,48,False,32,32,32,0
+POS__6550.jpg,6550.jpg,sunglasses,POSITIVE,sunglasses,14,30,30,30,30,30,False,16,16,16,0
+POS__6643.jpg,6643.jpg,markers,POSITIVE,markers,35,32,32,32,32,32,False,3,3,3,0
+POS__6644.jpg,6644.jpg,markers,POSITIVE,markers,500,0,0,521,521,521,False,500,21,21,0
+POS__6645.jpg,6645.jpg,markers,POSITIVE,markers,36,36,36,36,36,36,False,0,0,0,0
+POS__6646.jpg,6646.jpg,markers,POSITIVE,markers,13,17,17,17,17,17,False,4,4,4,0
+POS__6647.jpg,6647.jpg,markers,POSITIVE,markers,199,0,0,216,216,216,False,199,17,17,0
+POS__6648.jpg,6648.jpg,markers,POSITIVE,markers,48,48,48,48,48,48,False,0,0,0,0
+POS__6649.jpg,6649.jpg,markers,POSITIVE,markers,108,108,51,51,51,51,False,57,57,57,0
+POS__6650.jpg,6650.jpg,markers,POSITIVE,markers,20,21,21,21,21,21,False,1,1,1,0
+POS__6651.jpg,6651.jpg,markers,POSITIVE,markers,19,21,21,21,21,21,False,2,2,2,0
+POS__6652.jpg,6652.jpg,markers,POSITIVE,markers,33,34,34,34,34,34,False,1,1,1,0
+POS__6653.jpg,6653.jpg,markers,POSITIVE,markers,309,316,316,316,316,316,False,7,7,7,0
+POS__6654.jpg,6654.jpg,markers,POSITIVE,markers,41,1,0,0,0,0,False,41,41,41,0
+POS__6655.jpg,6655.jpg,markers,POSITIVE,markers,240,232,232,232,232,232,False,8,8,8,0
+POS__6656.jpg,6656.jpg,markers,POSITIVE,markers,100,105,105,105,105,105,False,5,5,5,0
+POS__6657.jpg,6657.jpg,markers,POSITIVE,markers,123,121,121,121,121,121,False,2,2,2,0
+POS__6658.jpg,6658.jpg,markers,POSITIVE,markers,361,282,282,282,282,282,False,79,79,79,0
+POS__6659.jpg,6659.jpg,markers,POSITIVE,markers,9,9,9,9,9,9,False,0,0,0,0
+POS__6660.jpg,6660.jpg,markers,POSITIVE,markers,10,10,10,10,10,10,False,0,0,0,0
+POS__6661.jpg,6661.jpg,markers,POSITIVE,markers,371,315,315,315,315,315,False,56,56,56,0
+POS__6710.jpg,6710.jpg,sticky notes,POSITIVE,sticky notes,121,117,117,117,117,117,False,4,4,4,0
+POS__6711.jpg,6711.jpg,markers,POSITIVE,markers,72,75,75,75,75,75,False,3,3,3,0
+POS__6713.jpg,6713.jpg,sheep,POSITIVE,sheep,190,207,207,207,207,207,False,17,17,17,0
+POS__6715.jpg,6715.jpg,stamps,POSITIVE,stamps,36,36,36,36,36,36,False,0,0,0,0
+POS__6732.jpg,6732.jpg,eggs,POSITIVE,eggs,39,176,176,176,176,176,False,137,137,137,0
+POS__6733.jpg,6733.jpg,eggs,POSITIVE,eggs,24,32,32,32,32,32,False,8,8,8,0
+POS__6735.jpg,6735.jpg,markers,POSITIVE,markers,73,84,84,84,84,84,False,11,11,11,0
+POS__6736.jpg,6736.jpg,comic books,POSITIVE,comic books,98,102,102,102,102,102,False,4,4,4,0
+POS__6739.jpg,6739.jpg,keyboard keys,POSITIVE,keyboard keys,108,34,34,34,34,34,False,74,74,74,0
+POS__6742.jpg,6742.jpg,comic books,POSITIVE,comic books,24,25,25,25,25,25,False,1,1,1,0
+POS__6743.jpg,6743.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,7,7,7,7,7,False,12,12,12,0
+POS__6750.jpg,6750.jpg,sheep,POSITIVE,sheep,109,118,118,118,118,118,False,9,9,9,0
+POS__6756.jpg,6756.jpg,eggs,POSITIVE,eggs,35,39,39,39,39,39,False,4,4,4,0
+POS__6760.jpg,6760.jpg,nail polish,POSITIVE,nail polish,100,109,109,109,109,109,False,9,9,9,0
+POS__6771.jpg,6771.jpg,sauce bottles,POSITIVE,sauce bottles,25,28,28,28,28,28,False,3,3,3,0
+POS__6785.jpg,6785.jpg,sunglasses,POSITIVE,sunglasses,45,100,100,100,100,100,False,55,55,55,0
+POS__6788.jpg,6788.jpg,nail polish,POSITIVE,nail polish,211,204,204,204,204,204,False,7,7,7,0
+POS__680.jpg,680.jpg,stamps,POSITIVE,stamps,12,12,12,12,12,12,False,0,0,0,0
+POS__6803.jpg,6803.jpg,comic books,POSITIVE,comic books,48,48,48,48,48,48,False,0,0,0,0
+POS__6804.jpg,6804.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__6809.jpg,6809.jpg,apples,POSITIVE,apples,140,156,156,156,156,156,False,16,16,16,0
+POS__681.jpg,681.jpg,watches,POSITIVE,watches,24,26,26,26,26,26,False,2,2,2,0
+POS__6810.jpg,6810.jpg,nail polish,POSITIVE,nail polish,40,40,40,40,40,40,False,0,0,0,0
+POS__6811.jpg,6811.jpg,sheep,POSITIVE,sheep,209,215,216,216,216,216,False,7,7,7,0
+POS__6813.jpg,6813.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,19,19,19,19,19,False,0,0,0,0
+POS__6815.jpg,6815.jpg,nail polish,POSITIVE,nail polish,114,114,114,114,114,114,False,0,0,0,0
+POS__682.jpg,682.jpg,watches,POSITIVE,watches,14,17,17,17,17,17,False,3,3,3,0
+POS__6822.jpg,6822.jpg,markers,POSITIVE,markers,175,184,184,184,184,184,False,9,9,9,0
+POS__6823.jpg,6823.jpg,sauce bottles,POSITIVE,sauce bottles,23,24,24,24,24,24,False,1,1,1,0
+POS__6827.jpg,6827.jpg,sauce bottles,POSITIVE,sauce bottles,16,16,16,16,16,16,False,0,0,0,0
+POS__6828.jpg,6828.jpg,nail polish,POSITIVE,nail polish,25,25,25,25,25,25,False,0,0,0,0
+POS__6829.jpg,6829.jpg,apples,POSITIVE,apples,107,174,174,174,174,174,False,67,67,67,0
+POS__6833.jpg,6833.jpg,deers,POSITIVE,deers,17,17,17,17,17,17,False,0,0,0,0
+POS__6838.jpg,6838.jpg,comic books,POSITIVE,comic books,25,28,28,28,28,28,False,3,3,3,0
+POS__6839.jpg,6839.jpg,watches,POSITIVE,watches,58,75,75,75,75,75,False,17,17,17,0
+POS__6842.jpg,6842.jpg,legos,POSITIVE,legos,36,185,185,185,185,185,False,149,149,149,0
+POS__6847.jpg,6847.jpg,sheep,POSITIVE,sheep,67,70,70,70,70,70,False,3,3,3,0
+POS__6849.jpg,6849.jpg,apples,POSITIVE,apples,22,22,22,22,22,22,False,0,0,0,0
+POS__685.jpg,685.jpg,apples,POSITIVE,apples,86,99,99,99,99,99,False,13,13,13,0
+POS__6852.jpg,6852.jpg,eggs,POSITIVE,eggs,68,76,76,76,76,76,False,8,8,8,0
+POS__6855.jpg,6855.jpg,keyboard keys,POSITIVE,keyboard keys,79,79,79,79,79,79,False,0,0,0,0
+POS__6856.jpg,6856.jpg,legos,POSITIVE,legos,15,16,16,16,16,16,False,1,1,1,0
+POS__6857.jpg,6857.jpg,sticky notes,POSITIVE,sticky notes,93,92,92,92,92,92,False,1,1,1,0
+POS__6859.jpg,6859.jpg,eggs,POSITIVE,eggs,24,24,24,24,24,24,False,0,0,0,0
+POS__686.jpg,686.jpg,apples,POSITIVE,apples,47,50,50,50,50,50,False,3,3,3,0
+POS__6860.jpg,6860.jpg,legos,POSITIVE,legos,512,0,0,0,0,0,False,512,512,512,0
+POS__6869.jpg,6869.jpg,elephants,POSITIVE,elephants,13,13,13,13,13,13,False,0,0,0,0
+POS__687.jpg,687.jpg,apples,POSITIVE,apples,548,600,600,600,600,600,False,52,52,52,0
+POS__6876.jpg,6876.jpg,eggs,POSITIVE,eggs,58,82,82,82,82,82,False,24,24,24,0
+POS__6879.jpg,6879.jpg,eggs,POSITIVE,eggs,16,16,16,16,16,16,False,0,0,0,0
+POS__689.jpg,689.jpg,apples,POSITIVE,apples,63,67,67,67,67,67,False,4,4,4,0
+POS__6892.jpg,6892.jpg,stamps,POSITIVE,stamps,54,54,54,54,54,54,False,0,0,0,0
+POS__6893.jpg,6893.jpg,sheep,POSITIVE,sheep,81,79,79,79,79,79,False,2,2,2,0
+POS__6898.jpg,6898.jpg,nail polish,POSITIVE,nail polish,221,241,241,241,241,241,False,20,20,20,0
+POS__6901.jpg,6901.jpg,sheep,POSITIVE,sheep,38,40,40,40,40,40,False,2,2,2,0
+POS__6904.jpg,6904.jpg,carrom board pieces,POSITIVE,carrom board pieces,13,15,15,15,15,15,False,2,2,2,0
+POS__6906.jpg,6906.jpg,comic books,POSITIVE,comic books,36,37,37,37,37,37,False,1,1,1,0
+POS__6908.jpg,6908.jpg,legos,POSITIVE,legos,85,86,86,86,86,86,False,1,1,1,0
+POS__691.jpg,691.jpg,apples,POSITIVE,apples,109,102,102,102,102,102,False,7,7,7,0
+POS__6918.jpg,6918.jpg,nail polish,POSITIVE,nail polish,87,87,87,87,87,87,False,0,0,0,0
+POS__692.jpg,692.jpg,apples,POSITIVE,apples,11,11,11,11,11,11,False,0,0,0,0
+POS__6920.jpg,6920.jpg,comic books,POSITIVE,comic books,44,37,37,37,37,37,False,7,7,7,0
+POS__6922.jpg,6922.jpg,comic books,POSITIVE,comic books,70,71,71,71,71,71,False,1,1,1,0
+POS__6923.jpg,6923.jpg,stamps,POSITIVE,stamps,28,28,28,28,28,28,False,0,0,0,0
+POS__6928.jpg,6928.jpg,eggs,POSITIVE,eggs,30,30,30,30,30,30,False,0,0,0,0
+POS__693.jpg,693.jpg,apples,POSITIVE,apples,17,17,17,17,17,17,False,0,0,0,0
+POS__6935.jpg,6935.jpg,nail polish,POSITIVE,nail polish,60,69,69,69,69,69,False,9,9,9,0
+POS__6936.jpg,6936.jpg,apples,POSITIVE,apples,111,114,114,114,114,114,False,3,3,3,0
+POS__6938.jpg,6938.jpg,sauce bottles,POSITIVE,sauce bottles,45,45,45,45,45,45,False,0,0,0,0
+POS__694.jpg,694.jpg,apples,POSITIVE,apples,80,88,88,88,88,88,False,8,8,8,0
+POS__6943.jpg,6943.jpg,sauce bottles,POSITIVE,sauce bottles,34,44,44,44,44,44,False,10,10,10,0
+POS__695.jpg,695.jpg,apples,POSITIVE,apples,11,12,12,12,12,12,False,1,1,1,0
+POS__6950.jpg,6950.jpg,comic books,POSITIVE,comic books,24,24,24,24,24,24,False,0,0,0,0
+POS__6954.jpg,6954.jpg,eggs,POSITIVE,eggs,78,84,84,84,84,84,False,6,6,6,0
+POS__6956.jpg,6956.jpg,elephants,POSITIVE,elephants,27,30,0,0,0,0,False,27,27,27,0
+POS__6959.jpg,6959.jpg,markers,POSITIVE,markers,212,120,120,120,120,120,False,92,92,92,0
+POS__6960.jpg,6960.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,21,21,21,21,21,False,2,2,2,0
+POS__6962.jpg,6962.jpg,carrom board pieces,POSITIVE,carrom board pieces,29,30,30,30,30,30,False,1,1,1,0
+POS__6964.jpg,6964.jpg,sticky notes,POSITIVE,sticky notes,75,76,76,76,76,76,False,1,1,1,0
+POS__6965.jpg,6965.jpg,apples,POSITIVE,apples,70,77,77,77,77,77,False,7,7,7,0
+POS__697.jpg,697.jpg,apples,POSITIVE,apples,52,55,55,55,55,55,False,3,3,3,0
+POS__6971.jpg,6971.jpg,apples,POSITIVE,apples,101,110,110,110,110,110,False,9,9,9,0
+POS__6973.jpg,6973.jpg,nail polish,POSITIVE,nail polish,158,159,159,159,159,159,False,1,1,1,0
+POS__698.jpg,698.jpg,apples,POSITIVE,apples,154,190,190,190,190,190,False,36,36,36,0
+POS__6980.jpg,6980.jpg,elephants,POSITIVE,elephants,38,39,39,39,39,39,False,1,1,1,0
+POS__6985.jpg,6985.jpg,comic books,POSITIVE,comic books,143,147,147,147,147,147,False,4,4,4,0
+POS__6986.jpg,6986.jpg,stamps,POSITIVE,stamps,32,32,32,32,32,32,False,0,0,0,0
+POS__6990.jpg,6990.jpg,comic books,POSITIVE,comic books,45,48,48,48,48,48,False,3,3,3,0
+POS__6993.jpg,6993.jpg,sunglasses,POSITIVE,sunglasses,90,186,186,186,186,186,False,96,96,96,0
+POS__6994.jpg,6994.jpg,nail polish,POSITIVE,nail polish,272,323,243,243,243,243,False,29,29,29,0
+POS__6996.jpg,6996.jpg,eggs,POSITIVE,eggs,89,92,92,92,92,92,False,3,3,3,0
+POS__7000.jpg,7000.jpg,comic books,POSITIVE,comic books,65,66,66,66,66,66,False,1,1,1,0
+POS__701.jpg,701.jpg,apples,POSITIVE,apples,60,76,76,76,76,76,False,16,16,16,0
+POS__7015.jpg,7015.jpg,sunglasses,POSITIVE,sunglasses,141,278,278,278,278,278,False,137,137,137,0
+POS__702.jpg,702.jpg,apples,POSITIVE,apples,65,69,69,69,69,69,False,4,4,4,0
+POS__7023.jpg,7023.jpg,keyboard keys,POSITIVE,keyboard keys,78,77,77,77,77,77,False,1,1,1,0
+POS__7027.jpg,7027.jpg,apples,POSITIVE,apples,93,134,134,134,134,134,False,41,41,41,0
+POS__703.jpg,703.jpg,apples,POSITIVE,apples,44,49,49,49,49,49,False,5,5,5,0
+POS__7030.jpg,7030.jpg,sunglasses,POSITIVE,sunglasses,96,102,102,102,102,102,False,6,6,6,0
+POS__7034.jpg,7034.jpg,nail polish,POSITIVE,nail polish,43,48,48,48,48,48,False,5,5,5,0
+POS__7039.jpg,7039.jpg,sticky notes,POSITIVE,sticky notes,60,53,53,53,53,53,False,7,7,7,0
+POS__704.jpg,704.jpg,apples,POSITIVE,apples,59,73,73,73,73,73,False,14,14,14,0
+POS__7042.jpg,7042.jpg,sheep,POSITIVE,sheep,198,53,64,64,64,64,False,134,134,134,0
+POS__7043.jpg,7043.jpg,nail polish,POSITIVE,nail polish,95,96,96,96,96,96,False,1,1,1,0
+POS__7047.jpg,7047.jpg,sheep,POSITIVE,sheep,54,54,54,54,54,54,False,0,0,0,0
+POS__705.jpg,705.jpg,apples,POSITIVE,apples,46,46,46,46,46,46,False,0,0,0,0
+POS__7050.jpg,7050.jpg,comic books,POSITIVE,comic books,33,33,33,33,33,33,False,0,0,0,0
+POS__7056.jpg,7056.jpg,deers,POSITIVE,deers,77,79,79,79,79,79,False,2,2,2,0
+POS__706.jpg,706.jpg,apples,POSITIVE,apples,90,73,73,73,73,73,False,17,17,17,0
+POS__7062.jpg,7062.jpg,apples,POSITIVE,apples,59,66,66,66,66,66,False,7,7,7,0
+POS__7065.jpg,7065.jpg,elephants,POSITIVE,elephants,16,16,0,0,0,0,False,16,16,16,0
+POS__7067.jpg,7067.jpg,sticky notes,POSITIVE,sticky notes,53,46,46,46,46,46,False,7,7,7,0
+POS__7071.jpg,7071.jpg,sauce bottles,POSITIVE,sauce bottles,44,82,82,82,82,82,False,38,38,38,0
+POS__7075.jpg,7075.jpg,sheep,POSITIVE,sheep,195,0,0,0,170,0,True,195,195,25,-170
+POS__7076.jpg,7076.jpg,sauce bottles,POSITIVE,sauce bottles,31,45,45,45,45,45,False,14,14,14,0
+POS__7079.jpg,7079.jpg,nail polish,POSITIVE,nail polish,59,60,60,60,60,60,False,1,1,1,0
+POS__708.jpg,708.jpg,apples,POSITIVE,apples,15,16,16,16,16,16,False,1,1,1,0
+POS__7080.jpg,7080.jpg,comic books,POSITIVE,comic books,25,25,25,25,25,25,False,0,0,0,0
+POS__7082.jpg,7082.jpg,sheep,POSITIVE,sheep,128,133,133,133,133,133,False,5,5,5,0
+POS__709.jpg,709.jpg,apples,POSITIVE,apples,132,136,136,136,136,136,False,4,4,4,0
+POS__7090.jpg,7090.jpg,deers,POSITIVE,deers,31,31,31,31,31,31,False,0,0,0,0
+POS__7095.jpg,7095.jpg,sauce bottles,POSITIVE,sauce bottles,50,52,52,52,52,52,False,2,2,2,0
+POS__7096.jpg,7096.jpg,apples,POSITIVE,apples,19,19,19,19,19,19,False,0,0,0,0
+POS__7097.jpg,7097.jpg,sticky notes,POSITIVE,sticky notes,47,46,46,46,46,46,False,1,1,1,0
+POS__7098.jpg,7098.jpg,comic books,POSITIVE,comic books,49,51,51,51,51,51,False,2,2,2,0
+POS__710.jpg,710.jpg,apples,POSITIVE,apples,16,16,16,16,16,16,False,0,0,0,0
+POS__7106.jpg,7106.jpg,elephants,POSITIVE,elephants,13,12,12,12,12,12,False,1,1,1,0
+POS__7108.jpg,7108.jpg,sunglasses,POSITIVE,sunglasses,64,108,108,108,108,108,False,44,44,44,0
+POS__7109.jpg,7109.jpg,keyboard keys,POSITIVE,keyboard keys,48,48,48,48,48,48,False,0,0,0,0
+POS__711.jpg,711.jpg,apples,POSITIVE,apples,27,29,29,29,29,29,False,2,2,2,0
+POS__7114.jpg,7114.jpg,apples,POSITIVE,apples,289,311,311,311,311,311,False,22,22,22,0
+POS__7117.jpg,7117.jpg,carrom board pieces,POSITIVE,carrom board pieces,24,26,26,26,26,26,False,2,2,2,0
+POS__7118.jpg,7118.jpg,nail polish,POSITIVE,nail polish,33,33,33,33,33,33,False,0,0,0,0
+POS__712.jpg,712.jpg,apples,POSITIVE,apples,67,72,72,72,72,72,False,5,5,5,0
+POS__7120.jpg,7120.jpg,sticky notes,POSITIVE,sticky notes,47,48,48,48,48,48,False,1,1,1,0
+POS__7123.jpg,7123.jpg,sticky notes,POSITIVE,sticky notes,29,29,29,29,29,29,False,0,0,0,0
+POS__7126.jpg,7126.jpg,comic books,POSITIVE,comic books,45,49,49,49,49,49,False,4,4,4,0
+POS__7128.jpg,7128.jpg,eggs,POSITIVE,eggs,49,62,62,62,62,62,False,13,13,13,0
+POS__7129.jpg,7129.jpg,keyboard keys,POSITIVE,keyboard keys,104,2,1,1,1,1,False,103,103,103,0
+POS__713.jpg,713.jpg,apples,POSITIVE,apples,24,28,28,28,28,28,False,4,4,4,0
+POS__7131.jpg,7131.jpg,keyboard keys,POSITIVE,keyboard keys,123,0,0,78,78,78,False,123,45,45,0
+POS__7134.jpg,7134.jpg,elephants,POSITIVE,elephants,23,23,23,23,23,23,False,0,0,0,0
+POS__7136.jpg,7136.jpg,nail polish,POSITIVE,nail polish,87,92,92,92,92,92,False,5,5,5,0
+POS__714.jpg,714.jpg,apples,POSITIVE,apples,100,107,107,107,107,107,False,7,7,7,0
+POS__7140.jpg,7140.jpg,elephants,POSITIVE,elephants,22,26,26,26,26,26,False,4,4,4,0
+POS__7144.jpg,7144.jpg,apples,POSITIVE,apples,92,92,92,92,92,92,False,0,0,0,0
+POS__7145.jpg,7145.jpg,eggs,POSITIVE,eggs,24,24,24,24,24,24,False,0,0,0,0
+POS__7146.jpg,7146.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__715.jpg,715.jpg,apples,POSITIVE,apples,21,21,21,21,21,21,False,0,0,0,0
+POS__7153.jpg,7153.jpg,deers,POSITIVE,deers,18,21,21,21,21,21,False,3,3,3,0
+POS__716.jpg,716.jpg,apples,POSITIVE,apples,182,186,186,186,186,186,False,4,4,4,0
+POS__7161.jpg,7161.jpg,stamps,POSITIVE,stamps,36,40,40,40,40,40,False,4,4,4,0
+POS__7167.jpg,7167.jpg,markers,POSITIVE,markers,217,0,0,235,235,235,False,217,18,18,0
+POS__717.jpg,717.jpg,apples,POSITIVE,apples,20,19,19,19,19,19,False,1,1,1,0
+POS__7171.jpg,7171.jpg,legos,POSITIVE,legos,13,5,5,5,5,5,False,8,8,8,0
+POS__7173.jpg,7173.jpg,eggs,POSITIVE,eggs,48,48,48,48,48,48,False,0,0,0,0
+POS__7174.jpg,7174.jpg,legos,POSITIVE,legos,96,0,0,14,14,14,False,96,82,82,0
+POS__7175.jpg,7175.jpg,eggs,POSITIVE,eggs,38,40,40,40,40,40,False,2,2,2,0
+POS__7176.jpg,7176.jpg,apples,POSITIVE,apples,39,56,56,56,56,56,False,17,17,17,0
+POS__7188.jpg,7188.jpg,eggs,POSITIVE,eggs,67,67,67,67,67,67,False,0,0,0,0
+POS__719.jpg,719.jpg,apples,POSITIVE,apples,17,17,17,17,17,17,False,0,0,0,0
+POS__7192.jpg,7192.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,19,19,19,19,19,False,0,0,0,0
+POS__7195.jpg,7195.jpg,legos,POSITIVE,legos,384,87,87,87,87,87,False,297,297,297,0
+POS__7198.jpg,7198.jpg,nail polish,POSITIVE,nail polish,36,36,36,36,36,36,False,0,0,0,0
+POS__7200.jpg,7200.jpg,sticky notes,POSITIVE,sticky notes,56,56,56,56,56,56,False,0,0,0,0
+POS__7201.jpg,7201.jpg,nail polish,POSITIVE,nail polish,211,213,213,213,213,213,False,2,2,2,0
+POS__7205.jpg,7205.jpg,eggs,POSITIVE,eggs,113,125,125,125,125,125,False,12,12,12,0
+POS__7206.jpg,7206.jpg,keyboard keys,POSITIVE,keyboard keys,83,0,0,82,82,82,False,83,1,1,0
+POS__7216.jpg,7216.jpg,stamps,POSITIVE,stamps,25,25,25,25,25,25,False,0,0,0,0
+POS__7219.jpg,7219.jpg,nail polish,POSITIVE,nail polish,51,51,51,51,51,51,False,0,0,0,0
+POS__7221.jpg,7221.jpg,sunglasses,POSITIVE,sunglasses,60,110,110,110,110,110,False,50,50,50,0
+POS__7222.jpg,7222.jpg,stamps,POSITIVE,stamps,49,54,54,54,54,54,False,5,5,5,0
+POS__7239.jpg,7239.jpg,sheep,POSITIVE,sheep,180,174,174,174,174,174,False,6,6,6,0
+POS__7240.jpg,7240.jpg,eggs,POSITIVE,eggs,49,56,56,56,56,56,False,7,7,7,0
+POS__7248.jpg,7248.jpg,deers,POSITIVE,deers,22,24,24,24,24,24,False,2,2,2,0
+POS__7251.jpg,7251.jpg,sheep,POSITIVE,sheep,117,97,101,101,101,101,False,16,16,16,0
+POS__7253.jpg,7253.jpg,comic books,POSITIVE,comic books,47,48,1,1,1,1,False,46,46,46,0
+POS__7262.jpg,7262.jpg,apples,POSITIVE,apples,21,21,21,21,21,21,False,0,0,0,0
+POS__7263.jpg,7263.jpg,stamps,POSITIVE,stamps,43,44,44,44,44,44,False,1,1,1,0
+POS__7273.jpg,7273.jpg,stamps,POSITIVE,stamps,32,32,32,32,32,32,False,0,0,0,0
+POS__7277.jpg,7277.jpg,eggs,POSITIVE,eggs,26,38,38,38,38,38,False,12,12,12,0
+POS__7278.jpg,7278.jpg,nail polish,POSITIVE,nail polish,72,72,72,72,72,72,False,0,0,0,0
+POS__7281.jpg,7281.jpg,sheep,POSITIVE,sheep,75,74,74,74,74,74,False,1,1,1,0
+POS__7282.jpg,7282.jpg,elephants,POSITIVE,elephants,23,24,24,24,24,24,False,1,1,1,0
+POS__7283.jpg,7283.jpg,apples,POSITIVE,apples,22,23,23,23,23,23,False,1,1,1,0
+POS__7284.jpg,7284.jpg,sunglasses,POSITIVE,sunglasses,40,52,52,52,52,52,False,12,12,12,0
+POS__7295.jpg,7295.jpg,elephants,POSITIVE,elephants,63,84,84,84,84,84,False,21,21,21,0
+POS__7298.jpg,7298.jpg,apples,POSITIVE,apples,24,24,24,24,24,24,False,0,0,0,0
+POS__7312.jpg,7312.jpg,deers,POSITIVE,deers,21,28,28,28,28,28,False,7,7,7,0
+POS__7319.jpg,7319.jpg,nail polish,POSITIVE,nail polish,351,307,307,307,307,307,False,44,44,44,0
+POS__7328.jpg,7328.jpg,sheep,POSITIVE,sheep,51,53,53,53,53,53,False,2,2,2,0
+POS__7329.jpg,7329.jpg,sunglasses,POSITIVE,sunglasses,144,145,145,145,145,145,False,1,1,1,0
+POS__7339.jpg,7339.jpg,markers,POSITIVE,markers,104,106,106,106,106,106,False,2,2,2,0
+POS__7341.jpg,7341.jpg,sauce bottles,POSITIVE,sauce bottles,17,21,21,21,21,21,False,4,4,4,0
+POS__7342.jpg,7342.jpg,stamps,POSITIVE,stamps,55,55,55,55,55,55,False,0,0,0,0
+POS__7345.jpg,7345.jpg,keyboard keys,POSITIVE,keyboard keys,78,76,76,76,76,76,False,2,2,2,0
+POS__7347.jpg,7347.jpg,nail polish,POSITIVE,nail polish,103,105,105,105,105,105,False,2,2,2,0
+POS__7359.jpg,7359.jpg,comic books,POSITIVE,comic books,42,42,42,42,42,42,False,0,0,0,0
+POS__7361.jpg,7361.jpg,comic books,POSITIVE,comic books,23,25,25,25,25,25,False,2,2,2,0
+POS__7365.jpg,7365.jpg,stamps,POSITIVE,stamps,56,56,56,56,56,56,False,0,0,0,0
+POS__7366.jpg,7366.jpg,sheep,POSITIVE,sheep,44,43,43,43,43,43,False,1,1,1,0
+POS__7370.jpg,7370.jpg,eggs,POSITIVE,eggs,11,11,11,11,11,11,False,0,0,0,0
+POS__7378.jpg,7378.jpg,legos,POSITIVE,legos,256,94,94,94,94,94,False,162,162,162,0
+POS__7381.jpg,7381.jpg,markers,POSITIVE,markers,72,74,74,74,74,74,False,2,2,2,0
+POS__7384.jpg,7384.jpg,comic books,POSITIVE,comic books,16,16,16,16,16,16,False,0,0,0,0
+POS__7386.jpg,7386.jpg,sunglasses,POSITIVE,sunglasses,64,108,108,108,108,108,False,44,44,44,0
+POS__7387.jpg,7387.jpg,nail polish,POSITIVE,nail polish,66,66,66,66,66,66,False,0,0,0,0
+POS__7389.jpg,7389.jpg,comic books,POSITIVE,comic books,25,25,25,25,25,25,False,0,0,0,0
+POS__7398.jpg,7398.jpg,sauce bottles,POSITIVE,sauce bottles,26,46,46,46,46,46,False,20,20,20,0
+POS__7401.jpg,7401.jpg,sunglasses,POSITIVE,sunglasses,90,132,132,132,132,132,False,42,42,42,0
+POS__7410.jpg,7410.jpg,nail polish,POSITIVE,nail polish,44,45,45,45,45,45,False,1,1,1,0
+POS__7411.jpg,7411.jpg,markers,POSITIVE,markers,233,254,254,254,254,254,False,21,21,21,0
+POS__7412.jpg,7412.jpg,sheep,POSITIVE,sheep,36,33,35,35,35,35,False,1,1,1,0
+POS__7417.jpg,7417.jpg,stamps,POSITIVE,stamps,43,48,48,48,48,48,False,5,5,5,0
+POS__7420.jpg,7420.jpg,deers,POSITIVE,deers,21,23,23,23,23,23,False,2,2,2,0
+POS__7424.jpg,7424.jpg,eggs,POSITIVE,eggs,145,152,152,152,152,152,False,7,7,7,0
+POS__7426.jpg,7426.jpg,sunglasses,POSITIVE,sunglasses,253,334,334,334,334,334,False,81,81,81,0
+POS__7438.jpg,7438.jpg,sauce bottles,POSITIVE,sauce bottles,48,48,48,48,48,48,False,0,0,0,0
+POS__7440.jpg,7440.jpg,legos,POSITIVE,legos,32,31,31,31,31,31,False,1,1,1,0
+POS__7442.jpg,7442.jpg,comic books,POSITIVE,comic books,120,131,131,131,131,131,False,11,11,11,0
+POS__7443.jpg,7443.jpg,markers,POSITIVE,markers,292,276,276,276,276,276,False,16,16,16,0
+POS__7449.jpg,7449.jpg,stamps,POSITIVE,stamps,60,60,60,60,60,60,False,0,0,0,0
+POS__7452.jpg,7452.jpg,eggs,POSITIVE,eggs,85,91,91,91,91,91,False,6,6,6,0
+POS__7455.jpg,7455.jpg,sunglasses,POSITIVE,sunglasses,73,150,150,150,150,150,False,77,77,77,0
+POS__7459.jpg,7459.jpg,elephants,POSITIVE,elephants,11,10,10,10,10,10,False,1,1,1,0
+POS__7462.jpg,7462.jpg,nail polish,POSITIVE,nail polish,146,154,154,154,154,154,False,8,8,8,0
+POS__7463.jpg,7463.jpg,elephants,POSITIVE,elephants,21,23,23,23,23,23,False,2,2,2,0
+POS__7472.jpg,7472.jpg,deers,POSITIVE,deers,15,17,17,17,17,17,False,2,2,2,0
+POS__7473.jpg,7473.jpg,nail polish,POSITIVE,nail polish,508,359,359,359,359,359,False,149,149,149,0
+POS__7474.jpg,7474.jpg,elephants,POSITIVE,elephants,36,36,36,36,36,36,False,0,0,0,0
+POS__7475.jpg,7475.jpg,sheep,POSITIVE,sheep,122,71,71,71,71,71,False,51,51,51,0
+POS__7480.jpg,7480.jpg,elephants,POSITIVE,elephants,22,24,24,24,24,24,False,2,2,2,0
+POS__7483.jpg,7483.jpg,apples,POSITIVE,apples,191,230,230,230,230,230,False,39,39,39,0
+POS__7484.jpg,7484.jpg,comic books,POSITIVE,comic books,21,22,22,22,22,22,False,1,1,1,0
+POS__7486.jpg,7486.jpg,legos,POSITIVE,legos,100,100,100,100,100,100,False,0,0,0,0
+POS__7488.jpg,7488.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,19,19,19,19,19,False,0,0,0,0
+POS__7490.jpg,7490.jpg,nail polish,POSITIVE,nail polish,114,121,121,121,121,121,False,7,7,7,0
+POS__7491.jpg,7491.jpg,sunglasses,POSITIVE,sunglasses,194,217,217,217,217,217,False,23,23,23,0
+POS__7493.jpg,7493.jpg,apples,POSITIVE,apples,38,44,44,44,44,44,False,6,6,6,0
+POS__7500.jpg,7500.jpg,sheep,POSITIVE,sheep,181,183,183,183,183,183,False,2,2,2,0
+POS__7506.jpg,7506.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,15,15,15,15,15,False,4,4,4,0
+POS__7511.jpg,7511.jpg,sunglasses,POSITIVE,sunglasses,36,88,88,88,88,88,False,52,52,52,0
+POS__7512.jpg,7512.jpg,nail polish,POSITIVE,nail polish,98,99,99,99,99,99,False,1,1,1,0
+POS__7514.jpg,7514.jpg,eggs,POSITIVE,eggs,28,28,28,28,28,28,False,0,0,0,0
+POS__7520.jpg,7520.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,0,0,0,0,0,False,19,19,19,0
+POS__7521.jpg,7521.jpg,apples,POSITIVE,apples,25,37,37,37,37,37,False,12,12,12,0
+POS__7522.jpg,7522.jpg,keyboard keys,POSITIVE,keyboard keys,84,70,70,70,70,70,False,14,14,14,0
+POS__7523.jpg,7523.jpg,sticky notes,POSITIVE,sticky notes,94,93,93,93,93,93,False,1,1,1,0
+POS__7525.jpg,7525.jpg,elephants,POSITIVE,elephants,26,27,27,27,27,27,False,1,1,1,0
+POS__7526.jpg,7526.jpg,nail polish,POSITIVE,nail polish,34,35,35,35,35,35,False,1,1,1,0
+POS__7527.jpg,7527.jpg,eggs,POSITIVE,eggs,47,47,47,47,47,47,False,0,0,0,0
+POS__7529.jpg,7529.jpg,keyboard keys,POSITIVE,keyboard keys,124,1,1,1,1,1,False,123,123,123,0
+POS__7530.jpg,7530.jpg,deers,POSITIVE,deers,16,27,27,27,27,27,False,11,11,11,0
+POS__7535.jpg,7535.jpg,elephants,POSITIVE,elephants,107,102,102,102,102,102,False,5,5,5,0
+POS__7536.jpg,7536.jpg,nail polish,POSITIVE,nail polish,24,31,31,31,31,31,False,7,7,7,0
+POS__7538.jpg,7538.jpg,apples,POSITIVE,apples,41,41,41,41,41,41,False,0,0,0,0
+POS__7539.jpg,7539.jpg,keyboard keys,POSITIVE,keyboard keys,77,59,59,59,59,59,False,18,18,18,0
+POS__7542.jpg,7542.jpg,sauce bottles,POSITIVE,sauce bottles,43,46,46,46,46,46,False,3,3,3,0
+POS__7547.jpg,7547.jpg,elephants,POSITIVE,elephants,19,19,19,19,19,19,False,0,0,0,0
+POS__7550.jpg,7550.jpg,elephants,POSITIVE,elephants,20,21,21,21,21,21,False,1,1,1,0
+POS__7554.jpg,7554.jpg,markers,POSITIVE,markers,71,75,75,75,75,75,False,4,4,4,0
+POS__7555.jpg,7555.jpg,stamps,POSITIVE,stamps,31,37,37,37,37,37,False,6,6,6,0
+POS__7557.jpg,7557.jpg,comic books,POSITIVE,comic books,21,22,22,22,22,22,False,1,1,1,0
+POS__7564.jpg,7564.jpg,stamps,POSITIVE,stamps,52,52,52,52,52,52,False,0,0,0,0
+POS__7565.jpg,7565.jpg,sticky notes,POSITIVE,sticky notes,113,98,98,98,98,98,False,15,15,15,0
+POS__7567.jpg,7567.jpg,sauce bottles,POSITIVE,sauce bottles,68,74,74,74,74,74,False,6,6,6,0
+POS__7573.jpg,7573.jpg,carrom board pieces,POSITIVE,carrom board pieces,18,0,0,19,19,19,False,18,1,1,0
+POS__7580.jpg,7580.jpg,eggs,POSITIVE,eggs,15,15,15,15,15,15,False,0,0,0,0
+POS__7581.jpg,7581.jpg,comic books,POSITIVE,comic books,30,30,30,30,30,30,False,0,0,0,0
+POS__7583.jpg,7583.jpg,comic books,POSITIVE,comic books,21,22,22,22,22,22,False,1,1,1,0
+POS__7586.jpg,7586.jpg,sauce bottles,POSITIVE,sauce bottles,36,52,52,52,52,52,False,16,16,16,0
+POS__7588.jpg,7588.jpg,deers,POSITIVE,deers,39,44,44,44,44,44,False,5,5,5,0
+POS__7590.jpg,7590.jpg,legos,POSITIVE,legos,100,101,101,101,101,101,False,1,1,1,0
+POS__7592.jpg,7592.jpg,keyboard keys,POSITIVE,keyboard keys,104,1,1,1,1,1,False,103,103,103,0
+POS__7595.jpg,7595.jpg,eggs,POSITIVE,eggs,30,30,30,30,30,30,False,0,0,0,0
+POS__7596.jpg,7596.jpg,apples,POSITIVE,apples,298,344,344,344,344,344,False,46,46,46,0
+POS__7598.jpg,7598.jpg,sheep,POSITIVE,sheep,31,32,32,32,32,32,False,1,1,1,0
+POS__7605.jpg,7605.jpg,eggs,POSITIVE,eggs,20,20,20,20,20,20,False,0,0,0,0
+POS__7609.jpg,7609.jpg,markers,POSITIVE,markers,110,112,112,112,112,112,False,2,2,2,0
+POS__7611.jpg,7611.jpg,legos,POSITIVE,legos,2560,0,0,0,0,0,False,2560,2560,2560,0
+POS__7614.jpg,7614.jpg,apples,POSITIVE,apples,27,27,27,27,27,27,False,0,0,0,0
+POS__7617.jpg,7617.jpg,eggs,POSITIVE,eggs,17,17,17,17,17,17,False,0,0,0,0
+POS__7622.jpg,7622.jpg,sheep,POSITIVE,sheep,166,170,170,170,170,170,False,4,4,4,0
+POS__7625.jpg,7625.jpg,apples,POSITIVE,apples,25,25,25,25,25,25,False,0,0,0,0
+POS__7627.jpg,7627.jpg,apples,POSITIVE,apples,16,16,16,16,16,16,False,0,0,0,0
+POS__7633.jpg,7633.jpg,watches,POSITIVE,watches,30,30,30,30,30,30,False,0,0,0,0
+POS__7635.jpg,7635.jpg,apples,POSITIVE,apples,17,18,18,18,18,18,False,1,1,1,0
+POS__7637.jpg,7637.jpg,watches,POSITIVE,watches,67,67,67,67,67,67,False,0,0,0,0
+POS__7639.jpg,7639.jpg,sheep,POSITIVE,sheep,20,18,18,18,18,18,False,2,2,2,0
+POS__7640.jpg,7640.jpg,apples,POSITIVE,apples,32,41,41,41,41,41,False,9,9,9,0
+POS__7643.jpg,7643.jpg,apples,POSITIVE,apples,32,35,35,35,35,35,False,3,3,3,0
+POS__7645.jpg,7645.jpg,sauce bottles,POSITIVE,sauce bottles,14,20,20,20,20,20,False,6,6,6,0
+POS__7650.jpg,7650.jpg,apples,POSITIVE,apples,52,63,63,63,63,63,False,11,11,11,0
+POS__7661.jpg,7661.jpg,apples,POSITIVE,apples,36,44,44,44,44,44,False,8,8,8,0
+POS__7662.jpg,7662.jpg,apples,POSITIVE,apples,30,30,30,30,30,30,False,0,0,0,0
+POS__7665.jpg,7665.jpg,apples,POSITIVE,apples,33,41,41,41,41,41,False,8,8,8,0
+POS__7666.jpg,7666.jpg,watches,POSITIVE,watches,30,30,30,30,30,30,False,0,0,0,0
+POS__7668.jpg,7668.jpg,eggs,POSITIVE,eggs,23,24,24,24,24,24,False,1,1,1,0
+POS__7671.jpg,7671.jpg,keyboard keys,POSITIVE,keyboard keys,87,89,89,89,89,89,False,2,2,2,0
+POS__7676.jpg,7676.jpg,watches,POSITIVE,watches,29,34,34,34,34,34,False,5,5,5,0
+POS__7678.jpg,7678.jpg,apples,POSITIVE,apples,159,166,166,166,166,166,False,7,7,7,0
+POS__7679.jpg,7679.jpg,deers,POSITIVE,deers,10,16,16,16,16,16,False,6,6,6,0
+POS__7682.jpg,7682.jpg,eggs,POSITIVE,eggs,24,24,24,24,24,24,False,0,0,0,0
+POS__7683.jpg,7683.jpg,comic books,POSITIVE,comic books,35,35,35,35,35,35,False,0,0,0,0
+POS__7687.jpg,7687.jpg,stamps,POSITIVE,stamps,20,20,20,20,20,20,False,0,0,0,0
+POS__7688.jpg,7688.jpg,watches,POSITIVE,watches,32,33,33,33,33,33,False,1,1,1,0
+POS__7689.jpg,7689.jpg,eggs,POSITIVE,eggs,12,12,12,12,12,12,False,0,0,0,0
+POS__7693.jpg,7693.jpg,apples,POSITIVE,apples,81,83,83,83,83,83,False,2,2,2,0
+POS__7694.jpg,7694.jpg,comic books,POSITIVE,comic books,60,60,60,60,60,60,False,0,0,0,0
+POS__7695.jpg,7695.jpg,comic books,POSITIVE,comic books,40,40,40,40,40,40,False,0,0,0,0
+POS__7700.jpg,7700.jpg,legos,POSITIVE,legos,30,30,30,30,30,30,False,0,0,0,0
+POS__7701.jpg,7701.jpg,legos,POSITIVE,legos,23,23,23,23,23,23,False,0,0,0,0
+POS__7707.jpg,7707.jpg,markers,POSITIVE,markers,370,393,393,393,393,393,False,23,23,23,0
+POS__7709.jpg,7709.jpg,comic books,POSITIVE,comic books,25,25,25,25,25,25,False,0,0,0,0
+POS__7710.jpg,7710.jpg,comic books,POSITIVE,comic books,34,36,36,36,36,36,False,2,2,2,0
+POS__7711.jpg,7711.jpg,nail polish,POSITIVE,nail polish,118,119,119,119,119,119,False,1,1,1,0
+POS__7713.jpg,7713.jpg,carrom board pieces,POSITIVE,carrom board pieces,19,16,16,16,16,16,False,3,3,3,0
+POS__7714.jpg,7714.jpg,eggs,POSITIVE,eggs,46,47,47,47,47,47,False,1,1,1,0
+POS__904.jpg,904.jpg,comic books,POSITIVE,comic books,12,16,16,16,16,16,False,4,4,4,0
+POS__905.jpg,905.jpg,comic books,POSITIVE,comic books,44,43,43,43,43,43,False,1,1,1,0
+POS__906.jpg,906.jpg,comic books,POSITIVE,comic books,235,215,215,215,215,215,False,20,20,20,0
+POS__907.jpg,907.jpg,comic books,POSITIVE,comic books,29,28,28,28,28,28,False,1,1,1,0
+POS__909.jpg,909.jpg,comic books,POSITIVE,comic books,62,21,21,21,21,21,False,41,41,41,0
+POS__910.jpg,910.jpg,comic books,POSITIVE,comic books,18,18,18,18,18,18,False,0,0,0,0
+POS__911.jpg,911.jpg,comic books,POSITIVE,comic books,85,95,95,95,95,95,False,10,10,10,0
+POS__985.jpg,985.jpg,watches,POSITIVE,watches,53,95,95,95,95,95,False,42,42,42,0
+POS__988.jpg,988.jpg,watches,POSITIVE,watches,12,12,12,12,12,12,False,0,0,0,0
+POS__989.jpg,989.jpg,watches,POSITIVE,watches,69,74,74,74,74,74,False,5,5,5,0
+POS__990.jpg,990.jpg,watches,POSITIVE,watches,111,113,113,113,113,113,False,2,2,2,0
+POS__991.jpg,991.jpg,watches,POSITIVE,watches,93,98,98,98,98,98,False,5,5,5,0
+POS__993.jpg,993.jpg,watches,POSITIVE,watches,17,17,17,17,17,17,False,0,0,0,0
+POS__995.jpg,995.jpg,watches,POSITIVE,watches,20,22,22,22,22,22,False,2,2,2,0
+POS__996.jpg,996.jpg,watches,POSITIVE,watches,18,23,23,23,23,23,False,5,5,5,0
+POS__998.jpg,998.jpg,watches,POSITIVE,watches,24,28,28,28,28,28,False,4,4,4,0
+POS__999.jpg,999.jpg,watches,POSITIVE,watches,14,25,25,25,25,25,False,11,11,11,0

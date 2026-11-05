@@ -1,0 +1,12 @@
+{
+  "pilot": "Exploratory, data previously examined",
+  "grid": 8,
+  "overlap": 0.2,
+  "countgd_threshold": 0.23,
+  "nms_iou": 0.5,
+  "Qwen": "Qwen/Qwen3-VL-4B-Instruct",
+  "min_yes": 4,
+  "max_ratio": 3.0,
+  "inference_trigger": "baseline_count=0 AND v73_count>=150 AND prior verified presence AND old tile_count>=150",
+  "base_sha256": "7adbd7c523da41344409ec3bd39bf033574d657a59ad029cc50e74319c974597"
+}

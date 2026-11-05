@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "min_tiled_boxes": 20,
+  "n_sample": 6,
+  "min_local_yes": 4,
+  "context_multiplier": 6.0,
+  "require_original_full_yes": true,
+  "base_predictions_sha256": "b7d2578330cb13b1fb42190aa54417f37fd32c6877957e5f033d58bccab4ad68",
+  "description": "Exploratory post-hoc test on reused FSC-147 TEST; do not claim independent generalization."
+}

@@ -1,0 +1,1302 @@
+group_id,pair_type,image_name,target,source_class,gt_count,v7_count,abs_error,presence_gt,predicted_presence,presence_correct,origin,batch_index,split
+CAND__1463__r1__mandm_pieces,HARD_NEGATIVE,1463.jpg,m&m pieces,keyboard keys,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__1537__r1__m_m_pieces,HARD_NEGATIVE,1537.jpg,m&m pieces,keyboard keys,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__1887__r2__cows,HARD_NEGATIVE,1887.jpg,cows,elephants,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__1888__r2__cows,HARD_NEGATIVE,1888.jpg,cows,elephants,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__1888__r3__goats,HARD_NEGATIVE,1888.jpg,goats,elephants,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2__r1__cupcakes,HARD_NEGATIVE,2.jpg,cupcakes,sea shells,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2__r2__finger_foods,HARD_NEGATIVE,2.jpg,finger foods,sea shells,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2011__r1__oysters,HARD_NEGATIVE,2011.jpg,oysters,sunglasses,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2019__r3__people,HARD_NEGATIVE,2019.jpg,people,sunglasses,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2020__r2__watches,HARD_NEGATIVE,2020.jpg,watches,sunglasses,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2175__r1__strawberries,HARD_NEGATIVE,2175.jpg,strawberries,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2213__r1__oranges,HARD_NEGATIVE,2213.jpg,oranges,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2219__r1__red_beans,HARD_NEGATIVE,2219.jpg,red beans,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2612__r2__camels,HARD_NEGATIVE,2612.jpg,camels,deers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2619__r3__horses,HARD_NEGATIVE,2619.jpg,horses,deers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__287__r2__grapes,HARD_NEGATIVE,287.jpg,grapes,strawberries,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2908__r1__comic_books,HARD_NEGATIVE,2908.jpg,comic books,stamps,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__2915__r1__comic_books,HARD_NEGATIVE,2915.jpg,comic books,stamps,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__2923__r1__comic_books,HARD_NEGATIVE,2923.jpg,comic books,stamps,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3112__r1__spring_rolls,HARD_NEGATIVE,3112.jpg,spring rolls,crab cakes,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3114__r1__prawn_crackers,HARD_NEGATIVE,3114.jpg,prawn crackers,crab cakes,0,16,16,0,1,False,V7_ORIGINAL,,test
+CAND__312__r1__grapes,HARD_NEGATIVE,312.jpg,grapes,strawberries,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3154__r2__fishes,HARD_NEGATIVE,3154.jpg,fishes,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3154__r1__prawn_crackers,HARD_NEGATIVE,3154.jpg,prawn crackers,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3157__r1__prawn_crackers,HARD_NEGATIVE,3157.jpg,prawn crackers,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3275__r3__clams,HARD_NEGATIVE,3275.jpg,clams,finger foods,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3315__r3__apples,HARD_NEGATIVE,3315.jpg,apples,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3328__r1__potatoes,HARD_NEGATIVE,3328.jpg,potatoes,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3338__r1__kidney_beans,HARD_NEGATIVE,3338.jpg,kidney beans,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3341__r1__crows,HARD_NEGATIVE,3341.jpg,crows,sea shells,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3494__r2__potatoes,HARD_NEGATIVE,3494.jpg,potatoes,red beans,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3500__r1__fishes,HARD_NEGATIVE,3500.jpg,fishes,red beans,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3500__r3__nuts,HARD_NEGATIVE,3500.jpg,nuts,red beans,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__3500__r2__potatoes,HARD_NEGATIVE,3500.jpg,potatoes,red beans,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3646__r1__biscuits,HARD_NEGATIVE,3646.jpg,biscuits,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3658__r1__pills,HARD_NEGATIVE,3658.jpg,pills,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3659__r1__bananas,HARD_NEGATIVE,3659.jpg,bananas,cashew nuts,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3695__r1__bees,HARD_NEGATIVE,3695.jpg,bees,candy pieces,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3697__r1__beads,HARD_NEGATIVE,3697.jpg,beads,candy pieces,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__3697__r2__buns,HARD_NEGATIVE,3697.jpg,buns,candy pieces,0,11,11,0,1,False,V7_ORIGINAL,,test
+CAND__4061__r1__screws,HARD_NEGATIVE,4061.jpg,screws,marbles,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4062__r2__watches,HARD_NEGATIVE,4062.jpg,watches,marbles,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4064__r1__legos,HARD_NEGATIVE,4064.jpg,legos,marbles,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4065__r3__legos,HARD_NEGATIVE,4065.jpg,legos,marbles,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4078__r1__candy_pieces,HARD_NEGATIVE,4078.jpg,candy pieces,marbles,0,60,60,0,1,False,V7_ORIGINAL,,test
+HARD__4116__r3__clams,HARD_NEGATIVE,4116.jpg,clams,finger foods,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4170__r1__comic_books,HARD_NEGATIVE,4170.jpg,comic books,potato chips,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4170__r2__matches,HARD_NEGATIVE,4170.jpg,matches,potato chips,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4174__r1__prawn_crackers,HARD_NEGATIVE,4174.jpg,prawn crackers,potato chips,0,28,28,0,1,False,V7_ORIGINAL,,test
+CAND__4405__r1__boats,HARD_NEGATIVE,4405.jpg,boats,hot air balloons,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4409__r2__cranes,HARD_NEGATIVE,4409.jpg,cranes,hot air balloons,0,9,9,0,1,False,V7_ORIGINAL,,test
+CAND__4423__r1__cranes,HARD_NEGATIVE,4423.jpg,cranes,hot air balloons,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4494__r1__carrom_board_pieces,HARD_NEGATIVE,4494.jpg,carrom board pieces,skis,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4497__r1__carrom_board_pieces,HARD_NEGATIVE,4497.jpg,carrom board pieces,skis,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4499__r1__carrom_board_pieces,HARD_NEGATIVE,4499.jpg,carrom board pieces,skis,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__4905__r1__tomatoes,HARD_NEGATIVE,4905.jpg,tomatoes,strawberries,0,115,115,0,1,False,V7_ORIGINAL,,test
+HARD__4943__r2__nuts,HARD_NEGATIVE,4943.jpg,nuts,tree logs,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4952__r3__coins,HARD_NEGATIVE,4952.jpg,coins,tree logs,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__4952__r2__nuts,HARD_NEGATIVE,4952.jpg,nuts,tree logs,0,131,131,0,1,False,V7_ORIGINAL,,test
+CAND__5463__r1__bullets,HARD_NEGATIVE,5463.jpg,bullets,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5512__r1__coffee_beans,HARD_NEGATIVE,5512.jpg,coffee beans,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5513__r1__tomatoes,HARD_NEGATIVE,5513.jpg,tomatoes,green peas,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5567__r1__goldfish_snack,HARD_NEGATIVE,5567.jpg,goldfish snack,finger foods,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5595__r1__cartridges,HARD_NEGATIVE,5595.jpg,cartridges,marbles,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5817__r1__lipstick,HARD_NEGATIVE,5817.jpg,lipstick,strawberries,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5922__r1__alcohol_bottles,HARD_NEGATIVE,5922.jpg,alcohol bottles,eggs,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__5925__r3__caps,HARD_NEGATIVE,5925.jpg,caps,eggs,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__5938__r1__jade_stones,HARD_NEGATIVE,5938.jpg,jade stones,eggs,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6282__r1__balls,HARD_NEGATIVE,6282.jpg,balls,apples,0,31,31,0,1,False,V7_ORIGINAL,,test
+HARD__6645__r3__legos,HARD_NEGATIVE,6645.jpg,legos,markers,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6655__r1__pencils,HARD_NEGATIVE,6655.jpg,pencils,markers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6661__r3__legos,HARD_NEGATIVE,6661.jpg,legos,markers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6713__r3__crows,HARD_NEGATIVE,6713.jpg,crows,sheep,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6735__r1__bottles,HARD_NEGATIVE,6735.jpg,bottles,markers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6736__r1__stamps,HARD_NEGATIVE,6736.jpg,stamps,comic books,0,1,1,0,1,False,V7_ORIGINAL,,test
+CAND__682__r1__pearls,HARD_NEGATIVE,682.jpg,pearls,watches,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6827__r1__cups,HARD_NEGATIVE,6827.jpg,cups,sauce bottles,0,19,19,0,1,False,V7_ORIGINAL,,test
+HARD__6833__r2__camels,HARD_NEGATIVE,6833.jpg,camels,deers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6833__r1__goats,HARD_NEGATIVE,6833.jpg,goats,deers,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__685__r1__peaches,HARD_NEGATIVE,685.jpg,peaches,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__685__r2__tomatoes,HARD_NEGATIVE,685.jpg,tomatoes,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6856__r2__jade_stones,HARD_NEGATIVE,6856.jpg,jade stones,legos,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__686__r2__tomatoes,HARD_NEGATIVE,686.jpg,tomatoes,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6876__r1__bricks,HARD_NEGATIVE,6876.jpg,bricks,eggs,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__6938__r1__cans,HARD_NEGATIVE,6938.jpg,cans,sauce bottles,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__6964__r1__stamps,HARD_NEGATIVE,6964.jpg,stamps,sticky notes,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7034__r3__sauce_bottles,HARD_NEGATIVE,7034.jpg,sauce bottles,nail polish,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7042__r2__pigeons,HARD_NEGATIVE,7042.jpg,pigeons,sheep,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7043__r3__sauce_bottles,HARD_NEGATIVE,7043.jpg,sauce bottles,nail polish,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7082__r2__pigeons,HARD_NEGATIVE,7082.jpg,pigeons,sheep,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7097__r1__stamps,HARD_NEGATIVE,7097.jpg,stamps,sticky notes,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7171__r1__mosaic_tiles,HARD_NEGATIVE,7171.jpg,mosaic tiles,legos,0,1,1,0,1,False,V7_ORIGINAL,,test
+CAND__7192__r1__plates,HARD_NEGATIVE,7192.jpg,plates,carrom board pieces,0,19,19,0,1,False,V7_ORIGINAL,,test
+CAND__7339__r1__sausages,HARD_NEGATIVE,7339.jpg,sausages,markers,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7359__r1__legos,HARD_NEGATIVE,7359.jpg,legos,comic books,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7386__r1__shoes,HARD_NEGATIVE,7386.jpg,shoes,sunglasses,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7387__r1__cars,HARD_NEGATIVE,7387.jpg,cars,nail polish,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7440__r1__cupcake_tray,HARD_NEGATIVE,7440.jpg,cupcake tray,legos,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7440__r2__jade_stones,HARD_NEGATIVE,7440.jpg,jade stones,legos,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7440__r3__shallots,HARD_NEGATIVE,7440.jpg,shallots,legos,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7491__r1__go_game,HARD_NEGATIVE,7491.jpg,go game,sunglasses,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7573__r3__caps,HARD_NEGATIVE,7573.jpg,caps,carrom board pieces,0,20,20,0,1,False,V7_ORIGINAL,,test
+HARD__7573__r1__marbles,HARD_NEGATIVE,7573.jpg,marbles,carrom board pieces,0,20,20,0,1,False,V7_ORIGINAL,,test
+HARD__7573__r2__oyster_shells,HARD_NEGATIVE,7573.jpg,oyster shells,carrom board pieces,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7592__r1__mandm_pieces,HARD_NEGATIVE,7592.jpg,m&m pieces,keyboard keys,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7635__r1__rice_bags,HARD_NEGATIVE,7635.jpg,rice bags,apples,0,0,0,0,0,True,V7_ORIGINAL,,test
+CAND__7639__r1__buffaloes,HARD_NEGATIVE,7639.jpg,buffaloes,sheep,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7645__r1__cans,HARD_NEGATIVE,7645.jpg,cans,sauce bottles,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__7645__r2__lighters,HARD_NEGATIVE,7645.jpg,lighters,sauce bottles,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__988__r3__gemstones,HARD_NEGATIVE,988.jpg,gemstones,watches,0,0,0,0,0,True,V7_ORIGINAL,,test
+HARD__993__r2__cars,HARD_NEGATIVE,993.jpg,cars,watches,0,0,0,0,0,True,V7_ORIGINAL,,test
+POS__1050.jpg,POSITIVE,1050.jpg,sheep,sheep,136,140,4,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1053.jpg,POSITIVE,1053.jpg,sheep,sheep,207,226,19,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1061.jpg,POSITIVE,1061.jpg,sheep,sheep,22,30,8,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1106.jpg,POSITIVE,1106.jpg,markers,markers,49,96,47,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1123.jpg,POSITIVE,1123.jpg,markers,markers,3701,0,3701,1,0,False,V7_NEW_BATCH_000,0,test
+POS__1130.jpg,POSITIVE,1130.jpg,markers,markers,61,32,29,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1455.jpg,POSITIVE,1455.jpg,keyboard keys,keyboard keys,63,63,0,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1456.jpg,POSITIVE,1456.jpg,keyboard keys,keyboard keys,184,1,183,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1458.jpg,POSITIVE,1458.jpg,keyboard keys,keyboard keys,162,1,161,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1461.jpg,POSITIVE,1461.jpg,keyboard keys,keyboard keys,99,0,99,1,0,False,V7_NEW_BATCH_000,0,test
+POS__1462.jpg,POSITIVE,1462.jpg,keyboard keys,keyboard keys,409,7,402,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1463.jpg,POSITIVE,1463.jpg,keyboard keys,keyboard keys,60,59,1,1,1,True,V7_ORIGINAL,,test
+POS__1464.jpg,POSITIVE,1464.jpg,keyboard keys,keyboard keys,59,59,0,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1467.jpg,POSITIVE,1467.jpg,keyboard keys,keyboard keys,70,0,70,1,0,False,V7_NEW_BATCH_000,0,test
+POS__1493.jpg,POSITIVE,1493.jpg,keyboard keys,keyboard keys,67,0,67,1,0,False,V7_NEW_BATCH_000,0,test
+POS__1497.jpg,POSITIVE,1497.jpg,keyboard keys,keyboard keys,207,2,205,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1509.jpg,POSITIVE,1509.jpg,keyboard keys,keyboard keys,50,6,44,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1537.jpg,POSITIVE,1537.jpg,keyboard keys,keyboard keys,110,106,4,1,1,True,V7_ORIGINAL,,test
+POS__1572.jpg,POSITIVE,1572.jpg,carrom board pieces,carrom board pieces,25,12,13,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1873.jpg,POSITIVE,1873.jpg,elephants,elephants,12,9,3,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1874.jpg,POSITIVE,1874.jpg,elephants,elephants,11,14,3,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1875.jpg,POSITIVE,1875.jpg,elephants,elephants,54,63,9,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1881.jpg,POSITIVE,1881.jpg,elephants,elephants,11,15,4,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1884.jpg,POSITIVE,1884.jpg,elephants,elephants,16,16,0,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1886.jpg,POSITIVE,1886.jpg,elephants,elephants,12,14,2,1,1,True,V7_NEW_BATCH_000,0,test
+POS__1887.jpg,POSITIVE,1887.jpg,elephants,elephants,10,11,1,1,1,True,V7_ORIGINAL,,test
+POS__1888.jpg,POSITIVE,1888.jpg,elephants,elephants,11,11,0,1,1,True,V7_ORIGINAL,,test
+POS__1889.jpg,POSITIVE,1889.jpg,elephants,elephants,17,17,0,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2.jpg,POSITIVE,2.jpg,sea shells,sea shells,8,8,0,1,1,True,V7_ORIGINAL,,test
+POS__2004.jpg,POSITIVE,2004.jpg,sunglasses,sunglasses,226,411,185,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2005.jpg,POSITIVE,2005.jpg,sunglasses,sunglasses,140,265,125,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2007.jpg,POSITIVE,2007.jpg,sunglasses,sunglasses,108,161,53,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2008.jpg,POSITIVE,2008.jpg,sunglasses,sunglasses,42,66,24,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2009.jpg,POSITIVE,2009.jpg,sunglasses,sunglasses,198,375,177,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2010.jpg,POSITIVE,2010.jpg,sunglasses,sunglasses,15,28,13,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2011.jpg,POSITIVE,2011.jpg,sunglasses,sunglasses,79,148,69,1,1,True,V7_ORIGINAL,,test
+POS__2012.jpg,POSITIVE,2012.jpg,sunglasses,sunglasses,69,90,21,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2013.jpg,POSITIVE,2013.jpg,sunglasses,sunglasses,49,143,94,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2014.jpg,POSITIVE,2014.jpg,sunglasses,sunglasses,18,29,11,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2015.jpg,POSITIVE,2015.jpg,sunglasses,sunglasses,25,11,14,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2016.jpg,POSITIVE,2016.jpg,sunglasses,sunglasses,24,0,24,1,0,False,V7_NEW_BATCH_000,0,test
+POS__2017.jpg,POSITIVE,2017.jpg,sunglasses,sunglasses,104,144,40,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2018.jpg,POSITIVE,2018.jpg,sunglasses,sunglasses,68,135,67,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2019.jpg,POSITIVE,2019.jpg,sunglasses,sunglasses,14,32,18,1,1,True,V7_ORIGINAL,,test
+POS__2020.jpg,POSITIVE,2020.jpg,sunglasses,sunglasses,36,23,13,1,1,True,V7_ORIGINAL,,test
+POS__2021.jpg,POSITIVE,2021.jpg,sunglasses,sunglasses,44,68,24,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2025.jpg,POSITIVE,2025.jpg,sunglasses,sunglasses,60,106,46,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2026.jpg,POSITIVE,2026.jpg,sunglasses,sunglasses,16,28,12,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2027.jpg,POSITIVE,2027.jpg,sunglasses,sunglasses,23,0,23,1,0,False,V7_NEW_BATCH_000,0,test
+POS__2028.jpg,POSITIVE,2028.jpg,sunglasses,sunglasses,19,22,3,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2029.jpg,POSITIVE,2029.jpg,sunglasses,sunglasses,79,148,69,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2030.jpg,POSITIVE,2030.jpg,sunglasses,sunglasses,29,62,33,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2031.jpg,POSITIVE,2031.jpg,sunglasses,sunglasses,31,5,26,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2032.jpg,POSITIVE,2032.jpg,sunglasses,sunglasses,12,14,2,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2033.jpg,POSITIVE,2033.jpg,sunglasses,sunglasses,20,20,0,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2035.jpg,POSITIVE,2035.jpg,sunglasses,sunglasses,28,43,15,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2036.jpg,POSITIVE,2036.jpg,sunglasses,sunglasses,27,55,28,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2037.jpg,POSITIVE,2037.jpg,sunglasses,sunglasses,134,205,71,1,1,True,V7_NEW_BATCH_000,0,test
+POS__2038.jpg,POSITIVE,2038.jpg,sunglasses,sunglasses,198,380,182,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2039.jpg,POSITIVE,2039.jpg,sunglasses,sunglasses,81,8,73,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2040.jpg,POSITIVE,2040.jpg,sunglasses,sunglasses,32,51,19,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2041.jpg,POSITIVE,2041.jpg,sunglasses,sunglasses,88,179,91,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2042.jpg,POSITIVE,2042.jpg,sunglasses,sunglasses,81,19,62,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2043.jpg,POSITIVE,2043.jpg,sunglasses,sunglasses,90,127,37,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2044.jpg,POSITIVE,2044.jpg,sunglasses,sunglasses,27,0,27,1,0,False,V7_NEW_BATCH_001,1,test
+POS__2045.jpg,POSITIVE,2045.jpg,sunglasses,sunglasses,22,35,13,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2046.jpg,POSITIVE,2046.jpg,sunglasses,sunglasses,20,22,2,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2047.jpg,POSITIVE,2047.jpg,sunglasses,sunglasses,30,12,18,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2048.jpg,POSITIVE,2048.jpg,sunglasses,sunglasses,43,0,43,1,0,False,V7_NEW_BATCH_001,1,test
+POS__2049.jpg,POSITIVE,2049.jpg,sunglasses,sunglasses,79,143,64,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2051.jpg,POSITIVE,2051.jpg,sunglasses,sunglasses,15,25,10,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2052.jpg,POSITIVE,2052.jpg,sunglasses,sunglasses,8,9,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2053.jpg,POSITIVE,2053.jpg,sunglasses,sunglasses,47,89,42,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2054.jpg,POSITIVE,2054.jpg,sunglasses,sunglasses,63,62,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2138.jpg,POSITIVE,2138.jpg,apples,apples,29,33,4,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2139.jpg,POSITIVE,2139.jpg,apples,apples,61,58,3,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2140.jpg,POSITIVE,2140.jpg,apples,apples,21,21,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2141.jpg,POSITIVE,2141.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2142.jpg,POSITIVE,2142.jpg,apples,apples,35,39,4,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2143.jpg,POSITIVE,2143.jpg,apples,apples,9,9,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2145.jpg,POSITIVE,2145.jpg,apples,apples,14,15,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2146.jpg,POSITIVE,2146.jpg,apples,apples,23,25,2,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2147.jpg,POSITIVE,2147.jpg,apples,apples,37,45,8,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2150.jpg,POSITIVE,2150.jpg,apples,apples,9,9,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2151.jpg,POSITIVE,2151.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2152.jpg,POSITIVE,2152.jpg,apples,apples,22,22,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2153.jpg,POSITIVE,2153.jpg,apples,apples,12,11,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2155.jpg,POSITIVE,2155.jpg,apples,apples,18,17,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2156.jpg,POSITIVE,2156.jpg,apples,apples,68,75,7,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2157.jpg,POSITIVE,2157.jpg,apples,apples,116,117,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2159.jpg,POSITIVE,2159.jpg,apples,apples,621,728,107,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2162.jpg,POSITIVE,2162.jpg,apples,apples,34,30,4,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2163.jpg,POSITIVE,2163.jpg,apples,apples,13,13,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2164.jpg,POSITIVE,2164.jpg,apples,apples,23,23,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2165.jpg,POSITIVE,2165.jpg,apples,apples,24,26,2,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2166.jpg,POSITIVE,2166.jpg,apples,apples,119,31,88,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2168.jpg,POSITIVE,2168.jpg,apples,apples,175,195,20,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2170.jpg,POSITIVE,2170.jpg,apples,apples,147,155,8,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2171.jpg,POSITIVE,2171.jpg,apples,apples,20,20,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2172.jpg,POSITIVE,2172.jpg,apples,apples,86,101,15,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2173.jpg,POSITIVE,2173.jpg,apples,apples,169,190,21,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2174.jpg,POSITIVE,2174.jpg,apples,apples,41,44,3,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2175.jpg,POSITIVE,2175.jpg,apples,apples,91,121,30,1,1,True,V7_ORIGINAL,,test
+POS__2176.jpg,POSITIVE,2176.jpg,apples,apples,73,26,47,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2177.jpg,POSITIVE,2177.jpg,apples,apples,27,35,8,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2178.jpg,POSITIVE,2178.jpg,apples,apples,10,10,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2179.jpg,POSITIVE,2179.jpg,apples,apples,16,16,0,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2180.jpg,POSITIVE,2180.jpg,apples,apples,223,0,223,1,0,False,V7_NEW_BATCH_001,1,test
+POS__2181.jpg,POSITIVE,2181.jpg,apples,apples,12,13,1,1,1,True,V7_NEW_BATCH_001,1,test
+POS__2182.jpg,POSITIVE,2182.jpg,apples,apples,39,46,7,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2184.jpg,POSITIVE,2184.jpg,apples,apples,33,38,5,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2189.jpg,POSITIVE,2189.jpg,apples,apples,8,8,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2190.jpg,POSITIVE,2190.jpg,apples,apples,23,24,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2191.jpg,POSITIVE,2191.jpg,apples,apples,42,50,8,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2192.jpg,POSITIVE,2192.jpg,apples,apples,24,25,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2193.jpg,POSITIVE,2193.jpg,apples,apples,32,36,4,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2194.jpg,POSITIVE,2194.jpg,apples,apples,38,40,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2195.jpg,POSITIVE,2195.jpg,apples,apples,13,14,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2197.jpg,POSITIVE,2197.jpg,apples,apples,90,103,13,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2198.jpg,POSITIVE,2198.jpg,apples,apples,27,30,3,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2199.jpg,POSITIVE,2199.jpg,apples,apples,13,16,3,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2202.jpg,POSITIVE,2202.jpg,apples,apples,99,102,3,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2203.jpg,POSITIVE,2203.jpg,apples,apples,22,22,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2204.jpg,POSITIVE,2204.jpg,apples,apples,9,9,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2206.jpg,POSITIVE,2206.jpg,apples,apples,88,107,19,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2207.jpg,POSITIVE,2207.jpg,apples,apples,10,10,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2208.jpg,POSITIVE,2208.jpg,apples,apples,13,15,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2209.jpg,POSITIVE,2209.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2210.jpg,POSITIVE,2210.jpg,apples,apples,41,47,6,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2211.jpg,POSITIVE,2211.jpg,apples,apples,49,50,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2213.jpg,POSITIVE,2213.jpg,apples,apples,97,42,55,1,1,True,V7_ORIGINAL,,test
+POS__2215.jpg,POSITIVE,2215.jpg,apples,apples,55,57,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2216.jpg,POSITIVE,2216.jpg,apples,apples,36,45,9,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2217.jpg,POSITIVE,2217.jpg,apples,apples,25,29,4,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2218.jpg,POSITIVE,2218.jpg,apples,apples,15,15,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2219.jpg,POSITIVE,2219.jpg,apples,apples,356,474,118,1,1,True,V7_ORIGINAL,,test
+POS__2220.jpg,POSITIVE,2220.jpg,apples,apples,16,17,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2223.jpg,POSITIVE,2223.jpg,apples,apples,30,34,4,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2225.jpg,POSITIVE,2225.jpg,apples,apples,19,19,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2226.jpg,POSITIVE,2226.jpg,apples,apples,47,66,19,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2227.jpg,POSITIVE,2227.jpg,apples,apples,11,12,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2229.jpg,POSITIVE,2229.jpg,apples,apples,111,90,21,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2232.jpg,POSITIVE,2232.jpg,apples,apples,96,98,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2233.jpg,POSITIVE,2233.jpg,apples,apples,64,82,18,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2234.jpg,POSITIVE,2234.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2235.jpg,POSITIVE,2235.jpg,apples,apples,16,20,4,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2236.jpg,POSITIVE,2236.jpg,apples,apples,98,105,7,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2237.jpg,POSITIVE,2237.jpg,apples,apples,20,25,5,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2238.jpg,POSITIVE,2238.jpg,apples,apples,26,24,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2239.jpg,POSITIVE,2239.jpg,apples,apples,17,17,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2240.jpg,POSITIVE,2240.jpg,apples,apples,54,64,10,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2241.jpg,POSITIVE,2241.jpg,apples,apples,25,31,6,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2243.jpg,POSITIVE,2243.jpg,apples,apples,544,560,16,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2244.jpg,POSITIVE,2244.jpg,apples,apples,12,14,2,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2245.jpg,POSITIVE,2245.jpg,apples,apples,82,67,15,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2246.jpg,POSITIVE,2246.jpg,apples,apples,37,43,6,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2247.jpg,POSITIVE,2247.jpg,apples,apples,16,17,1,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2248.jpg,POSITIVE,2248.jpg,apples,apples,53,53,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2252.jpg,POSITIVE,2252.jpg,apples,apples,82,86,4,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2255.jpg,POSITIVE,2255.jpg,apples,apples,20,20,0,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2256.jpg,POSITIVE,2256.jpg,apples,apples,59,81,22,1,1,True,V7_NEW_BATCH_002,2,test
+POS__2257.jpg,POSITIVE,2257.jpg,apples,apples,23,29,6,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2258.jpg,POSITIVE,2258.jpg,apples,apples,75,83,8,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2259.jpg,POSITIVE,2259.jpg,apples,apples,174,235,61,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2260.jpg,POSITIVE,2260.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2261.jpg,POSITIVE,2261.jpg,apples,apples,174,162,12,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2262.jpg,POSITIVE,2262.jpg,apples,apples,9,9,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2264.jpg,POSITIVE,2264.jpg,apples,apples,12,13,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2265.jpg,POSITIVE,2265.jpg,apples,apples,57,56,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2267.jpg,POSITIVE,2267.jpg,apples,apples,9,9,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2268.jpg,POSITIVE,2268.jpg,apples,apples,74,85,11,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2269.jpg,POSITIVE,2269.jpg,apples,apples,11,14,3,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2270.jpg,POSITIVE,2270.jpg,apples,apples,50,54,4,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2271.jpg,POSITIVE,2271.jpg,apples,apples,42,48,6,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2272.jpg,POSITIVE,2272.jpg,apples,apples,15,17,2,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2273.jpg,POSITIVE,2273.jpg,apples,apples,165,160,5,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2274.jpg,POSITIVE,2274.jpg,apples,apples,66,61,5,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2275.jpg,POSITIVE,2275.jpg,apples,apples,38,38,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2276.jpg,POSITIVE,2276.jpg,apples,apples,30,34,4,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2277.jpg,POSITIVE,2277.jpg,apples,apples,49,49,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2279.jpg,POSITIVE,2279.jpg,apples,apples,37,39,2,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2280.jpg,POSITIVE,2280.jpg,apples,apples,157,181,24,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2281.jpg,POSITIVE,2281.jpg,apples,apples,22,23,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2282.jpg,POSITIVE,2282.jpg,apples,apples,47,48,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2284.jpg,POSITIVE,2284.jpg,apples,apples,25,31,6,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2285.jpg,POSITIVE,2285.jpg,apples,apples,48,50,2,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2286.jpg,POSITIVE,2286.jpg,apples,apples,14,15,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2287.jpg,POSITIVE,2287.jpg,apples,apples,195,176,19,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2288.jpg,POSITIVE,2288.jpg,apples,apples,18,20,2,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2607.jpg,POSITIVE,2607.jpg,deers,deers,36,36,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2611.jpg,POSITIVE,2611.jpg,deers,deers,18,29,11,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2612.jpg,POSITIVE,2612.jpg,deers,deers,28,26,2,1,1,True,V7_ORIGINAL,,test
+POS__2613.jpg,POSITIVE,2613.jpg,deers,deers,15,19,4,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2614.jpg,POSITIVE,2614.jpg,deers,deers,20,21,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2615.jpg,POSITIVE,2615.jpg,deers,deers,9,10,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2617.jpg,POSITIVE,2617.jpg,deers,deers,41,45,4,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2619.jpg,POSITIVE,2619.jpg,deers,deers,47,53,6,1,1,True,V7_ORIGINAL,,test
+POS__285.jpg,POSITIVE,285.jpg,strawberries,strawberries,28,29,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__286.jpg,POSITIVE,286.jpg,strawberries,strawberries,10,10,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__287.jpg,POSITIVE,287.jpg,strawberries,strawberries,21,20,1,1,1,True,V7_ORIGINAL,,test
+POS__288.jpg,POSITIVE,288.jpg,strawberries,strawberries,26,29,3,1,1,True,V7_NEW_BATCH_003,3,test
+POS__289.jpg,POSITIVE,289.jpg,strawberries,strawberries,26,27,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__290.jpg,POSITIVE,290.jpg,strawberries,strawberries,13,14,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2907.jpg,POSITIVE,2907.jpg,stamps,stamps,28,23,5,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2908.jpg,POSITIVE,2908.jpg,stamps,stamps,33,33,0,1,1,True,V7_ORIGINAL,,test
+POS__291.jpg,POSITIVE,291.jpg,strawberries,strawberries,14,14,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2910.jpg,POSITIVE,2910.jpg,stamps,stamps,14,14,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2912.jpg,POSITIVE,2912.jpg,stamps,stamps,72,72,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2913.jpg,POSITIVE,2913.jpg,stamps,stamps,15,15,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2914.jpg,POSITIVE,2914.jpg,stamps,stamps,28,28,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2915.jpg,POSITIVE,2915.jpg,stamps,stamps,61,58,3,1,1,True,V7_ORIGINAL,,test
+POS__2916.jpg,POSITIVE,2916.jpg,stamps,stamps,202,202,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2917.jpg,POSITIVE,2917.jpg,stamps,stamps,20,20,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2918.jpg,POSITIVE,2918.jpg,stamps,stamps,25,26,1,1,1,True,V7_NEW_BATCH_003,3,test
+POS__292.jpg,POSITIVE,292.jpg,strawberries,strawberries,32,32,0,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2920.jpg,POSITIVE,2920.jpg,stamps,stamps,13,11,2,1,1,True,V7_NEW_BATCH_003,3,test
+POS__2921.jpg,POSITIVE,2921.jpg,stamps,stamps,27,27,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2922.jpg,POSITIVE,2922.jpg,stamps,stamps,19,19,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2923.jpg,POSITIVE,2923.jpg,stamps,stamps,86,85,1,1,1,True,V7_ORIGINAL,,test
+POS__2924.jpg,POSITIVE,2924.jpg,stamps,stamps,54,54,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2925.jpg,POSITIVE,2925.jpg,stamps,stamps,65,64,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2926.jpg,POSITIVE,2926.jpg,stamps,stamps,24,24,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2927.jpg,POSITIVE,2927.jpg,stamps,stamps,49,51,2,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2928.jpg,POSITIVE,2928.jpg,stamps,stamps,45,25,20,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2929.jpg,POSITIVE,2929.jpg,stamps,stamps,77,87,10,1,1,True,V7_NEW_BATCH_004,4,test
+POS__293.jpg,POSITIVE,293.jpg,strawberries,strawberries,41,47,6,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2930.jpg,POSITIVE,2930.jpg,stamps,stamps,60,60,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2931.jpg,POSITIVE,2931.jpg,stamps,stamps,43,46,3,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2932.jpg,POSITIVE,2932.jpg,stamps,stamps,25,25,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2933.jpg,POSITIVE,2933.jpg,stamps,stamps,45,45,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2934.jpg,POSITIVE,2934.jpg,stamps,stamps,56,57,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2935.jpg,POSITIVE,2935.jpg,stamps,stamps,13,13,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2936.jpg,POSITIVE,2936.jpg,stamps,stamps,23,24,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2937.jpg,POSITIVE,2937.jpg,stamps,stamps,78,75,3,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2938.jpg,POSITIVE,2938.jpg,stamps,stamps,9,10,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2939.jpg,POSITIVE,2939.jpg,stamps,stamps,52,52,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__294.jpg,POSITIVE,294.jpg,strawberries,strawberries,124,123,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2941.jpg,POSITIVE,2941.jpg,stamps,stamps,17,18,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2942.jpg,POSITIVE,2942.jpg,stamps,stamps,25,25,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2943.jpg,POSITIVE,2943.jpg,stamps,stamps,29,29,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2944.jpg,POSITIVE,2944.jpg,stamps,stamps,68,69,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2945.jpg,POSITIVE,2945.jpg,stamps,stamps,14,14,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2946.jpg,POSITIVE,2946.jpg,stamps,stamps,12,12,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2947.jpg,POSITIVE,2947.jpg,stamps,stamps,36,36,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2948.jpg,POSITIVE,2948.jpg,stamps,stamps,11,11,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2949.jpg,POSITIVE,2949.jpg,stamps,stamps,24,24,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__295.jpg,POSITIVE,295.jpg,strawberries,strawberries,64,65,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2951.jpg,POSITIVE,2951.jpg,stamps,stamps,14,15,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2952.jpg,POSITIVE,2952.jpg,stamps,stamps,67,68,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2953.jpg,POSITIVE,2953.jpg,stamps,stamps,22,32,10,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2954.jpg,POSITIVE,2954.jpg,stamps,stamps,38,38,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2955.jpg,POSITIVE,2955.jpg,stamps,stamps,105,107,2,1,1,True,V7_NEW_BATCH_004,4,test
+POS__2956.jpg,POSITIVE,2956.jpg,stamps,stamps,25,25,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__296.jpg,POSITIVE,296.jpg,strawberries,strawberries,30,30,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__297.jpg,POSITIVE,297.jpg,strawberries,strawberries,12,14,2,1,1,True,V7_NEW_BATCH_004,4,test
+POS__298.jpg,POSITIVE,298.jpg,strawberries,strawberries,33,33,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__299.jpg,POSITIVE,299.jpg,strawberries,strawberries,16,21,5,1,1,True,V7_NEW_BATCH_004,4,test
+POS__3.jpg,POSITIVE,3.jpg,hot air balloons,hot air balloons,11,11,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__300.jpg,POSITIVE,300.jpg,strawberries,strawberries,33,33,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__301.jpg,POSITIVE,301.jpg,strawberries,strawberries,28,32,4,1,1,True,V7_NEW_BATCH_004,4,test
+POS__302.jpg,POSITIVE,302.jpg,strawberries,strawberries,20,24,4,1,1,True,V7_NEW_BATCH_004,4,test
+POS__303.jpg,POSITIVE,303.jpg,strawberries,strawberries,51,53,2,1,1,True,V7_NEW_BATCH_004,4,test
+POS__305.jpg,POSITIVE,305.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__306.jpg,POSITIVE,306.jpg,strawberries,strawberries,30,31,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__307.jpg,POSITIVE,307.jpg,strawberries,strawberries,21,21,0,1,1,True,V7_NEW_BATCH_004,4,test
+POS__308.jpg,POSITIVE,308.jpg,strawberries,strawberries,27,28,1,1,1,True,V7_NEW_BATCH_004,4,test
+POS__309.jpg,POSITIVE,309.jpg,strawberries,strawberries,113,107,6,1,1,True,V7_NEW_BATCH_004,4,test
+POS__310.jpg,POSITIVE,310.jpg,strawberries,strawberries,65,71,6,1,1,True,V7_NEW_BATCH_005,5,test
+POS__311.jpg,POSITIVE,311.jpg,strawberries,strawberries,55,57,2,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3111.jpg,POSITIVE,3111.jpg,crab cakes,crab cakes,20,0,20,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3112.jpg,POSITIVE,3112.jpg,crab cakes,crab cakes,10,10,0,1,1,True,V7_ORIGINAL,,test
+POS__3114.jpg,POSITIVE,3114.jpg,crab cakes,crab cakes,17,16,1,1,1,True,V7_ORIGINAL,,test
+POS__312.jpg,POSITIVE,312.jpg,strawberries,strawberries,53,60,7,1,1,True,V7_ORIGINAL,,test
+POS__313.jpg,POSITIVE,313.jpg,strawberries,strawberries,23,23,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__315.jpg,POSITIVE,315.jpg,strawberries,strawberries,53,63,10,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3153.jpg,POSITIVE,3153.jpg,cashew nuts,cashew nuts,24,24,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3154.jpg,POSITIVE,3154.jpg,cashew nuts,cashew nuts,47,46,1,1,1,True,V7_ORIGINAL,,test
+POS__3155.jpg,POSITIVE,3155.jpg,cashew nuts,cashew nuts,45,49,4,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3156.jpg,POSITIVE,3156.jpg,cashew nuts,cashew nuts,50,51,1,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3157.jpg,POSITIVE,3157.jpg,cashew nuts,cashew nuts,42,40,2,1,1,True,V7_ORIGINAL,,test
+POS__3158.jpg,POSITIVE,3158.jpg,cashew nuts,cashew nuts,43,51,8,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3159.jpg,POSITIVE,3159.jpg,cashew nuts,cashew nuts,58,72,14,1,1,True,V7_NEW_BATCH_005,5,test
+POS__316.jpg,POSITIVE,316.jpg,strawberries,strawberries,25,29,4,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3160.jpg,POSITIVE,3160.jpg,cashew nuts,cashew nuts,13,13,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__317.jpg,POSITIVE,317.jpg,strawberries,strawberries,14,14,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__319.jpg,POSITIVE,319.jpg,strawberries,strawberries,12,12,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__320.jpg,POSITIVE,320.jpg,strawberries,strawberries,16,16,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__321.jpg,POSITIVE,321.jpg,strawberries,strawberries,39,43,4,1,1,True,V7_NEW_BATCH_005,5,test
+POS__322.jpg,POSITIVE,322.jpg,strawberries,strawberries,27,25,2,1,1,True,V7_NEW_BATCH_005,5,test
+POS__323.jpg,POSITIVE,323.jpg,strawberries,strawberries,25,25,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__324.jpg,POSITIVE,324.jpg,strawberries,strawberries,11,10,1,1,1,True,V7_NEW_BATCH_005,5,test
+POS__325.jpg,POSITIVE,325.jpg,strawberries,strawberries,33,35,2,1,1,True,V7_NEW_BATCH_005,5,test
+POS__326.jpg,POSITIVE,326.jpg,strawberries,strawberries,18,20,2,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3268.jpg,POSITIVE,3268.jpg,finger foods,finger foods,19,19,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3269.jpg,POSITIVE,3269.jpg,finger foods,finger foods,20,20,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__327.jpg,POSITIVE,327.jpg,strawberries,strawberries,12,12,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3270.jpg,POSITIVE,3270.jpg,finger foods,finger foods,19,19,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3271.jpg,POSITIVE,3271.jpg,finger foods,finger foods,21,0,21,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3274.jpg,POSITIVE,3274.jpg,finger foods,finger foods,9,0,9,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3275.jpg,POSITIVE,3275.jpg,finger foods,finger foods,12,12,0,1,1,True,V7_ORIGINAL,,test
+POS__3276.jpg,POSITIVE,3276.jpg,finger foods,finger foods,18,18,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3278.jpg,POSITIVE,3278.jpg,finger foods,finger foods,30,30,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3279.jpg,POSITIVE,3279.jpg,finger foods,finger foods,23,23,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__328.jpg,POSITIVE,328.jpg,strawberries,strawberries,35,36,1,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3281.jpg,POSITIVE,3281.jpg,finger foods,finger foods,15,15,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3282.jpg,POSITIVE,3282.jpg,finger foods,finger foods,31,0,31,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3283.jpg,POSITIVE,3283.jpg,finger foods,finger foods,37,37,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3284.jpg,POSITIVE,3284.jpg,finger foods,finger foods,16,0,16,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3285.jpg,POSITIVE,3285.jpg,finger foods,finger foods,34,0,34,1,0,False,V7_NEW_BATCH_005,5,test
+POS__329.jpg,POSITIVE,329.jpg,strawberries,strawberries,19,19,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__330.jpg,POSITIVE,330.jpg,strawberries,strawberries,25,25,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3308.jpg,POSITIVE,3308.jpg,green peas,green peas,153,157,4,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3309.jpg,POSITIVE,3309.jpg,green peas,green peas,16,16,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__331.jpg,POSITIVE,331.jpg,strawberries,strawberries,33,34,1,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3310.jpg,POSITIVE,3310.jpg,green peas,green peas,31,31,0,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3311.jpg,POSITIVE,3311.jpg,green peas,green peas,154,0,154,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3312.jpg,POSITIVE,3312.jpg,green peas,green peas,136,123,13,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3313.jpg,POSITIVE,3313.jpg,green peas,green peas,63,64,1,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3314.jpg,POSITIVE,3314.jpg,green peas,green peas,92,97,5,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3315.jpg,POSITIVE,3315.jpg,green peas,green peas,210,0,210,1,0,False,V7_ORIGINAL,,test
+POS__3317.jpg,POSITIVE,3317.jpg,green peas,green peas,43,55,12,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3318.jpg,POSITIVE,3318.jpg,green peas,green peas,185,0,185,1,0,False,V7_NEW_BATCH_005,5,test
+POS__3319.jpg,POSITIVE,3319.jpg,green peas,green peas,68,63,5,1,1,True,V7_NEW_BATCH_005,5,test
+POS__332.jpg,POSITIVE,332.jpg,strawberries,strawberries,11,9,2,1,1,True,V7_NEW_BATCH_005,5,test
+POS__3320.jpg,POSITIVE,3320.jpg,green peas,green peas,159,167,8,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3321.jpg,POSITIVE,3321.jpg,green peas,green peas,49,47,2,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3322.jpg,POSITIVE,3322.jpg,green peas,green peas,450,442,8,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3323.jpg,POSITIVE,3323.jpg,green peas,green peas,9,9,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3324.jpg,POSITIVE,3324.jpg,green peas,green peas,56,59,3,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3326.jpg,POSITIVE,3326.jpg,green peas,green peas,122,0,122,1,0,False,V7_NEW_BATCH_006,6,test
+POS__3327.jpg,POSITIVE,3327.jpg,green peas,green peas,33,33,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3328.jpg,POSITIVE,3328.jpg,green peas,green peas,99,100,1,1,1,True,V7_ORIGINAL,,test
+POS__3329.jpg,POSITIVE,3329.jpg,green peas,green peas,178,243,65,1,1,True,V7_NEW_BATCH_006,6,test
+POS__333.jpg,POSITIVE,333.jpg,strawberries,strawberries,32,32,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3330.jpg,POSITIVE,3330.jpg,green peas,green peas,57,65,8,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3331.jpg,POSITIVE,3331.jpg,green peas,green peas,133,137,4,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3332.jpg,POSITIVE,3332.jpg,green peas,green peas,66,12,54,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3333.jpg,POSITIVE,3333.jpg,green peas,green peas,113,3,110,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3334.jpg,POSITIVE,3334.jpg,green peas,green peas,146,147,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3335.jpg,POSITIVE,3335.jpg,green peas,green peas,350,333,17,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3336.jpg,POSITIVE,3336.jpg,green peas,green peas,72,87,15,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3337.jpg,POSITIVE,3337.jpg,green peas,green peas,295,281,14,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3338.jpg,POSITIVE,3338.jpg,green peas,green peas,258,264,6,1,1,True,V7_ORIGINAL,,test
+POS__3339.jpg,POSITIVE,3339.jpg,sea shells,sea shells,25,25,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__334.jpg,POSITIVE,334.jpg,strawberries,strawberries,35,37,2,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3341.jpg,POSITIVE,3341.jpg,sea shells,sea shells,36,36,0,1,1,True,V7_ORIGINAL,,test
+POS__3342.jpg,POSITIVE,3342.jpg,sea shells,sea shells,12,12,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__335.jpg,POSITIVE,335.jpg,strawberries,strawberries,12,12,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__336.jpg,POSITIVE,336.jpg,strawberries,strawberries,16,16,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__337.jpg,POSITIVE,337.jpg,strawberries,strawberries,13,14,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__339.jpg,POSITIVE,339.jpg,strawberries,strawberries,18,18,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__340.jpg,POSITIVE,340.jpg,strawberries,strawberries,14,14,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__341.jpg,POSITIVE,341.jpg,strawberries,strawberries,13,13,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__342.jpg,POSITIVE,342.jpg,strawberries,strawberries,63,67,4,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3424.jpg,POSITIVE,3424.jpg,crab cakes,crab cakes,12,12,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__343.jpg,POSITIVE,343.jpg,strawberries,strawberries,16,29,13,1,1,True,V7_NEW_BATCH_006,6,test
+POS__344.jpg,POSITIVE,344.jpg,strawberries,strawberries,43,44,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__345.jpg,POSITIVE,345.jpg,strawberries,strawberries,63,70,7,1,1,True,V7_NEW_BATCH_006,6,test
+POS__346.jpg,POSITIVE,346.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__347.jpg,POSITIVE,347.jpg,strawberries,strawberries,41,42,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__348.jpg,POSITIVE,348.jpg,strawberries,strawberries,27,30,3,1,1,True,V7_NEW_BATCH_006,6,test
+POS__349.jpg,POSITIVE,349.jpg,strawberries,strawberries,39,40,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3493.jpg,POSITIVE,3493.jpg,red beans,red beans,45,52,7,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3494.jpg,POSITIVE,3494.jpg,red beans,red beans,37,39,2,1,1,True,V7_ORIGINAL,,test
+POS__3495.jpg,POSITIVE,3495.jpg,red beans,red beans,107,119,12,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3496.jpg,POSITIVE,3496.jpg,red beans,red beans,103,109,6,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3497.jpg,POSITIVE,3497.jpg,red beans,red beans,161,173,12,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3498.jpg,POSITIVE,3498.jpg,red beans,red beans,96,98,2,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3499.jpg,POSITIVE,3499.jpg,red beans,red beans,91,92,1,1,1,True,V7_NEW_BATCH_006,6,test
+POS__350.jpg,POSITIVE,350.jpg,strawberries,strawberries,17,17,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3500.jpg,POSITIVE,3500.jpg,red beans,red beans,15,15,0,1,1,True,V7_ORIGINAL,,test
+POS__3501.jpg,POSITIVE,3501.jpg,red beans,red beans,60,63,3,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3502.jpg,POSITIVE,3502.jpg,red beans,red beans,70,73,3,1,1,True,V7_NEW_BATCH_006,6,test
+POS__351.jpg,POSITIVE,351.jpg,strawberries,strawberries,41,46,5,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3643.jpg,POSITIVE,3643.jpg,cashew nuts,cashew nuts,59,56,3,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3644.jpg,POSITIVE,3644.jpg,cashew nuts,cashew nuts,13,13,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3645.jpg,POSITIVE,3645.jpg,cashew nuts,cashew nuts,60,60,0,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3646.jpg,POSITIVE,3646.jpg,cashew nuts,cashew nuts,15,15,0,1,1,True,V7_ORIGINAL,,test
+POS__3647.jpg,POSITIVE,3647.jpg,cashew nuts,cashew nuts,87,74,13,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3648.jpg,POSITIVE,3648.jpg,cashew nuts,cashew nuts,35,40,5,1,1,True,V7_NEW_BATCH_006,6,test
+POS__3649.jpg,POSITIVE,3649.jpg,cashew nuts,cashew nuts,35,40,5,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3650.jpg,POSITIVE,3650.jpg,cashew nuts,cashew nuts,14,14,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3651.jpg,POSITIVE,3651.jpg,cashew nuts,cashew nuts,11,11,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3652.jpg,POSITIVE,3652.jpg,cashew nuts,cashew nuts,46,43,3,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3653.jpg,POSITIVE,3653.jpg,cashew nuts,cashew nuts,65,80,15,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3655.jpg,POSITIVE,3655.jpg,cashew nuts,cashew nuts,13,14,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3656.jpg,POSITIVE,3656.jpg,cashew nuts,cashew nuts,45,43,2,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3657.jpg,POSITIVE,3657.jpg,cashew nuts,cashew nuts,24,25,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3658.jpg,POSITIVE,3658.jpg,cashew nuts,cashew nuts,36,38,2,1,1,True,V7_ORIGINAL,,test
+POS__3659.jpg,POSITIVE,3659.jpg,cashew nuts,cashew nuts,41,45,4,1,1,True,V7_ORIGINAL,,test
+POS__3693.jpg,POSITIVE,3693.jpg,candy pieces,candy pieces,36,36,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3694.jpg,POSITIVE,3694.jpg,candy pieces,candy pieces,34,34,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__3695.jpg,POSITIVE,3695.jpg,candy pieces,candy pieces,16,16,0,1,1,True,V7_ORIGINAL,,test
+POS__3696.jpg,POSITIVE,3696.jpg,candy pieces,candy pieces,8,0,8,1,0,False,V7_NEW_BATCH_007,7,test
+POS__3697.jpg,POSITIVE,3697.jpg,candy pieces,candy pieces,11,0,11,1,0,False,V7_ORIGINAL,,test
+POS__3698.jpg,POSITIVE,3698.jpg,candy pieces,candy pieces,111,116,5,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4.jpg,POSITIVE,4.jpg,hot air balloons,hot air balloons,10,11,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4061.jpg,POSITIVE,4061.jpg,marbles,marbles,95,100,5,1,1,True,V7_ORIGINAL,,test
+POS__4062.jpg,POSITIVE,4062.jpg,marbles,marbles,275,75,200,1,1,True,V7_ORIGINAL,,test
+POS__4063.jpg,POSITIVE,4063.jpg,marbles,marbles,11,11,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4064.jpg,POSITIVE,4064.jpg,marbles,marbles,119,111,8,1,1,True,V7_ORIGINAL,,test
+POS__4065.jpg,POSITIVE,4065.jpg,marbles,marbles,37,37,0,1,1,True,V7_ORIGINAL,,test
+POS__4066.jpg,POSITIVE,4066.jpg,marbles,marbles,9,10,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4067.jpg,POSITIVE,4067.jpg,marbles,marbles,42,40,2,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4068.jpg,POSITIVE,4068.jpg,marbles,marbles,10,10,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4069.jpg,POSITIVE,4069.jpg,marbles,marbles,118,118,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4070.jpg,POSITIVE,4070.jpg,marbles,marbles,76,76,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4071.jpg,POSITIVE,4071.jpg,marbles,marbles,48,49,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4072.jpg,POSITIVE,4072.jpg,marbles,marbles,11,12,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4073.jpg,POSITIVE,4073.jpg,marbles,marbles,25,25,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4074.jpg,POSITIVE,4074.jpg,marbles,marbles,23,23,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4077.jpg,POSITIVE,4077.jpg,marbles,marbles,221,208,13,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4078.jpg,POSITIVE,4078.jpg,marbles,marbles,58,59,1,1,1,True,V7_ORIGINAL,,test
+POS__4079.jpg,POSITIVE,4079.jpg,marbles,marbles,24,24,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4080.jpg,POSITIVE,4080.jpg,marbles,marbles,54,54,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4082.jpg,POSITIVE,4082.jpg,marbles,marbles,108,120,12,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4083.jpg,POSITIVE,4083.jpg,marbles,marbles,94,93,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4084.jpg,POSITIVE,4084.jpg,marbles,marbles,12,12,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4085.jpg,POSITIVE,4085.jpg,marbles,marbles,86,87,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4086.jpg,POSITIVE,4086.jpg,marbles,marbles,12,12,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4087.jpg,POSITIVE,4087.jpg,marbles,marbles,118,120,2,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4088.jpg,POSITIVE,4088.jpg,marbles,marbles,28,28,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4089.jpg,POSITIVE,4089.jpg,marbles,marbles,59,60,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4110.jpg,POSITIVE,4110.jpg,finger foods,finger foods,12,13,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4111.jpg,POSITIVE,4111.jpg,finger foods,finger foods,24,24,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4112.jpg,POSITIVE,4112.jpg,finger foods,finger foods,11,16,5,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4113.jpg,POSITIVE,4113.jpg,finger foods,finger foods,37,40,3,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4114.jpg,POSITIVE,4114.jpg,finger foods,finger foods,12,12,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4115.jpg,POSITIVE,4115.jpg,finger foods,finger foods,8,9,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4116.jpg,POSITIVE,4116.jpg,finger foods,finger foods,15,15,0,1,1,True,V7_ORIGINAL,,test
+POS__4118.jpg,POSITIVE,4118.jpg,finger foods,finger foods,13,14,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4119.jpg,POSITIVE,4119.jpg,finger foods,finger foods,12,12,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4120.jpg,POSITIVE,4120.jpg,finger foods,finger foods,46,47,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4121.jpg,POSITIVE,4121.jpg,finger foods,finger foods,10,10,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4122.jpg,POSITIVE,4122.jpg,finger foods,finger foods,12,13,1,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4123.jpg,POSITIVE,4123.jpg,finger foods,finger foods,13,13,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4170.jpg,POSITIVE,4170.jpg,potato chips,potato chips,34,34,0,1,1,True,V7_ORIGINAL,,test
+POS__4173.jpg,POSITIVE,4173.jpg,potato chips,potato chips,11,11,0,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4174.jpg,POSITIVE,4174.jpg,potato chips,potato chips,36,40,4,1,1,True,V7_ORIGINAL,,test
+POS__4175.jpg,POSITIVE,4175.jpg,potato chips,potato chips,21,19,2,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4283.jpg,POSITIVE,4283.jpg,green peas,green peas,65,75,10,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4284.jpg,POSITIVE,4284.jpg,green peas,green peas,91,108,17,1,1,True,V7_NEW_BATCH_007,7,test
+POS__4285.jpg,POSITIVE,4285.jpg,green peas,green peas,115,116,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4286.jpg,POSITIVE,4286.jpg,green peas,green peas,333,318,15,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4287.jpg,POSITIVE,4287.jpg,green peas,green peas,27,28,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4288.jpg,POSITIVE,4288.jpg,green peas,green peas,118,140,22,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4289.jpg,POSITIVE,4289.jpg,green peas,green peas,43,41,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4290.jpg,POSITIVE,4290.jpg,green peas,green peas,25,25,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4291.jpg,POSITIVE,4291.jpg,green peas,green peas,323,328,5,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4292.jpg,POSITIVE,4292.jpg,green peas,green peas,11,11,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4294.jpg,POSITIVE,4294.jpg,green peas,green peas,221,217,4,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4295.jpg,POSITIVE,4295.jpg,green peas,green peas,110,123,13,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4296.jpg,POSITIVE,4296.jpg,green peas,green peas,32,33,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4297.jpg,POSITIVE,4297.jpg,green peas,green peas,108,104,4,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4298.jpg,POSITIVE,4298.jpg,green peas,green peas,44,54,10,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4300.jpg,POSITIVE,4300.jpg,green peas,green peas,83,95,12,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4301.jpg,POSITIVE,4301.jpg,green peas,green peas,44,46,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4302.jpg,POSITIVE,4302.jpg,green peas,green peas,131,0,131,1,0,False,V7_NEW_BATCH_008,8,test
+POS__4303.jpg,POSITIVE,4303.jpg,green peas,green peas,191,201,10,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4304.jpg,POSITIVE,4304.jpg,green peas,green peas,15,15,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4305.jpg,POSITIVE,4305.jpg,green peas,green peas,77,83,6,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4405.jpg,POSITIVE,4405.jpg,hot air balloons,hot air balloons,12,12,0,1,1,True,V7_ORIGINAL,,test
+POS__4406.jpg,POSITIVE,4406.jpg,hot air balloons,hot air balloons,12,12,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4407.jpg,POSITIVE,4407.jpg,hot air balloons,hot air balloons,69,68,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4408.jpg,POSITIVE,4408.jpg,hot air balloons,hot air balloons,14,14,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4409.jpg,POSITIVE,4409.jpg,hot air balloons,hot air balloons,9,9,0,1,1,True,V7_ORIGINAL,,test
+POS__4412.jpg,POSITIVE,4412.jpg,hot air balloons,hot air balloons,10,10,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4413.jpg,POSITIVE,4413.jpg,hot air balloons,hot air balloons,11,12,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4414.jpg,POSITIVE,4414.jpg,hot air balloons,hot air balloons,11,11,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4415.jpg,POSITIVE,4415.jpg,hot air balloons,hot air balloons,16,16,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4416.jpg,POSITIVE,4416.jpg,hot air balloons,hot air balloons,13,14,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4417.jpg,POSITIVE,4417.jpg,hot air balloons,hot air balloons,63,73,10,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4418.jpg,POSITIVE,4418.jpg,hot air balloons,hot air balloons,30,34,4,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4419.jpg,POSITIVE,4419.jpg,hot air balloons,hot air balloons,15,13,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4421.jpg,POSITIVE,4421.jpg,hot air balloons,hot air balloons,8,8,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4422.jpg,POSITIVE,4422.jpg,hot air balloons,hot air balloons,10,10,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4423.jpg,POSITIVE,4423.jpg,hot air balloons,hot air balloons,12,12,0,1,1,True,V7_ORIGINAL,,test
+POS__4492.jpg,POSITIVE,4492.jpg,skis,skis,12,12,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4493.jpg,POSITIVE,4493.jpg,skis,skis,18,20,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4494.jpg,POSITIVE,4494.jpg,skis,skis,26,26,0,1,1,True,V7_ORIGINAL,,test
+POS__4495.jpg,POSITIVE,4495.jpg,skis,skis,10,5,5,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4496.jpg,POSITIVE,4496.jpg,skis,skis,13,15,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4497.jpg,POSITIVE,4497.jpg,skis,skis,14,14,0,1,1,True,V7_ORIGINAL,,test
+POS__4498.jpg,POSITIVE,4498.jpg,skis,skis,12,11,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4499.jpg,POSITIVE,4499.jpg,skis,skis,10,9,1,1,1,True,V7_ORIGINAL,,test
+POS__4500.jpg,POSITIVE,4500.jpg,skis,skis,8,8,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4501.jpg,POSITIVE,4501.jpg,skis,skis,18,18,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4502.jpg,POSITIVE,4502.jpg,skis,skis,21,21,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4874.jpg,POSITIVE,4874.jpg,strawberries,strawberries,68,69,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4875.jpg,POSITIVE,4875.jpg,strawberries,strawberries,40,40,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4876.jpg,POSITIVE,4876.jpg,strawberries,strawberries,42,43,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4877.jpg,POSITIVE,4877.jpg,strawberries,strawberries,44,47,3,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4878.jpg,POSITIVE,4878.jpg,strawberries,strawberries,126,139,13,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4879.jpg,POSITIVE,4879.jpg,strawberries,strawberries,76,78,2,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4880.jpg,POSITIVE,4880.jpg,strawberries,strawberries,32,36,4,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4881.jpg,POSITIVE,4881.jpg,strawberries,strawberries,35,35,0,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4882.jpg,POSITIVE,4882.jpg,strawberries,strawberries,28,29,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4883.jpg,POSITIVE,4883.jpg,strawberries,strawberries,15,16,1,1,1,True,V7_NEW_BATCH_008,8,test
+POS__4884.jpg,POSITIVE,4884.jpg,strawberries,strawberries,101,95,6,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4885.jpg,POSITIVE,4885.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4886.jpg,POSITIVE,4886.jpg,strawberries,strawberries,37,41,4,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4887.jpg,POSITIVE,4887.jpg,strawberries,strawberries,32,33,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4888.jpg,POSITIVE,4888.jpg,strawberries,strawberries,14,16,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4889.jpg,POSITIVE,4889.jpg,strawberries,strawberries,27,28,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4890.jpg,POSITIVE,4890.jpg,strawberries,strawberries,64,71,7,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4891.jpg,POSITIVE,4891.jpg,strawberries,strawberries,27,26,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4892.jpg,POSITIVE,4892.jpg,strawberries,strawberries,50,52,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4893.jpg,POSITIVE,4893.jpg,strawberries,strawberries,28,30,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4894.jpg,POSITIVE,4894.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4895.jpg,POSITIVE,4895.jpg,strawberries,strawberries,8,8,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4896.jpg,POSITIVE,4896.jpg,strawberries,strawberries,83,94,11,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4897.jpg,POSITIVE,4897.jpg,strawberries,strawberries,35,37,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4898.jpg,POSITIVE,4898.jpg,strawberries,strawberries,51,52,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4900.jpg,POSITIVE,4900.jpg,strawberries,strawberries,14,16,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4901.jpg,POSITIVE,4901.jpg,strawberries,strawberries,16,19,3,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4903.jpg,POSITIVE,4903.jpg,strawberries,strawberries,18,18,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4904.jpg,POSITIVE,4904.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4905.jpg,POSITIVE,4905.jpg,strawberries,strawberries,250,291,41,1,1,True,V7_ORIGINAL,,test
+POS__4906.jpg,POSITIVE,4906.jpg,strawberries,strawberries,78,84,6,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4908.jpg,POSITIVE,4908.jpg,strawberries,strawberries,24,24,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4909.jpg,POSITIVE,4909.jpg,strawberries,strawberries,16,18,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4910.jpg,POSITIVE,4910.jpg,strawberries,strawberries,14,16,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4911.jpg,POSITIVE,4911.jpg,strawberries,strawberries,30,30,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4912.jpg,POSITIVE,4912.jpg,strawberries,strawberries,39,53,14,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4913.jpg,POSITIVE,4913.jpg,strawberries,strawberries,10,10,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4915.jpg,POSITIVE,4915.jpg,strawberries,strawberries,87,92,5,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4916.jpg,POSITIVE,4916.jpg,strawberries,strawberries,91,100,9,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4917.jpg,POSITIVE,4917.jpg,strawberries,strawberries,37,37,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4918.jpg,POSITIVE,4918.jpg,strawberries,strawberries,95,94,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4919.jpg,POSITIVE,4919.jpg,strawberries,strawberries,31,31,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4920.jpg,POSITIVE,4920.jpg,strawberries,strawberries,20,10,10,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4921.jpg,POSITIVE,4921.jpg,strawberries,strawberries,13,13,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4922.jpg,POSITIVE,4922.jpg,strawberries,strawberries,8,8,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4923.jpg,POSITIVE,4923.jpg,strawberries,strawberries,31,31,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4924.jpg,POSITIVE,4924.jpg,strawberries,strawberries,67,71,4,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4925.jpg,POSITIVE,4925.jpg,strawberries,strawberries,142,159,17,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4926.jpg,POSITIVE,4926.jpg,strawberries,strawberries,40,45,5,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4927.jpg,POSITIVE,4927.jpg,strawberries,strawberries,63,77,14,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4928.jpg,POSITIVE,4928.jpg,strawberries,strawberries,40,40,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4929.jpg,POSITIVE,4929.jpg,strawberries,strawberries,36,37,1,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4930.jpg,POSITIVE,4930.jpg,strawberries,strawberries,74,68,6,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4931.jpg,POSITIVE,4931.jpg,strawberries,strawberries,58,72,14,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4932.jpg,POSITIVE,4932.jpg,strawberries,strawberries,56,63,7,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4933.jpg,POSITIVE,4933.jpg,strawberries,strawberries,54,56,2,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4934.jpg,POSITIVE,4934.jpg,strawberries,strawberries,19,19,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4935.jpg,POSITIVE,4935.jpg,strawberries,strawberries,9,9,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4937.jpg,POSITIVE,4937.jpg,strawberries,strawberries,11,11,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4938.jpg,POSITIVE,4938.jpg,tree logs,tree logs,58,71,13,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4939.jpg,POSITIVE,4939.jpg,tree logs,tree logs,20,20,0,1,1,True,V7_NEW_BATCH_009,9,test
+POS__4940.jpg,POSITIVE,4940.jpg,tree logs,tree logs,31,31,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4941.jpg,POSITIVE,4941.jpg,tree logs,tree logs,175,186,11,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4942.jpg,POSITIVE,4942.jpg,tree logs,tree logs,56,45,11,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4943.jpg,POSITIVE,4943.jpg,tree logs,tree logs,65,66,1,1,1,True,V7_ORIGINAL,,test
+POS__4944.jpg,POSITIVE,4944.jpg,tree logs,tree logs,49,53,4,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4945.jpg,POSITIVE,4945.jpg,tree logs,tree logs,41,40,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4946.jpg,POSITIVE,4946.jpg,tree logs,tree logs,71,82,11,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4947.jpg,POSITIVE,4947.jpg,tree logs,tree logs,205,224,19,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4948.jpg,POSITIVE,4948.jpg,tree logs,tree logs,18,19,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4949.jpg,POSITIVE,4949.jpg,tree logs,tree logs,95,110,15,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4950.jpg,POSITIVE,4950.jpg,tree logs,tree logs,33,34,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4951.jpg,POSITIVE,4951.jpg,tree logs,tree logs,166,187,21,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4952.jpg,POSITIVE,4952.jpg,tree logs,tree logs,247,249,2,1,1,True,V7_ORIGINAL,,test
+POS__4953.jpg,POSITIVE,4953.jpg,tree logs,tree logs,51,55,4,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4954.jpg,POSITIVE,4954.jpg,tree logs,tree logs,29,39,10,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4955.jpg,POSITIVE,4955.jpg,tree logs,tree logs,145,145,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4956.jpg,POSITIVE,4956.jpg,tree logs,tree logs,102,109,7,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4957.jpg,POSITIVE,4957.jpg,tree logs,tree logs,93,112,19,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4958.jpg,POSITIVE,4958.jpg,tree logs,tree logs,118,109,9,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4959.jpg,POSITIVE,4959.jpg,tree logs,tree logs,31,38,7,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4960.jpg,POSITIVE,4960.jpg,tree logs,tree logs,29,28,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4961.jpg,POSITIVE,4961.jpg,tree logs,tree logs,363,351,12,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4962.jpg,POSITIVE,4962.jpg,tree logs,tree logs,30,31,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4963.jpg,POSITIVE,4963.jpg,tree logs,tree logs,218,224,6,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4964.jpg,POSITIVE,4964.jpg,tree logs,tree logs,51,56,5,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4965.jpg,POSITIVE,4965.jpg,tree logs,tree logs,15,15,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4966.jpg,POSITIVE,4966.jpg,tree logs,tree logs,46,48,2,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4967.jpg,POSITIVE,4967.jpg,tree logs,tree logs,19,21,2,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4969.jpg,POSITIVE,4969.jpg,tree logs,tree logs,109,128,19,1,1,True,V7_NEW_BATCH_010,10,test
+POS__4970.jpg,POSITIVE,4970.jpg,tree logs,tree logs,44,51,7,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5.jpg,POSITIVE,5.jpg,hot air balloons,hot air balloons,113,116,3,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5141.jpg,POSITIVE,5141.jpg,cashew nuts,cashew nuts,30,40,10,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5142.jpg,POSITIVE,5142.jpg,cashew nuts,cashew nuts,193,174,19,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5143.jpg,POSITIVE,5143.jpg,cashew nuts,cashew nuts,63,64,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5144.jpg,POSITIVE,5144.jpg,cashew nuts,cashew nuts,87,74,13,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5145.jpg,POSITIVE,5145.jpg,cashew nuts,cashew nuts,15,15,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5147.jpg,POSITIVE,5147.jpg,cashew nuts,cashew nuts,46,43,3,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5148.jpg,POSITIVE,5148.jpg,cashew nuts,cashew nuts,36,37,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5149.jpg,POSITIVE,5149.jpg,cashew nuts,cashew nuts,111,110,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5356.jpg,POSITIVE,5356.jpg,marbles,marbles,16,16,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5357.jpg,POSITIVE,5357.jpg,marbles,marbles,12,12,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5358.jpg,POSITIVE,5358.jpg,marbles,marbles,25,25,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5359.jpg,POSITIVE,5359.jpg,marbles,marbles,33,33,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5360.jpg,POSITIVE,5360.jpg,marbles,marbles,65,65,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5361.jpg,POSITIVE,5361.jpg,marbles,marbles,27,25,2,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5362.jpg,POSITIVE,5362.jpg,marbles,marbles,18,0,18,1,0,False,V7_NEW_BATCH_010,10,test
+POS__5363.jpg,POSITIVE,5363.jpg,marbles,marbles,35,37,2,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5364.jpg,POSITIVE,5364.jpg,marbles,marbles,23,23,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5365.jpg,POSITIVE,5365.jpg,marbles,marbles,9,0,9,1,0,False,V7_NEW_BATCH_010,10,test
+POS__5366.jpg,POSITIVE,5366.jpg,marbles,marbles,57,58,1,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5367.jpg,POSITIVE,5367.jpg,marbles,marbles,150,150,0,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5368.jpg,POSITIVE,5368.jpg,marbles,marbles,153,156,3,1,1,True,V7_NEW_BATCH_010,10,test
+POS__5369.jpg,POSITIVE,5369.jpg,marbles,marbles,26,25,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5371.jpg,POSITIVE,5371.jpg,marbles,marbles,44,44,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5372.jpg,POSITIVE,5372.jpg,marbles,marbles,31,31,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5373.jpg,POSITIVE,5373.jpg,marbles,marbles,40,42,2,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5374.jpg,POSITIVE,5374.jpg,finger foods,finger foods,16,16,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5375.jpg,POSITIVE,5375.jpg,finger foods,finger foods,18,13,5,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5376.jpg,POSITIVE,5376.jpg,finger foods,finger foods,13,10,3,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5377.jpg,POSITIVE,5377.jpg,finger foods,finger foods,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5378.jpg,POSITIVE,5378.jpg,finger foods,finger foods,11,11,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5379.jpg,POSITIVE,5379.jpg,finger foods,finger foods,9,0,9,1,0,False,V7_NEW_BATCH_011,11,test
+POS__5380.jpg,POSITIVE,5380.jpg,finger foods,finger foods,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5381.jpg,POSITIVE,5381.jpg,finger foods,finger foods,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5382.jpg,POSITIVE,5382.jpg,finger foods,finger foods,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5383.jpg,POSITIVE,5383.jpg,finger foods,finger foods,10,10,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5385.jpg,POSITIVE,5385.jpg,finger foods,finger foods,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5386.jpg,POSITIVE,5386.jpg,finger foods,finger foods,14,14,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5387.jpg,POSITIVE,5387.jpg,finger foods,finger foods,8,0,8,1,0,False,V7_NEW_BATCH_011,11,test
+POS__5388.jpg,POSITIVE,5388.jpg,finger foods,finger foods,13,11,2,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5390.jpg,POSITIVE,5390.jpg,finger foods,finger foods,14,14,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5391.jpg,POSITIVE,5391.jpg,finger foods,finger foods,12,12,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5458.jpg,POSITIVE,5458.jpg,green peas,green peas,25,25,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5459.jpg,POSITIVE,5459.jpg,green peas,green peas,72,73,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5460.jpg,POSITIVE,5460.jpg,green peas,green peas,131,141,10,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5461.jpg,POSITIVE,5461.jpg,green peas,green peas,18,18,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5463.jpg,POSITIVE,5463.jpg,green peas,green peas,11,12,1,1,1,True,V7_ORIGINAL,,test
+POS__5464.jpg,POSITIVE,5464.jpg,green peas,green peas,54,53,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5503.jpg,POSITIVE,5503.jpg,green peas,green peas,131,141,10,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5504.jpg,POSITIVE,5504.jpg,green peas,green peas,122,125,3,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5505.jpg,POSITIVE,5505.jpg,green peas,green peas,89,108,19,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5506.jpg,POSITIVE,5506.jpg,green peas,green peas,88,95,7,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5507.jpg,POSITIVE,5507.jpg,green peas,green peas,262,269,7,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5508.jpg,POSITIVE,5508.jpg,green peas,green peas,84,101,17,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5509.jpg,POSITIVE,5509.jpg,green peas,green peas,155,151,4,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5510.jpg,POSITIVE,5510.jpg,green peas,green peas,121,137,16,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5511.jpg,POSITIVE,5511.jpg,green peas,green peas,18,18,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5512.jpg,POSITIVE,5512.jpg,green peas,green peas,72,80,8,1,1,True,V7_ORIGINAL,,test
+POS__5513.jpg,POSITIVE,5513.jpg,green peas,green peas,89,93,4,1,1,True,V7_ORIGINAL,,test
+POS__5514.jpg,POSITIVE,5514.jpg,green peas,green peas,112,104,8,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5562.jpg,POSITIVE,5562.jpg,finger foods,finger foods,13,12,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5563.jpg,POSITIVE,5563.jpg,finger foods,finger foods,189,0,189,1,0,False,V7_NEW_BATCH_011,11,test
+POS__5564.jpg,POSITIVE,5564.jpg,finger foods,finger foods,16,6,10,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5565.jpg,POSITIVE,5565.jpg,finger foods,finger foods,8,8,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5566.jpg,POSITIVE,5566.jpg,finger foods,finger foods,33,34,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5567.jpg,POSITIVE,5567.jpg,finger foods,finger foods,51,52,1,1,1,True,V7_ORIGINAL,,test
+POS__5568.jpg,POSITIVE,5568.jpg,finger foods,finger foods,30,30,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5571.jpg,POSITIVE,5571.jpg,marbles,marbles,20,20,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5572.jpg,POSITIVE,5572.jpg,marbles,marbles,9,9,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5573.jpg,POSITIVE,5573.jpg,marbles,marbles,26,26,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5574.jpg,POSITIVE,5574.jpg,marbles,marbles,90,68,22,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5575.jpg,POSITIVE,5575.jpg,marbles,marbles,12,12,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5576.jpg,POSITIVE,5576.jpg,marbles,marbles,67,69,2,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5577.jpg,POSITIVE,5577.jpg,marbles,marbles,51,52,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5578.jpg,POSITIVE,5578.jpg,marbles,marbles,32,33,1,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5579.jpg,POSITIVE,5579.jpg,marbles,marbles,33,33,0,1,1,True,V7_NEW_BATCH_011,11,test
+POS__5580.jpg,POSITIVE,5580.jpg,marbles,marbles,42,42,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5581.jpg,POSITIVE,5581.jpg,marbles,marbles,8,8,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5582.jpg,POSITIVE,5582.jpg,marbles,marbles,47,47,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5583.jpg,POSITIVE,5583.jpg,marbles,marbles,12,12,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5584.jpg,POSITIVE,5584.jpg,marbles,marbles,51,51,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5585.jpg,POSITIVE,5585.jpg,marbles,marbles,32,32,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5587.jpg,POSITIVE,5587.jpg,marbles,marbles,16,16,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5588.jpg,POSITIVE,5588.jpg,marbles,marbles,49,49,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5590.jpg,POSITIVE,5590.jpg,marbles,marbles,17,17,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5591.jpg,POSITIVE,5591.jpg,marbles,marbles,32,32,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5592.jpg,POSITIVE,5592.jpg,marbles,marbles,93,93,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5593.jpg,POSITIVE,5593.jpg,marbles,marbles,23,23,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5594.jpg,POSITIVE,5594.jpg,marbles,marbles,15,15,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5595.jpg,POSITIVE,5595.jpg,marbles,marbles,15,15,0,1,1,True,V7_ORIGINAL,,test
+POS__5596.jpg,POSITIVE,5596.jpg,marbles,marbles,40,40,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5597.jpg,POSITIVE,5597.jpg,marbles,marbles,128,51,77,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5598.jpg,POSITIVE,5598.jpg,marbles,marbles,23,23,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5599.jpg,POSITIVE,5599.jpg,marbles,marbles,33,33,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5600.jpg,POSITIVE,5600.jpg,marbles,marbles,149,48,101,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5601.jpg,POSITIVE,5601.jpg,marbles,marbles,22,22,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5602.jpg,POSITIVE,5602.jpg,marbles,marbles,21,21,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5791.jpg,POSITIVE,5791.jpg,cashew nuts,cashew nuts,35,44,9,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5792.jpg,POSITIVE,5792.jpg,cashew nuts,cashew nuts,21,21,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5793.jpg,POSITIVE,5793.jpg,cashew nuts,cashew nuts,48,47,1,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5794.jpg,POSITIVE,5794.jpg,cashew nuts,cashew nuts,13,13,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5795.jpg,POSITIVE,5795.jpg,cashew nuts,cashew nuts,84,84,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5796.jpg,POSITIVE,5796.jpg,cashew nuts,cashew nuts,71,77,6,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5797.jpg,POSITIVE,5797.jpg,cashew nuts,cashew nuts,58,60,2,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5798.jpg,POSITIVE,5798.jpg,cashew nuts,cashew nuts,45,43,2,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5799.jpg,POSITIVE,5799.jpg,cashew nuts,cashew nuts,50,51,1,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5800.jpg,POSITIVE,5800.jpg,cashew nuts,cashew nuts,12,13,1,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5801.jpg,POSITIVE,5801.jpg,cashew nuts,cashew nuts,157,174,17,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5802.jpg,POSITIVE,5802.jpg,cashew nuts,cashew nuts,14,14,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5803.jpg,POSITIVE,5803.jpg,cashew nuts,cashew nuts,35,37,2,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5804.jpg,POSITIVE,5804.jpg,cashew nuts,cashew nuts,43,41,2,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5805.jpg,POSITIVE,5805.jpg,cashew nuts,cashew nuts,31,34,3,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5806.jpg,POSITIVE,5806.jpg,cashew nuts,cashew nuts,46,43,3,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5807.jpg,POSITIVE,5807.jpg,cashew nuts,cashew nuts,110,110,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5808.jpg,POSITIVE,5808.jpg,cashew nuts,cashew nuts,53,59,6,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5809.jpg,POSITIVE,5809.jpg,cashew nuts,cashew nuts,26,25,1,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5810.jpg,POSITIVE,5810.jpg,strawberries,strawberries,90,95,5,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5811.jpg,POSITIVE,5811.jpg,strawberries,strawberries,37,38,1,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5812.jpg,POSITIVE,5812.jpg,strawberries,strawberries,51,56,5,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5813.jpg,POSITIVE,5813.jpg,strawberries,strawberries,12,12,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5814.jpg,POSITIVE,5814.jpg,strawberries,strawberries,34,37,3,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5815.jpg,POSITIVE,5815.jpg,strawberries,strawberries,146,143,3,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5816.jpg,POSITIVE,5816.jpg,strawberries,strawberries,101,108,7,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5817.jpg,POSITIVE,5817.jpg,strawberries,strawberries,41,43,2,1,1,True,V7_ORIGINAL,,test
+POS__5818.jpg,POSITIVE,5818.jpg,strawberries,strawberries,56,56,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5819.jpg,POSITIVE,5819.jpg,strawberries,strawberries,9,9,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5820.jpg,POSITIVE,5820.jpg,strawberries,strawberries,23,23,0,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5821.jpg,POSITIVE,5821.jpg,strawberries,strawberries,96,98,2,1,1,True,V7_NEW_BATCH_012,12,test
+POS__5822.jpg,POSITIVE,5822.jpg,strawberries,strawberries,128,131,3,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5823.jpg,POSITIVE,5823.jpg,strawberries,strawberries,69,78,9,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5824.jpg,POSITIVE,5824.jpg,strawberries,strawberries,24,19,5,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5825.jpg,POSITIVE,5825.jpg,strawberries,strawberries,14,14,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5826.jpg,POSITIVE,5826.jpg,strawberries,strawberries,47,54,7,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5827.jpg,POSITIVE,5827.jpg,strawberries,strawberries,56,57,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5828.jpg,POSITIVE,5828.jpg,strawberries,strawberries,12,12,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5829.jpg,POSITIVE,5829.jpg,strawberries,strawberries,165,172,7,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5830.jpg,POSITIVE,5830.jpg,strawberries,strawberries,35,34,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5831.jpg,POSITIVE,5831.jpg,strawberries,strawberries,101,125,24,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5832.jpg,POSITIVE,5832.jpg,strawberries,strawberries,122,133,11,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5833.jpg,POSITIVE,5833.jpg,strawberries,strawberries,92,91,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5834.jpg,POSITIVE,5834.jpg,strawberries,strawberries,27,32,5,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5835.jpg,POSITIVE,5835.jpg,strawberries,strawberries,79,80,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5836.jpg,POSITIVE,5836.jpg,strawberries,strawberries,18,19,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5837.jpg,POSITIVE,5837.jpg,strawberries,strawberries,18,18,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5838.jpg,POSITIVE,5838.jpg,strawberries,strawberries,113,115,2,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5839.jpg,POSITIVE,5839.jpg,strawberries,strawberries,45,45,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5840.jpg,POSITIVE,5840.jpg,strawberries,strawberries,111,118,7,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5841.jpg,POSITIVE,5841.jpg,strawberries,strawberries,51,50,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5842.jpg,POSITIVE,5842.jpg,strawberries,strawberries,52,53,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5843.jpg,POSITIVE,5843.jpg,strawberries,strawberries,74,79,5,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5844.jpg,POSITIVE,5844.jpg,strawberries,strawberries,75,73,2,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5845.jpg,POSITIVE,5845.jpg,strawberries,strawberries,57,58,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5846.jpg,POSITIVE,5846.jpg,strawberries,strawberries,34,38,4,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5847.jpg,POSITIVE,5847.jpg,strawberries,strawberries,13,13,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5848.jpg,POSITIVE,5848.jpg,strawberries,strawberries,21,22,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5849.jpg,POSITIVE,5849.jpg,strawberries,strawberries,38,44,6,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5850.jpg,POSITIVE,5850.jpg,strawberries,strawberries,9,9,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5851.jpg,POSITIVE,5851.jpg,strawberries,strawberries,43,49,6,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5852.jpg,POSITIVE,5852.jpg,strawberries,strawberries,42,50,8,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5853.jpg,POSITIVE,5853.jpg,strawberries,strawberries,95,96,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5854.jpg,POSITIVE,5854.jpg,strawberries,strawberries,25,26,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5855.jpg,POSITIVE,5855.jpg,strawberries,strawberries,135,139,4,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5856.jpg,POSITIVE,5856.jpg,strawberries,strawberries,78,82,4,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5915.jpg,POSITIVE,5915.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5916.jpg,POSITIVE,5916.jpg,eggs,eggs,38,54,16,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5917.jpg,POSITIVE,5917.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5918.jpg,POSITIVE,5918.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5919.jpg,POSITIVE,5919.jpg,eggs,eggs,39,44,5,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5920.jpg,POSITIVE,5920.jpg,eggs,eggs,18,18,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5921.jpg,POSITIVE,5921.jpg,eggs,eggs,30,30,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5922.jpg,POSITIVE,5922.jpg,eggs,eggs,35,36,1,1,1,True,V7_ORIGINAL,,test
+POS__5923.jpg,POSITIVE,5923.jpg,eggs,eggs,13,13,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5924.jpg,POSITIVE,5924.jpg,eggs,eggs,16,17,1,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5925.jpg,POSITIVE,5925.jpg,eggs,eggs,22,22,0,1,1,True,V7_ORIGINAL,,test
+POS__5926.jpg,POSITIVE,5926.jpg,eggs,eggs,10,10,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5927.jpg,POSITIVE,5927.jpg,eggs,eggs,11,11,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5928.jpg,POSITIVE,5928.jpg,eggs,eggs,58,66,8,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5929.jpg,POSITIVE,5929.jpg,eggs,eggs,76,76,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5930.jpg,POSITIVE,5930.jpg,eggs,eggs,14,14,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5931.jpg,POSITIVE,5931.jpg,eggs,eggs,9,9,0,1,1,True,V7_NEW_BATCH_013,13,test
+POS__5932.jpg,POSITIVE,5932.jpg,eggs,eggs,20,20,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5933.jpg,POSITIVE,5933.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5934.jpg,POSITIVE,5934.jpg,eggs,eggs,17,17,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5935.jpg,POSITIVE,5935.jpg,eggs,eggs,15,16,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5936.jpg,POSITIVE,5936.jpg,eggs,eggs,18,18,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5937.jpg,POSITIVE,5937.jpg,eggs,eggs,10,10,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5938.jpg,POSITIVE,5938.jpg,eggs,eggs,31,32,1,1,1,True,V7_ORIGINAL,,test
+POS__5939.jpg,POSITIVE,5939.jpg,eggs,eggs,8,8,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5940.jpg,POSITIVE,5940.jpg,eggs,eggs,27,28,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5941.jpg,POSITIVE,5941.jpg,eggs,eggs,10,10,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5942.jpg,POSITIVE,5942.jpg,eggs,eggs,10,10,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5943.jpg,POSITIVE,5943.jpg,eggs,eggs,48,47,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__5944.jpg,POSITIVE,5944.jpg,eggs,eggs,15,15,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6.jpg,POSITIVE,6.jpg,hot air balloons,hot air balloons,9,8,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6042.jpg,POSITIVE,6042.jpg,stamps,stamps,12,9,3,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6043.jpg,POSITIVE,6043.jpg,keyboard keys,keyboard keys,102,99,3,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6044.jpg,POSITIVE,6044.jpg,keyboard keys,keyboard keys,86,4,82,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6045.jpg,POSITIVE,6045.jpg,keyboard keys,keyboard keys,42,31,11,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6046.jpg,POSITIVE,6046.jpg,keyboard keys,keyboard keys,60,60,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6047.jpg,POSITIVE,6047.jpg,keyboard keys,keyboard keys,185,3,182,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6048.jpg,POSITIVE,6048.jpg,keyboard keys,keyboard keys,103,1,102,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6049.jpg,POSITIVE,6049.jpg,keyboard keys,keyboard keys,82,30,52,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6050.jpg,POSITIVE,6050.jpg,keyboard keys,keyboard keys,104,1,103,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6051.jpg,POSITIVE,6051.jpg,keyboard keys,keyboard keys,84,80,4,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6052.jpg,POSITIVE,6052.jpg,keyboard keys,keyboard keys,47,1,46,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6053.jpg,POSITIVE,6053.jpg,keyboard keys,keyboard keys,108,1,107,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6054.jpg,POSITIVE,6054.jpg,keyboard keys,keyboard keys,112,1,111,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6240.jpg,POSITIVE,6240.jpg,apples,apples,34,33,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6241.jpg,POSITIVE,6241.jpg,apples,apples,293,275,18,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6242.jpg,POSITIVE,6242.jpg,apples,apples,73,87,14,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6243.jpg,POSITIVE,6243.jpg,apples,apples,24,26,2,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6244.jpg,POSITIVE,6244.jpg,apples,apples,39,45,6,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6245.jpg,POSITIVE,6245.jpg,apples,apples,12,12,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6246.jpg,POSITIVE,6246.jpg,apples,apples,35,31,4,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6247.jpg,POSITIVE,6247.jpg,apples,apples,15,15,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6248.jpg,POSITIVE,6248.jpg,apples,apples,82,82,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6249.jpg,POSITIVE,6249.jpg,apples,apples,111,130,19,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6250.jpg,POSITIVE,6250.jpg,apples,apples,42,49,7,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6251.jpg,POSITIVE,6251.jpg,apples,apples,25,27,2,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6252.jpg,POSITIVE,6252.jpg,apples,apples,89,91,2,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6253.jpg,POSITIVE,6253.jpg,apples,apples,74,74,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6254.jpg,POSITIVE,6254.jpg,apples,apples,34,35,1,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6255.jpg,POSITIVE,6255.jpg,apples,apples,49,52,3,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6256.jpg,POSITIVE,6256.jpg,apples,apples,41,44,3,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6257.jpg,POSITIVE,6257.jpg,apples,apples,12,12,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6258.jpg,POSITIVE,6258.jpg,apples,apples,13,13,0,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6259.jpg,POSITIVE,6259.jpg,apples,apples,74,83,9,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6260.jpg,POSITIVE,6260.jpg,apples,apples,76,69,7,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6261.jpg,POSITIVE,6261.jpg,apples,apples,324,379,55,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6262.jpg,POSITIVE,6262.jpg,apples,apples,74,81,7,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6263.jpg,POSITIVE,6263.jpg,apples,apples,23,25,2,1,1,True,V7_NEW_BATCH_014,14,test
+POS__6264.jpg,POSITIVE,6264.jpg,apples,apples,16,16,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6265.jpg,POSITIVE,6265.jpg,apples,apples,90,94,4,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6266.jpg,POSITIVE,6266.jpg,apples,apples,17,17,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6267.jpg,POSITIVE,6267.jpg,apples,apples,95,102,7,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6268.jpg,POSITIVE,6268.jpg,apples,apples,25,25,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6269.jpg,POSITIVE,6269.jpg,apples,apples,50,49,1,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6270.jpg,POSITIVE,6270.jpg,apples,apples,92,98,6,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6271.jpg,POSITIVE,6271.jpg,apples,apples,240,256,16,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6272.jpg,POSITIVE,6272.jpg,apples,apples,118,133,15,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6273.jpg,POSITIVE,6273.jpg,apples,apples,34,39,5,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6274.jpg,POSITIVE,6274.jpg,apples,apples,10,10,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6275.jpg,POSITIVE,6275.jpg,apples,apples,32,48,16,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6276.jpg,POSITIVE,6276.jpg,apples,apples,36,37,1,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6277.jpg,POSITIVE,6277.jpg,apples,apples,42,45,3,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6278.jpg,POSITIVE,6278.jpg,apples,apples,45,50,5,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6279.jpg,POSITIVE,6279.jpg,apples,apples,10,10,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6280.jpg,POSITIVE,6280.jpg,apples,apples,41,41,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6281.jpg,POSITIVE,6281.jpg,apples,apples,675,724,49,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6282.jpg,POSITIVE,6282.jpg,apples,apples,66,73,7,1,1,True,V7_ORIGINAL,,test
+POS__6283.jpg,POSITIVE,6283.jpg,apples,apples,21,23,2,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6284.jpg,POSITIVE,6284.jpg,apples,apples,89,95,6,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6285.jpg,POSITIVE,6285.jpg,apples,apples,101,107,6,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6547.jpg,POSITIVE,6547.jpg,sunglasses,sunglasses,72,132,60,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6548.jpg,POSITIVE,6548.jpg,sunglasses,sunglasses,18,18,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6549.jpg,POSITIVE,6549.jpg,sunglasses,sunglasses,16,48,32,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6550.jpg,POSITIVE,6550.jpg,sunglasses,sunglasses,14,30,16,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6643.jpg,POSITIVE,6643.jpg,markers,markers,35,32,3,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6644.jpg,POSITIVE,6644.jpg,markers,markers,500,0,500,1,0,False,V7_NEW_BATCH_015,15,test
+POS__6645.jpg,POSITIVE,6645.jpg,markers,markers,36,36,0,1,1,True,V7_ORIGINAL,,test
+POS__6646.jpg,POSITIVE,6646.jpg,markers,markers,13,17,4,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6647.jpg,POSITIVE,6647.jpg,markers,markers,199,0,199,1,0,False,V7_NEW_BATCH_015,15,test
+POS__6648.jpg,POSITIVE,6648.jpg,markers,markers,48,48,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6649.jpg,POSITIVE,6649.jpg,markers,markers,108,51,57,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6650.jpg,POSITIVE,6650.jpg,markers,markers,20,21,1,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6651.jpg,POSITIVE,6651.jpg,markers,markers,19,21,2,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6652.jpg,POSITIVE,6652.jpg,markers,markers,33,34,1,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6653.jpg,POSITIVE,6653.jpg,markers,markers,309,316,7,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6654.jpg,POSITIVE,6654.jpg,markers,markers,41,0,41,1,0,False,V7_NEW_BATCH_015,15,test
+POS__6655.jpg,POSITIVE,6655.jpg,markers,markers,240,232,8,1,1,True,V7_ORIGINAL,,test
+POS__6656.jpg,POSITIVE,6656.jpg,markers,markers,100,105,5,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6657.jpg,POSITIVE,6657.jpg,markers,markers,123,121,2,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6658.jpg,POSITIVE,6658.jpg,markers,markers,361,282,79,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6659.jpg,POSITIVE,6659.jpg,markers,markers,9,9,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6660.jpg,POSITIVE,6660.jpg,markers,markers,10,10,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6661.jpg,POSITIVE,6661.jpg,markers,markers,371,315,56,1,1,True,V7_ORIGINAL,,test
+POS__6710.jpg,POSITIVE,6710.jpg,sticky notes,sticky notes,121,117,4,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6711.jpg,POSITIVE,6711.jpg,markers,markers,72,75,3,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6713.jpg,POSITIVE,6713.jpg,sheep,sheep,190,207,17,1,1,True,V7_ORIGINAL,,test
+POS__6715.jpg,POSITIVE,6715.jpg,stamps,stamps,36,36,0,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6732.jpg,POSITIVE,6732.jpg,eggs,eggs,39,176,137,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6733.jpg,POSITIVE,6733.jpg,eggs,eggs,24,32,8,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6735.jpg,POSITIVE,6735.jpg,markers,markers,73,84,11,1,1,True,V7_ORIGINAL,,test
+POS__6736.jpg,POSITIVE,6736.jpg,comic books,comic books,98,102,4,1,1,True,V7_ORIGINAL,,test
+POS__6739.jpg,POSITIVE,6739.jpg,keyboard keys,keyboard keys,108,34,74,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6742.jpg,POSITIVE,6742.jpg,comic books,comic books,24,25,1,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6743.jpg,POSITIVE,6743.jpg,carrom board pieces,carrom board pieces,19,7,12,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6750.jpg,POSITIVE,6750.jpg,sheep,sheep,109,118,9,1,1,True,V7_NEW_BATCH_015,15,test
+POS__6756.jpg,POSITIVE,6756.jpg,eggs,eggs,35,39,4,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6760.jpg,POSITIVE,6760.jpg,nail polish,nail polish,100,109,9,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6771.jpg,POSITIVE,6771.jpg,sauce bottles,sauce bottles,25,28,3,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6785.jpg,POSITIVE,6785.jpg,sunglasses,sunglasses,45,100,55,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6788.jpg,POSITIVE,6788.jpg,nail polish,nail polish,211,204,7,1,1,True,V7_NEW_BATCH_016,16,test
+POS__680.jpg,POSITIVE,680.jpg,stamps,stamps,12,12,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6803.jpg,POSITIVE,6803.jpg,comic books,comic books,48,48,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6804.jpg,POSITIVE,6804.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6809.jpg,POSITIVE,6809.jpg,apples,apples,140,156,16,1,1,True,V7_NEW_BATCH_016,16,test
+POS__681.jpg,POSITIVE,681.jpg,watches,watches,24,26,2,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6810.jpg,POSITIVE,6810.jpg,nail polish,nail polish,40,40,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6811.jpg,POSITIVE,6811.jpg,sheep,sheep,209,216,7,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6813.jpg,POSITIVE,6813.jpg,carrom board pieces,carrom board pieces,19,19,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6815.jpg,POSITIVE,6815.jpg,nail polish,nail polish,114,114,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__682.jpg,POSITIVE,682.jpg,watches,watches,14,17,3,1,1,True,V7_ORIGINAL,,test
+POS__6822.jpg,POSITIVE,6822.jpg,markers,markers,175,184,9,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6823.jpg,POSITIVE,6823.jpg,sauce bottles,sauce bottles,23,24,1,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6827.jpg,POSITIVE,6827.jpg,sauce bottles,sauce bottles,16,16,0,1,1,True,V7_ORIGINAL,,test
+POS__6828.jpg,POSITIVE,6828.jpg,nail polish,nail polish,25,25,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6829.jpg,POSITIVE,6829.jpg,apples,apples,107,174,67,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6833.jpg,POSITIVE,6833.jpg,deers,deers,17,17,0,1,1,True,V7_ORIGINAL,,test
+POS__6838.jpg,POSITIVE,6838.jpg,comic books,comic books,25,28,3,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6839.jpg,POSITIVE,6839.jpg,watches,watches,58,75,17,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6842.jpg,POSITIVE,6842.jpg,legos,legos,36,185,149,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6847.jpg,POSITIVE,6847.jpg,sheep,sheep,67,70,3,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6849.jpg,POSITIVE,6849.jpg,apples,apples,22,22,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__685.jpg,POSITIVE,685.jpg,apples,apples,86,99,13,1,1,True,V7_ORIGINAL,,test
+POS__6852.jpg,POSITIVE,6852.jpg,eggs,eggs,68,76,8,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6855.jpg,POSITIVE,6855.jpg,keyboard keys,keyboard keys,79,79,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6856.jpg,POSITIVE,6856.jpg,legos,legos,15,16,1,1,1,True,V7_ORIGINAL,,test
+POS__6857.jpg,POSITIVE,6857.jpg,sticky notes,sticky notes,93,92,1,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6859.jpg,POSITIVE,6859.jpg,eggs,eggs,24,24,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__686.jpg,POSITIVE,686.jpg,apples,apples,47,50,3,1,1,True,V7_ORIGINAL,,test
+POS__6860.jpg,POSITIVE,6860.jpg,legos,legos,512,0,512,1,0,False,V7_NEW_BATCH_016,16,test
+POS__6869.jpg,POSITIVE,6869.jpg,elephants,elephants,13,13,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__687.jpg,POSITIVE,687.jpg,apples,apples,548,600,52,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6876.jpg,POSITIVE,6876.jpg,eggs,eggs,58,82,24,1,1,True,V7_ORIGINAL,,test
+POS__6879.jpg,POSITIVE,6879.jpg,eggs,eggs,16,16,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__689.jpg,POSITIVE,689.jpg,apples,apples,63,67,4,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6892.jpg,POSITIVE,6892.jpg,stamps,stamps,54,54,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6893.jpg,POSITIVE,6893.jpg,sheep,sheep,81,79,2,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6898.jpg,POSITIVE,6898.jpg,nail polish,nail polish,221,241,20,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6901.jpg,POSITIVE,6901.jpg,sheep,sheep,38,40,2,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6904.jpg,POSITIVE,6904.jpg,carrom board pieces,carrom board pieces,13,15,2,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6906.jpg,POSITIVE,6906.jpg,comic books,comic books,36,37,1,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6908.jpg,POSITIVE,6908.jpg,legos,legos,85,86,1,1,1,True,V7_NEW_BATCH_016,16,test
+POS__691.jpg,POSITIVE,691.jpg,apples,apples,109,102,7,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6918.jpg,POSITIVE,6918.jpg,nail polish,nail polish,87,87,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__692.jpg,POSITIVE,692.jpg,apples,apples,11,11,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6920.jpg,POSITIVE,6920.jpg,comic books,comic books,44,37,7,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6922.jpg,POSITIVE,6922.jpg,comic books,comic books,70,71,1,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6923.jpg,POSITIVE,6923.jpg,stamps,stamps,28,28,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6928.jpg,POSITIVE,6928.jpg,eggs,eggs,30,30,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__693.jpg,POSITIVE,693.jpg,apples,apples,17,17,0,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6935.jpg,POSITIVE,6935.jpg,nail polish,nail polish,60,69,9,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6936.jpg,POSITIVE,6936.jpg,apples,apples,111,114,3,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6938.jpg,POSITIVE,6938.jpg,sauce bottles,sauce bottles,45,45,0,1,1,True,V7_ORIGINAL,,test
+POS__694.jpg,POSITIVE,694.jpg,apples,apples,80,88,8,1,1,True,V7_NEW_BATCH_016,16,test
+POS__6943.jpg,POSITIVE,6943.jpg,sauce bottles,sauce bottles,34,44,10,1,1,True,V7_NEW_BATCH_017,17,test
+POS__695.jpg,POSITIVE,695.jpg,apples,apples,11,12,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6950.jpg,POSITIVE,6950.jpg,comic books,comic books,24,24,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6954.jpg,POSITIVE,6954.jpg,eggs,eggs,78,84,6,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6956.jpg,POSITIVE,6956.jpg,elephants,elephants,27,0,27,1,0,False,V7_NEW_BATCH_017,17,test
+POS__6959.jpg,POSITIVE,6959.jpg,markers,markers,212,120,92,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6960.jpg,POSITIVE,6960.jpg,carrom board pieces,carrom board pieces,19,21,2,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6962.jpg,POSITIVE,6962.jpg,carrom board pieces,carrom board pieces,29,30,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6964.jpg,POSITIVE,6964.jpg,sticky notes,sticky notes,75,76,1,1,1,True,V7_ORIGINAL,,test
+POS__6965.jpg,POSITIVE,6965.jpg,apples,apples,70,77,7,1,1,True,V7_NEW_BATCH_017,17,test
+POS__697.jpg,POSITIVE,697.jpg,apples,apples,52,55,3,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6971.jpg,POSITIVE,6971.jpg,apples,apples,101,110,9,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6973.jpg,POSITIVE,6973.jpg,nail polish,nail polish,158,159,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__698.jpg,POSITIVE,698.jpg,apples,apples,154,190,36,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6980.jpg,POSITIVE,6980.jpg,elephants,elephants,38,39,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6985.jpg,POSITIVE,6985.jpg,comic books,comic books,143,147,4,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6986.jpg,POSITIVE,6986.jpg,stamps,stamps,32,32,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6990.jpg,POSITIVE,6990.jpg,comic books,comic books,45,48,3,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6993.jpg,POSITIVE,6993.jpg,sunglasses,sunglasses,90,186,96,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6994.jpg,POSITIVE,6994.jpg,nail polish,nail polish,272,243,29,1,1,True,V7_NEW_BATCH_017,17,test
+POS__6996.jpg,POSITIVE,6996.jpg,eggs,eggs,89,92,3,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7000.jpg,POSITIVE,7000.jpg,comic books,comic books,65,66,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__701.jpg,POSITIVE,701.jpg,apples,apples,60,76,16,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7015.jpg,POSITIVE,7015.jpg,sunglasses,sunglasses,141,278,137,1,1,True,V7_NEW_BATCH_017,17,test
+POS__702.jpg,POSITIVE,702.jpg,apples,apples,65,69,4,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7023.jpg,POSITIVE,7023.jpg,keyboard keys,keyboard keys,78,77,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7027.jpg,POSITIVE,7027.jpg,apples,apples,93,134,41,1,1,True,V7_NEW_BATCH_017,17,test
+POS__703.jpg,POSITIVE,703.jpg,apples,apples,44,49,5,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7030.jpg,POSITIVE,7030.jpg,sunglasses,sunglasses,96,102,6,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7034.jpg,POSITIVE,7034.jpg,nail polish,nail polish,43,48,5,1,1,True,V7_ORIGINAL,,test
+POS__7039.jpg,POSITIVE,7039.jpg,sticky notes,sticky notes,60,53,7,1,1,True,V7_NEW_BATCH_017,17,test
+POS__704.jpg,POSITIVE,704.jpg,apples,apples,59,73,14,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7042.jpg,POSITIVE,7042.jpg,sheep,sheep,198,64,134,1,1,True,V7_ORIGINAL,,test
+POS__7043.jpg,POSITIVE,7043.jpg,nail polish,nail polish,95,96,1,1,1,True,V7_ORIGINAL,,test
+POS__7047.jpg,POSITIVE,7047.jpg,sheep,sheep,54,54,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__705.jpg,POSITIVE,705.jpg,apples,apples,46,46,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7050.jpg,POSITIVE,7050.jpg,comic books,comic books,33,33,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7056.jpg,POSITIVE,7056.jpg,deers,deers,77,79,2,1,1,True,V7_NEW_BATCH_017,17,test
+POS__706.jpg,POSITIVE,706.jpg,apples,apples,90,73,17,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7062.jpg,POSITIVE,7062.jpg,apples,apples,59,66,7,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7065.jpg,POSITIVE,7065.jpg,elephants,elephants,16,0,16,1,0,False,V7_NEW_BATCH_017,17,test
+POS__7067.jpg,POSITIVE,7067.jpg,sticky notes,sticky notes,53,46,7,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7071.jpg,POSITIVE,7071.jpg,sauce bottles,sauce bottles,44,82,38,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7075.jpg,POSITIVE,7075.jpg,sheep,sheep,195,0,195,1,0,False,V7_NEW_BATCH_017,17,test
+POS__7076.jpg,POSITIVE,7076.jpg,sauce bottles,sauce bottles,31,45,14,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7079.jpg,POSITIVE,7079.jpg,nail polish,nail polish,59,60,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__708.jpg,POSITIVE,708.jpg,apples,apples,15,16,1,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7080.jpg,POSITIVE,7080.jpg,comic books,comic books,25,25,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7082.jpg,POSITIVE,7082.jpg,sheep,sheep,128,133,5,1,1,True,V7_ORIGINAL,,test
+POS__709.jpg,POSITIVE,709.jpg,apples,apples,132,136,4,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7090.jpg,POSITIVE,7090.jpg,deers,deers,31,31,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7095.jpg,POSITIVE,7095.jpg,sauce bottles,sauce bottles,50,52,2,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7096.jpg,POSITIVE,7096.jpg,apples,apples,19,19,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7097.jpg,POSITIVE,7097.jpg,sticky notes,sticky notes,47,46,1,1,1,True,V7_ORIGINAL,,test
+POS__7098.jpg,POSITIVE,7098.jpg,comic books,comic books,49,51,2,1,1,True,V7_NEW_BATCH_017,17,test
+POS__710.jpg,POSITIVE,710.jpg,apples,apples,16,16,0,1,1,True,V7_NEW_BATCH_017,17,test
+POS__7106.jpg,POSITIVE,7106.jpg,elephants,elephants,13,12,1,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7108.jpg,POSITIVE,7108.jpg,sunglasses,sunglasses,64,108,44,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7109.jpg,POSITIVE,7109.jpg,keyboard keys,keyboard keys,48,48,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__711.jpg,POSITIVE,711.jpg,apples,apples,27,29,2,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7114.jpg,POSITIVE,7114.jpg,apples,apples,289,311,22,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7117.jpg,POSITIVE,7117.jpg,carrom board pieces,carrom board pieces,24,26,2,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7118.jpg,POSITIVE,7118.jpg,nail polish,nail polish,33,33,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__712.jpg,POSITIVE,712.jpg,apples,apples,67,72,5,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7120.jpg,POSITIVE,7120.jpg,sticky notes,sticky notes,47,48,1,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7123.jpg,POSITIVE,7123.jpg,sticky notes,sticky notes,29,29,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7126.jpg,POSITIVE,7126.jpg,comic books,comic books,45,49,4,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7128.jpg,POSITIVE,7128.jpg,eggs,eggs,49,62,13,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7129.jpg,POSITIVE,7129.jpg,keyboard keys,keyboard keys,104,1,103,1,1,True,V7_NEW_BATCH_018,18,test
+POS__713.jpg,POSITIVE,713.jpg,apples,apples,24,28,4,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7131.jpg,POSITIVE,7131.jpg,keyboard keys,keyboard keys,123,0,123,1,0,False,V7_NEW_BATCH_018,18,test
+POS__7134.jpg,POSITIVE,7134.jpg,elephants,elephants,23,23,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7136.jpg,POSITIVE,7136.jpg,nail polish,nail polish,87,92,5,1,1,True,V7_NEW_BATCH_018,18,test
+POS__714.jpg,POSITIVE,714.jpg,apples,apples,100,107,7,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7140.jpg,POSITIVE,7140.jpg,elephants,elephants,22,26,4,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7144.jpg,POSITIVE,7144.jpg,apples,apples,92,92,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7145.jpg,POSITIVE,7145.jpg,eggs,eggs,24,24,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7146.jpg,POSITIVE,7146.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__715.jpg,POSITIVE,715.jpg,apples,apples,21,21,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7153.jpg,POSITIVE,7153.jpg,deers,deers,18,21,3,1,1,True,V7_NEW_BATCH_018,18,test
+POS__716.jpg,POSITIVE,716.jpg,apples,apples,182,186,4,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7161.jpg,POSITIVE,7161.jpg,stamps,stamps,36,40,4,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7167.jpg,POSITIVE,7167.jpg,markers,markers,217,0,217,1,0,False,V7_NEW_BATCH_018,18,test
+POS__717.jpg,POSITIVE,717.jpg,apples,apples,20,19,1,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7171.jpg,POSITIVE,7171.jpg,legos,legos,13,5,8,1,1,True,V7_ORIGINAL,,test
+POS__7173.jpg,POSITIVE,7173.jpg,eggs,eggs,48,48,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7174.jpg,POSITIVE,7174.jpg,legos,legos,96,0,96,1,0,False,V7_NEW_BATCH_018,18,test
+POS__7175.jpg,POSITIVE,7175.jpg,eggs,eggs,38,40,2,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7176.jpg,POSITIVE,7176.jpg,apples,apples,39,56,17,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7188.jpg,POSITIVE,7188.jpg,eggs,eggs,67,67,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__719.jpg,POSITIVE,719.jpg,apples,apples,17,17,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7192.jpg,POSITIVE,7192.jpg,carrom board pieces,carrom board pieces,19,19,0,1,1,True,V7_ORIGINAL,,test
+POS__7195.jpg,POSITIVE,7195.jpg,legos,legos,384,87,297,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7198.jpg,POSITIVE,7198.jpg,nail polish,nail polish,36,36,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7200.jpg,POSITIVE,7200.jpg,sticky notes,sticky notes,56,56,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7201.jpg,POSITIVE,7201.jpg,nail polish,nail polish,211,213,2,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7205.jpg,POSITIVE,7205.jpg,eggs,eggs,113,125,12,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7206.jpg,POSITIVE,7206.jpg,keyboard keys,keyboard keys,83,0,83,1,0,False,V7_NEW_BATCH_018,18,test
+POS__7216.jpg,POSITIVE,7216.jpg,stamps,stamps,25,25,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7219.jpg,POSITIVE,7219.jpg,nail polish,nail polish,51,51,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7221.jpg,POSITIVE,7221.jpg,sunglasses,sunglasses,60,110,50,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7222.jpg,POSITIVE,7222.jpg,stamps,stamps,49,54,5,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7239.jpg,POSITIVE,7239.jpg,sheep,sheep,180,174,6,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7240.jpg,POSITIVE,7240.jpg,eggs,eggs,49,56,7,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7248.jpg,POSITIVE,7248.jpg,deers,deers,22,24,2,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7251.jpg,POSITIVE,7251.jpg,sheep,sheep,117,101,16,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7253.jpg,POSITIVE,7253.jpg,comic books,comic books,47,1,46,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7262.jpg,POSITIVE,7262.jpg,apples,apples,21,21,0,1,1,True,V7_NEW_BATCH_018,18,test
+POS__7263.jpg,POSITIVE,7263.jpg,stamps,stamps,43,44,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7273.jpg,POSITIVE,7273.jpg,stamps,stamps,32,32,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7277.jpg,POSITIVE,7277.jpg,eggs,eggs,26,38,12,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7278.jpg,POSITIVE,7278.jpg,nail polish,nail polish,72,72,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7281.jpg,POSITIVE,7281.jpg,sheep,sheep,75,74,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7282.jpg,POSITIVE,7282.jpg,elephants,elephants,23,24,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7283.jpg,POSITIVE,7283.jpg,apples,apples,22,23,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7284.jpg,POSITIVE,7284.jpg,sunglasses,sunglasses,40,52,12,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7295.jpg,POSITIVE,7295.jpg,elephants,elephants,63,84,21,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7298.jpg,POSITIVE,7298.jpg,apples,apples,24,24,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7312.jpg,POSITIVE,7312.jpg,deers,deers,21,28,7,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7319.jpg,POSITIVE,7319.jpg,nail polish,nail polish,351,307,44,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7328.jpg,POSITIVE,7328.jpg,sheep,sheep,51,53,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7329.jpg,POSITIVE,7329.jpg,sunglasses,sunglasses,144,145,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7339.jpg,POSITIVE,7339.jpg,markers,markers,104,106,2,1,1,True,V7_ORIGINAL,,test
+POS__7341.jpg,POSITIVE,7341.jpg,sauce bottles,sauce bottles,17,21,4,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7342.jpg,POSITIVE,7342.jpg,stamps,stamps,55,55,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7345.jpg,POSITIVE,7345.jpg,keyboard keys,keyboard keys,78,76,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7347.jpg,POSITIVE,7347.jpg,nail polish,nail polish,103,105,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7359.jpg,POSITIVE,7359.jpg,comic books,comic books,42,42,0,1,1,True,V7_ORIGINAL,,test
+POS__7361.jpg,POSITIVE,7361.jpg,comic books,comic books,23,25,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7365.jpg,POSITIVE,7365.jpg,stamps,stamps,56,56,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7366.jpg,POSITIVE,7366.jpg,sheep,sheep,44,43,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7370.jpg,POSITIVE,7370.jpg,eggs,eggs,11,11,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7378.jpg,POSITIVE,7378.jpg,legos,legos,256,94,162,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7381.jpg,POSITIVE,7381.jpg,markers,markers,72,74,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7384.jpg,POSITIVE,7384.jpg,comic books,comic books,16,16,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7386.jpg,POSITIVE,7386.jpg,sunglasses,sunglasses,64,108,44,1,1,True,V7_ORIGINAL,,test
+POS__7387.jpg,POSITIVE,7387.jpg,nail polish,nail polish,66,66,0,1,1,True,V7_ORIGINAL,,test
+POS__7389.jpg,POSITIVE,7389.jpg,comic books,comic books,25,25,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7398.jpg,POSITIVE,7398.jpg,sauce bottles,sauce bottles,26,46,20,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7401.jpg,POSITIVE,7401.jpg,sunglasses,sunglasses,90,132,42,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7410.jpg,POSITIVE,7410.jpg,nail polish,nail polish,44,45,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7411.jpg,POSITIVE,7411.jpg,markers,markers,233,254,21,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7412.jpg,POSITIVE,7412.jpg,sheep,sheep,36,35,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7417.jpg,POSITIVE,7417.jpg,stamps,stamps,43,48,5,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7420.jpg,POSITIVE,7420.jpg,deers,deers,21,23,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7424.jpg,POSITIVE,7424.jpg,eggs,eggs,145,152,7,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7426.jpg,POSITIVE,7426.jpg,sunglasses,sunglasses,253,334,81,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7438.jpg,POSITIVE,7438.jpg,sauce bottles,sauce bottles,48,48,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7440.jpg,POSITIVE,7440.jpg,legos,legos,32,31,1,1,1,True,V7_ORIGINAL,,test
+POS__7442.jpg,POSITIVE,7442.jpg,comic books,comic books,120,131,11,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7443.jpg,POSITIVE,7443.jpg,markers,markers,292,276,16,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7449.jpg,POSITIVE,7449.jpg,stamps,stamps,60,60,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7452.jpg,POSITIVE,7452.jpg,eggs,eggs,85,91,6,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7455.jpg,POSITIVE,7455.jpg,sunglasses,sunglasses,73,150,77,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7459.jpg,POSITIVE,7459.jpg,elephants,elephants,11,10,1,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7462.jpg,POSITIVE,7462.jpg,nail polish,nail polish,146,154,8,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7463.jpg,POSITIVE,7463.jpg,elephants,elephants,21,23,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7472.jpg,POSITIVE,7472.jpg,deers,deers,15,17,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7473.jpg,POSITIVE,7473.jpg,nail polish,nail polish,508,359,149,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7474.jpg,POSITIVE,7474.jpg,elephants,elephants,36,36,0,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7475.jpg,POSITIVE,7475.jpg,sheep,sheep,122,71,51,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7480.jpg,POSITIVE,7480.jpg,elephants,elephants,22,24,2,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7483.jpg,POSITIVE,7483.jpg,apples,apples,191,230,39,1,1,True,V7_NEW_BATCH_019,19,test
+POS__7484.jpg,POSITIVE,7484.jpg,comic books,comic books,21,22,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7486.jpg,POSITIVE,7486.jpg,legos,legos,100,100,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7488.jpg,POSITIVE,7488.jpg,carrom board pieces,carrom board pieces,19,19,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7490.jpg,POSITIVE,7490.jpg,nail polish,nail polish,114,121,7,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7491.jpg,POSITIVE,7491.jpg,sunglasses,sunglasses,194,217,23,1,1,True,V7_ORIGINAL,,test
+POS__7493.jpg,POSITIVE,7493.jpg,apples,apples,38,44,6,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7500.jpg,POSITIVE,7500.jpg,sheep,sheep,181,183,2,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7506.jpg,POSITIVE,7506.jpg,carrom board pieces,carrom board pieces,19,15,4,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7511.jpg,POSITIVE,7511.jpg,sunglasses,sunglasses,36,88,52,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7512.jpg,POSITIVE,7512.jpg,nail polish,nail polish,98,99,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7514.jpg,POSITIVE,7514.jpg,eggs,eggs,28,28,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7520.jpg,POSITIVE,7520.jpg,carrom board pieces,carrom board pieces,19,0,19,1,0,False,V7_NEW_BATCH_020,20,test
+POS__7521.jpg,POSITIVE,7521.jpg,apples,apples,25,37,12,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7522.jpg,POSITIVE,7522.jpg,keyboard keys,keyboard keys,84,70,14,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7523.jpg,POSITIVE,7523.jpg,sticky notes,sticky notes,94,93,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7525.jpg,POSITIVE,7525.jpg,elephants,elephants,26,27,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7526.jpg,POSITIVE,7526.jpg,nail polish,nail polish,34,35,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7527.jpg,POSITIVE,7527.jpg,eggs,eggs,47,47,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7529.jpg,POSITIVE,7529.jpg,keyboard keys,keyboard keys,124,1,123,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7530.jpg,POSITIVE,7530.jpg,deers,deers,16,27,11,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7535.jpg,POSITIVE,7535.jpg,elephants,elephants,107,102,5,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7536.jpg,POSITIVE,7536.jpg,nail polish,nail polish,24,31,7,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7538.jpg,POSITIVE,7538.jpg,apples,apples,41,41,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7539.jpg,POSITIVE,7539.jpg,keyboard keys,keyboard keys,77,59,18,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7542.jpg,POSITIVE,7542.jpg,sauce bottles,sauce bottles,43,46,3,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7547.jpg,POSITIVE,7547.jpg,elephants,elephants,19,19,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7550.jpg,POSITIVE,7550.jpg,elephants,elephants,20,21,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7554.jpg,POSITIVE,7554.jpg,markers,markers,71,75,4,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7555.jpg,POSITIVE,7555.jpg,stamps,stamps,31,37,6,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7557.jpg,POSITIVE,7557.jpg,comic books,comic books,21,22,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7564.jpg,POSITIVE,7564.jpg,stamps,stamps,52,52,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7565.jpg,POSITIVE,7565.jpg,sticky notes,sticky notes,113,98,15,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7567.jpg,POSITIVE,7567.jpg,sauce bottles,sauce bottles,68,74,6,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7573.jpg,POSITIVE,7573.jpg,carrom board pieces,carrom board pieces,18,0,18,1,0,False,V7_ORIGINAL,,test
+POS__7580.jpg,POSITIVE,7580.jpg,eggs,eggs,15,15,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7581.jpg,POSITIVE,7581.jpg,comic books,comic books,30,30,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7583.jpg,POSITIVE,7583.jpg,comic books,comic books,21,22,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7586.jpg,POSITIVE,7586.jpg,sauce bottles,sauce bottles,36,52,16,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7588.jpg,POSITIVE,7588.jpg,deers,deers,39,44,5,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7590.jpg,POSITIVE,7590.jpg,legos,legos,100,101,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7592.jpg,POSITIVE,7592.jpg,keyboard keys,keyboard keys,104,1,103,1,1,True,V7_ORIGINAL,,test
+POS__7595.jpg,POSITIVE,7595.jpg,eggs,eggs,30,30,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7596.jpg,POSITIVE,7596.jpg,apples,apples,298,344,46,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7598.jpg,POSITIVE,7598.jpg,sheep,sheep,31,32,1,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7605.jpg,POSITIVE,7605.jpg,eggs,eggs,20,20,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7609.jpg,POSITIVE,7609.jpg,markers,markers,110,112,2,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7611.jpg,POSITIVE,7611.jpg,legos,legos,2560,0,2560,1,0,False,V7_NEW_BATCH_020,20,test
+POS__7614.jpg,POSITIVE,7614.jpg,apples,apples,27,27,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7617.jpg,POSITIVE,7617.jpg,eggs,eggs,17,17,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7622.jpg,POSITIVE,7622.jpg,sheep,sheep,166,170,4,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7625.jpg,POSITIVE,7625.jpg,apples,apples,25,25,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7627.jpg,POSITIVE,7627.jpg,apples,apples,16,16,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7633.jpg,POSITIVE,7633.jpg,watches,watches,30,30,0,1,1,True,V7_NEW_BATCH_020,20,test
+POS__7635.jpg,POSITIVE,7635.jpg,apples,apples,17,18,1,1,1,True,V7_ORIGINAL,,test
+POS__7637.jpg,POSITIVE,7637.jpg,watches,watches,67,67,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7639.jpg,POSITIVE,7639.jpg,sheep,sheep,20,18,2,1,1,True,V7_ORIGINAL,,test
+POS__7640.jpg,POSITIVE,7640.jpg,apples,apples,32,41,9,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7643.jpg,POSITIVE,7643.jpg,apples,apples,32,35,3,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7645.jpg,POSITIVE,7645.jpg,sauce bottles,sauce bottles,14,20,6,1,1,True,V7_ORIGINAL,,test
+POS__7650.jpg,POSITIVE,7650.jpg,apples,apples,52,63,11,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7661.jpg,POSITIVE,7661.jpg,apples,apples,36,44,8,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7662.jpg,POSITIVE,7662.jpg,apples,apples,30,30,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7665.jpg,POSITIVE,7665.jpg,apples,apples,33,41,8,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7666.jpg,POSITIVE,7666.jpg,watches,watches,30,30,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7668.jpg,POSITIVE,7668.jpg,eggs,eggs,23,24,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7671.jpg,POSITIVE,7671.jpg,keyboard keys,keyboard keys,87,89,2,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7676.jpg,POSITIVE,7676.jpg,watches,watches,29,34,5,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7678.jpg,POSITIVE,7678.jpg,apples,apples,159,166,7,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7679.jpg,POSITIVE,7679.jpg,deers,deers,10,16,6,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7682.jpg,POSITIVE,7682.jpg,eggs,eggs,24,24,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7683.jpg,POSITIVE,7683.jpg,comic books,comic books,35,35,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7687.jpg,POSITIVE,7687.jpg,stamps,stamps,20,20,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7688.jpg,POSITIVE,7688.jpg,watches,watches,32,33,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7689.jpg,POSITIVE,7689.jpg,eggs,eggs,12,12,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7693.jpg,POSITIVE,7693.jpg,apples,apples,81,83,2,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7694.jpg,POSITIVE,7694.jpg,comic books,comic books,60,60,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7695.jpg,POSITIVE,7695.jpg,comic books,comic books,40,40,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7700.jpg,POSITIVE,7700.jpg,legos,legos,30,30,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7701.jpg,POSITIVE,7701.jpg,legos,legos,23,23,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7707.jpg,POSITIVE,7707.jpg,markers,markers,370,393,23,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7709.jpg,POSITIVE,7709.jpg,comic books,comic books,25,25,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7710.jpg,POSITIVE,7710.jpg,comic books,comic books,34,36,2,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7711.jpg,POSITIVE,7711.jpg,nail polish,nail polish,118,119,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7713.jpg,POSITIVE,7713.jpg,carrom board pieces,carrom board pieces,19,16,3,1,1,True,V7_NEW_BATCH_021,21,test
+POS__7714.jpg,POSITIVE,7714.jpg,eggs,eggs,46,47,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__904.jpg,POSITIVE,904.jpg,comic books,comic books,12,16,4,1,1,True,V7_NEW_BATCH_021,21,test
+POS__905.jpg,POSITIVE,905.jpg,comic books,comic books,44,43,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__906.jpg,POSITIVE,906.jpg,comic books,comic books,235,215,20,1,1,True,V7_NEW_BATCH_021,21,test
+POS__907.jpg,POSITIVE,907.jpg,comic books,comic books,29,28,1,1,1,True,V7_NEW_BATCH_021,21,test
+POS__909.jpg,POSITIVE,909.jpg,comic books,comic books,62,21,41,1,1,True,V7_NEW_BATCH_021,21,test
+POS__910.jpg,POSITIVE,910.jpg,comic books,comic books,18,18,0,1,1,True,V7_NEW_BATCH_021,21,test
+POS__911.jpg,POSITIVE,911.jpg,comic books,comic books,85,95,10,1,1,True,V7_NEW_BATCH_021,21,test
+POS__985.jpg,POSITIVE,985.jpg,watches,watches,53,95,42,1,1,True,V7_NEW_BATCH_021,21,test
+POS__988.jpg,POSITIVE,988.jpg,watches,watches,12,12,0,1,1,True,V7_ORIGINAL,,test
+POS__989.jpg,POSITIVE,989.jpg,watches,watches,69,74,5,1,1,True,V7_NEW_BATCH_021,21,test
+POS__990.jpg,POSITIVE,990.jpg,watches,watches,111,113,2,1,1,True,V7_NEW_BATCH_021,21,test
+POS__991.jpg,POSITIVE,991.jpg,watches,watches,93,98,5,1,1,True,V7_NEW_BATCH_021,21,test
+POS__993.jpg,POSITIVE,993.jpg,watches,watches,17,17,0,1,1,True,V7_ORIGINAL,,test
+POS__995.jpg,POSITIVE,995.jpg,watches,watches,20,22,2,1,1,True,V7_NEW_BATCH_021,21,test
+POS__996.jpg,POSITIVE,996.jpg,watches,watches,18,23,5,1,1,True,V7_NEW_BATCH_021,21,test
+POS__998.jpg,POSITIVE,998.jpg,watches,watches,24,28,4,1,1,True,V7_NEW_BATCH_021,21,test
+POS__999.jpg,POSITIVE,999.jpg,watches,watches,14,25,11,1,1,True,V7_NEW_BATCH_021,21,test

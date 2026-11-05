@@ -1,0 +1,4 @@
+partition,n,baseline_MAE,v75_MAE,delta_MAE,changed,improved_images,worsened_images,baseline_zero,v75_zero
+DEV,120,8.775,8.775,0.0,0,0,0,8,8
+HOLDOUT,120,17.408333333333335,7.108333333333333,-10.3,4,4,0,10,7
+ALL,240,13.091666666666667,7.941666666666666,-5.15,4,4,0,18,15

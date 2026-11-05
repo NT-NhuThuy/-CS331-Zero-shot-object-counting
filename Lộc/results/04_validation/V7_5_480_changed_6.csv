@@ -1,0 +1,7 @@
+run,group_id,image_name,target,pilot_partition,gt_count,baseline_count,v75_count,baseline_AE,v75_AE,delta_AE,rescue_accepted,changed
+PILOT,POS__3425.jpg,3425.jpg,polka dots,HOLDOUT,885,1,867,884,18,-866,True,True
+PILOT,POS__3484.jpg,3484.jpg,polka dots,HOLDOUT,356,0,276,356,80,-276,True,True
+PILOT,POS__5060.jpg,5060.jpg,polka dots,HOLDOUT,98,0,84,98,14,-84,True,True
+PILOT,POS__734.jpg,734.jpg,ants,HOLDOUT,20,0,10,20,10,-10,True,True
+REPLICATION,POS__4572.jpg,4572.jpg,flamingos,REPLICATION_B,141,2,111,139,30,-109,True,True
+REPLICATION,POS__776.jpg,776.jpg,books,REPLICATION_B,15,3,14,12,1,-11,True,True

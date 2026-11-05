@@ -1,0 +1,18 @@
+{
+  "threshold": 0.23,
+  "overlap": 0.2,
+  "nms_iou": 0.5,
+  "trigger_baseline_le": 3,
+  "grids": [
+    4,
+    8,
+    12
+  ],
+  "min_grid8": 6,
+  "min_local_yes": 5,
+  "max_scale_ratio": 2.5,
+  "independent_full_image_qwen_yes": true,
+  "sample_seed": "V75_PILOT_BLIND_2026_11_03",
+  "model": "Qwen/Qwen3-VL-4B-Instruct",
+  "evaluation": "FSC-147 val; TEST forbidden for optimization"
+}

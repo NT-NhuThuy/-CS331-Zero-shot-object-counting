@@ -1,0 +1,4 @@
+partition,n,baseline_MAE,v75rep_MAE,delta_MAE,changed,improved_images,worsened_images,baseline_zero,v75rep_zero
+REPLICATION_A,120,11.333333333333334,11.333333333333334,0.0,0,0,0,8,8
+REPLICATION_B,120,13.025,12.025,-1.0,2,2,0,7,7
+ALL,240,12.179166666666667,11.679166666666667,-0.5,2,2,0,15,15
