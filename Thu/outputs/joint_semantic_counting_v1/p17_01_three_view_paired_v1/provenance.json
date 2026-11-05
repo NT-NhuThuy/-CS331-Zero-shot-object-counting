@@ -1,0 +1,28 @@
+{
+  "version": "P17-01-V1",
+  "evaluation": "posthoc_three_view",
+  "note": "FSC147 TEST already exposed; 111 negatives hard-mined on CountGD",
+  "models": [
+    "CountGD",
+    "V4 seed42",
+    "CountGD + A3",
+    "V4 seed42 + A3",
+    "P8 Joint",
+    "P11 Joint + Structural Risk",
+    "Joint V3.2",
+    "Joint V3.2 + A3",
+    "Joint V3.2 + CLIP",
+    "Joint V3.2 + Fusion V2"
+  ],
+  "dataset_sizes": {
+    "FSC147_TEST_1190": 1190,
+    "HARD_NEGATIVE_111": 111,
+    "UNIFIED_1301": 1301
+  },
+  "source_sha256": {
+    "/mlcv1/WorkingSpace/Personal/core_baotg/thu/xamxi/release/Joint-Semantic-Counting/generated/fsc147_presence_v4/test_pairs_1301.csv": "7bc6800d0d9a7a06ad332e69f5381cd88c9e3bd436fa0b8ea94d28f628437509",
+    "/mlcv1/WorkingSpace/Personal/core_baotg/thu/xamxi/release/Joint-Semantic-Counting/outputs/joint_semantic_counting_v1/p14_06_unified_matched_v1/unified_predictions.csv": "725fc1ebf985b47840574d172060fb0cacca2fe9358908f885f8a3d7fb248497",
+    "/mlcv1/WorkingSpace/Personal/core_baotg/thu/xamxi/release/Joint-Semantic-Counting/outputs/joint_semantic_counting_v1/p14_07b_a3_fullraw_fsc_unified_v1/a3_unified_1301_predictions.csv": "b8e5b061b3c0e965e6ca8b6565cb953d89f5e2e00fecf6549818ae245143d758",
+    "/mlcv1/WorkingSpace/Personal/core_baotg/thu/xamxi/release/Joint-Semantic-Counting/outputs/joint_semantic_counting_v1/p14_08b_09_joint_unified_frozen_v1/unified_per_pair_predictions.csv": "d72966168b9f819d64d2c98f2264375716ffe659ef47f2ff857a970a6ad68a29"
+  }
+}

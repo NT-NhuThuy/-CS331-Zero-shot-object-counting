@@ -1,0 +1,3234 @@
+{
+  "1463.jpg": {
+    "H": 511,
+    "W": 1000,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/1463.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/1463.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/1463.jpg",
+    "points": [],
+    "r": [
+      25,
+      25
+    ],
+    "ratio_h": 0.7514677103718199,
+    "ratio_w": 0.751
+  },
+  "1537.jpg": {
+    "H": 228,
+    "W": 458,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/1537.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/1537.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/1537.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.6842105263157894,
+    "ratio_w": 1.6834061135371179
+  },
+  "1887.jpg": {
+    "H": 1101,
+    "W": 1500,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/1887.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/1887.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/1887.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.34877384196185285,
+    "ratio_w": 0.3486666666666667
+  },
+  "1888.jpg": {
+    "H": 810,
+    "W": 1080,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/1888.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/1888.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/1888.jpg",
+    "points": [],
+    "r": [
+      48,
+      48
+    ],
+    "ratio_h": 0.4740740740740741,
+    "ratio_w": 0.4740740740740741
+  },
+  "2.jpg": {
+    "H": 485,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2.jpg",
+    "points": [],
+    "r": [
+      50,
+      50
+    ],
+    "ratio_h": 0.7917525773195876,
+    "ratio_w": 0.79125
+  },
+  "2011.jpg": {
+    "H": 1167,
+    "W": 1600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2011.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2011.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2011.jpg",
+    "points": [],
+    "r": [
+      45,
+      45
+    ],
+    "ratio_h": 0.32904884318766064,
+    "ratio_w": 0.32875
+  },
+  "2019.jpg": {
+    "H": 956,
+    "W": 1300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2019.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2019.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2019.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.401673640167364,
+    "ratio_w": 0.4015384615384615
+  },
+  "2020.jpg": {
+    "H": 1200,
+    "W": 900,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2020.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2020.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2020.jpg",
+    "points": [],
+    "r": [
+      39,
+      39
+    ],
+    "ratio_h": 0.32,
+    "ratio_w": 0.4533333333333333
+  },
+  "2175.jpg": {
+    "H": 400,
+    "W": 620,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2175.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2175.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2175.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.96,
+    "ratio_w": 0.9596774193548387
+  },
+  "2213.jpg": {
+    "H": 2736,
+    "W": 3648,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2213.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2213.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2213.jpg",
+    "points": [],
+    "r": [
+      54,
+      54
+    ],
+    "ratio_h": 0.14035087719298245,
+    "ratio_w": 0.14035087719298245
+  },
+  "2219.jpg": {
+    "H": 320,
+    "W": 450,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2219.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2219.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2219.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.2,
+    "ratio_w": 1.2
+  },
+  "2612.jpg": {
+    "H": 634,
+    "W": 1200,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2612.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2612.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2612.jpg",
+    "points": [],
+    "r": [
+      32,
+      32
+    ],
+    "ratio_h": 0.6056782334384858,
+    "ratio_w": 0.6058333333333333
+  },
+  "2619.jpg": {
+    "H": 470,
+    "W": 600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2619.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2619.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2619.jpg",
+    "points": [],
+    "r": [
+      21,
+      21
+    ],
+    "ratio_h": 0.8170212765957446,
+    "ratio_w": 0.8166666666666667
+  },
+  "287.jpg": {
+    "H": 799,
+    "W": 533,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/287.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/287.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/287.jpg",
+    "points": [],
+    "r": [
+      28,
+      28
+    ],
+    "ratio_h": 0.4806007509386733,
+    "ratio_w": 0.7654784240150094
+  },
+  "2908.jpg": {
+    "H": 2048,
+    "W": 2028,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2908.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2908.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2908.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.1875,
+    "ratio_w": 0.20118343195266272
+  },
+  "2915.jpg": {
+    "H": 441,
+    "W": 450,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2915.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2915.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2915.jpg",
+    "points": [],
+    "r": [
+      24,
+      24
+    ],
+    "ratio_h": 0.8707482993197279,
+    "ratio_w": 0.8711111111111111
+  },
+  "2923.jpg": {
+    "H": 700,
+    "W": 525,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/2923.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/2923.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/2923.jpg",
+    "points": [],
+    "r": [
+      20,
+      20
+    ],
+    "ratio_h": 0.5485714285714286,
+    "ratio_w": 0.7771428571428571
+  },
+  "3112.jpg": {
+    "H": 532,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3112.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3112.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3112.jpg",
+    "points": [],
+    "r": [
+      43,
+      43
+    ],
+    "ratio_h": 0.7218045112781954,
+    "ratio_w": 0.72125
+  },
+  "3114.jpg": {
+    "H": 532,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3114.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3114.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3114.jpg",
+    "points": [],
+    "r": [
+      24,
+      24
+    ],
+    "ratio_h": 0.7218045112781954,
+    "ratio_w": 0.72125
+  },
+  "312.jpg": {
+    "H": 600,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/312.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/312.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/312.jpg",
+    "points": [],
+    "r": [
+      38,
+      38
+    ],
+    "ratio_h": 0.64,
+    "ratio_w": 0.64
+  },
+  "3154.jpg": {
+    "H": 799,
+    "W": 534,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3154.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3154.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3154.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.4806007509386733,
+    "ratio_w": 0.7640449438202247
+  },
+  "3157.jpg": {
+    "H": 800,
+    "W": 488,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3157.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3157.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3157.jpg",
+    "points": [],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 0.48,
+    "ratio_w": 0.8360655737704918
+  },
+  "3275.jpg": {
+    "H": 600,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3275.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3275.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3275.jpg",
+    "points": [],
+    "r": [
+      46,
+      46
+    ],
+    "ratio_h": 0.64,
+    "ratio_w": 0.64
+  },
+  "3315.jpg": {
+    "H": 648,
+    "W": 799,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3315.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3315.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3315.jpg",
+    "points": [],
+    "r": [
+      20,
+      20
+    ],
+    "ratio_h": 0.5925925925925926,
+    "ratio_w": 0.5919899874843555
+  },
+  "3328.jpg": {
+    "H": 533,
+    "W": 799,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3328.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3328.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3328.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.7204502814258912,
+    "ratio_w": 0.72090112640801
+  },
+  "3338.jpg": {
+    "H": 800,
+    "W": 563,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3338.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3338.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3338.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.48,
+    "ratio_w": 0.7246891651865008
+  },
+  "3341.jpg": {
+    "H": 360,
+    "W": 425,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3341.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3341.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3341.jpg",
+    "points": [],
+    "r": [
+      31,
+      31
+    ],
+    "ratio_h": 1.0666666666666667,
+    "ratio_w": 1.0658823529411765
+  },
+  "3494.jpg": {
+    "H": 932,
+    "W": 948,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3494.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3494.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3494.jpg",
+    "points": [],
+    "r": [
+      53,
+      53
+    ],
+    "ratio_h": 0.41201716738197425,
+    "ratio_w": 0.41244725738396626
+  },
+  "3500.jpg": {
+    "H": 188,
+    "W": 300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3500.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3500.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3500.jpg",
+    "points": [],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 2.0425531914893615,
+    "ratio_w": 2.0433333333333334
+  },
+  "3646.jpg": {
+    "H": 350,
+    "W": 260,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3646.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3646.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3646.jpg",
+    "points": [],
+    "r": [
+      16,
+      16
+    ],
+    "ratio_h": 1.0971428571428572,
+    "ratio_w": 1.5692307692307692
+  },
+  "3658.jpg": {
+    "H": 480,
+    "W": 720,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3658.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3658.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3658.jpg",
+    "points": [],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 0.8,
+    "ratio_w": 0.8
+  },
+  "3659.jpg": {
+    "H": 300,
+    "W": 300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3659.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3659.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3659.jpg",
+    "points": [],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 1.28,
+    "ratio_w": 1.28
+  },
+  "3695.jpg": {
+    "H": 2592,
+    "W": 1944,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3695.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3695.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3695.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.14814814814814814,
+    "ratio_w": 0.20987654320987653
+  },
+  "3697.jpg": {
+    "H": 620,
+    "W": 450,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/3697.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/3697.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/3697.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.6193548387096774,
+    "ratio_w": 0.9066666666666666
+  },
+  "4061.jpg": {
+    "H": 1536,
+    "W": 2048,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4061.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4061.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4061.jpg",
+    "points": [],
+    "r": [
+      48,
+      48
+    ],
+    "ratio_h": 0.25,
+    "ratio_w": 0.25
+  },
+  "4062.jpg": {
+    "H": 300,
+    "W": 400,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4062.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4062.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4062.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.28,
+    "ratio_w": 1.28
+  },
+  "4064.jpg": {
+    "H": 300,
+    "W": 400,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4064.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4064.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4064.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.28,
+    "ratio_w": 1.28
+  },
+  "4065.jpg": {
+    "H": 1200,
+    "W": 900,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4065.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4065.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4065.jpg",
+    "points": [],
+    "r": [
+      57,
+      57
+    ],
+    "ratio_h": 0.32,
+    "ratio_w": 0.4533333333333333
+  },
+  "4078.jpg": {
+    "H": 951,
+    "W": 1500,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4078.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4078.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4078.jpg",
+    "points": [],
+    "r": [
+      51,
+      51
+    ],
+    "ratio_h": 0.4037854889589905,
+    "ratio_w": 0.404
+  },
+  "4116.jpg": {
+    "H": 280,
+    "W": 390,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4116.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4116.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4116.jpg",
+    "points": [],
+    "r": [
+      16,
+      16
+    ],
+    "ratio_h": 1.3714285714285714,
+    "ratio_w": 1.3717948717948718
+  },
+  "4170.jpg": {
+    "H": 200,
+    "W": 300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4170.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4170.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4170.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.92,
+    "ratio_w": 1.92
+  },
+  "4174.jpg": {
+    "H": 600,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4174.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4174.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4174.jpg",
+    "points": [],
+    "r": [
+      23,
+      23
+    ],
+    "ratio_h": 0.64,
+    "ratio_w": 0.64
+  },
+  "4405.jpg": {
+    "H": 662,
+    "W": 1000,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4405.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4405.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4405.jpg",
+    "points": [],
+    "r": [
+      48,
+      48
+    ],
+    "ratio_h": 0.5800604229607251,
+    "ratio_w": 0.58
+  },
+  "4409.jpg": {
+    "H": 819,
+    "W": 1024,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4409.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4409.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4409.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.46886446886446886,
+    "ratio_w": 0.46875
+  },
+  "4423.jpg": {
+    "H": 720,
+    "W": 1080,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4423.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4423.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4423.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.5333333333333333,
+    "ratio_w": 0.5333333333333333
+  },
+  "4494.jpg": {
+    "H": 410,
+    "W": 628,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4494.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4494.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4494.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.9365853658536586,
+    "ratio_w": 0.9363057324840764
+  },
+  "4497.jpg": {
+    "H": 674,
+    "W": 1000,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4497.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4497.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4497.jpg",
+    "points": [],
+    "r": [
+      31,
+      31
+    ],
+    "ratio_h": 0.56973293768546,
+    "ratio_w": 0.57
+  },
+  "4499.jpg": {
+    "H": 1214,
+    "W": 809,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4499.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4499.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4499.jpg",
+    "points": [],
+    "r": [
+      26,
+      26
+    ],
+    "ratio_h": 0.3163097199341021,
+    "ratio_w": 0.5043263288009888
+  },
+  "4905.jpg": {
+    "H": 956,
+    "W": 1300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4905.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4905.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4905.jpg",
+    "points": [],
+    "r": [
+      25,
+      25
+    ],
+    "ratio_h": 0.401673640167364,
+    "ratio_w": 0.4015384615384615
+  },
+  "4943.jpg": {
+    "H": 420,
+    "W": 600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4943.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4943.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4943.jpg",
+    "points": [],
+    "r": [
+      29,
+      29
+    ],
+    "ratio_h": 0.9142857142857143,
+    "ratio_w": 0.915
+  },
+  "4952.jpg": {
+    "H": 470,
+    "W": 600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/4952.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/4952.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/4952.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.8170212765957446,
+    "ratio_w": 0.8166666666666667
+  },
+  "5463.jpg": {
+    "H": 636,
+    "W": 600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5463.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5463.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5463.jpg",
+    "points": [],
+    "r": [
+      29,
+      29
+    ],
+    "ratio_h": 0.6037735849056604,
+    "ratio_w": 0.68
+  },
+  "5512.jpg": {
+    "H": 957,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5512.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5512.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5512.jpg",
+    "points": [],
+    "r": [
+      29,
+      29
+    ],
+    "ratio_h": 0.4012539184952978,
+    "ratio_w": 0.51
+  },
+  "5513.jpg": {
+    "H": 350,
+    "W": 620,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5513.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5513.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5513.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.0971428571428572,
+    "ratio_w": 1.096774193548387
+  },
+  "5567.jpg": {
+    "H": 1011,
+    "W": 1300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5567.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5567.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5567.jpg",
+    "points": [],
+    "r": [
+      54,
+      54
+    ],
+    "ratio_h": 0.3798219584569733,
+    "ratio_w": 0.38
+  },
+  "5595.jpg": {
+    "H": 299,
+    "W": 400,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5595.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5595.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5595.jpg",
+    "points": [],
+    "r": [
+      36,
+      36
+    ],
+    "ratio_h": 1.2842809364548495,
+    "ratio_w": 1.285
+  },
+  "5817.jpg": {
+    "H": 957,
+    "W": 1300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5817.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5817.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5817.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.4012539184952978,
+    "ratio_w": 0.4015384615384615
+  },
+  "5922.jpg": {
+    "H": 533,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5922.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5922.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5922.jpg",
+    "points": [],
+    "r": [
+      24,
+      24
+    ],
+    "ratio_h": 0.7204502814258912,
+    "ratio_w": 0.72
+  },
+  "5925.jpg": {
+    "H": 500,
+    "W": 375,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5925.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5925.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5925.jpg",
+    "points": [],
+    "r": [
+      37,
+      37
+    ],
+    "ratio_h": 0.768,
+    "ratio_w": 1.088
+  },
+  "5938.jpg": {
+    "H": 1996,
+    "W": 3000,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/5938.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/5938.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/5938.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.19238476953907815,
+    "ratio_w": 0.19233333333333333
+  },
+  "6282.jpg": {
+    "H": 562,
+    "W": 563,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6282.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/6282.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6282.jpg",
+    "points": [],
+    "r": [
+      20,
+      20
+    ],
+    "ratio_h": 0.6832740213523132,
+    "ratio_w": 0.6838365896980462
+  },
+  "6645.jpg": {
+    "H": 517,
+    "W": 564,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6645.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/6645.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6645.jpg",
+    "points": [],
+    "r": [
+      23,
+      23
+    ],
+    "ratio_h": 0.7427466150870407,
+    "ratio_w": 0.7429078014184397
+  },
+  "6655.jpg": {
+    "H": 640,
+    "W": 640,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6655.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/6655.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6655.jpg",
+    "points": [],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.6,
+    "ratio_w": 0.6
+  },
+  "6661.jpg": {
+    "H": 1200,
+    "W": 1600,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6661.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/6661.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6661.jpg",
+    "points": [],
+    "r": [
+      19,
+      19
+    ],
+    "ratio_h": 0.32,
+    "ratio_w": 0.32
+  },
+  "6713.jpg": {
+    "H": 446,
+    "W": 650,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6713.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6713.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          18.79,
+          199.2
+        ],
+        [
+          18.79,
+          224.29
+        ],
+        [
+          39.22,
+          224.29
+        ],
+        [
+          39.22,
+          199.2
+        ]
+      ],
+      [
+        [
+          277.2,
+          121.6
+        ],
+        [
+          277.2,
+          138.83
+        ],
+        [
+          303.1,
+          138.83
+        ],
+        [
+          303.1,
+          121.6
+        ]
+      ],
+      [
+        [
+          217.81,
+          301.94
+        ],
+        [
+          217.81,
+          323.14
+        ],
+        [
+          238.71,
+          323.14
+        ],
+        [
+          238.71,
+          301.94
+        ]
+      ],
+      [
+        [
+          323.8,
+          66.7
+        ],
+        [
+          323.8,
+          85.33
+        ],
+        [
+          349.0,
+          85.33
+        ],
+        [
+          349.0,
+          66.7
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0547_0.jpg",
+      "v7/polygon_examples/0547_1.jpg",
+      "v7/polygon_examples/0547_2.jpg",
+      "v7/polygon_examples/0547_3.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.8609865470852018,
+    "ratio_w": 0.8615384615384616
+  },
+  "6735.jpg": {
+    "H": 400,
+    "W": 300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6735.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6735.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          161.34,
+          293.57
+        ],
+        [
+          161.34,
+          323.98
+        ],
+        [
+          176.55,
+          323.98
+        ],
+        [
+          176.55,
+          293.57
+        ]
+      ],
+      [
+        [
+          160.76,
+          222.22
+        ],
+        [
+          160.76,
+          252.05
+        ],
+        [
+          203.45,
+          252.05
+        ],
+        [
+          203.45,
+          222.22
+        ]
+      ],
+      [
+        [
+          88.21,
+          131.58
+        ],
+        [
+          88.21,
+          168.98
+        ],
+        [
+          115.72,
+          168.98
+        ],
+        [
+          115.72,
+          131.58
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0252_0.jpg",
+      "v7/polygon_examples/0252_1.jpg",
+      "v7/polygon_examples/0252_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.96,
+    "ratio_w": 1.36
+  },
+  "6736.jpg": {
+    "H": 512,
+    "W": 1024,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6736.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6736.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          223.64,
+          148.93
+        ],
+        [
+          303.32,
+          142.93
+        ],
+        [
+          311.89,
+          256.02
+        ],
+        [
+          235.63,
+          265.45
+        ]
+      ],
+      [
+        [
+          501.23,
+          223.47
+        ],
+        [
+          567.2,
+          217.47
+        ],
+        [
+          579.2,
+          316.0
+        ],
+        [
+          513.23,
+          329.71
+        ]
+      ],
+      [
+        [
+          774.54,
+          278.3
+        ],
+        [
+          837.94,
+          267.16
+        ],
+        [
+          849.08,
+          363.98
+        ],
+        [
+          783.96,
+          381.11
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0309_0.jpg",
+      "v7/polygon_examples/0309_1.jpg",
+      "v7/polygon_examples/0309_2.jpg"
+    ],
+    "r": [
+      25,
+      25
+    ],
+    "ratio_h": 0.75,
+    "ratio_w": 0.75
+  },
+  "682.jpg": {
+    "H": 634,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/682.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/682.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/682.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.6056782334384858,
+    "ratio_w": 0.60625
+  },
+  "6827.jpg": {
+    "H": 300,
+    "W": 400,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6827.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6827.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          162.02,
+          6.14
+        ],
+        [
+          162.02,
+          113.6
+        ],
+        [
+          237.02,
+          113.6
+        ],
+        [
+          237.02,
+          6.14
+        ]
+      ],
+      [
+        [
+          112.42,
+          181.14
+        ],
+        [
+          112.42,
+          249.08
+        ],
+        [
+          175.18,
+          249.08
+        ],
+        [
+          175.18,
+          181.14
+        ]
+      ],
+      [
+        [
+          230.88,
+          94.74
+        ],
+        [
+          230.88,
+          178.95
+        ],
+        [
+          293.16,
+          178.95
+        ],
+        [
+          293.16,
+          94.74
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0942_0.jpg",
+      "v7/polygon_examples/0942_1.jpg",
+      "v7/polygon_examples/0942_2.jpg"
+    ],
+    "r": [
+      29,
+      29
+    ],
+    "ratio_h": 1.28,
+    "ratio_w": 1.28
+  },
+  "6833.jpg": {
+    "H": 554,
+    "W": 860,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6833.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6833.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          693.59,
+          245.37
+        ],
+        [
+          693.59,
+          333.65
+        ],
+        [
+          751.1,
+          333.65
+        ],
+        [
+          751.1,
+          245.37
+        ]
+      ],
+      [
+        [
+          461.95,
+          266.43
+        ],
+        [
+          461.95,
+          358.76
+        ],
+        [
+          526.74,
+          358.76
+        ],
+        [
+          526.74,
+          266.43
+        ]
+      ],
+      [
+        [
+          322.64,
+          340.94
+        ],
+        [
+          322.64,
+          446.24
+        ],
+        [
+          409.3,
+          446.24
+        ],
+        [
+          409.3,
+          340.94
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0620_0.jpg",
+      "v7/polygon_examples/0620_1.jpg",
+      "v7/polygon_examples/0620_2.jpg"
+    ],
+    "r": [
+      28,
+      28
+    ],
+    "ratio_h": 0.6931407942238267,
+    "ratio_w": 0.6930232558139535
+  },
+  "685.jpg": {
+    "H": 600,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/685.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/685.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/685.jpg",
+    "points": [],
+    "r": [
+      26,
+      26
+    ],
+    "ratio_h": 0.64,
+    "ratio_w": 0.64
+  },
+  "6856.jpg": {
+    "H": 293,
+    "W": 300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6856.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6856.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          15.67,
+          10.27
+        ],
+        [
+          15.67,
+          70.67
+        ],
+        [
+          79.92,
+          70.67
+        ],
+        [
+          79.92,
+          10.27
+        ]
+      ],
+      [
+        [
+          81.21,
+          219.31
+        ],
+        [
+          81.21,
+          280.99
+        ],
+        [
+          145.46,
+          280.99
+        ],
+        [
+          145.46,
+          219.31
+        ]
+      ],
+      [
+        [
+          153.6,
+          82.66
+        ],
+        [
+          153.6,
+          144.35
+        ],
+        [
+          219.57,
+          144.35
+        ],
+        [
+          219.57,
+          82.66
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0717_0.jpg",
+      "v7/polygon_examples/0717_1.jpg",
+      "v7/polygon_examples/0717_2.jpg"
+    ],
+    "r": [
+      33,
+      33
+    ],
+    "ratio_h": 1.310580204778157,
+    "ratio_w": 1.31
+  },
+  "686.jpg": {
+    "H": 534,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/686.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/686.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/686.jpg",
+    "points": [],
+    "r": [
+      17,
+      17
+    ],
+    "ratio_h": 0.7191011235955056,
+    "ratio_w": 0.71875
+  },
+  "6876.jpg": {
+    "H": 560,
+    "W": 450,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6876.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6876.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          74.69,
+          94.18
+        ],
+        [
+          74.69,
+          142.48
+        ],
+        [
+          102.53,
+          142.48
+        ],
+        [
+          102.53,
+          94.18
+        ]
+      ],
+      [
+        [
+          256.44,
+          368.44
+        ],
+        [
+          256.44,
+          433.94
+        ],
+        [
+          329.31,
+          433.94
+        ],
+        [
+          329.31,
+          368.44
+        ]
+      ],
+      [
+        [
+          35.39,
+          298.85
+        ],
+        [
+          35.39,
+          350.43
+        ],
+        [
+          87.79,
+          350.43
+        ],
+        [
+          87.79,
+          298.85
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0105_0.jpg",
+      "v7/polygon_examples/0105_1.jpg",
+      "v7/polygon_examples/0105_2.jpg"
+    ],
+    "r": [
+      24,
+      24
+    ],
+    "ratio_h": 0.6857142857142857,
+    "ratio_w": 0.9066666666666666
+  },
+  "6938.jpg": {
+    "H": 480,
+    "W": 720,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6938.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6938.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          432.79,
+          25.75
+        ],
+        [
+          432.79,
+          131.85
+        ],
+        [
+          483.31,
+          131.85
+        ],
+        [
+          483.31,
+          25.75
+        ]
+      ],
+      [
+        [
+          426.72,
+          330.9
+        ],
+        [
+          426.72,
+          452.19
+        ],
+        [
+          472.2,
+          452.19
+        ],
+        [
+          472.2,
+          330.9
+        ]
+      ],
+      [
+        [
+          310.51,
+          162.17
+        ],
+        [
+          310.51,
+          290.5
+        ],
+        [
+          377.21,
+          290.5
+        ],
+        [
+          377.21,
+          162.17
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0045_0.jpg",
+      "v7/polygon_examples/0045_1.jpg",
+      "v7/polygon_examples/0045_2.jpg"
+    ],
+    "r": [
+      23,
+      23
+    ],
+    "ratio_h": 0.8,
+    "ratio_w": 0.8
+  },
+  "6964.jpg": {
+    "H": 600,
+    "W": 800,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/6964.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/6964.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          96.56,
+          257.86
+        ],
+        [
+          96.56,
+          308.2
+        ],
+        [
+          174.82,
+          308.2
+        ],
+        [
+          174.82,
+          257.86
+        ]
+      ],
+      [
+        [
+          303.5,
+          493.5
+        ],
+        [
+          303.5,
+          551.6
+        ],
+        [
+          377.2,
+          551.6
+        ],
+        [
+          377.2,
+          493.5
+        ]
+      ],
+      [
+        [
+          496.44,
+          70.24
+        ],
+        [
+          496.44,
+          121.85
+        ],
+        [
+          577.67,
+          121.85
+        ],
+        [
+          577.67,
+          70.24
+        ]
+      ],
+      [
+        [
+          460.11,
+          254.56
+        ],
+        [
+          460.11,
+          303.2
+        ],
+        [
+          532.87,
+          303.2
+        ],
+        [
+          532.87,
+          254.56
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0326_0.jpg",
+      "v7/polygon_examples/0326_1.jpg",
+      "v7/polygon_examples/0326_2.jpg",
+      "v7/polygon_examples/0326_3.jpg"
+    ],
+    "r": [
+      21,
+      21
+    ],
+    "ratio_h": 0.64,
+    "ratio_w": 0.64
+  },
+  "7034.jpg": {
+    "H": 380,
+    "W": 380,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7034.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7034.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          71.33,
+          78.33
+        ],
+        [
+          71.33,
+          167.22
+        ],
+        [
+          108.0,
+          167.22
+        ],
+        [
+          108.0,
+          78.33
+        ]
+      ],
+      [
+        [
+          172.62,
+          171.37
+        ],
+        [
+          172.62,
+          258.17
+        ],
+        [
+          209.92,
+          258.17
+        ],
+        [
+          209.92,
+          171.37
+        ]
+      ],
+      [
+        [
+          207.5,
+          0.0
+        ],
+        [
+          207.5,
+          80.0
+        ],
+        [
+          241.76,
+          80.0
+        ],
+        [
+          241.76,
+          0.0
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0402_0.jpg",
+      "v7/polygon_examples/0402_1.jpg",
+      "v7/polygon_examples/0402_2.jpg"
+    ],
+    "r": [
+      17,
+      17
+    ],
+    "ratio_h": 1.0105263157894737,
+    "ratio_w": 1.0105263157894737
+  },
+  "7042.jpg": {
+    "H": 1080,
+    "W": 1920,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7042.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7042.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          1173.42,
+          709.2
+        ],
+        [
+          1173.42,
+          726.37
+        ],
+        [
+          1197.81,
+          726.37
+        ],
+        [
+          1197.81,
+          709.2
+        ]
+      ],
+      [
+        [
+          1035.39,
+          465.97
+        ],
+        [
+          1035.39,
+          493.17
+        ],
+        [
+          1048.19,
+          493.17
+        ],
+        [
+          1048.19,
+          465.97
+        ]
+      ],
+      [
+        [
+          1041.46,
+          342.61
+        ],
+        [
+          1041.46,
+          360.11
+        ],
+        [
+          1066.26,
+          360.11
+        ],
+        [
+          1066.26,
+          342.61
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0535_0.jpg",
+      "v7/polygon_examples/0535_1.jpg",
+      "v7/polygon_examples/0535_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.35555555555555557,
+    "ratio_w": 0.35572916666666665
+  },
+  "7043.jpg": {
+    "H": 262,
+    "W": 400,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7043.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7043.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          180.94,
+          92.87
+        ],
+        [
+          180.94,
+          142.99
+        ],
+        [
+          203.6,
+          142.99
+        ],
+        [
+          203.6,
+          92.87
+        ]
+      ],
+      [
+        [
+          95.89,
+          36.23
+        ],
+        [
+          95.89,
+          88.9
+        ],
+        [
+          117.7,
+          88.9
+        ],
+        [
+          117.7,
+          36.23
+        ]
+      ],
+      [
+        [
+          183.42,
+          155.5
+        ],
+        [
+          183.42,
+          206.3
+        ],
+        [
+          205.03,
+          206.3
+        ],
+        [
+          205.03,
+          155.5
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0391_0.jpg",
+      "v7/polygon_examples/0391_1.jpg",
+      "v7/polygon_examples/0391_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.465648854961832,
+    "ratio_w": 1.465
+  },
+  "7082.jpg": {
+    "H": 334,
+    "W": 500,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7082.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7082.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          212.52,
+          74.81
+        ],
+        [
+          212.52,
+          104.24
+        ],
+        [
+          235.08,
+          104.24
+        ],
+        [
+          235.08,
+          74.81
+        ]
+      ],
+      [
+        [
+          426.95,
+          186.07
+        ],
+        [
+          426.95,
+          211.46
+        ],
+        [
+          442.57,
+          211.46
+        ],
+        [
+          442.57,
+          186.07
+        ]
+      ],
+      [
+        [
+          242.37,
+          187.53
+        ],
+        [
+          242.37,
+          214.88
+        ],
+        [
+          262.39,
+          214.88
+        ],
+        [
+          262.39,
+          187.53
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0534_0.jpg",
+      "v7/polygon_examples/0534_1.jpg",
+      "v7/polygon_examples/0534_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.1497005988023952,
+    "ratio_w": 1.15
+  },
+  "7097.jpg": {
+    "H": 1920,
+    "W": 1749,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7097.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7097.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          1313.44,
+          847.75
+        ],
+        [
+          1313.44,
+          1027.4
+        ],
+        [
+          1493.09,
+          1027.4
+        ],
+        [
+          1493.09,
+          847.75
+        ]
+      ],
+      [
+        [
+          457.3,
+          915.09
+        ],
+        [
+          457.3,
+          1097.58
+        ],
+        [
+          645.37,
+          1097.58
+        ],
+        [
+          645.37,
+          915.09
+        ]
+      ],
+      [
+        [
+          255.19,
+          387.4
+        ],
+        [
+          255.19,
+          569.86
+        ],
+        [
+          437.65,
+          569.86
+        ],
+        [
+          437.65,
+          387.4
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0321_0.jpg",
+      "v7/polygon_examples/0321_1.jpg",
+      "v7/polygon_examples/0321_2.jpg"
+    ],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.2,
+    "ratio_w": 0.2332761578044597
+  },
+  "7171.jpg": {
+    "H": 1200,
+    "W": 900,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7171.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7171.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          636.07,
+          256.31
+        ],
+        [
+          636.07,
+          283.79
+        ],
+        [
+          663.84,
+          283.79
+        ],
+        [
+          663.84,
+          256.31
+        ]
+      ],
+      [
+        [
+          298.04,
+          208.45
+        ],
+        [
+          298.04,
+          233.95
+        ],
+        [
+          321.0,
+          233.95
+        ],
+        [
+          321.0,
+          208.45
+        ]
+      ],
+      [
+        [
+          377.7,
+          559.07
+        ],
+        [
+          377.7,
+          586.27
+        ],
+        [
+          404.91,
+          586.27
+        ],
+        [
+          404.91,
+          559.07
+        ]
+      ],
+      [
+        [
+          474.98,
+          543.77
+        ],
+        [
+          474.98,
+          572.33
+        ],
+        [
+          501.47,
+          572.33
+        ],
+        [
+          501.47,
+          543.77
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0949_0.jpg",
+      "v7/polygon_examples/0949_1.jpg",
+      "v7/polygon_examples/0949_2.jpg",
+      "v7/polygon_examples/0949_3.jpg"
+    ],
+    "r": [
+      57,
+      57
+    ],
+    "ratio_h": 0.32,
+    "ratio_w": 0.4533333333333333
+  },
+  "7192.jpg": {
+    "H": 197,
+    "W": 278,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7192.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7192.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          103.4,
+          39.47
+        ],
+        [
+          103.4,
+          68.84
+        ],
+        [
+          134.51,
+          68.84
+        ],
+        [
+          134.51,
+          39.47
+        ]
+      ],
+      [
+        [
+          179.44,
+          51.85
+        ],
+        [
+          179.44,
+          84.4
+        ],
+        [
+          213.42,
+          84.4
+        ],
+        [
+          213.42,
+          51.85
+        ]
+      ],
+      [
+        [
+          129.6,
+          111.18
+        ],
+        [
+          129.6,
+          140.85
+        ],
+        [
+          160.43,
+          140.85
+        ],
+        [
+          160.43,
+          111.18
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0774_0.jpg",
+      "v7/polygon_examples/0774_1.jpg",
+      "v7/polygon_examples/0774_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.9492385786802031,
+    "ratio_w": 1.9496402877697843
+  },
+  "7339.jpg": {
+    "H": 375,
+    "W": 500,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7339.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7339.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          245.29,
+          120.61
+        ],
+        [
+          245.29,
+          157.89
+        ],
+        [
+          291.89,
+          157.89
+        ],
+        [
+          291.89,
+          120.61
+        ]
+      ],
+      [
+        [
+          243.1,
+          229.17
+        ],
+        [
+          243.1,
+          275.8
+        ],
+        [
+          278.7,
+          275.8
+        ],
+        [
+          278.7,
+          229.17
+        ]
+      ],
+      [
+        [
+          359.3,
+          144.7
+        ],
+        [
+          359.3,
+          182.0
+        ],
+        [
+          405.92,
+          182.0
+        ],
+        [
+          405.92,
+          144.7
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0914_0.jpg",
+      "v7/polygon_examples/0914_1.jpg",
+      "v7/polygon_examples/0914_2.jpg"
+    ],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 1.024,
+    "ratio_w": 1.024
+  },
+  "7359.jpg": {
+    "H": 1075,
+    "W": 2215,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7359.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7359.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          729.1,
+          456.67
+        ],
+        [
+          729.1,
+          734.4
+        ],
+        [
+          1001.49,
+          734.4
+        ],
+        [
+          1001.49,
+          456.67
+        ]
+      ],
+      [
+        [
+          1065.46,
+          717.53
+        ],
+        [
+          1065.46,
+          1033.92
+        ],
+        [
+          1303.2,
+          1033.92
+        ],
+        [
+          1303.2,
+          717.53
+        ]
+      ],
+      [
+        [
+          932.7,
+          23.6
+        ],
+        [
+          932.7,
+          234.4
+        ],
+        [
+          1126.33,
+          234.4
+        ],
+        [
+          1126.33,
+          23.6
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0909_0.jpg",
+      "v7/polygon_examples/0909_1.jpg",
+      "v7/polygon_examples/0909_2.jpg"
+    ],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.3572093023255814,
+    "ratio_w": 0.35711060948081264
+  },
+  "7386.jpg": {
+    "H": 640,
+    "W": 429,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7386.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7386.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          173.7,
+          198.4
+        ],
+        [
+          173.7,
+          240.5
+        ],
+        [
+          255.1,
+          240.5
+        ],
+        [
+          255.1,
+          198.4
+        ]
+      ],
+      [
+        [
+          90.42,
+          454.77
+        ],
+        [
+          90.42,
+          486.58
+        ],
+        [
+          171.82,
+          486.58
+        ],
+        [
+          171.82,
+          454.77
+        ]
+      ],
+      [
+        [
+          257.91,
+          402.37
+        ],
+        [
+          257.91,
+          433.25
+        ],
+        [
+          338.37,
+          433.25
+        ],
+        [
+          338.37,
+          402.37
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0905_0.jpg",
+      "v7/polygon_examples/0905_1.jpg",
+      "v7/polygon_examples/0905_2.jpg"
+    ],
+    "r": [
+      24,
+      24
+    ],
+    "ratio_h": 0.6,
+    "ratio_w": 0.951048951048951
+  },
+  "7387.jpg": {
+    "H": 499,
+    "W": 375,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7387.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7387.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          178.33,
+          269.96
+        ],
+        [
+          178.33,
+          326.86
+        ],
+        [
+          210.43,
+          326.86
+        ],
+        [
+          210.43,
+          269.96
+        ]
+      ],
+      [
+        [
+          249.09,
+          197.0
+        ],
+        [
+          249.09,
+          256.09
+        ],
+        [
+          279.73,
+          256.09
+        ],
+        [
+          279.73,
+          197.0
+        ]
+      ],
+      [
+        [
+          139.66,
+          83.2
+        ],
+        [
+          139.66,
+          139.37
+        ],
+        [
+          171.03,
+          139.37
+        ],
+        [
+          171.03,
+          83.2
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/1018_0.jpg",
+      "v7/polygon_examples/1018_1.jpg",
+      "v7/polygon_examples/1018_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.7695390781563126,
+    "ratio_w": 1.088
+  },
+  "7440.jpg": {
+    "H": 270,
+    "W": 340,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7440.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7440.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          31.98,
+          3.0
+        ],
+        [
+          31.98,
+          23.84
+        ],
+        [
+          151.83,
+          23.84
+        ],
+        [
+          151.83,
+          3.0
+        ]
+      ],
+      [
+        [
+          134.77,
+          135.63
+        ],
+        [
+          134.77,
+          164.99
+        ],
+        [
+          278.77,
+          164.99
+        ],
+        [
+          278.77,
+          135.63
+        ]
+      ],
+      [
+        [
+          133.45,
+          196.96
+        ],
+        [
+          133.45,
+          228.15
+        ],
+        [
+          290.55,
+          228.15
+        ],
+        [
+          290.55,
+          196.96
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0720_0.jpg",
+      "v7/polygon_examples/0720_1.jpg",
+      "v7/polygon_examples/0720_2.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 1.4222222222222223,
+    "ratio_w": 1.423529411764706
+  },
+  "7491.jpg": {
+    "H": 427,
+    "W": 640,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7491.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7491.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          285.31,
+          240.5
+        ],
+        [
+          285.31,
+          260.68
+        ],
+        [
+          343.96,
+          260.68
+        ],
+        [
+          343.96,
+          240.5
+        ]
+      ],
+      [
+        [
+          528.05,
+          158.11
+        ],
+        [
+          528.05,
+          181.23
+        ],
+        [
+          591.99,
+          181.23
+        ],
+        [
+          591.99,
+          158.11
+        ]
+      ],
+      [
+        [
+          104.04,
+          114.64
+        ],
+        [
+          104.04,
+          137.73
+        ],
+        [
+          164.3,
+          137.73
+        ],
+        [
+          164.3,
+          114.64
+        ]
+      ],
+      [
+        [
+          473.95,
+          363.71
+        ],
+        [
+          473.95,
+          387.55
+        ],
+        [
+          539.85,
+          387.55
+        ],
+        [
+          539.85,
+          363.71
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0415_0.jpg",
+      "v7/polygon_examples/0415_1.jpg",
+      "v7/polygon_examples/0415_2.jpg",
+      "v7/polygon_examples/0415_3.jpg"
+    ],
+    "r": [
+      15,
+      15
+    ],
+    "ratio_h": 0.8992974238875878,
+    "ratio_w": 0.9
+  },
+  "7573.jpg": {
+    "H": 500,
+    "W": 877,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7573.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7573.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          476.41,
+          270.59
+        ],
+        [
+          476.41,
+          390.3
+        ],
+        [
+          601.15,
+          390.3
+        ],
+        [
+          601.15,
+          270.59
+        ]
+      ],
+      [
+        [
+          641.35,
+          159.04
+        ],
+        [
+          641.35,
+          257.37
+        ],
+        [
+          758.76,
+          257.37
+        ],
+        [
+          758.76,
+          159.04
+        ]
+      ],
+      [
+        [
+          239.24,
+          98.87
+        ],
+        [
+          239.24,
+          198.66
+        ],
+        [
+          361.05,
+          198.66
+        ],
+        [
+          361.05,
+          98.87
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0770_0.jpg",
+      "v7/polygon_examples/0770_1.jpg",
+      "v7/polygon_examples/0770_2.jpg"
+    ],
+    "r": [
+      42,
+      42
+    ],
+    "ratio_h": 0.768,
+    "ratio_w": 0.7685290763968073
+  },
+  "7592.jpg": {
+    "H": 750,
+    "W": 1000,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7592.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7592.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          217.6,
+          327.57
+        ],
+        [
+          217.6,
+          366.17
+        ],
+        [
+          257.98,
+          366.17
+        ],
+        [
+          257.98,
+          327.57
+        ]
+      ],
+      [
+        [
+          423.69,
+          458.0
+        ],
+        [
+          423.69,
+          503.09
+        ],
+        [
+          486.7,
+          503.09
+        ],
+        [
+          486.7,
+          458.0
+        ]
+      ],
+      [
+        [
+          479.12,
+          246.5
+        ],
+        [
+          479.12,
+          280.76
+        ],
+        [
+          521.0,
+          280.76
+        ],
+        [
+          521.0,
+          246.5
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0799_0.jpg",
+      "v7/polygon_examples/0799_1.jpg",
+      "v7/polygon_examples/0799_2.jpg"
+    ],
+    "r": [
+      21,
+      21
+    ],
+    "ratio_h": 0.512,
+    "ratio_w": 0.512
+  },
+  "7635.jpg": {
+    "H": 263,
+    "W": 191,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7635.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7635.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          68.37,
+          189.56
+        ],
+        [
+          68.37,
+          238.4
+        ],
+        [
+          112.97,
+          238.4
+        ],
+        [
+          112.97,
+          189.56
+        ]
+      ],
+      [
+        [
+          44.92,
+          54.22
+        ],
+        [
+          44.92,
+          81.52
+        ],
+        [
+          74.14,
+          81.52
+        ],
+        [
+          74.14,
+          54.22
+        ]
+      ],
+      [
+        [
+          111.78,
+          131.08
+        ],
+        [
+          111.78,
+          170.7
+        ],
+        [
+          144.1,
+          170.7
+        ],
+        [
+          144.1,
+          131.08
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0019_0.jpg",
+      "v7/polygon_examples/0019_1.jpg",
+      "v7/polygon_examples/0019_2.jpg"
+    ],
+    "r": [
+      18,
+      18
+    ],
+    "ratio_h": 1.4600760456273765,
+    "ratio_w": 2.136125654450262
+  },
+  "7639.jpg": {
+    "H": 2160,
+    "W": 3840,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7639.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7639.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          1795.71,
+          1134.34
+        ],
+        [
+          1795.71,
+          1202.72
+        ],
+        [
+          1893.95,
+          1202.72
+        ],
+        [
+          1893.95,
+          1134.34
+        ]
+      ],
+      [
+        [
+          2182.47,
+          1316.77
+        ],
+        [
+          2182.47,
+          1403.98
+        ],
+        [
+          2236.16,
+          1403.98
+        ],
+        [
+          2236.16,
+          1316.77
+        ]
+      ],
+      [
+        [
+          2038.64,
+          1477.08
+        ],
+        [
+          2038.64,
+          1568.67
+        ],
+        [
+          2132.37,
+          1568.67
+        ],
+        [
+          2132.37,
+          1477.08
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0549_0.jpg",
+      "v7/polygon_examples/0549_1.jpg",
+      "v7/polygon_examples/0549_2.jpg"
+    ],
+    "r": [
+      32,
+      32
+    ],
+    "ratio_h": 0.17777777777777778,
+    "ratio_w": 0.17786458333333333
+  },
+  "7645.jpg": {
+    "H": 295,
+    "W": 525,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/7645.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/7645.jpg",
+    "points": [],
+    "polygon_examples_coordinates": [
+      [
+        [
+          240.03,
+          1.57
+        ],
+        [
+          240.03,
+          100.24
+        ],
+        [
+          298.23,
+          100.24
+        ],
+        [
+          298.23,
+          1.57
+        ]
+      ],
+      [
+        [
+          182.73,
+          168.59
+        ],
+        [
+          182.73,
+          284.99
+        ],
+        [
+          241.59,
+          284.99
+        ],
+        [
+          241.59,
+          168.59
+        ]
+      ],
+      [
+        [
+          358.0,
+          165.95
+        ],
+        [
+          358.0,
+          284.11
+        ],
+        [
+          415.54,
+          284.11
+        ],
+        [
+          415.54,
+          165.95
+        ]
+      ]
+    ],
+    "polygon_examples_path": [
+      "v7/polygon_examples/0044_0.jpg",
+      "v7/polygon_examples/0044_1.jpg",
+      "v7/polygon_examples/0044_2.jpg"
+    ],
+    "r": [
+      29,
+      29
+    ],
+    "ratio_h": 1.3016949152542372,
+    "ratio_w": 1.3009523809523809
+  },
+  "988.jpg": {
+    "H": 1012,
+    "W": 1350,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/988.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/988.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/988.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.3794466403162055,
+    "ratio_w": 0.37925925925925924
+  },
+  "993.jpg": {
+    "H": 956,
+    "W": 1300,
+    "box_examples_coordinates": [],
+    "box_examples_path": [],
+    "density_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_adaptive_384_VarV2/993.npy",
+    "density_path_fixed": "/nfs/bigneuron/viresh/FSC_NewDataOnly/gt_density_map_fixed/993.npy",
+    "img_path": "/nfs/bigneuron/viresh/FSC_NewDataOnly/images_384_VarV2/993.jpg",
+    "points": [],
+    "r": [
+      60,
+      60
+    ],
+    "ratio_h": 0.401673640167364,
+    "ratio_w": 0.4015384615384615
+  }
+}
