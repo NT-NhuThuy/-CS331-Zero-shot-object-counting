@@ -1,0 +1,161 @@
+candidate_id,group_id,image_name,source_class,target,candidate_type,eval_partition,presence_label,label_source
+FHN001,FRESHNEG26__4748__apples,4748.jpg,peaches,apples,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN002,FRESHNEG26__7658__benches,7658.jpg,chairs,benches,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN003,FRESHNEG26__6295__suitcases,6295.jpg,pills,suitcases,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN004,FRESHNEG26__4139__rice_crackers,4139.jpg,prawn crackers,rice crackers,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN005,FRESHNEG26__4094__telephones,4094.jpg,bullets,telephones,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN006,FRESHNEG26__2306__llamas,2306.jpg,camels,llamas,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN007,FRESHNEG26__4582__telephones,4582.jpg,flamingos,telephones,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN008,FRESHNEG26__4163__carrots,4163.jpg,sausages,carrots,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN009,FRESHNEG26__4107__coins,4107.jpg,oyster shells,coins,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN010,FRESHNEG26__4812__blueberries,4812.jpg,grapes,blueberries,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN011,FRESHNEG26__7541__soda_cans,7541.jpg,milk cartons,soda cans,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN012,FRESHNEG26__7265__paper_flowers,7265.jpg,flowers,paper flowers,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN013,FRESHNEG26__3481__buttons,3481.jpg,polka dots,buttons,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN014,FRESHNEG26__4598__limes,4598.jpg,kiwis,limes,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN015,FRESHNEG26__3980__clams,3980.jpg,oysters,clams,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN016,FRESHNEG26__3526__fish_fingers,3526.jpg,chicken wings,fish fingers,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN017,FRESHNEG26__3772__cookies,3772.jpg,donuts tray,cookies,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN018,FRESHNEG26__2137__beetles,2137.jpg,ants,beetles,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN019,FRESHNEG26__962__bats,962.jpg,birds,bats,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN020,FRESHNEG26__620__terns,620.jpg,seagulls,terns,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN021,FRESHNEG26__6957__zebras,6957.jpg,horses,zebras,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN022,FRESHNEG26__7223__pants,7223.jpg,shirts,pants,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN023,FRESHNEG26__3666__plastic_cups,3666.jpg,toilet paper rolls,plastic cups,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN024,FRESHNEG26__3872__traffic_lights,3872.jpg,shallots,traffic lights,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN025,FRESHNEG26__1901__coins,1901.jpg,bottle caps,coins,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN026,FRESHNEG26__850__comic_books,850.jpg,books,comic books,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN027,FRESHNEG26__6955__vases,6955.jpg,flower pots,vases,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN028,FRESHNEG26__7403__bicycles,7403.jpg,skateboard,bicycles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN029,FRESHNEG26__194__apricots,194.jpg,peaches,apricots,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN030,FRESHNEG26__7197__benches,7197.jpg,chairs,benches,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN031,FRESHNEG26__6291__mints,6291.jpg,pills,mints,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN032,FRESHNEG26__4096__batteries,4096.jpg,bullets,batteries,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN033,FRESHNEG26__2302__telephones,2302.jpg,camels,telephones,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN034,FRESHNEG26__4573__umbrellas,4573.jpg,flamingos,umbrellas,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN035,FRESHNEG26__4168__cucumbers,4168.jpg,sausages,cucumbers,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN036,FRESHNEG26__4104__helmets,4104.jpg,oyster shells,helmets,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN037,FRESHNEG26__5892__olives,5892.jpg,grapes,olives,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN038,FRESHNEG26__7326__juice_boxes,7326.jpg,milk cartons,juice boxes,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN039,FRESHNEG26__6725__pins,6725.jpg,flowers,pins,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN040,FRESHNEG26__5745__marbles,5745.jpg,polka dots,marbles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN041,FRESHNEG26__4602__avocados,4602.jpg,kiwis,avocados,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN042,FRESHNEG26__3979__clams,3979.jpg,oysters,clams,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN043,FRESHNEG26__6107__fish_fingers,6107.jpg,chicken wings,fish fingers,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN044,FRESHNEG26__3761__bagels,3761.jpg,donuts tray,bagels,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN045,FRESHNEG26__741__beetles,741.jpg,ants,beetles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN046,FRESHNEG26__764__bats,764.jpg,birds,bats,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN047,FRESHNEG26__6057__terns,6057.jpg,seagulls,terns,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN048,FRESHNEG26__2413__cows,2413.jpg,horses,cows,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN049,FRESHNEG26__7656__towels,7656.jpg,shirts,towels,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN050,FRESHNEG26__3671__traffic_lights,3671.jpg,toilet paper rolls,traffic lights,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN051,FRESHNEG26__3871__garlic_cloves,3871.jpg,shallots,garlic cloves,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN052,FRESHNEG26__6835__marbles,6835.jpg,bottle caps,marbles,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN053,FRESHNEG26__767__traffic_lights,767.jpg,books,traffic lights,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN054,FRESHNEG26__7549__vases,7549.jpg,flower pots,vases,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN055,FRESHNEG26__7507__bicycles,7507.jpg,skateboard,bicycles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN056,FRESHNEG26__4750__tomatoes,4750.jpg,peaches,tomatoes,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN057,FRESHNEG26__2808__armchairs,2808.jpg,chairs,armchairs,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN058,FRESHNEG26__7249__umbrellas,7249.jpg,pills,umbrellas,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN059,FRESHNEG26__3266__lipsticks,3266.jpg,bullets,lipsticks,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN060,FRESHNEG26__2313__llamas,2313.jpg,camels,llamas,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN061,FRESHNEG26__572__storks,572.jpg,flamingos,storks,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN062,FRESHNEG26__4164__candles,4164.jpg,sausages,candles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN063,FRESHNEG26__4108__rocks,4108.jpg,oyster shells,rocks,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN064,FRESHNEG26__5907__olives,5907.jpg,grapes,olives,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN065,FRESHNEG26__6897__bottles,6897.jpg,milk cartons,bottles,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN066,FRESHNEG26__3430__confetti,3430.jpg,polka dots,confetti,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN067,FRESHNEG26__4595__motorcycles,4595.jpg,kiwis,motorcycles,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN068,FRESHNEG26__5087__suitcases,5087.jpg,chicken wings,suitcases,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN069,FRESHNEG26__3785__bagels,3785.jpg,donuts tray,bagels,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN070,FRESHNEG26__7568__alarm_clocks,7568.jpg,ants,alarm clocks,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN071,FRESHNEG26__966__butterflies,966.jpg,birds,butterflies,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN072,FRESHNEG26__4711__guitars,4711.jpg,seagulls,guitars,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN073,FRESHNEG26__2410__cows,2410.jpg,horses,cows,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN074,FRESHNEG26__6939__umbrellas,6939.jpg,shirts,umbrellas,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN075,FRESHNEG26__3675__plastic_cups,3675.jpg,toilet paper rolls,plastic cups,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN076,FRESHNEG26__3873__radishes,3873.jpg,shallots,radishes,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN077,FRESHNEG26__1956__alarm_clocks,1956.jpg,bottle caps,alarm clocks,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN078,FRESHNEG26__864__magazines,864.jpg,books,magazines,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN079,FRESHNEG26__7233__buckets,7233.jpg,flower pots,buckets,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN080,FRESHNEG26__916__motorcycles,916.jpg,skateboard,motorcycles,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN081,FRESHNEG26__4746__apricots,4746.jpg,peaches,apricots,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN082,FRESHNEG26__2888__benches,2888.jpg,chairs,benches,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN083,FRESHNEG26__6297__beans,6297.jpg,pills,beans,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN084,FRESHNEG26__3267__crayons,3267.jpg,bullets,crayons,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN085,FRESHNEG26__2304__horses,2304.jpg,camels,horses,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN086,FRESHNEG26__577__herons,577.jpg,flamingos,herons,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN087,FRESHNEG26__252__blueberries,252.jpg,grapes,blueberries,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN088,FRESHNEG26__7537__juice_boxes,7537.jpg,milk cartons,juice boxes,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN089,FRESHNEG26__5739__confetti,5739.jpg,polka dots,confetti,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN090,FRESHNEG26__4599__avocados,4599.jpg,kiwis,avocados,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN091,FRESHNEG26__3564__telephones,3564.jpg,chicken wings,telephones,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN092,FRESHNEG26__5222__bagels,5222.jpg,donuts tray,bagels,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN093,FRESHNEG26__746__flies,746.jpg,ants,flies,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN094,FRESHNEG26__749__umbrellas,749.jpg,birds,umbrellas,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN095,FRESHNEG26__604__terns,604.jpg,seagulls,terns,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN096,FRESHNEG26__7393__camels,7393.jpg,horses,camels,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN097,FRESHNEG26__2906__guitars,2906.jpg,shirts,guitars,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN098,FRESHNEG26__5157__paper_towel_rolls,5157.jpg,toilet paper rolls,paper towel rolls,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN099,FRESHNEG26__1990__marbles,1990.jpg,bottle caps,marbles,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN100,FRESHNEG26__770__comic_books,770.jpg,books,comic books,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN101,FRESHNEG26__7247__plant_watering_cans,7247.jpg,flower pots,plant watering cans,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN102,FRESHNEG26__7271__surfboards,7271.jpg,skateboard,surfboards,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN103,FRESHNEG26__4743__tomatoes,4743.jpg,peaches,tomatoes,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN104,FRESHNEG26__2884__umbrellas,2884.jpg,chairs,umbrellas,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN105,FRESHNEG26__7673__mints,7673.jpg,pills,mints,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN106,FRESHNEG26__4093__batteries,4093.jpg,bullets,batteries,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN107,FRESHNEG26__2305__horses,2305.jpg,camels,horses,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN108,FRESHNEG26__582__motorcycles,582.jpg,flamingos,motorcycles,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN109,FRESHNEG26__231__blueberries,231.jpg,grapes,blueberries,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN110,FRESHNEG26__7461__soda_cans,7461.jpg,milk cartons,soda cans,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN111,FRESHNEG26__3434__confetti,3434.jpg,polka dots,confetti,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN112,FRESHNEG26__4587__avocados,4587.jpg,kiwis,avocados,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN113,FRESHNEG26__5084__fish_fingers,5084.jpg,chicken wings,fish fingers,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN114,FRESHNEG26__5661__traffic_lights,5661.jpg,donuts tray,traffic lights,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN115,FRESHNEG26__736__alarm_clocks,736.jpg,ants,alarm clocks,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN116,FRESHNEG26__7615__dragonflies,7615.jpg,birds,dragonflies,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN117,FRESHNEG26__609__suitcases,609.jpg,seagulls,suitcases,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN118,FRESHNEG26__7543__cows,7543.jpg,horses,cows,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN119,FRESHNEG26__7308__dresses,7308.jpg,shirts,dresses,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN120,FRESHNEG26__5156__cans,5156.jpg,toilet paper rolls,cans,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN121,FRESHNEG26__1960__buttons,1960.jpg,bottle caps,buttons,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN122,FRESHNEG26__835__comic_books,835.jpg,books,comic books,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN123,FRESHNEG26__7209__buckets,7209.jpg,flower pots,buckets,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN124,FRESHNEG26__7051__surfboards,7051.jpg,skateboard,surfboards,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN125,FRESHNEG26__4754__apples,4754.jpg,peaches,apples,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN126,FRESHNEG26__2822__alarm_clocks,2822.jpg,chairs,alarm clocks,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN127,FRESHNEG26__7367__beads,7367.jpg,pills,beads,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN128,FRESHNEG26__4098__crayons,4098.jpg,bullets,crayons,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN129,FRESHNEG26__2300__horses,2300.jpg,camels,horses,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN130,FRESHNEG26__4575__herons,4575.jpg,flamingos,herons,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN131,FRESHNEG26__246__blueberries,246.jpg,grapes,blueberries,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN132,FRESHNEG26__6877__bottles,6877.jpg,milk cartons,bottles,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN133,FRESHNEG26__5741__buttons,5741.jpg,polka dots,buttons,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN134,FRESHNEG26__4593__limes,4593.jpg,kiwis,limes,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN135,FRESHNEG26__6097__fried_calamari,6097.jpg,chicken wings,fried calamari,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN136,FRESHNEG26__5662__cookies,5662.jpg,donuts tray,cookies,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN137,FRESHNEG26__745__spiders,745.jpg,ants,spiders,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN138,FRESHNEG26__977__butterflies,977.jpg,birds,butterflies,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN139,FRESHNEG26__6064__pigeons,6064.jpg,seagulls,pigeons,CONFUSABLE,FRESH_A,PRESENT,single_human_reviewer
+FHN140,FRESHNEG26__6796__cows,6796.jpg,horses,cows,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN141,FRESHNEG26__2900__towels,2900.jpg,shirts,towels,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN142,FRESHNEG26__3668__paper_towel_rolls,3668.jpg,toilet paper rolls,paper towel rolls,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN143,FRESHNEG26__828__telephones,828.jpg,bottle caps,telephones,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN144,FRESHNEG26__6836__magazines,6836.jpg,books,magazines,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN145,FRESHNEG26__7504__buckets,7504.jpg,flower pots,buckets,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN146,FRESHNEG26__915__suitcases,915.jpg,skateboard,suitcases,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN147,FRESHNEG26__4765__tomatoes,4765.jpg,peaches,tomatoes,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN148,FRESHNEG26__2869__stools,2869.jpg,chairs,stools,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN149,FRESHNEG26__6302__telephones,6302.jpg,pills,telephones,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN150,FRESHNEG26__2303__horses,2303.jpg,camels,horses,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN151,FRESHNEG26__6070__cranes,6070.jpg,flamingos,cranes,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN152,FRESHNEG26__240__olives,240.jpg,grapes,olives,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN153,FRESHNEG26__7388__bottles,7388.jpg,milk cartons,bottles,CONFUSABLE,FRESH_B,PRESENT,single_human_reviewer
+FHN154,FRESHNEG26__3437__suitcases,3437.jpg,polka dots,suitcases,CONTROL,FRESH_B,ABSENT,single_human_reviewer
+FHN155,FRESHNEG26__4591__potatoes,4591.jpg,kiwis,potatoes,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN156,FRESHNEG26__3560__fried_calamari,3560.jpg,chicken wings,fried calamari,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN157,FRESHNEG26__5669__guitars,5669.jpg,donuts tray,guitars,CONTROL,FRESH_A,ABSENT,single_human_reviewer
+FHN158,FRESHNEG26__747__beetles,747.jpg,ants,beetles,CONFUSABLE,FRESH_A,ABSENT,single_human_reviewer
+FHN159,FRESHNEG26__6886__dragonflies,6886.jpg,birds,dragonflies,CONFUSABLE,FRESH_B,ABSENT,single_human_reviewer
+FHN160,FRESHNEG26__4733__suitcases,4733.jpg,seagulls,suitcases,CONTROL,FRESH_B,ABSENT,single_human_reviewer

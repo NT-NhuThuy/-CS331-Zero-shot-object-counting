@@ -1,0 +1,481 @@
+run,group_id,image_name,target,pilot_partition,gt_count,baseline_count,v75_count,baseline_AE,v75_AE,delta_AE,rescue_accepted,changed
+PILOT,POS__7148.jpg,7148.jpg,chairs,DEV,67,75,75,8,8,0,False,False
+PILOT,POS__4560.jpg,4560.jpg,flamingos,DEV,9,10,10,1,1,0,False,False
+PILOT,POS__244.jpg,244.jpg,grapes,DEV,12,18,18,6,6,0,False,False
+PILOT,POS__4827.jpg,4827.jpg,grapes,DEV,84,112,112,28,28,0,False,False
+PILOT,POS__955.jpg,955.jpg,birds,DEV,86,96,96,10,10,0,False,False
+PILOT,POS__6089.jpg,6089.jpg,chicken wings,DEV,19,18,18,1,1,0,False,False
+PILOT,POS__6784.jpg,6784.jpg,books,DEV,52,52,52,0,0,0,False,False
+PILOT,POS__4796.jpg,4796.jpg,grapes,DEV,196,191,191,5,5,0,False,False
+PILOT,POS__7318.jpg,7318.jpg,pills,DEV,30,30,30,0,0,0,False,False
+PILOT,POS__4603.jpg,4603.jpg,kiwis,DEV,25,25,25,0,0,0,False,False
+PILOT,POS__6988.jpg,6988.jpg,pills,DEV,24,24,24,0,0,0,False,False
+PILOT,POS__853.jpg,853.jpg,books,DEV,10,12,12,2,2,0,False,False
+PILOT,POS__3438.jpg,3438.jpg,polka dots,DEV,60,52,52,8,8,0,False,False
+PILOT,POS__196.jpg,196.jpg,peaches,DEV,85,88,88,3,3,0,False,False
+PILOT,POS__1967.jpg,1967.jpg,bottle caps,DEV,36,0,0,36,36,0,False,False
+PILOT,POS__4758.jpg,4758.jpg,peaches,DEV,42,43,43,1,1,0,False,False
+PILOT,POS__2857.jpg,2857.jpg,chairs,DEV,107,106,106,1,1,0,False,False
+PILOT,POS__6299.jpg,6299.jpg,pills,DEV,28,0,0,28,28,0,False,False
+PILOT,POS__7266.jpg,7266.jpg,pills,DEV,118,124,124,6,6,0,False,False
+PILOT,POS__4764.jpg,4764.jpg,peaches,DEV,21,25,25,4,4,0,False,False
+PILOT,POS__5209.jpg,5209.jpg,donuts tray,DEV,17,17,17,0,0,0,False,False
+PILOT,POS__606.jpg,606.jpg,seagulls,DEV,27,28,28,1,1,0,False,False
+PILOT,POS__6119.jpg,6119.jpg,chicken wings,DEV,14,14,14,0,0,0,False,False
+PILOT,POS__3764.jpg,3764.jpg,donuts tray,DEV,12,12,12,0,0,0,False,False
+PILOT,POS__6068.jpg,6068.jpg,flamingos,DEV,10,10,10,0,0,0,False,False
+PILOT,POS__4704.jpg,4704.jpg,seagulls,DEV,8,8,8,0,0,0,False,False
+PILOT,POS__5072.jpg,5072.jpg,chicken wings,DEV,10,11,11,1,1,0,False,False
+PILOT,POS__556.jpg,556.jpg,flamingos,DEV,14,12,12,2,2,0,False,False
+PILOT,POS__6989.jpg,6989.jpg,pills,DEV,76,82,82,6,6,0,False,False
+PILOT,POS__190.jpg,190.jpg,seagulls,DEV,13,0,0,13,13,0,False,False
+PILOT,POS__5879.jpg,5879.jpg,grapes,DEV,36,42,42,6,6,0,False,False
+PILOT,POS__5204.jpg,5204.jpg,donuts tray,DEV,12,12,12,0,0,0,False,False
+PILOT,POS__3265.jpg,3265.jpg,bullets,DEV,35,0,0,35,35,0,False,False
+PILOT,POS__1989.jpg,1989.jpg,bottle caps,DEV,148,123,123,25,25,0,False,False
+PILOT,POS__1890.jpg,1890.jpg,bottle caps,DEV,76,64,64,12,12,0,False,False
+PILOT,POS__959.jpg,959.jpg,birds,DEV,18,22,22,4,4,0,False,False
+PILOT,POS__5893.jpg,5893.jpg,grapes,DEV,73,76,76,3,3,0,False,False
+PILOT,POS__2809.jpg,2809.jpg,chairs,DEV,45,47,47,2,2,0,False,False
+PILOT,POS__4555.jpg,4555.jpg,flamingos,DEV,10,10,10,0,0,0,False,False
+PILOT,POS__3519.jpg,3519.jpg,chicken wings,DEV,30,31,31,1,1,0,False,False
+PILOT,POS__7487.jpg,7487.jpg,flower pots,DEV,18,19,19,1,1,0,False,False
+PILOT,POS__4829.jpg,4829.jpg,grapes,DEV,40,41,41,1,1,0,False,False
+PILOT,POS__952.jpg,952.jpg,birds,DEV,139,152,152,13,13,0,False,False
+PILOT,POS__7116.jpg,7116.jpg,skateboard,DEV,78,81,81,3,3,0,False,False
+PILOT,POS__4814.jpg,4814.jpg,grapes,DEV,19,28,28,9,9,0,False,False
+PILOT,POS__5889.jpg,5889.jpg,grapes,DEV,27,31,31,4,4,0,False,False
+PILOT,POS__3550.jpg,3550.jpg,chicken wings,DEV,18,20,20,2,2,0,False,False
+PILOT,POS__5865.jpg,5865.jpg,grapes,DEV,114,131,131,17,17,0,False,False
+PILOT,POS__4720.jpg,4720.jpg,seagulls,DEV,9,9,9,0,0,0,False,False
+PILOT,POS__1906.jpg,1906.jpg,bottle caps,DEV,70,71,71,1,1,0,False,False
+PILOT,POS__1925.jpg,1925.jpg,bottle caps,DEV,29,28,28,1,1,0,False,False
+PILOT,POS__923.jpg,923.jpg,birds,DEV,122,123,123,1,1,0,False,False
+PILOT,POS__5094.jpg,5094.jpg,chicken wings,DEV,14,14,14,0,0,0,False,False
+PILOT,POS__4738.jpg,4738.jpg,peaches,DEV,23,35,35,12,12,0,False,False
+PILOT,POS__1983.jpg,1983.jpg,bottle caps,DEV,172,138,138,34,34,0,False,False
+PILOT,POS__4834.jpg,4834.jpg,grapes,DEV,46,49,49,3,3,0,False,False
+PILOT,POS__5090.jpg,5090.jpg,chicken wings,DEV,14,14,14,0,0,0,False,False
+PILOT,POS__7155.jpg,7155.jpg,flower pots,DEV,69,69,69,0,0,0,False,False
+PILOT,POS__6305.jpg,6305.jpg,pills,DEV,32,31,31,1,1,0,False,False
+PILOT,POS__4596.jpg,4596.jpg,kiwis,DEV,24,24,24,0,0,0,False,False
+PILOT,POS__5107.jpg,5107.jpg,chicken wings,DEV,12,12,12,0,0,0,False,False
+PILOT,POS__1910.jpg,1910.jpg,bottle caps,DEV,28,36,36,8,8,0,False,False
+PILOT,POS__236.jpg,236.jpg,grapes,DEV,11,11,11,0,0,0,False,False
+PILOT,POS__5911.jpg,5911.jpg,grapes,DEV,40,40,40,0,0,0,False,False
+PILOT,POS__271.jpg,271.jpg,oysters,DEV,9,9,9,0,0,0,False,False
+PILOT,POS__4559.jpg,4559.jpg,flamingos,DEV,35,31,31,4,4,0,False,False
+PILOT,POS__7258.jpg,7258.jpg,shirts,DEV,20,26,26,6,6,0,False,False
+PILOT,POS__2873.jpg,2873.jpg,chairs,DEV,11,11,11,0,0,0,False,False
+PILOT,POS__6846.jpg,6846.jpg,pills,DEV,28,0,0,28,28,0,False,False
+PILOT,POS__4734.jpg,4734.jpg,peaches,DEV,104,116,116,12,12,0,False,False
+PILOT,POS__1930.jpg,1930.jpg,bottle caps,DEV,18,17,17,1,1,0,False,False
+PILOT,POS__7013.jpg,7013.jpg,pills,DEV,139,128,128,11,11,0,False,False
+PILOT,POS__4703.jpg,4703.jpg,seagulls,DEV,13,0,0,13,13,0,False,False
+PILOT,POS__6096.jpg,6096.jpg,chicken wings,DEV,18,18,18,0,0,0,False,False
+PILOT,POS__1933.jpg,1933.jpg,bottle caps,DEV,215,215,215,0,0,0,False,False
+PILOT,POS__5897.jpg,5897.jpg,grapes,DEV,109,119,119,10,10,0,False,False
+PILOT,POS__4727.jpg,4727.jpg,seagulls,DEV,21,17,17,4,4,0,False,False
+PILOT,POS__5899.jpg,5899.jpg,grapes,DEV,99,121,121,22,22,0,False,False
+PILOT,POS__5864.jpg,5864.jpg,grapes,DEV,81,97,97,16,16,0,False,False
+PILOT,POS__6055.jpg,6055.jpg,seagulls,DEV,24,23,23,1,1,0,False,False
+PILOT,POS__1993.jpg,1993.jpg,bottle caps,DEV,48,44,44,4,4,0,False,False
+PILOT,POS__1996.jpg,1996.jpg,bottle caps,DEV,24,25,25,1,1,0,False,False
+PILOT,POS__1946.jpg,1946.jpg,bottle caps,DEV,40,40,40,0,0,0,False,False
+PILOT,POS__4167.jpg,4167.jpg,sausages,DEV,10,10,10,0,0,0,False,False
+PILOT,POS__3544.jpg,3544.jpg,chicken wings,DEV,9,9,9,0,0,0,False,False
+PILOT,POS__6782.jpg,6782.jpg,pills,DEV,17,18,18,1,1,0,False,False
+PILOT,POS__1900.jpg,1900.jpg,bottle caps,DEV,12,12,12,0,0,0,False,False
+PILOT,POS__615.jpg,615.jpg,seagulls,DEV,23,0,0,23,23,0,False,False
+PILOT,POS__3585.jpg,3585.jpg,chicken wings,DEV,12,12,12,0,0,0,False,False
+PILOT,POS__221.jpg,221.jpg,grapes,DEV,42,45,45,3,3,0,False,False
+PILOT,POS__4578.jpg,4578.jpg,flamingos,DEV,24,21,21,3,3,0,False,False
+PILOT,POS__7518.jpg,7518.jpg,birds,DEV,21,21,21,0,0,0,False,False
+PILOT,POS__5862.jpg,5862.jpg,grapes,DEV,58,76,76,18,18,0,False,False
+PILOT,POS__3534.jpg,3534.jpg,chicken wings,DEV,11,11,11,0,0,0,False,False
+PILOT,POS__5225.jpg,5225.jpg,donuts tray,DEV,38,38,38,0,0,0,False,False
+PILOT,POS__6115.jpg,6115.jpg,chicken wings,DEV,16,16,16,0,0,0,False,False
+PILOT,POS__6080.jpg,6080.jpg,flamingos,DEV,277,300,300,23,23,0,False,False
+PILOT,POS__1979.jpg,1979.jpg,bottle caps,DEV,40,0,0,40,40,0,False,False
+PILOT,POS__5878.jpg,5878.jpg,grapes,DEV,44,51,51,7,7,0,False,False
+PILOT,POS__250.jpg,250.jpg,grapes,DEV,50,55,55,5,5,0,False,False
+PILOT,POS__7619.jpg,7619.jpg,books,DEV,16,19,19,3,3,0,False,False
+PILOT,POS__6979.jpg,6979.jpg,horses,DEV,11,10,10,1,1,0,False,False
+PILOT,POS__6098.jpg,6098.jpg,chicken wings,DEV,13,13,13,0,0,0,False,False
+PILOT,POS__809.jpg,809.jpg,bottle caps,DEV,323,316,316,7,7,0,False,False
+PILOT,POS__3435.jpg,3435.jpg,polka dots,DEV,116,38,38,78,78,0,False,False
+PILOT,POS__4092.jpg,4092.jpg,bullets,DEV,19,18,18,1,1,0,False,False
+PILOT,POS__4852.jpg,4852.jpg,grapes,DEV,31,36,36,5,5,0,False,False
+PILOT,POS__4109.jpg,4109.jpg,oyster shells,DEV,9,9,9,0,0,0,False,False
+PILOT,POS__5872.jpg,5872.jpg,grapes,DEV,116,128,128,12,12,0,False,False
+PILOT,POS__4819.jpg,4819.jpg,grapes,DEV,41,53,53,12,12,0,False,False
+PILOT,POS__6063.jpg,6063.jpg,seagulls,DEV,23,26,26,3,3,0,False,False
+PILOT,POS__580.jpg,580.jpg,flamingos,DEV,10,10,10,0,0,0,False,False
+PILOT,POS__4828.jpg,4828.jpg,grapes,DEV,39,45,45,6,6,0,False,False
+PILOT,POS__6112.jpg,6112.jpg,chicken wings,DEV,23,24,24,1,1,0,False,False
+PILOT,POS__4740.jpg,4740.jpg,peaches,DEV,14,14,14,0,0,0,False,False
+PILOT,POS__3489.jpg,3489.jpg,polka dots,DEV,278,45,45,233,233,0,False,False
+PILOT,POS__3663.jpg,3663.jpg,toilet paper rolls,DEV,17,18,18,1,1,0,False,False
+PILOT,POS__7049.jpg,7049.jpg,birds,DEV,92,94,94,2,2,0,False,False
+PILOT,POS__876.jpg,876.jpg,books,DEV,207,145,145,62,62,0,False,False
+PILOT,POS__744.jpg,744.jpg,ants,DEV,8,8,8,0,0,0,False,False
+PILOT,POS__7260.jpg,7260.jpg,pills,HOLDOUT,193,197,197,4,4,0,False,False
+PILOT,POS__3981.jpg,3981.jpg,oysters,HOLDOUT,8,8,8,0,0,0,False,False
+PILOT,POS__5869.jpg,5869.jpg,grapes,HOLDOUT,32,32,32,0,0,0,False,False
+PILOT,POS__6872.jpg,6872.jpg,milk cartons,HOLDOUT,49,55,55,6,6,0,False,False
+PILOT,POS__566.jpg,566.jpg,flamingos,HOLDOUT,15,14,14,1,1,0,False,False
+PILOT,POS__6728.jpg,6728.jpg,fresh cut,HOLDOUT,99,89,89,10,10,0,False,False
+PILOT,POS__6722.jpg,6722.jpg,shirts,HOLDOUT,36,0,0,36,36,0,False,False
+PILOT,POS__827.jpg,827.jpg,bottle caps,HOLDOUT,40,40,40,0,0,0,False,False
+PILOT,POS__814.jpg,814.jpg,bottle caps,HOLDOUT,21,0,0,21,21,0,False,False
+PILOT,POS__5059.jpg,5059.jpg,polka dots,HOLDOUT,286,183,183,103,103,0,False,False
+PILOT,POS__4581.jpg,4581.jpg,flamingos,HOLDOUT,42,26,26,16,16,0,False,False
+PILOT,POS__1921.jpg,1921.jpg,bottle caps,HOLDOUT,49,47,47,2,2,0,False,False
+PILOT,POS__1927.jpg,1927.jpg,bottle caps,HOLDOUT,68,52,52,16,16,0,False,False
+PILOT,POS__591.jpg,591.jpg,seagulls,HOLDOUT,11,12,12,1,1,0,False,False
+PILOT,POS__7651.jpg,7651.jpg,books,HOLDOUT,75,82,82,7,7,0,False,False
+PILOT,POS__6300.jpg,6300.jpg,pills,HOLDOUT,24,28,28,4,4,0,False,False
+PILOT,POS__1958.jpg,1958.jpg,bottle caps,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__5060.jpg,5060.jpg,polka dots,HOLDOUT,98,0,84,98,14,-84,True,True
+PILOT,POS__2899.jpg,2899.jpg,shirts,HOLDOUT,39,33,33,6,6,0,False,False
+PILOT,POS__7121.jpg,7121.jpg,pills,HOLDOUT,111,119,119,8,8,0,False,False
+PILOT,POS__220.jpg,220.jpg,grapes,HOLDOUT,59,59,59,0,0,0,False,False
+PILOT,POS__7024.jpg,7024.jpg,flower pots,HOLDOUT,68,82,82,14,14,0,False,False
+PILOT,POS__3533.jpg,3533.jpg,chicken wings,HOLDOUT,23,23,23,0,0,0,False,False
+PILOT,POS__4590.jpg,4590.jpg,kiwis,HOLDOUT,8,8,8,0,0,0,False,False
+PILOT,POS__7540.jpg,7540.jpg,fresh cut,HOLDOUT,64,53,53,11,11,0,False,False
+PILOT,POS__4137.jpg,4137.jpg,prawn crackers,HOLDOUT,13,12,12,1,1,0,False,False
+PILOT,POS__914.jpg,914.jpg,skateboard,HOLDOUT,65,44,44,21,21,0,False,False
+PILOT,POS__6073.jpg,6073.jpg,flamingos,HOLDOUT,18,18,18,0,0,0,False,False
+PILOT,POS__1968.jpg,1968.jpg,bottle caps,HOLDOUT,13,0,0,13,13,0,False,False
+PILOT,POS__5229.jpg,5229.jpg,donuts tray,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__3484.jpg,3484.jpg,polka dots,HOLDOUT,356,0,276,356,80,-276,True,True
+PILOT,POS__238.jpg,238.jpg,grapes,HOLDOUT,20,28,28,8,8,0,False,False
+PILOT,POS__7224.jpg,7224.jpg,birds,HOLDOUT,50,51,51,1,1,0,False,False
+PILOT,POS__4535.jpg,4535.jpg,flamingos,HOLDOUT,22,18,18,4,4,0,False,False
+PILOT,POS__3771.jpg,3771.jpg,donuts tray,HOLDOUT,10,10,10,0,0,0,False,False
+PILOT,POS__578.jpg,578.jpg,flamingos,HOLDOUT,12,10,10,2,2,0,False,False
+PILOT,POS__4606.jpg,4606.jpg,kiwis,HOLDOUT,54,55,55,1,1,0,False,False
+PILOT,POS__4579.jpg,4579.jpg,flamingos,HOLDOUT,34,38,38,4,4,0,False,False
+PILOT,POS__755.jpg,755.jpg,birds,HOLDOUT,13,13,13,0,0,0,False,False
+PILOT,POS__5082.jpg,5082.jpg,chicken wings,HOLDOUT,13,13,13,0,0,0,False,False
+PILOT,POS__3588.jpg,3588.jpg,chicken wings,HOLDOUT,22,22,22,0,0,0,False,False
+PILOT,POS__2879.jpg,2879.jpg,chairs,HOLDOUT,150,172,172,22,22,0,False,False
+PILOT,POS__6303.jpg,6303.jpg,pills,HOLDOUT,9,10,10,1,1,0,False,False
+PILOT,POS__920.jpg,920.jpg,skateboard,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__3672.jpg,3672.jpg,toilet paper rolls,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__4747.jpg,4747.jpg,peaches,HOLDOUT,55,55,55,0,0,0,False,False
+PILOT,POS__4853.jpg,4853.jpg,grapes,HOLDOUT,50,50,50,0,0,0,False,False
+PILOT,POS__4563.jpg,4563.jpg,flamingos,HOLDOUT,8,8,8,0,0,0,False,False
+PILOT,POS__579.jpg,579.jpg,flamingos,HOLDOUT,9,9,9,0,0,0,False,False
+PILOT,POS__4762.jpg,4762.jpg,peaches,HOLDOUT,21,22,22,1,1,0,False,False
+PILOT,POS__964.jpg,964.jpg,birds,HOLDOUT,18,18,18,0,0,0,False,False
+PILOT,POS__5220.jpg,5220.jpg,donuts tray,HOLDOUT,9,9,9,0,0,0,False,False
+PILOT,POS__6069.jpg,6069.jpg,flamingos,HOLDOUT,16,19,19,3,3,0,False,False
+PILOT,POS__3759.jpg,3759.jpg,donuts tray,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__5097.jpg,5097.jpg,chicken wings,HOLDOUT,27,27,27,0,0,0,False,False
+PILOT,POS__3584.jpg,3584.jpg,chicken wings,HOLDOUT,22,23,23,1,1,0,False,False
+PILOT,POS__195.jpg,195.jpg,peaches,HOLDOUT,10,10,10,0,0,0,False,False
+PILOT,POS__813.jpg,813.jpg,bottle caps,HOLDOUT,185,190,190,5,5,0,False,False
+PILOT,POS__925.jpg,925.jpg,birds,HOLDOUT,47,48,48,1,1,0,False,False
+PILOT,POS__1950.jpg,1950.jpg,bottle caps,HOLDOUT,21,0,0,21,21,0,False,False
+PILOT,POS__734.jpg,734.jpg,ants,HOLDOUT,20,0,10,20,10,-10,True,True
+PILOT,POS__1916.jpg,1916.jpg,bottle caps,HOLDOUT,20,21,21,1,1,0,False,False
+PILOT,POS__5064.jpg,5064.jpg,chicken wings,HOLDOUT,19,19,19,0,0,0,False,False
+PILOT,POS__2412.jpg,2412.jpg,horses,HOLDOUT,15,19,19,4,4,0,False,False
+PILOT,POS__5153.jpg,5153.jpg,toilet paper rolls,HOLDOUT,15,15,15,0,0,0,False,False
+PILOT,POS__4106.jpg,4106.jpg,oyster shells,HOLDOUT,9,0,0,9,9,0,False,False
+PILOT,POS__5912.jpg,5912.jpg,grapes,HOLDOUT,42,48,48,6,6,0,False,False
+PILOT,POS__6056.jpg,6056.jpg,seagulls,HOLDOUT,11,10,10,1,1,0,False,False
+PILOT,POS__587.jpg,587.jpg,flamingos,HOLDOUT,15,16,16,1,1,0,False,False
+PILOT,POS__5891.jpg,5891.jpg,grapes,HOLDOUT,89,92,92,3,3,0,False,False
+PILOT,POS__3781.jpg,3781.jpg,donuts tray,HOLDOUT,10,10,10,0,0,0,False,False
+PILOT,POS__5655.jpg,5655.jpg,donuts tray,HOLDOUT,9,9,9,0,0,0,False,False
+PILOT,POS__7610.jpg,7610.jpg,flower pots,HOLDOUT,20,20,20,0,0,0,False,False
+PILOT,POS__7012.jpg,7012.jpg,milk cartons,HOLDOUT,66,78,78,12,12,0,False,False
+PILOT,POS__3870.jpg,3870.jpg,shallots,HOLDOUT,17,17,17,0,0,0,False,False
+PILOT,POS__3536.jpg,3536.jpg,chicken wings,HOLDOUT,18,18,18,0,0,0,False,False
+PILOT,POS__5671.jpg,5671.jpg,donuts tray,HOLDOUT,12,12,12,0,0,0,False,False
+PILOT,POS__4611.jpg,4611.jpg,kiwis,HOLDOUT,51,54,54,3,3,0,False,False
+PILOT,POS__4759.jpg,4759.jpg,peaches,HOLDOUT,22,27,27,5,5,0,False,False
+PILOT,POS__3425.jpg,3425.jpg,polka dots,HOLDOUT,885,1,867,884,18,-866,True,True
+PILOT,POS__4745.jpg,4745.jpg,peaches,HOLDOUT,24,30,30,6,6,0,False,False
+PILOT,POS__229.jpg,229.jpg,grapes,HOLDOUT,25,31,31,6,6,0,False,False
+PILOT,POS__3488.jpg,3488.jpg,polka dots,HOLDOUT,431,299,299,132,132,0,False,False
+PILOT,POS__3674.jpg,3674.jpg,toilet paper rolls,HOLDOUT,33,33,33,0,0,0,False,False
+PILOT,POS__6088.jpg,6088.jpg,chicken wings,HOLDOUT,32,32,32,0,0,0,False,False
+PILOT,POS__7006.jpg,7006.jpg,pills,HOLDOUT,15,16,16,1,1,0,False,False
+PILOT,POS__5902.jpg,5902.jpg,grapes,HOLDOUT,209,190,190,19,19,0,False,False
+PILOT,POS__4724.jpg,4724.jpg,seagulls,HOLDOUT,15,13,13,2,2,0,False,False
+PILOT,POS__4760.jpg,4760.jpg,peaches,HOLDOUT,30,33,33,3,3,0,False,False
+PILOT,POS__611.jpg,611.jpg,seagulls,HOLDOUT,14,0,0,14,14,0,False,False
+PILOT,POS__5904.jpg,5904.jpg,grapes,HOLDOUT,33,38,38,5,5,0,False,False
+PILOT,POS__4709.jpg,4709.jpg,seagulls,HOLDOUT,13,14,14,1,1,0,False,False
+PILOT,POS__6293.jpg,6293.jpg,pills,HOLDOUT,9,9,9,0,0,0,False,False
+PILOT,POS__4604.jpg,4604.jpg,kiwis,HOLDOUT,87,86,86,1,1,0,False,False
+PILOT,POS__5895.jpg,5895.jpg,grapes,HOLDOUT,43,46,46,3,3,0,False,False
+PILOT,POS__7660.jpg,7660.jpg,books,HOLDOUT,11,12,12,1,1,0,False,False
+PILOT,POS__6911.jpg,6911.jpg,pills,HOLDOUT,39,38,38,1,1,0,False,False
+PILOT,POS__3762.jpg,3762.jpg,donuts tray,HOLDOUT,11,11,11,0,0,0,False,False
+PILOT,POS__5883.jpg,5883.jpg,grapes,HOLDOUT,69,78,78,9,9,0,False,False
+PILOT,POS__5746.jpg,5746.jpg,polka dots,HOLDOUT,100,103,103,3,3,0,False,False
+PILOT,POS__227.jpg,227.jpg,grapes,HOLDOUT,25,27,27,2,2,0,False,False
+PILOT,POS__3583.jpg,3583.jpg,chicken wings,HOLDOUT,20,20,20,0,0,0,False,False
+PILOT,POS__861.jpg,861.jpg,books,HOLDOUT,65,59,59,6,6,0,False,False
+PILOT,POS__2868.jpg,2868.jpg,chairs,HOLDOUT,13,16,16,3,3,0,False,False
+PILOT,POS__245.jpg,245.jpg,grapes,HOLDOUT,55,57,57,2,2,0,False,False
+PILOT,POS__6103.jpg,6103.jpg,chicken wings,HOLDOUT,32,33,33,1,1,0,False,False
+PILOT,POS__7545.jpg,7545.jpg,chairs,HOLDOUT,106,110,110,4,4,0,False,False
+PILOT,POS__834.jpg,834.jpg,bottle caps,HOLDOUT,80,80,80,0,0,0,False,False
+PILOT,POS__4849.jpg,4849.jpg,grapes,HOLDOUT,121,136,136,15,15,0,False,False
+PILOT,POS__4716.jpg,4716.jpg,seagulls,HOLDOUT,26,4,4,22,22,0,False,False
+PILOT,POS__7691.jpg,7691.jpg,camels,HOLDOUT,43,44,44,1,1,0,False,False
+PILOT,POS__7436.jpg,7436.jpg,pills,HOLDOUT,283,291,291,8,8,0,False,False
+PILOT,POS__614.jpg,614.jpg,seagulls,HOLDOUT,10,10,10,0,0,0,False,False
+PILOT,POS__4165.jpg,4165.jpg,sausages,HOLDOUT,104,113,113,9,9,0,False,False
+PILOT,POS__869.jpg,869.jpg,books,HOLDOUT,250,262,262,12,12,0,False,False
+PILOT,POS__599.jpg,599.jpg,seagulls,HOLDOUT,15,0,0,15,15,0,False,False
+PILOT,POS__3427.jpg,3427.jpg,polka dots,HOLDOUT,24,24,24,0,0,0,False,False
+PILOT,POS__819.jpg,819.jpg,bottle caps,HOLDOUT,40,40,40,0,0,0,False,False
+PILOT,POS__256.jpg,256.jpg,grapes,HOLDOUT,38,37,37,1,1,0,False,False
+PILOT,POS__4605.jpg,4605.jpg,kiwis,HOLDOUT,34,32,32,2,2,0,False,False
+REPLICATION,POS__5947.jpg,5947.jpg,chairs,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__840.jpg,840.jpg,books,REPLICATION_A,637,446,446,191,191,0,False,False
+REPLICATION,POS__7659.jpg,7659.jpg,pills,REPLICATION_A,198,198,198,0,0,0,False,False
+REPLICATION,POS__5656.jpg,5656.jpg,donuts tray,REPLICATION_A,16,17,17,1,1,0,False,False
+REPLICATION,POS__5114.jpg,5114.jpg,chicken wings,REPLICATION_A,22,22,22,0,0,0,False,False
+REPLICATION,POS__810.jpg,810.jpg,bottle caps,REPLICATION_A,22,22,22,0,0,0,False,False
+REPLICATION,POS__4715.jpg,4715.jpg,seagulls,REPLICATION_A,8,0,0,8,8,0,False,False
+REPLICATION,POS__949.jpg,949.jpg,birds,REPLICATION_A,1092,899,899,193,193,0,False,False
+REPLICATION,POS__4848.jpg,4848.jpg,grapes,REPLICATION_A,80,92,92,12,12,0,False,False
+REPLICATION,POS__605.jpg,605.jpg,seagulls,REPLICATION_A,13,13,13,0,0,0,False,False
+REPLICATION,POS__856.jpg,856.jpg,books,REPLICATION_A,44,48,48,4,4,0,False,False
+REPLICATION,POS__7149.jpg,7149.jpg,skateboard,REPLICATION_A,17,18,18,1,1,0,False,False
+REPLICATION,POS__3591.jpg,3591.jpg,chicken wings,REPLICATION_A,9,9,9,0,0,0,False,False
+REPLICATION,POS__4850.jpg,4850.jpg,grapes,REPLICATION_A,101,120,120,19,19,0,False,False
+REPLICATION,POS__6071.jpg,6071.jpg,flamingos,REPLICATION_A,9,8,8,1,1,0,False,False
+REPLICATION,POS__232.jpg,232.jpg,grapes,REPLICATION_A,27,31,31,4,4,0,False,False
+REPLICATION,POS__5101.jpg,5101.jpg,chicken wings,REPLICATION_A,23,24,24,1,1,0,False,False
+REPLICATION,POS__6721.jpg,6721.jpg,pills,REPLICATION_A,11,0,0,11,11,0,False,False
+REPLICATION,POS__4813.jpg,4813.jpg,grapes,REPLICATION_A,43,48,48,5,5,0,False,False
+REPLICATION,POS__1917.jpg,1917.jpg,bottle caps,REPLICATION_A,17,17,17,0,0,0,False,False
+REPLICATION,POS__4588.jpg,4588.jpg,kiwis,REPLICATION_A,8,9,9,1,1,0,False,False
+REPLICATION,POS__7100.jpg,7100.jpg,milk cartons,REPLICATION_A,27,29,29,2,2,0,False,False
+REPLICATION,POS__6076.jpg,6076.jpg,flamingos,REPLICATION_A,16,15,15,1,1,0,False,False
+REPLICATION,POS__621.jpg,621.jpg,seagulls,REPLICATION_A,12,0,0,12,12,0,False,False
+REPLICATION,POS__3783.jpg,3783.jpg,donuts tray,REPLICATION_A,11,11,11,0,0,0,False,False
+REPLICATION,POS__3525.jpg,3525.jpg,chicken wings,REPLICATION_A,11,11,11,0,0,0,False,False
+REPLICATION,POS__766.jpg,766.jpg,birds,REPLICATION_A,50,45,45,5,5,0,False,False
+REPLICATION,POS__7280.jpg,7280.jpg,books,REPLICATION_A,116,135,135,19,19,0,False,False
+REPLICATION,POS__5870.jpg,5870.jpg,grapes,REPLICATION_A,47,55,55,8,8,0,False,False
+REPLICATION,POS__5081.jpg,5081.jpg,chicken wings,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__2847.jpg,2847.jpg,chairs,REPLICATION_A,20,20,20,0,0,0,False,False
+REPLICATION,POS__233.jpg,233.jpg,grapes,REPLICATION_A,126,123,123,3,3,0,False,False
+REPLICATION,POS__1943.jpg,1943.jpg,bottle caps,REPLICATION_A,221,211,211,10,10,0,False,False
+REPLICATION,POS__4805.jpg,4805.jpg,grapes,REPLICATION_A,73,77,77,4,4,0,False,False
+REPLICATION,POS__4594.jpg,4594.jpg,kiwis,REPLICATION_A,34,40,40,6,6,0,False,False
+REPLICATION,POS__574.jpg,574.jpg,flamingos,REPLICATION_A,25,25,25,0,0,0,False,False
+REPLICATION,POS__917.jpg,917.jpg,skateboard,REPLICATION_A,10,10,10,0,0,0,False,False
+REPLICATION,POS__5201.jpg,5201.jpg,donuts tray,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__251.jpg,251.jpg,grapes,REPLICATION_A,69,75,75,6,6,0,False,False
+REPLICATION,POS__6093.jpg,6093.jpg,chicken wings,REPLICATION_A,28,29,29,1,1,0,False,False
+REPLICATION,POS__1902.jpg,1902.jpg,bottle caps,REPLICATION_A,94,98,98,4,4,0,False,False
+REPLICATION,POS__5210.jpg,5210.jpg,donuts tray,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__4539.jpg,4539.jpg,flamingos,REPLICATION_A,16,16,16,0,0,0,False,False
+REPLICATION,POS__758.jpg,758.jpg,birds,REPLICATION_A,14,14,14,0,0,0,False,False
+REPLICATION,POS__2298.jpg,2298.jpg,camels,REPLICATION_A,8,9,9,1,1,0,False,False
+REPLICATION,POS__7532.jpg,7532.jpg,fresh cut,REPLICATION_A,20,20,20,0,0,0,False,False
+REPLICATION,POS__625.jpg,625.jpg,seagulls,REPLICATION_A,14,13,13,1,1,0,False,False
+REPLICATION,POS__4562.jpg,4562.jpg,flamingos,REPLICATION_A,11,10,10,1,1,0,False,False
+REPLICATION,POS__254.jpg,254.jpg,grapes,REPLICATION_A,74,81,81,7,7,0,False,False
+REPLICATION,POS__837.jpg,837.jpg,books,REPLICATION_A,35,39,39,4,4,0,False,False
+REPLICATION,POS__1944.jpg,1944.jpg,bottle caps,REPLICATION_A,48,44,44,4,4,0,False,False
+REPLICATION,POS__5748.jpg,5748.jpg,polka dots,REPLICATION_A,74,57,57,17,17,0,False,False
+REPLICATION,POS__6873.jpg,6873.jpg,birds,REPLICATION_A,11,11,11,0,0,0,False,False
+REPLICATION,POS__2854.jpg,2854.jpg,chairs,REPLICATION_A,16,20,20,4,4,0,False,False
+REPLICATION,POS__3763.jpg,3763.jpg,donuts tray,REPLICATION_A,16,16,16,0,0,0,False,False
+REPLICATION,POS__6744.jpg,6744.jpg,horses,REPLICATION_A,17,22,22,5,5,0,False,False
+REPLICATION,POS__5873.jpg,5873.jpg,grapes,REPLICATION_A,69,83,83,14,14,0,False,False
+REPLICATION,POS__3487.jpg,3487.jpg,polka dots,REPLICATION_A,321,204,204,117,117,0,False,False
+REPLICATION,POS__811.jpg,811.jpg,bottle caps,REPLICATION_A,17,16,16,1,1,0,False,False
+REPLICATION,POS__1397.jpg,1397.jpg,pills,REPLICATION_A,166,0,0,166,166,0,False,False
+REPLICATION,POS__6287.jpg,6287.jpg,pills,REPLICATION_A,23,24,24,1,1,0,False,False
+REPLICATION,POS__617.jpg,617.jpg,seagulls,REPLICATION_A,11,0,0,11,11,0,False,False
+REPLICATION,POS__760.jpg,760.jpg,birds,REPLICATION_A,21,25,25,4,4,0,False,False
+REPLICATION,POS__4726.jpg,4726.jpg,seagulls,REPLICATION_A,8,4,4,4,4,0,False,False
+REPLICATION,POS__6085.jpg,6085.jpg,chicken wings,REPLICATION_A,18,18,18,0,0,0,False,False
+REPLICATION,POS__5863.jpg,5863.jpg,grapes,REPLICATION_A,76,72,72,4,4,0,False,False
+REPLICATION,POS__946.jpg,946.jpg,birds,REPLICATION_A,20,18,18,2,2,0,False,False
+REPLICATION,POS__3535.jpg,3535.jpg,chicken wings,REPLICATION_A,24,25,25,1,1,0,False,False
+REPLICATION,POS__4847.jpg,4847.jpg,grapes,REPLICATION_A,61,77,77,16,16,0,False,False
+REPLICATION,POS__565.jpg,565.jpg,flamingos,REPLICATION_A,18,15,15,3,3,0,False,False
+REPLICATION,POS__773.jpg,773.jpg,books,REPLICATION_A,10,10,10,0,0,0,False,False
+REPLICATION,POS__7004.jpg,7004.jpg,birds,REPLICATION_A,117,123,123,6,6,0,False,False
+REPLICATION,POS__583.jpg,583.jpg,flamingos,REPLICATION_A,11,11,11,0,0,0,False,False
+REPLICATION,POS__5901.jpg,5901.jpg,grapes,REPLICATION_A,48,55,55,7,7,0,False,False
+REPLICATION,POS__5736.jpg,5736.jpg,polka dots,REPLICATION_A,239,192,192,47,47,0,False,False
+REPLICATION,POS__7334.jpg,7334.jpg,fresh cut,REPLICATION_A,53,54,54,1,1,0,False,False
+REPLICATION,POS__774.jpg,774.jpg,books,REPLICATION_A,8,10,10,2,2,0,False,False
+REPLICATION,POS__3549.jpg,3549.jpg,chicken wings,REPLICATION_A,10,10,10,0,0,0,False,False
+REPLICATION,POS__6779.jpg,6779.jpg,fresh cut,REPLICATION_A,119,123,123,4,4,0,False,False
+REPLICATION,POS__4809.jpg,4809.jpg,grapes,REPLICATION_A,306,304,304,2,2,0,False,False
+REPLICATION,POS__6061.jpg,6061.jpg,seagulls,REPLICATION_A,104,103,103,1,1,0,False,False
+REPLICATION,POS__1951.jpg,1951.jpg,bottle caps,REPLICATION_A,19,0,0,19,19,0,False,False
+REPLICATION,POS__6981.jpg,6981.jpg,birds,REPLICATION_A,57,60,60,3,3,0,False,False
+REPLICATION,POS__2316.jpg,2316.jpg,camels,REPLICATION_A,58,70,70,12,12,0,False,False
+REPLICATION,POS__1894.jpg,1894.jpg,bottle caps,REPLICATION_A,32,27,27,5,5,0,False,False
+REPLICATION,POS__5887.jpg,5887.jpg,grapes,REPLICATION_A,49,45,45,4,4,0,False,False
+REPLICATION,POS__4576.jpg,4576.jpg,flamingos,REPLICATION_A,38,31,31,7,7,0,False,False
+REPLICATION,POS__1972.jpg,1972.jpg,bottle caps,REPLICATION_A,8,2,2,6,6,0,False,False
+REPLICATION,POS__5903.jpg,5903.jpg,grapes,REPLICATION_A,48,56,56,8,8,0,False,False
+REPLICATION,POS__5117.jpg,5117.jpg,chicken wings,REPLICATION_A,13,13,13,0,0,0,False,False
+REPLICATION,POS__4741.jpg,4741.jpg,peaches,REPLICATION_A,41,50,50,9,9,0,False,False
+REPLICATION,POS__4600.jpg,4600.jpg,kiwis,REPLICATION_A,41,43,43,2,2,0,False,False
+REPLICATION,POS__2807.jpg,2807.jpg,chairs,REPLICATION_A,263,258,258,5,5,0,False,False
+REPLICATION,POS__4725.jpg,4725.jpg,seagulls,REPLICATION_A,9,0,0,9,9,0,False,False
+REPLICATION,POS__6288.jpg,6288.jpg,pills,REPLICATION_A,18,0,0,18,18,0,False,False
+REPLICATION,POS__5670.jpg,5670.jpg,donuts tray,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__3485.jpg,3485.jpg,polka dots,REPLICATION_A,174,6,6,168,168,0,False,False
+REPLICATION,POS__3542.jpg,3542.jpg,chicken wings,REPLICATION_A,11,11,11,0,0,0,False,False
+REPLICATION,POS__7655.jpg,7655.jpg,ants,REPLICATION_A,72,79,79,7,7,0,False,False
+REPLICATION,POS__598.jpg,598.jpg,seagulls,REPLICATION_A,13,13,13,0,0,0,False,False
+REPLICATION,POS__558.jpg,558.jpg,flamingos,REPLICATION_A,20,7,7,13,13,0,False,False
+REPLICATION,POS__6767.jpg,6767.jpg,pills,REPLICATION_A,28,28,28,0,0,0,False,False
+REPLICATION,POS__851.jpg,851.jpg,books,REPLICATION_A,320,302,302,18,18,0,False,False
+REPLICATION,POS__3775.jpg,3775.jpg,donuts tray,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__5867.jpg,5867.jpg,grapes,REPLICATION_A,83,92,92,9,9,0,False,False
+REPLICATION,POS__7423.jpg,7423.jpg,birds,REPLICATION_A,138,142,142,4,4,0,False,False
+REPLICATION,POS__3561.jpg,3561.jpg,chicken wings,REPLICATION_A,19,20,20,1,1,0,False,False
+REPLICATION,POS__622.jpg,622.jpg,seagulls,REPLICATION_A,34,23,23,11,11,0,False,False
+REPLICATION,POS__7169.jpg,7169.jpg,milk cartons,REPLICATION_A,34,48,48,14,14,0,False,False
+REPLICATION,POS__7133.jpg,7133.jpg,chairs,REPLICATION_A,35,40,40,5,5,0,False,False
+REPLICATION,POS__754.jpg,754.jpg,birds,REPLICATION_A,9,10,10,1,1,0,False,False
+REPLICATION,POS__5111.jpg,5111.jpg,chicken wings,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__4105.jpg,4105.jpg,oyster shells,REPLICATION_A,12,13,13,1,1,0,False,False
+REPLICATION,POS__7124.jpg,7124.jpg,flower pots,REPLICATION_A,49,49,49,0,0,0,False,False
+REPLICATION,POS__7257.jpg,7257.jpg,chairs,REPLICATION_A,33,41,41,8,8,0,False,False
+REPLICATION,POS__6092.jpg,6092.jpg,chicken wings,REPLICATION_A,12,12,12,0,0,0,False,False
+REPLICATION,POS__6079.jpg,6079.jpg,flamingos,REPLICATION_A,10,10,10,0,0,0,False,False
+REPLICATION,POS__596.jpg,596.jpg,seagulls,REPLICATION_A,14,12,12,2,2,0,False,False
+REPLICATION,POS__1924.jpg,1924.jpg,bottle caps,REPLICATION_A,48,48,48,0,0,0,False,False
+REPLICATION,POS__5155.jpg,5155.jpg,toilet paper rolls,REPLICATION_A,10,10,10,0,0,0,False,False
+REPLICATION,POS__842.jpg,842.jpg,books,REPLICATION_B,46,43,43,3,3,0,False,False
+REPLICATION,POS__5660.jpg,5660.jpg,donuts tray,REPLICATION_B,19,19,19,0,0,0,False,False
+REPLICATION,POS__3490.jpg,3490.jpg,polka dots,REPLICATION_B,64,61,61,3,3,0,False,False
+REPLICATION,POS__6748.jpg,6748.jpg,pills,REPLICATION_B,27,27,27,0,0,0,False,False
+REPLICATION,POS__576.jpg,576.jpg,flamingos,REPLICATION_B,19,20,20,1,1,0,False,False
+REPLICATION,POS__7435.jpg,7435.jpg,ants,REPLICATION_B,40,42,42,2,2,0,False,False
+REPLICATION,POS__6772.jpg,6772.jpg,milk cartons,REPLICATION_B,68,77,77,9,9,0,False,False
+REPLICATION,POS__5100.jpg,5100.jpg,chicken wings,REPLICATION_B,9,9,9,0,0,0,False,False
+REPLICATION,POS__2870.jpg,2870.jpg,chairs,REPLICATION_B,23,32,32,9,9,0,False,False
+REPLICATION,POS__6925.jpg,6925.jpg,bottle caps,REPLICATION_B,84,87,87,3,3,0,False,False
+REPLICATION,POS__4589.jpg,4589.jpg,kiwis,REPLICATION_B,34,34,34,0,0,0,False,False
+REPLICATION,POS__4799.jpg,4799.jpg,grapes,REPLICATION_B,122,134,134,12,12,0,False,False
+REPLICATION,POS__554.jpg,554.jpg,flamingos,REPLICATION_B,14,15,15,1,1,0,False,False
+REPLICATION,POS__7602.jpg,7602.jpg,horses,REPLICATION_B,14,16,16,2,2,0,False,False
+REPLICATION,POS__3476.jpg,3476.jpg,polka dots,REPLICATION_B,262,243,243,19,19,0,False,False
+REPLICATION,POS__7314.jpg,7314.jpg,skateboard,REPLICATION_B,23,44,44,21,21,0,False,False
+REPLICATION,POS__854.jpg,854.jpg,books,REPLICATION_B,10,13,13,3,3,0,False,False
+REPLICATION,POS__5106.jpg,5106.jpg,chicken wings,REPLICATION_B,23,24,24,1,1,0,False,False
+REPLICATION,POS__1962.jpg,1962.jpg,bottle caps,REPLICATION_B,13,0,0,13,13,0,False,False
+REPLICATION,POS__965.jpg,965.jpg,birds,REPLICATION_B,10,10,10,0,0,0,False,False
+REPLICATION,POS__859.jpg,859.jpg,books,REPLICATION_B,97,102,102,5,5,0,False,False
+REPLICATION,POS__198.jpg,198.jpg,peaches,REPLICATION_B,69,73,73,4,4,0,False,False
+REPLICATION,POS__4751.jpg,4751.jpg,peaches,REPLICATION_B,42,46,46,4,4,0,False,False
+REPLICATION,POS__868.jpg,868.jpg,books,REPLICATION_B,8,8,8,0,0,0,False,False
+REPLICATION,POS__7063.jpg,7063.jpg,books,REPLICATION_B,17,18,18,1,1,0,False,False
+REPLICATION,POS__607.jpg,607.jpg,seagulls,REPLICATION_B,12,12,12,0,0,0,False,False
+REPLICATION,POS__838.jpg,838.jpg,books,REPLICATION_B,113,138,138,25,25,0,False,False
+REPLICATION,POS__5888.jpg,5888.jpg,grapes,REPLICATION_B,84,89,89,5,5,0,False,False
+REPLICATION,POS__7028.jpg,7028.jpg,shirts,REPLICATION_B,214,135,135,79,79,0,False,False
+REPLICATION,POS__961.jpg,961.jpg,birds,REPLICATION_B,48,44,44,4,4,0,False,False
+REPLICATION,POS__737.jpg,737.jpg,ants,REPLICATION_B,9,9,9,0,0,0,False,False
+REPLICATION,POS__4818.jpg,4818.jpg,grapes,REPLICATION_B,37,40,40,3,3,0,False,False
+REPLICATION,POS__3774.jpg,3774.jpg,donuts tray,REPLICATION_B,31,34,34,3,3,0,False,False
+REPLICATION,POS__7531.jpg,7531.jpg,horses,REPLICATION_B,65,66,66,1,1,0,False,False
+REPLICATION,POS__4601.jpg,4601.jpg,kiwis,REPLICATION_B,8,8,8,0,0,0,False,False
+REPLICATION,POS__2851.jpg,2851.jpg,chairs,REPLICATION_B,61,66,66,5,5,0,False,False
+REPLICATION,POS__7558.jpg,7558.jpg,books,REPLICATION_B,37,39,39,2,2,0,False,False
+REPLICATION,POS__5044.jpg,5044.jpg,polka dots,REPLICATION_B,100,103,103,3,3,0,False,False
+REPLICATION,POS__6083.jpg,6083.jpg,chicken wings,REPLICATION_B,8,8,8,0,0,0,False,False
+REPLICATION,POS__4721.jpg,4721.jpg,seagulls,REPLICATION_B,17,0,0,17,17,0,False,False
+REPLICATION,POS__913.jpg,913.jpg,skateboard,REPLICATION_B,9,9,9,0,0,0,False,False
+REPLICATION,POS__5743.jpg,5743.jpg,polka dots,REPLICATION_B,270,145,145,125,125,0,False,False
+REPLICATION,POS__6072.jpg,6072.jpg,flamingos,REPLICATION_B,36,37,37,1,1,0,False,False
+REPLICATION,POS__4554.jpg,4554.jpg,flamingos,REPLICATION_B,65,48,48,17,17,0,False,False
+REPLICATION,POS__1922.jpg,1922.jpg,bottle caps,REPLICATION_B,45,45,45,0,0,0,False,False
+REPLICATION,POS__216.jpg,216.jpg,grapes,REPLICATION_B,46,45,45,1,1,0,False,False
+REPLICATION,POS__4095.jpg,4095.jpg,bullets,REPLICATION_B,11,0,0,11,11,0,False,False
+REPLICATION,POS__248.jpg,248.jpg,grapes,REPLICATION_B,48,55,55,7,7,0,False,False
+REPLICATION,POS__4538.jpg,4538.jpg,flamingos,REPLICATION_B,16,15,15,1,1,0,False,False
+REPLICATION,POS__7503.jpg,7503.jpg,pills,REPLICATION_B,22,23,23,1,1,0,False,False
+REPLICATION,POS__610.jpg,610.jpg,seagulls,REPLICATION_B,20,0,0,20,20,0,False,False
+REPLICATION,POS__1984.jpg,1984.jpg,bottle caps,REPLICATION_B,35,0,0,35,35,0,False,False
+REPLICATION,POS__2815.jpg,2815.jpg,chairs,REPLICATION_B,49,52,52,3,3,0,False,False
+REPLICATION,POS__3592.jpg,3592.jpg,chicken wings,REPLICATION_B,12,12,12,0,0,0,False,False
+REPLICATION,POS__5894.jpg,5894.jpg,grapes,REPLICATION_B,62,69,69,7,7,0,False,False
+REPLICATION,POS__2406.jpg,2406.jpg,horses,REPLICATION_B,17,24,24,7,7,0,False,False
+REPLICATION,POS__871.jpg,871.jpg,books,REPLICATION_B,18,19,19,1,1,0,False,False
+REPLICATION,POS__6108.jpg,6108.jpg,chicken wings,REPLICATION_B,18,18,18,0,0,0,False,False
+REPLICATION,POS__1915.jpg,1915.jpg,bottle caps,REPLICATION_B,684,154,154,530,530,0,False,False
+REPLICATION,POS__4749.jpg,4749.jpg,peaches,REPLICATION_B,133,128,128,5,5,0,False,False
+REPLICATION,POS__820.jpg,820.jpg,bottle caps,REPLICATION_B,437,430,430,7,7,0,False,False
+REPLICATION,POS__5866.jpg,5866.jpg,grapes,REPLICATION_B,267,321,321,54,54,0,False,False
+REPLICATION,POS__575.jpg,575.jpg,flamingos,REPLICATION_B,12,12,12,0,0,0,False,False
+REPLICATION,POS__7561.jpg,7561.jpg,birds,REPLICATION_B,20,20,20,0,0,0,False,False
+REPLICATION,POS__5075.jpg,5075.jpg,chicken wings,REPLICATION_B,16,15,15,1,1,0,False,False
+REPLICATION,POS__6825.jpg,6825.jpg,horses,REPLICATION_B,14,13,13,1,1,0,False,False
+REPLICATION,POS__5667.jpg,5667.jpg,donuts tray,REPLICATION_B,20,20,20,0,0,0,False,False
+REPLICATION,POS__1912.jpg,1912.jpg,bottle caps,REPLICATION_B,46,49,49,3,3,0,False,False
+REPLICATION,POS__7348.jpg,7348.jpg,horses,REPLICATION_B,12,11,11,1,1,0,False,False
+REPLICATION,POS__4803.jpg,4803.jpg,grapes,REPLICATION_B,50,59,59,9,9,0,False,False
+REPLICATION,POS__7159.jpg,7159.jpg,birds,REPLICATION_B,42,42,42,0,0,0,False,False
+REPLICATION,POS__6875.jpg,6875.jpg,books,REPLICATION_B,20,23,23,3,3,0,False,False
+REPLICATION,POS__7433.jpg,7433.jpg,horses,REPLICATION_B,13,12,12,1,1,0,False,False
+REPLICATION,POS__7060.jpg,7060.jpg,pills,REPLICATION_B,65,4,4,61,61,0,False,False
+REPLICATION,POS__759.jpg,759.jpg,birds,REPLICATION_B,10,4,4,6,6,0,False,False
+REPLICATION,POS__5092.jpg,5092.jpg,chicken wings,REPLICATION_B,15,14,14,1,1,0,False,False
+REPLICATION,POS__2317.jpg,2317.jpg,camels,REPLICATION_B,10,12,12,2,2,0,False,False
+REPLICATION,POS__4842.jpg,4842.jpg,grapes,REPLICATION_B,122,133,133,11,11,0,False,False
+REPLICATION,POS__239.jpg,239.jpg,grapes,REPLICATION_B,26,29,29,3,3,0,False,False
+REPLICATION,POS__573.jpg,573.jpg,flamingos,REPLICATION_B,10,10,10,0,0,0,False,False
+REPLICATION,POS__3492.jpg,3492.jpg,polka dots,REPLICATION_B,25,19,19,6,6,0,False,False
+REPLICATION,POS__1903.jpg,1903.jpg,bottle caps,REPLICATION_B,139,121,121,18,18,0,False,False
+REPLICATION,POS__4103.jpg,4103.jpg,oyster shells,REPLICATION_B,12,12,12,0,0,0,False,False
+REPLICATION,POS__5098.jpg,5098.jpg,chicken wings,REPLICATION_B,30,30,30,0,0,0,False,False
+REPLICATION,POS__4584.jpg,4584.jpg,kiwis,REPLICATION_B,10,10,10,0,0,0,False,False
+REPLICATION,POS__3758.jpg,3758.jpg,donuts tray,REPLICATION_B,9,0,0,9,9,0,False,False
+REPLICATION,POS__3520.jpg,3520.jpg,chicken wings,REPLICATION_B,10,10,10,0,0,0,False,False
+REPLICATION,POS__7143.jpg,7143.jpg,milk cartons,REPLICATION_B,121,140,140,19,19,0,False,False
+REPLICATION,POS__4836.jpg,4836.jpg,grapes,REPLICATION_B,42,45,45,3,3,0,False,False
+REPLICATION,POS__4097.jpg,4097.jpg,bullets,REPLICATION_B,20,0,0,20,20,0,False,False
+REPLICATION,POS__6853.jpg,6853.jpg,books,REPLICATION_B,26,28,28,2,2,0,False,False
+REPLICATION,POS__7415.jpg,7415.jpg,birds,REPLICATION_B,23,23,23,0,0,0,False,False
+REPLICATION,POS__7604.jpg,7604.jpg,books,REPLICATION_B,17,17,17,0,0,0,False,False
+REPLICATION,POS__4101.jpg,4101.jpg,oyster shells,REPLICATION_B,10,10,10,0,0,0,False,False
+REPLICATION,POS__7315.jpg,7315.jpg,milk cartons,REPLICATION_B,71,80,80,9,9,0,False,False
+REPLICATION,POS__1936.jpg,1936.jpg,bottle caps,REPLICATION_B,501,502,502,1,1,0,False,False
+REPLICATION,POS__7601.jpg,7601.jpg,chairs,REPLICATION_B,142,165,165,23,23,0,False,False
+REPLICATION,POS__5078.jpg,5078.jpg,chicken wings,REPLICATION_B,20,20,20,0,0,0,False,False
+REPLICATION,POS__2000.jpg,2000.jpg,bottle caps,REPLICATION_B,18,17,17,1,1,0,False,False
+REPLICATION,POS__7510.jpg,7510.jpg,birds,REPLICATION_B,61,60,60,1,1,0,False,False
+REPLICATION,POS__4572.jpg,4572.jpg,flamingos,REPLICATION_B,141,2,111,139,30,-109,True,True
+REPLICATION,POS__823.jpg,823.jpg,bottle caps,REPLICATION_B,195,192,192,3,3,0,False,False
+REPLICATION,POS__4102.jpg,4102.jpg,oyster shells,REPLICATION_B,15,14,14,1,1,0,False,False
+REPLICATION,POS__616.jpg,616.jpg,seagulls,REPLICATION_B,119,109,109,10,10,0,False,False
+REPLICATION,POS__2880.jpg,2880.jpg,chairs,REPLICATION_B,158,163,163,5,5,0,False,False
+REPLICATION,POS__4091.jpg,4091.jpg,bullets,REPLICATION_B,40,39,39,1,1,0,False,False
+REPLICATION,POS__4797.jpg,4797.jpg,grapes,REPLICATION_B,80,94,94,14,14,0,False,False
+REPLICATION,POS__1988.jpg,1988.jpg,bottle caps,REPLICATION_B,20,20,20,0,0,0,False,False
+REPLICATION,POS__4552.jpg,4552.jpg,flamingos,REPLICATION_B,17,18,18,1,1,0,False,False
+REPLICATION,POS__5906.jpg,5906.jpg,grapes,REPLICATION_B,113,131,131,18,18,0,False,False
+REPLICATION,POS__7077.jpg,7077.jpg,books,REPLICATION_B,140,157,157,17,17,0,False,False
+REPLICATION,POS__776.jpg,776.jpg,books,REPLICATION_B,15,3,14,12,1,-11,True,True
+REPLICATION,POS__7636.jpg,7636.jpg,ants,REPLICATION_B,22,23,23,1,1,0,False,False
+REPLICATION,POS__4807.jpg,4807.jpg,grapes,REPLICATION_B,25,24,24,1,1,0,False,False
+REPLICATION,POS__569.jpg,569.jpg,flamingos,REPLICATION_B,17,17,17,0,0,0,False,False
+REPLICATION,POS__844.jpg,844.jpg,books,REPLICATION_B,191,174,174,17,17,0,False,False
+REPLICATION,POS__1938.jpg,1938.jpg,bottle caps,REPLICATION_B,9,9,9,0,0,0,False,False
+REPLICATION,POS__929.jpg,929.jpg,birds,REPLICATION_B,23,24,24,1,1,0,False,False
+REPLICATION,POS__5876.jpg,5876.jpg,grapes,REPLICATION_B,216,225,225,9,9,0,False,False
+REPLICATION,POS__6916.jpg,6916.jpg,books,REPLICATION_B,65,63,63,2,2,0,False,False

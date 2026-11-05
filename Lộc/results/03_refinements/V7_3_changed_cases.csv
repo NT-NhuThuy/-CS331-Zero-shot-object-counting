@@ -1,0 +1,3 @@
+group_id,image_name,target,pair_type,source_class,gt_count,baseline_count,v7_count,v72_fixed_count,v73_count,v72_count,changed,err_v7,err_v72,err_v73,delta_err
+POS__1123.jpg,1123.jpg,markers,POSITIVE,markers,3701,0,0,0,403,0,True,3701,3701,3298,-403
+POS__7075.jpg,7075.jpg,sheep,POSITIVE,sheep,195,0,0,0,170,0,True,195,195,25,-170

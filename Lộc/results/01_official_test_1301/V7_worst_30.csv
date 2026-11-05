@@ -1,0 +1,31 @@
+group_id,image_name,target,gt_count,v7_count,abs_error,origin
+POS__1123.jpg,1123.jpg,markers,3701,0,3701,V7_NEW_BATCH_000
+POS__7611.jpg,7611.jpg,legos,2560,0,2560,V7_NEW_BATCH_020
+POS__6860.jpg,6860.jpg,legos,512,0,512,V7_NEW_BATCH_016
+POS__6644.jpg,6644.jpg,markers,500,0,500,V7_NEW_BATCH_015
+POS__1462.jpg,1462.jpg,keyboard keys,409,7,402,V7_NEW_BATCH_000
+POS__7195.jpg,7195.jpg,legos,384,87,297,V7_NEW_BATCH_018
+POS__2180.jpg,2180.jpg,apples,223,0,223,V7_NEW_BATCH_001
+POS__7167.jpg,7167.jpg,markers,217,0,217,V7_NEW_BATCH_018
+POS__3315.jpg,3315.jpg,green peas,210,0,210,V7_ORIGINAL
+POS__1497.jpg,1497.jpg,keyboard keys,207,2,205,V7_NEW_BATCH_000
+POS__4062.jpg,4062.jpg,marbles,275,75,200,V7_ORIGINAL
+POS__6647.jpg,6647.jpg,markers,199,0,199,V7_NEW_BATCH_015
+POS__7075.jpg,7075.jpg,sheep,195,0,195,V7_NEW_BATCH_017
+POS__5563.jpg,5563.jpg,finger foods,189,0,189,V7_NEW_BATCH_011
+POS__2004.jpg,2004.jpg,sunglasses,226,411,185,V7_NEW_BATCH_000
+POS__3318.jpg,3318.jpg,green peas,185,0,185,V7_NEW_BATCH_005
+POS__1456.jpg,1456.jpg,keyboard keys,184,1,183,V7_NEW_BATCH_000
+POS__2038.jpg,2038.jpg,sunglasses,198,380,182,V7_NEW_BATCH_001
+POS__6047.jpg,6047.jpg,keyboard keys,185,3,182,V7_NEW_BATCH_014
+POS__2009.jpg,2009.jpg,sunglasses,198,375,177,V7_NEW_BATCH_000
+POS__7378.jpg,7378.jpg,legos,256,94,162,V7_NEW_BATCH_019
+POS__1458.jpg,1458.jpg,keyboard keys,162,1,161,V7_NEW_BATCH_000
+POS__3311.jpg,3311.jpg,green peas,154,0,154,V7_NEW_BATCH_005
+POS__6842.jpg,6842.jpg,legos,36,185,149,V7_NEW_BATCH_016
+POS__7473.jpg,7473.jpg,nail polish,508,359,149,V7_NEW_BATCH_019
+POS__6732.jpg,6732.jpg,eggs,39,176,137,V7_NEW_BATCH_015
+POS__7015.jpg,7015.jpg,sunglasses,141,278,137,V7_NEW_BATCH_017
+POS__7042.jpg,7042.jpg,sheep,198,64,134,V7_ORIGINAL
+POS__4302.jpg,4302.jpg,green peas,131,0,131,V7_NEW_BATCH_008
+POS__2005.jpg,2005.jpg,sunglasses,140,265,125,V7_NEW_BATCH_000

@@ -1,0 +1,21 @@
+image_name,target,gt_count,baseline_count,v73_count,v74_count,AE_v74
+1123.jpg,markers,3701,0,403,996,2705
+7611.jpg,legos,2560,0,0,0,2560
+6860.jpg,legos,512,0,0,0,512
+1462.jpg,keyboard keys,409,7,7,7,402
+7195.jpg,legos,384,87,87,87,297
+2180.jpg,apples,223,234,0,0,223
+1497.jpg,keyboard keys,207,2,2,2,205
+4062.jpg,marbles,275,75,75,75,200
+5563.jpg,finger foods,189,0,0,0,189
+2004.jpg,sunglasses,226,411,411,411,185
+1456.jpg,keyboard keys,184,3,1,1,183
+2038.jpg,sunglasses,198,380,380,380,182
+6047.jpg,keyboard keys,185,3,3,3,182
+2009.jpg,sunglasses,198,375,375,375,177
+7378.jpg,legos,256,94,94,94,162
+1458.jpg,keyboard keys,162,3,1,1,161
+6842.jpg,legos,36,185,185,185,149
+7473.jpg,nail polish,508,359,359,359,149
+6732.jpg,eggs,39,176,176,176,137
+7015.jpg,sunglasses,141,278,278,278,137

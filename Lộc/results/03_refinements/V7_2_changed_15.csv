@@ -1,0 +1,16 @@
+﻿group_id,pair_type,source_class,image_name,target,gt_count,baseline_count,v4_filtered_count,target_evidence,decision,v7_route,keep_boxes_shown,retention_ratio,v7_count,v7_1_count,rescue_reason,v7_abs_error,v7_1_abs_error,v72_count,v7_error,v72_error,delta_error,changed,v72_fixed_count,gate_fixed,passed_gate,fixed_abs_error,v7_abs_error_recalc,fixed_delta_error,fixed_changed
+POS__6644.jpg,POSITIVE,markers,6644.jpg,markers,500,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,500,500,0,500,500,0,False,521,CONFIRMED,True,21,500,-479,True
+POS__7167.jpg,POSITIVE,markers,7167.jpg,markers,217,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,217,217,0,217,217,0,False,235,CONFIRMED,True,18,217,-199,True
+POS__6647.jpg,POSITIVE,markers,6647.jpg,markers,199,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,199,199,0,199,199,0,False,216,CONFIRMED,True,17,199,-182,True
+POS__3318.jpg,POSITIVE,green peas,3318.jpg,green peas,185,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,185,185,0,185,185,0,False,191,CONFIRMED,True,6,185,-179,True
+POS__3311.jpg,POSITIVE,green peas,3311.jpg,green peas,154,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,154,154,0,154,154,0,False,141,CONFIRMED,True,13,154,-141,True
+POS__3315.jpg,POSITIVE,green peas,3315.jpg,green peas,210,0,0,STRONG,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,210,210,0,210,210,0,False,140,CONFIRMED,True,70,210,-140,True
+POS__4302.jpg,POSITIVE,green peas,4302.jpg,green peas,131,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,131,131,0,131,131,0,False,129,CONFIRMED,True,2,131,-129,True
+POS__7206.jpg,POSITIVE,keyboard keys,7206.jpg,keyboard keys,83,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,83,83,0,83,83,0,False,82,CONFIRMED,True,1,83,-82,True
+POS__7131.jpg,POSITIVE,keyboard keys,7131.jpg,keyboard keys,123,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,123,123,0,123,123,0,False,78,CONFIRMED,True,45,123,-78,True
+POS__3326.jpg,POSITIVE,green peas,3326.jpg,green peas,122,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,122,122,0,122,122,0,False,68,CONFIRMED,True,54,122,-68,True
+POS__7573.jpg,POSITIVE,carrom board pieces,7573.jpg,carrom board pieces,18,0,0,STRONG,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,18,18,0,18,18,0,False,19,CONFIRMED,True,1,18,-17,True
+POS__5362.jpg,POSITIVE,marbles,5362.jpg,marbles,18,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,18,18,0,18,18,0,False,22,CONFIRMED,True,4,18,-14,True
+POS__7174.jpg,POSITIVE,legos,7174.jpg,legos,96,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,96,96,0,96,96,0,False,14,CONFIRMED,True,82,96,-14,True
+POS__3282.jpg,POSITIVE,finger foods,3282.jpg,finger foods,31,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,31,31,0,31,31,0,False,7,CONFIRMED,True,24,31,-7,True
+POS__3285.jpg,POSITIVE,finger foods,3285.jpg,finger foods,34,0,0,WEAK,NONE,BASELINE_ZERO,0,1.0,0,0,UNCHANGED,34,34,0,34,34,0,False,7,CONFIRMED,True,27,34,-7,True
