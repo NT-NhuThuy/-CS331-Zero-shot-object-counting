@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": null,
+  "split": null,
+  "cohort_id": null,
+  "image_ids": [],
+  "checkpoint": null,
+  "checkpoint_sha256": null,
+  "git_commit": null,
+  "command": null,
+  "seed": null,
+  "evaluation_protocol": null,
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "FSC-147 local validation snapshot",
+  "split": "VAL",
+  "cohort_id": "fsc_val_source_disjoint_300",
+  "image_ids": [],
+  "checkpoint": "CountGD++ frozen checkpoint (not released)",
+  "checkpoint_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; see source_reports/E03/a4_source_record.md",
+  "seed": null,
+  "evaluation_protocol": "paired FSC point/count evaluation on source-disjoint VAL300",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

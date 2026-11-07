@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "LVIS-H local snapshot",
+  "split": "validation diagnostic",
+  "cohort_id": "raw_multiview_support",
+  "image_ids": [],
+  "checkpoint": "not released",
+  "checkpoint_sha256": "not released",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; diagnostic only",
+  "seed": null,
+  "evaluation_protocol": "candidate-support diagnostic",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

@@ -1,0 +1,6 @@
+{
+  "status": "reported_pending_audit",
+  "metrics": {"raw_top900_recall": 0.8511, "thresholded_recall": 0.8151},
+  "metric_status": "reported_pending_audit",
+  "note": "Audit-specific denominator; raw per-image pool is not released."
+}

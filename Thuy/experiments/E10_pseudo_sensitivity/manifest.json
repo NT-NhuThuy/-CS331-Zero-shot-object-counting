@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "FSC-147/LVIS local snapshots",
+  "split": "protocol-specific development/validation",
+  "cohort_id": "pseudo_exemplar_sensitivity",
+  "image_ids": [],
+  "checkpoint": "CountGD++ checkpoint not released",
+  "checkpoint_sha256": "not released",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; matched-protocol analysis only",
+  "seed": null,
+  "evaluation_protocol": "within-dataset/protocol sensitivity analysis",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

@@ -1,0 +1,10 @@
+# Pin exact versions after the public release environment is audited.
+numpy
+pyyaml
+pandas
+scikit-learn
+Pillow
+pytest
+scipy
+torch
+torchvision

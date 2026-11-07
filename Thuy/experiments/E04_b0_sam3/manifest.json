@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "FSC-147 local validation snapshot",
+  "split": "VAL primary100; absent111 separate diagnostic",
+  "cohort_id": "fsc_primary100_sam3_transfer",
+  "image_ids": [],
+  "checkpoint": "CountGD++ plus SAM3 local checkpoints (not released)",
+  "checkpoint_sha256": "CountGD++ b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f; SAM3 hash not published",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; see source_reports/E04/b0_source_record.md",
+  "seed": null,
+  "evaluation_protocol": "paired FSC point/count evaluation; absent diagnostic separate",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

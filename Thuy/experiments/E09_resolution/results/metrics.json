@@ -1,0 +1,5 @@
+{
+  "status": "reported_pending_audit",
+  "metrics": {"reported_conclusion": "higher resolution can increase TP while worsening FP, absent-positive rate, or MAE"},
+  "metric_status": "reported_pending_audit"
+}

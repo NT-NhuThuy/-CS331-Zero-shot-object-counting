@@ -1,0 +1,5 @@
+{
+  "status": "reported_pending_audit",
+  "metrics": {"reported_conclusion": "containment merging can falsely merge physical instances"},
+  "metric_status": "diagnostic_not_published"
+}

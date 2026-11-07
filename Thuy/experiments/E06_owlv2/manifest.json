@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "local semantic probe snapshot",
+  "split": "validation diagnostic",
+  "cohort_id": "owlv2_hard_filter",
+  "image_ids": [],
+  "checkpoint": "OWLv2 checkpoint not released",
+  "checkpoint_sha256": "not released",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; diagnostic only",
+  "seed": null,
+  "evaluation_protocol": "proposal retention diagnostic",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

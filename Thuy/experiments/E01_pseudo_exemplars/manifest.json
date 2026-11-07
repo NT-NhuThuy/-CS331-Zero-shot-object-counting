@@ -1,0 +1,15 @@
+{
+  "status": "reported_pending_audit",
+  "dataset_version": "FSC-147 and LVIS local snapshots",
+  "split": "protocol-specific development/validation",
+  "cohort_id": "pseudo_exemplar_runs",
+  "image_ids": [],
+  "checkpoint": "CountGD++ frozen checkpoint not released",
+  "checkpoint_sha256": "not released",
+  "git_commit": "not available: source workspace was not a git repository",
+  "command": "not released; see source record",
+  "seed": null,
+  "evaluation_protocol": "matched within-protocol comparison; no pooling",
+  "metric_file": "results/metrics.json",
+  "source_artifacts": []
+}

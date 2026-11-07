@@ -1,0 +1,10 @@
+ZOC repository licensing status: NOT YET CONSOLIDATED.
+
+This archive contains original research code and selected code copied from
+third-party projects. No blanket license is granted by this file until
+ownership and upstream license compatibility have been verified. See
+`third_party/PROVENANCE.md` for the release audit table.
+
+Do not redistribute third-party components without complying with their
+upstream licenses. A complete license file may replace this notice after the
+provenance review is complete.

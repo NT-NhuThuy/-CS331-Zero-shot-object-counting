@@ -1,0 +1,13 @@
+name: zoc
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - scipy
+  - pip:
+      - -r requirements.txt

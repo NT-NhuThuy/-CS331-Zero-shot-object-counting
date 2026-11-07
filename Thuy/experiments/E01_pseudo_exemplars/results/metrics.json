@@ -1,0 +1,6 @@
+{
+  "status": "reported_pending_audit",
+  "metrics": {"fsc_m1_delta_mae_vs_m0": 5.38, "fsc_m2_delta_mae_vs_m0": 21.13, "fsc_m3_delta_mae_vs_m0": 22.34},
+  "metric_status": "reported_pending_audit",
+  "note": "Protocol runs are not pooled; held-out LVIS direction is reported qualitatively."
+}

@@ -1,0 +1,5 @@
+{
+  "status": "reported_pending_audit",
+  "metrics": {"reported_conclusion": "hard semantic filtering removed valuable proposals; do not use as hard veto"},
+  "metric_status": "diagnostic_not_published"
+}
