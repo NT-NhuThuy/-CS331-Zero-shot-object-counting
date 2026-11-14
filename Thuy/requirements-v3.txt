@@ -1,0 +1,7 @@
+numpy>=1.26
+Pillow>=10.0
+transformers>=4.49,<5
+torch>=2.1
+torchvision>=0.16
+safetensors>=0.4
+PyYAML>=6.0

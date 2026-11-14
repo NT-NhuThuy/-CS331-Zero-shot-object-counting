@@ -1,0 +1,39 @@
+{
+  "status": "FQIE_CLAIM_GATE_AUDIT",
+  "minimum_independent_cohorts": 2,
+  "eligible_cohorts": [
+    "v11"
+  ],
+  "level_1_gate_pass": false,
+  "cohort_checks": [
+    {
+      "cohort": "v10",
+      "ci_excludes_zero": false,
+      "present_sign_p_lt_005": false,
+      "absent_rate_not_higher": true,
+      "eligible": false
+    },
+    {
+      "cohort": "v11",
+      "ci_excludes_zero": true,
+      "present_sign_p_lt_005": true,
+      "absent_rate_not_higher": true,
+      "eligible": true
+    },
+    {
+      "cohort": "v7",
+      "ci_excludes_zero": true,
+      "present_sign_p_lt_005": false,
+      "absent_rate_not_higher": true,
+      "eligible": false
+    },
+    {
+      "cohort": "v8",
+      "ci_excludes_zero": false,
+      "present_sign_p_lt_005": false,
+      "absent_rate_not_higher": true,
+      "eligible": false
+    }
+  ],
+  "claim": "GT-blind proposal recovery with whole-instance identity control improves frozen CountGD++ on independent cohorts while not increasing absent false promotion."
+}

@@ -1,39 +1,35 @@
-# ZOC — Zero-Shot Open-Vocabulary Counting Research Archive
+# ZOC Research Snapshot
 
-This repository documents the experiments, evidence, negative results, and future directions of the ZOC project. Licensing is intentionally unresolved pending the provenance review in `third_party/PROVENANCE.md`.
+This directory is the lightweight, version-control-friendly research mirror of
+`ZOC`, intended to be pushed as a GitHub repository. It contains only source
+code, tests, contracts, paper-facing documentation, experiment manifests, and
+small, curated evidence summaries. It deliberately excludes downloaded data,
+checkpoints, images, raw predictions, model traces, runtime logs, and complete
+experiment output directories.
 
-## Research goal
+The canonical research documents and implementation are mirrored under
+`branch/`. `results/` contains compact, immutable paper-evidence records; it
+is not a cache for generated artifacts. The active validation direction is
+Safe-IIC / FQIE: semantic correctness, whole-instance evidence, cross-view
+identity consistency, abstention, and interval counts.
 
-Given an image and an arbitrary text query, count the physical instances that match the query. The evaluation must preserve query dependence, localization, instance identity, and verified-absent safety.
+## Repository layout
 
-## Current status
+- `branch/` — active FQIE implementation, contracts, tests, and paper plans.
+- `target_aware_counting/` — reusable research modules and experiment drivers;
+  generated `output/` is intentionally absent.
+- `src/` — package-oriented research code.
+- `experiments/` — compact manifests, commands, and summary metrics.
+- `results/` — curated claim-gate and dev/holdout evidence only.
+- `docs/`, `reports/`, and root Markdown files — design decisions and history.
+- `configs/`, `scripts/`, `tests/` — reproducibility support.
 
-No final method has been established. This archive is structurally complete and contains selected source code plus source reports for the main claims. It is not a fresh GPU rerun or a fully portable benchmark release.
+To refresh the mirror from the working tree after the shell backend is
+available:
 
-Core retained evidence:
+```bash
+bash SYNC_FROM_ZOC.sh
+```
 
-- **E00:** frozen CountGD++ baseline and failure analysis.
-- **E01:** pseudo-exemplar experiments and cross-domain generalization limits.
-- **E02:** candidate recall audit.
-- **E03:** A4 crop + NMS fallback on a source-disjoint VAL300 cohort.
-- **E04:** B0 SAM3 add-only recovery on the primary100 cohort.
-
-Negative and diagnostic evidence is archived in E05–E10. Future ideas are documented separately and are not presented as completed methods.
-
-## Repository map
-
-- `src/` — reusable project code prepared for public release.
-- `configs/` — dataset, baseline, and experiment configuration snapshots.
-- `scripts/` — public entry points for inference and evaluation.
-- `experiments/` — one reproducibility record per experiment.
-- `reports/` — research-level summaries and tables.
-- `docs/` — protocol, problem definition, reproducibility rules, and decisions.
-- `third_party/` — dependency and attribution notes.
-
-## Evidence policy
-
-Results from the working directory are initially marked `reported_pending_audit` unless their source files, manifests, and logs have been checked. Results from different cohorts or protocols must not be combined into a single comparison.
-
-## Reproducibility
-
-Every experiment should include its setup, exact command, manifest, source commit, checkpoint hash, metric definition, and limitations. Large datasets, checkpoints, runtime outputs, and raw logs are intentionally excluded from Git.
+The source tree remains the working copy. Re-running the sync intentionally
+does not restore raw outputs into this repository.

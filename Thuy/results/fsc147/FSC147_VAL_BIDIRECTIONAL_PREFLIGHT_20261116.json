@@ -1,0 +1,18 @@
+{
+  "status": "FSC147_VAL_BIDIRECTIONAL_PREFLIGHT",
+  "uses_gt": false,
+  "prediction_path": "target_aware_counting/output/region_query_verifier_recovery_20261014_v1/runs/fsc_full_val/predictions.json",
+  "prediction_sha256": "ee8eff468c175af19bbad57b714e02638162e813709afd12a838c424bcee1ed7",
+  "images": 1286,
+  "proposals": 68587,
+  "zero_images": 186,
+  "mean_proposals": 53.33359253499222,
+  "median": 23.0,
+  "p75": 59,
+  "p90": 134,
+  "p95": 189,
+  "p99": 463,
+  "max": 900,
+  "estimated_unary_hours_one_gpu_at_2.07s_per_valid": 39.437525,
+  "estimated_encode_hours_one_gpu_at_0.45s_per_valid": 8.573375
+}

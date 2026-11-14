@@ -1,0 +1,42 @@
+{
+  "status": "BIDIRECTIONAL_OFFLINE_METRICS",
+  "uses_gt_for_inference": false,
+  "baseline": {
+    "n": 180,
+    "mae": 4.116666666666666,
+    "bias": 2.8944444444444444,
+    "exact": 0.55
+  },
+  "bidirectional": {
+    "n": 180,
+    "mae": 2.8944444444444444,
+    "bias": 1.75,
+    "exact": 0.6333333333333333
+  },
+  "present_baseline": {
+    "n": 90,
+    "mae": 7.811111111111111,
+    "bias": 5.366666666666666,
+    "exact": 0.14444444444444443
+  },
+  "present_bidirectional": {
+    "n": 90,
+    "mae": 5.733333333333333,
+    "bias": 3.4444444444444446,
+    "exact": 0.28888888888888886
+  },
+  "absent_baseline": {
+    "n": 90,
+    "mae": 0.4222222222222222,
+    "bias": 0.4222222222222222,
+    "exact": 0.9555555555555556
+  },
+  "absent_bidirectional": {
+    "n": 90,
+    "mae": 0.05555555555555555,
+    "bias": 0.05555555555555555,
+    "exact": 0.9777777777777777
+  },
+  "improved": 32,
+  "worsened": 1
+}

@@ -1,0 +1,54 @@
+{
+  "status": "FQIE_FAIR_CLAIM_GATE",
+  "policy": "preserve_baseline",
+  "minimum_independent_cohorts": 2,
+  "eligible_cohorts": [
+    "v13"
+  ],
+  "gate_pass": false,
+  "cohort_checks": [
+    {
+      "cohort": "v11",
+      "delta_mae": -0.022222222222222223,
+      "bootstrap95": [
+        -0.044444444444444446,
+        -0.005555555555555556
+      ],
+      "ci_excludes_zero": true,
+      "sign_p": 0.125,
+      "sign_pass": false,
+      "absent_rate": 0.011111111111111112,
+      "baseline_absent_rate": 0.011111111111111112,
+      "eligible": false
+    },
+    {
+      "cohort": "v12",
+      "delta_mae": -0.005555555555555556,
+      "bootstrap95": [
+        -0.027777777777777776,
+        0.011111111111111112
+      ],
+      "ci_excludes_zero": false,
+      "sign_p": 1.0,
+      "sign_pass": false,
+      "absent_rate": 0.03333333333333333,
+      "baseline_absent_rate": 0.022222222222222223,
+      "eligible": false
+    },
+    {
+      "cohort": "v13",
+      "delta_mae": -0.044444444444444446,
+      "bootstrap95": [
+        -0.08333333333333333,
+        -0.011111111111111112
+      ],
+      "ci_excludes_zero": true,
+      "sign_p": 0.03125,
+      "sign_pass": true,
+      "absent_rate": 0.044444444444444446,
+      "baseline_absent_rate": 0.044444444444444446,
+      "eligible": true
+    }
+  ],
+  "allowed_claim": "FQIE is a conservative GT-blind rescue protocol with evidence-aware abstention; strong improvement claims remain locked until independent fair replications pass."
+}

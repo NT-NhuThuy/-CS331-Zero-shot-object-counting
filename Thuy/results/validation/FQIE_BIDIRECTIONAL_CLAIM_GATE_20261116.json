@@ -1,0 +1,31 @@
+{
+  "status": "FQIE_BIDIRECTIONAL_CLAIM_GATE",
+  "gate_pass": true,
+  "checks": {
+    "development_ci_excludes_zero": true,
+    "holdout_ci_excludes_zero": true,
+    "holdout_significant": true,
+    "holdout_absent_nonworse": true,
+    "holdout_wins_exceed_losses": true
+  },
+  "development": {
+    "baseline_mae": 4.116666666666666,
+    "method_mae": 2.8944444444444444,
+    "bootstrap95": [
+      -2.3722222222222222,
+      -0.4888888888888889
+    ]
+  },
+  "locked_holdout": {
+    "baseline_mae": 1.761111111111111,
+    "method_mae": 1.1,
+    "bootstrap95": [
+      -1.3833333333333333,
+      -0.18333333333333332
+    ],
+    "sign_p": 0.00015652179718017578,
+    "absent_baseline_mae": 0.16666666666666666,
+    "absent_method_mae": 0.0
+  },
+  "allowed_claim": "On the locked source-disjoint LVIS-derived holdout, frozen bidirectional evidence correction significantly reduces CountGD++ MAE without worsening absent-query error."
+}

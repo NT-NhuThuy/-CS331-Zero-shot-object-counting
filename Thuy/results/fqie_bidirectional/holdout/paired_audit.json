@@ -1,0 +1,47 @@
+{
+  "status": "BIDIRECTIONAL_HOLDOUT_PAIRED_AUDIT",
+  "seed": 20261116,
+  "resamples": 10000,
+  "delta_mae": -0.6611111111111111,
+  "bootstrap95": [
+    -1.3833333333333333,
+    -0.18333333333333332
+  ],
+  "bootstrap_fraction_delta_lt_zero": 0.9999,
+  "sign_test": {
+    "non_tie": 25,
+    "wins": 22,
+    "losses": 3,
+    "p_two_sided": 0.00015652179718017578
+  },
+  "worsened": [
+    {
+      "id": 52,
+      "source_image_id": 4130,
+      "status": "present",
+      "gt": 11,
+      "baseline": 9,
+      "method": 4,
+      "delta": 5
+    },
+    {
+      "id": 72,
+      "source_image_id": 555050,
+      "status": "present",
+      "gt": 2,
+      "baseline": 2,
+      "method": 1,
+      "delta": 1
+    },
+    {
+      "id": 152,
+      "source_image_id": 142454,
+      "status": "present",
+      "gt": 3,
+      "baseline": 3,
+      "method": 1,
+      "delta": 2
+    }
+  ],
+  "unchanged": 155
+}

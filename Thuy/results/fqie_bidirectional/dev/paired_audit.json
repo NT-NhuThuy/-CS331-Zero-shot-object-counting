@@ -1,0 +1,31 @@
+{
+  "status": "BIDIRECTIONAL_PAIRED_AUDIT",
+  "frozen_output": "full_cohort_output.json",
+  "rows": 180,
+  "delta_mae": -1.2222222222222223,
+  "bootstrap95": [
+    -2.3722222222222222,
+    -0.4888888888888889
+  ],
+  "bootstrap_fraction_delta_lt_zero": 1.0,
+  "sign_test": {
+    "non_tie": 33,
+    "wins": 32,
+    "losses": 1,
+    "p_two_sided": 7.916241884231567e-09
+  },
+  "worsened": [
+    {
+      "id": 156,
+      "source_image_id": 581726,
+      "status": "present",
+      "gt": 1,
+      "baseline": 1,
+      "method": 0,
+      "delta": 1,
+      "source": "bidirectional_verified",
+      "rejected": 1
+    }
+  ],
+  "unchanged": 147
+}

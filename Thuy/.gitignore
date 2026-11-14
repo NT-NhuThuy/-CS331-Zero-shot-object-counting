@@ -18,6 +18,7 @@ weights/
 outputs/
 /output/
 /target_aware_counting/output/
+/results/runtime/
 runs/
 wandb/
 tensorboard/

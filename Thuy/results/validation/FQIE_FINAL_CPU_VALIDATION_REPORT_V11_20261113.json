@@ -1,0 +1,7238 @@
+{
+  "cohorts": {
+    "v10": {
+      "absent_safety": {
+        "baseline": {
+          "false_promotion": 3,
+          "rate": 0.03333333333333333,
+          "wilson95": [
+            0.011400390222806277,
+            0.09347286030389873
+          ]
+        },
+        "n_absent": 90,
+        "note": "Non-inferiority requires a pre-registered margin; this report does not choose one.",
+        "risk_difference_safe_minus_baseline": -0.03333333333333333,
+        "safe_iic": {
+          "false_promotion": 0,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "status": "FQIE_ABSENT_SAFETY_AUDIT"
+      },
+      "artifacts": {
+        "absent_safety": {
+          "path": "target_aware_counting/output/fqie_contract_output_v10_20261113/absent_safety_audit_20261113.json",
+          "sha256": "c8fe02f6ce52488a3432367c3906b5e30dd8cd016f5c6a62393db92fd0d4c53c"
+        },
+        "bootstrap": {
+          "path": "target_aware_counting/output/fqie_contract_output_v10_20261113/paired_bootstrap_corrected_20261113.json",
+          "sha256": "eecff93e0d62f5ce93171ee3c57732dcceb1b1b6e566fd122b358c4e711c32b9"
+        },
+        "count": {
+          "path": "target_aware_counting/output/fqie_safe_iic_validation_20261112_v10/full_cohort_count_metrics_20261113.json",
+          "sha256": "93d4ebec24ef005fead6576ce275436e04335f50df8770fb18bf24657dd2ad6e"
+        },
+        "full_cohort": {
+          "path": "target_aware_counting/output/fqie_contract_output_v10_20261113/full_cohort_output.json",
+          "sha256": "788765d85f3f01bee0019e59d7ccf2a2403d9a8777cba0e77973b06e0cd312e7"
+        },
+        "interval": {
+          "path": "target_aware_counting/output/fqie_safe_iic_validation_20261112_v10/full_cohort_interval_metrics_20261113.json",
+          "sha256": "a10107fe9b5c91b2bcfaf718ff4105be123f82e7f6e29bbdf9f28d9ef5edab20"
+        },
+        "sign_test": {
+          "path": "target_aware_counting/output/fqie_contract_output_v10_20261113/paired_sign_test_20261113.json",
+          "sha256": "7a627d44ca6d0865bccc7c0e5a3dd90eee9063ee1189452b164598557f401d51"
+        }
+      },
+      "bootstrap": {
+        "absent": {
+          "bootstrap95": [
+            -0.788235294117647,
+            0.0
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9509,
+          "delta_mae": -0.28888888888888886,
+          "n_queries": 90
+        },
+        "all": {
+          "bootstrap95": [
+            -12.305555555555555,
+            0.2722222222222222
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9362,
+          "delta_mae": -4.25,
+          "n_queries": 180
+        },
+        "clusters": 180,
+        "present": {
+          "bootstrap95": [
+            -25.02469135802469,
+            0.7901234567901234
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9075,
+          "delta_mae": -8.21111111111111,
+          "n_queries": 90
+        },
+        "resamples": 10000,
+        "rows": 180,
+        "seed": 20261113,
+        "status": "FQIE_PAIRED_BOOTSTRAP_CLUSTERED_BY_SOURCE_IMAGE"
+      },
+      "count_metrics": {
+        "absent_baseline": {
+          "bias": 0.28888888888888886,
+          "exact": 0.9666666666666667,
+          "mae": 0.28888888888888886,
+          "n": 90
+        },
+        "absent_safe_iic": {
+          "bias": 0.0,
+          "exact": 1.0,
+          "mae": 0.0,
+          "n": 90
+        },
+        "baseline": {
+          "bias": 6.272222222222222,
+          "exact": 0.5611111111111111,
+          "mae": 7.516666666666667,
+          "n": 180
+        },
+        "improved": 34,
+        "manifest_queries": 180,
+        "matched_queries": 180,
+        "missing_evidence_queries": [],
+        "present_baseline": {
+          "bias": 12.255555555555556,
+          "exact": 0.15555555555555556,
+          "mae": 14.744444444444444,
+          "n": 90
+        },
+        "present_safe_iic": {
+          "bias": -6.311111111111111,
+          "exact": 0.03333333333333333,
+          "mae": 6.533333333333333,
+          "n": 90
+        },
+        "safe_iic": {
+          "bias": -3.1555555555555554,
+          "exact": 0.5166666666666667,
+          "mae": 3.2666666666666666,
+          "n": 180
+        },
+        "status": "SAFE_IIC_V10_OFFLINE_COUNT_METRICS",
+        "uses_gt_for_inference": false,
+        "worsened": 28
+      },
+      "coverage": {
+        "baseline_only_queries": 170,
+        "manifest_queries": 180,
+        "output_queries": 180,
+        "rescue_evidence_queries": 10
+      },
+      "interval_metrics": {
+        "absent": {
+          "interval_coverage": 1.0,
+          "lower_mae": 0.0,
+          "mean_width": 0.28888888888888886,
+          "n": 90,
+          "upper_mae": 0.28888888888888886
+        },
+        "all": {
+          "interval_coverage": 0.8277777777777777,
+          "lower_mae": 3.2666666666666666,
+          "mean_width": 9.583333333333334,
+          "n": 180,
+          "upper_mae": 7.472222222222222
+        },
+        "present": {
+          "interval_coverage": 0.6555555555555556,
+          "lower_mae": 6.533333333333333,
+          "mean_width": 18.877777777777776,
+          "n": 90,
+          "upper_mae": 14.655555555555555
+        },
+        "rows": [
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 1,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 2,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 3,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 4,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 5,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 6,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 7,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 8,
+            "id": 8,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 16
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 9,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 5,
+            "id": 10,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 11,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 12,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 13,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 14,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 15,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 16,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 17,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 18,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 19,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 20,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 21,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 22,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 23,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 24,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 25,
+            "lower": 3,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 3
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 26,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 27,
+            "lower": 12,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 12
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 28,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 29,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 30,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 31,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 12,
+            "id": 32,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 15
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 33,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 34,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 35,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 36,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 37,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 38,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 39,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 40,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 41,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 42,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 43,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 8,
+            "id": 44,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 45,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 46,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 47,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 48,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 49,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 50,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 10,
+            "id": 51,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 16
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 52,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 8,
+            "id": 53,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 54,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 55,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 56,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 7,
+            "id": 57,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 58,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 59,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 60,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 19
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 61,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 62,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 63,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 64,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 65,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 66,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 67,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 68,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 69,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 70,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 71,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 184,
+            "id": 72,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 338
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 73,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 74,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 75,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 76,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 77,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 78,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 79,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 80,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": false,
+            "gt": 61,
+            "id": 81,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 38
+          },
+          {
+            "covered": true,
+            "gt": 9,
+            "id": 82,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 83,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 84,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 85,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 86,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 87,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 88,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 89,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 13,
+            "id": 90,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 91,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 92,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 93,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 94,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 95,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 96,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 97,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 98,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 99,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 100,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 101,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 102,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 103,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 104,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 105,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 106,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 107,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 108,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 109,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 110,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 111,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 112,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 16
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 113,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 5,
+            "id": 114,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 20
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 115,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 75
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 116,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 10,
+            "id": 117,
+            "lower": 4,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 4
+          },
+          {
+            "covered": false,
+            "gt": 7,
+            "id": 118,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 119,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 120,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 121,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 122,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 123,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 124,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 125,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 126,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 127,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 128,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 129,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 130,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 131,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 132,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 133,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 134,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 135,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 136,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 137,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 138,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 139,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 140,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 141,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 142,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 112,
+            "id": 143,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 899
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 144,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 145,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 146,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 147,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 5,
+            "id": 148,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 149,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 150,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 151,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 152,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 153,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": false,
+            "gt": 5,
+            "id": 154,
+            "lower": 4,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 155,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 156,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 157,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 158,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 159,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 160,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 161,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 162,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 163,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 164,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 165,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 166,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 167,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 168,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 169,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 5,
+            "id": 170,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 171,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 172,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 173,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 174,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 175,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 176,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 177,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 178,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 34
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 179,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 180,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          }
+        ],
+        "status": "FQIE_INTERVAL_COUNT_DEV_METRICS",
+        "uses_gt_for_inference": false
+      },
+      "sign_test": {
+        "absent": {
+          "losses": 0,
+          "n_non_tie": 3,
+          "p_two_sided": 0.25,
+          "wins": 3
+        },
+        "absent_false_positive": {
+          "baseline": 3,
+          "n": 90,
+          "safe_iic": 0
+        },
+        "all": {
+          "losses": 28,
+          "n_non_tie": 62,
+          "p_two_sided": 0.5257733601756501,
+          "wins": 34
+        },
+        "present": {
+          "losses": 28,
+          "n_non_tie": 59,
+          "p_two_sided": 0.7948436539828609,
+          "wins": 31
+        },
+        "status": "FQIE_PAIRED_EXACT_SIGN_TEST"
+      }
+    },
+    "v11": {
+      "absent_safety": {
+        "baseline": {
+          "false_promotion": 1,
+          "rate": 0.011111111111111112,
+          "wilson95": [
+            0.0019640841009183445,
+            0.06028408311753451
+          ]
+        },
+        "n_absent": 90,
+        "note": "Non-inferiority requires a pre-registered margin; this report does not choose one.",
+        "risk_difference_safe_minus_baseline": -0.011111111111111112,
+        "safe_iic": {
+          "false_promotion": 0,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "status": "FQIE_ABSENT_SAFETY_AUDIT"
+      },
+      "artifacts": {
+        "absent_safety": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/absent_safety.json",
+          "sha256": "bb7643e928d2f7f590ea1ba6d87ab1e1b0d41b6e4d977748a9ebb4ae5c690144"
+        },
+        "bootstrap": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/bootstrap.json",
+          "sha256": "cc6e9cb635a80e8d73dc31e4d99ab439fbe176264b7458ca094b574ac9ae02e2"
+        },
+        "count": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/count_metrics.json",
+          "sha256": "017d533b45749a65ad3f3993a8f485a0a342126837504a2aca46618346c4a510"
+        },
+        "full_cohort": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/full_cohort_output.json",
+          "sha256": "c5dac286e03d7ee60d6ecbe6915e0110827e3081a5b1a0b536fd2633555e5708"
+        },
+        "interval": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/interval_metrics.json",
+          "sha256": "7a607df8388e8da1e5146cc553aa6b06fc414585bdca26b71dfe78dd9c1de8d9"
+        },
+        "sign_test": {
+          "path": "target_aware_counting/output/fqie_contract_output_v11_20261113/sign_test.json",
+          "sha256": "7d0d1653eba112bc63a3d8add77d2ec748890cd9b60210541ad657a115a3c881"
+        }
+      },
+      "bootstrap": {
+        "absent": {
+          "bootstrap95": [
+            -0.03614457831325301,
+            0.0
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.6324,
+          "delta_mae": -0.011111111111111112,
+          "n_queries": 90
+        },
+        "all": {
+          "bootstrap95": [
+            -4.6,
+            -0.4666666666666667
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9999,
+          "delta_mae": -2.1222222222222222,
+          "n_queries": 180
+        },
+        "clusters": 180,
+        "present": {
+          "bootstrap95": [
+            -9.037037037037036,
+            -0.9625
+          ],
+          "bootstrap_fraction_delta_lt_zero": 1.0,
+          "delta_mae": -4.233333333333333,
+          "n_queries": 90
+        },
+        "resamples": 10000,
+        "rows": 180,
+        "seed": 20261113,
+        "status": "FQIE_PAIRED_BOOTSTRAP_CLUSTERED_BY_SOURCE_IMAGE"
+      },
+      "count_metrics": {
+        "absent_baseline": {
+          "bias": 0.011111111111111112,
+          "exact": 0.9888888888888889,
+          "mae": 0.011111111111111112,
+          "n": 90
+        },
+        "absent_safe_iic": {
+          "bias": 0.0,
+          "exact": 1.0,
+          "mae": 0.0,
+          "n": 90
+        },
+        "baseline": {
+          "bias": 1.95,
+          "exact": 0.5166666666666667,
+          "mae": 3.5166666666666666,
+          "n": 180
+        },
+        "improved": 27,
+        "manifest_queries": 180,
+        "matched_queries": 180,
+        "missing_evidence_queries": [],
+        "present_baseline": {
+          "bias": 3.888888888888889,
+          "exact": 0.044444444444444446,
+          "mae": 7.022222222222222,
+          "n": 90
+        },
+        "present_safe_iic": {
+          "bias": -2.7888888888888888,
+          "exact": 0.022222222222222223,
+          "mae": 2.7888888888888888,
+          "n": 90
+        },
+        "safe_iic": {
+          "bias": -1.3944444444444444,
+          "exact": 0.5111111111111111,
+          "mae": 1.3944444444444444,
+          "n": 180
+        },
+        "status": "SAFE_IIC_V10_OFFLINE_COUNT_METRICS",
+        "uses_gt_for_inference": false,
+        "worsened": 11
+      },
+      "coverage": {
+        "baseline_only_queries": 174,
+        "manifest_queries": 180,
+        "output_queries": 180,
+        "rescue_evidence_queries": 6
+      },
+      "interval_metrics": {
+        "absent": {
+          "interval_coverage": 1.0,
+          "lower_mae": 0.0,
+          "mean_width": 0.011111111111111112,
+          "n": 90,
+          "upper_mae": 0.011111111111111112
+        },
+        "all": {
+          "interval_coverage": 0.7333333333333333,
+          "lower_mae": 1.3944444444444444,
+          "mean_width": 3.3666666666666667,
+          "n": 180,
+          "upper_mae": 3.4944444444444445
+        },
+        "present": {
+          "interval_coverage": 0.4666666666666667,
+          "lower_mae": 2.7888888888888888,
+          "mean_width": 6.722222222222222,
+          "n": 90,
+          "upper_mae": 6.977777777777778
+        },
+        "rows": [
+          {
+            "covered": false,
+            "gt": 5,
+            "id": 1,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 2,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 3,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 4,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 10,
+            "id": 5,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 6,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 7,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 8,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 9,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 10,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 11,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 12,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 13,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 14,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 15,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 16,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 17,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 18,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 19,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 20,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 21,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 176
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 22,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 23,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 24,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 25,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 26,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 27,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 28,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 29,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 30,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 31,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 32,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 33,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 38,
+            "id": 34,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 175
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 35,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 36,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 37,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 38,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 39,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 40,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 41,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 42,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 43,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 44,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 45,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 46,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 47,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 48,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 49,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 50,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 51,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 52,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 53,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 54,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 55,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 56,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 57,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 58,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 59,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 60,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 61,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 62,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 63,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 64,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 65,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 66,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 67,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 26
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 68,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 69,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 70,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 71,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 72,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 73,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 74,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 75,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 76,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 77,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 78,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 79,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": false,
+            "gt": 21,
+            "id": 80,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 81,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 82,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 83,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 84,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 10,
+            "id": 85,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 18
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 86,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 87,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 88,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 89,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 90,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 91,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 92,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 93,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 22
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 94,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 95,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 96,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 97,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 98,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 99,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 100,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 101,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 102,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 103,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 104,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 105,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 106,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 107,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 108,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 11
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 109,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 110,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 111,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 112,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 113,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 114,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 115,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 116,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 117,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 5,
+            "id": 118,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 119,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 120,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 121,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 122,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 123,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 124,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 125,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 126,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 127,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 128,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 129,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 130,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 131,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 132,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 8,
+            "id": 133,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 134,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 135,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 136,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 137,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 138,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 139,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 140,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 141,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 142,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 143,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 144,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 145,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 146,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 147,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 148,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 149,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 150,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 151,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 152,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 153,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 22
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 154,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 155,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 156,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 157,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 158,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 159,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 160,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 161,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 162,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 163,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 164,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 165,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 166,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 167,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 168,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 169,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 170,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 171,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 172,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 173,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 174,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 175,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 176,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 177,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 178,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 179,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 180,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          }
+        ],
+        "status": "FQIE_INTERVAL_COUNT_DEV_METRICS",
+        "uses_gt_for_inference": false
+      },
+      "sign_test": {
+        "absent": {
+          "losses": 0,
+          "n_non_tie": 1,
+          "p_two_sided": 1.0,
+          "wins": 1
+        },
+        "absent_false_positive": {
+          "baseline": 1,
+          "n": 90,
+          "safe_iic": 0
+        },
+        "all": {
+          "losses": 11,
+          "n_non_tie": 38,
+          "p_two_sided": 0.013852965261321515,
+          "wins": 27
+        },
+        "present": {
+          "losses": 11,
+          "n_non_tie": 37,
+          "p_two_sided": 0.020073851919732988,
+          "wins": 26
+        },
+        "status": "FQIE_PAIRED_EXACT_SIGN_TEST"
+      }
+    },
+    "v7": {
+      "absent_safety": {
+        "baseline": {
+          "false_promotion": 1,
+          "rate": 0.011111111111111112,
+          "wilson95": [
+            0.0019640841009183445,
+            0.06028408311753451
+          ]
+        },
+        "n_absent": 90,
+        "note": "Non-inferiority requires a pre-registered margin; this report does not choose one.",
+        "risk_difference_safe_minus_baseline": -0.011111111111111112,
+        "safe_iic": {
+          "false_promotion": 0,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "status": "FQIE_ABSENT_SAFETY_AUDIT"
+      },
+      "artifacts": {
+        "absent_safety": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/absent_safety_audit_20261113.json",
+          "sha256": "bb7643e928d2f7f590ea1ba6d87ab1e1b0d41b6e4d977748a9ebb4ae5c690144"
+        },
+        "bootstrap": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/paired_bootstrap_corrected_20261113.json",
+          "sha256": "65636a3479947938818d7755b3c354a0c97a6509093f244c7fd21c3ea325f728"
+        },
+        "count": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/full_cohort_count_metrics.json",
+          "sha256": "bb213d3a6d14ba9a83cde081c15520f38b4cd2d2f692e533353a2f7252c48b74"
+        },
+        "full_cohort": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/full_cohort_output.json",
+          "sha256": "22da750a8c8dafd672573ebac21e3a285aa8708dc5f8fe94f87d9c6a8b0bdd49"
+        },
+        "interval": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/full_cohort_interval_metrics.json",
+          "sha256": "b61b1387ee91e5dc970ebd57c3c4edca338a4fa63d70f5d69469e2bca23f261f"
+        },
+        "sign_test": {
+          "path": "target_aware_counting/output/fqie_contract_output_v7_20261113/paired_sign_test_20261113.json",
+          "sha256": "b3f12f66657ff0e2673f8def8d2021a01976762328b3ff0b284fc3798f75361d"
+        }
+      },
+      "bootstrap": {
+        "absent": {
+          "bootstrap95": [
+            -0.2926829268292683,
+            0.0
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.6359,
+          "delta_mae": -0.08888888888888889,
+          "n_queries": 90
+        },
+        "all": {
+          "bootstrap95": [
+            -1.0444444444444445,
+            -0.17777777777777778
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9992,
+          "delta_mae": -0.5666666666666667,
+          "n_queries": 180
+        },
+        "clusters": 180,
+        "present": {
+          "bootstrap95": [
+            -2.010989010989011,
+            -0.2815533980582524
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.9985,
+          "delta_mae": -1.0444444444444445,
+          "n_queries": 90
+        },
+        "resamples": 10000,
+        "rows": 180,
+        "seed": 20261113,
+        "status": "FQIE_PAIRED_BOOTSTRAP_CLUSTERED_BY_SOURCE_IMAGE"
+      },
+      "count_metrics": {
+        "absent_baseline": {
+          "bias": 0.08888888888888889,
+          "exact": 0.9888888888888889,
+          "mae": 0.08888888888888889,
+          "n": 90
+        },
+        "absent_safe_iic": {
+          "bias": 0.0,
+          "exact": 1.0,
+          "mae": 0.0,
+          "n": 90
+        },
+        "baseline": {
+          "bias": -0.022222222222222223,
+          "exact": 0.5777777777777777,
+          "mae": 2.0444444444444443,
+          "n": 180
+        },
+        "improved": 26,
+        "manifest_queries": 180,
+        "matched_queries": 180,
+        "missing_evidence_queries": [],
+        "present_baseline": {
+          "bias": -0.13333333333333333,
+          "exact": 0.16666666666666666,
+          "mae": 4.0,
+          "n": 90
+        },
+        "present_safe_iic": {
+          "bias": -2.2666666666666666,
+          "exact": 0.044444444444444446,
+          "mae": 2.9555555555555557,
+          "n": 90
+        },
+        "safe_iic": {
+          "bias": -1.1333333333333333,
+          "exact": 0.5222222222222223,
+          "mae": 1.4777777777777779,
+          "n": 180
+        },
+        "status": "SAFE_IIC_V10_OFFLINE_COUNT_METRICS",
+        "uses_gt_for_inference": false,
+        "worsened": 25
+      },
+      "coverage": {
+        "baseline_only_queries": 159,
+        "manifest_queries": 180,
+        "output_queries": 180,
+        "rescue_evidence_queries": 21
+      },
+      "interval_metrics": {
+        "absent": {
+          "interval_coverage": 1.0,
+          "lower_mae": 0.0,
+          "mean_width": 0.08888888888888889,
+          "n": 90,
+          "upper_mae": 0.08888888888888889
+        },
+        "all": {
+          "interval_coverage": 0.7666666666666667,
+          "lower_mae": 1.4777777777777779,
+          "mean_width": 1.5833333333333333,
+          "n": 180,
+          "upper_mae": 1.9166666666666667
+        },
+        "present": {
+          "interval_coverage": 0.5333333333333333,
+          "lower_mae": 2.9555555555555557,
+          "mean_width": 3.077777777777778,
+          "n": 90,
+          "upper_mae": 3.7444444444444445
+        },
+        "rows": [
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 1,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 2,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 3,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 4,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 5,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 6,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 7,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 8,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 9,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 10,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 11,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 12,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 13,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 7,
+            "id": 14,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 15,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 16,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 17,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 18,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 19,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 20,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 21,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 22,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 23,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 24,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 25,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 26,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 27,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 28,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 29,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 30,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 31,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 32,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 33,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 34,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 35,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 36,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 37,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 14,
+            "id": 38,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 27
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 39,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 40,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 41,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 42,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 43,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 14
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 44,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 45,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 46,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 47,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 48,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 49,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 50,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 51,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 52,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 53,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 54,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 55,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 56,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 57,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 58,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 59,
+            "lower": 5,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 60,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 61,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 62,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 63,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 11
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 64,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 65,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 66,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 67,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 68,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 69,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 15
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 70,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 71,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 72,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 73,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 32,
+            "id": 74,
+            "lower": 6,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 75,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 76,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 11
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 77,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 78,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 79,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 80,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 81,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 82,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 83,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 84,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 85,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 86,
+            "lower": 3,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 3
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 87,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 88,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 89,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 90,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 91,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 92,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 93,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 94,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 95,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 96,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 97,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 98,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 99,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 100,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 101,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 102,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 103,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 104,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 105,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 106,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 107,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 108,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 109,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 110,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 111,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 112,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 113,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 114,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 55,
+            "id": 115,
+            "lower": 8,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 116,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 117,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 118,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 119,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 120,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 121,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 122,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 123,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 124,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 125,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 126,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 127,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 128,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 129,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 130,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 35
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 131,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 132,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 133,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 134,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 135,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 136,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 137,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 138,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 139,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 140,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 141,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 142,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 143,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 144,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 145,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 146,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 147,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 13,
+            "id": 148,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 35
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 149,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 150,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 151,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 22,
+            "id": 152,
+            "lower": 45,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 45
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 153,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 154,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 155,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 156,
+            "lower": 3,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 157,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 158,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 159,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 160,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 161,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 162,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 163,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 164,
+            "lower": 3,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 165,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 166,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 167,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 168,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 169,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 170,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 171,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 172,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 173,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 174,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 175,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 176,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 177,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 178,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 179,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 180,
+            "lower": 4,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 4
+          }
+        ],
+        "status": "FQIE_INTERVAL_COUNT_DEV_METRICS",
+        "uses_gt_for_inference": false
+      },
+      "sign_test": {
+        "absent": {
+          "losses": 0,
+          "n_non_tie": 1,
+          "p_two_sided": 1.0,
+          "wins": 1
+        },
+        "absent_false_positive": {
+          "baseline": 1,
+          "n": 90,
+          "safe_iic": 0
+        },
+        "all": {
+          "losses": 25,
+          "n_non_tie": 51,
+          "p_two_sided": 1.0,
+          "wins": 26
+        },
+        "present": {
+          "losses": 25,
+          "n_non_tie": 50,
+          "p_two_sided": 1.0,
+          "wins": 25
+        },
+        "status": "FQIE_PAIRED_EXACT_SIGN_TEST"
+      }
+    },
+    "v8": {
+      "absent_safety": {
+        "baseline": {
+          "false_promotion": 2,
+          "rate": 0.022222222222222223,
+          "wilson95": [
+            0.006115441986325208,
+            0.07744526688625372
+          ]
+        },
+        "n_absent": 90,
+        "note": "Non-inferiority requires a pre-registered margin; this report does not choose one.",
+        "risk_difference_safe_minus_baseline": -0.022222222222222223,
+        "safe_iic": {
+          "false_promotion": 0,
+          "rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.04093562556432678
+          ]
+        },
+        "status": "FQIE_ABSENT_SAFETY_AUDIT"
+      },
+      "artifacts": {
+        "absent_safety": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/absent_safety_audit_20261113.json",
+          "sha256": "367cb4b2aab9d00ae81409faf224e5d3923f63a7af73844d2963546789006097"
+        },
+        "bootstrap": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/paired_bootstrap_corrected_20261113.json",
+          "sha256": "fa6deeff7a13cf4c4861cca46b084ceff3b3599a7a598afa7738186451ae754c"
+        },
+        "count": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/full_cohort_count_metrics.json",
+          "sha256": "5ac964296948089e5b5c0db42636806caa28e72f1a72a4f71d4f914024c3cd80"
+        },
+        "full_cohort": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/full_cohort_output.json",
+          "sha256": "7b1a00ece66b0630e9bd2692f2e283e24b32c3c3fb713152d88bcd673c68cb35"
+        },
+        "interval": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/full_cohort_interval_metrics.json",
+          "sha256": "9c52cdaa3313ef43822bd59c0a73cf19d63ee23c5f00c4c0f015c00b4f9ecf72"
+        },
+        "sign_test": {
+          "path": "target_aware_counting/output/fqie_contract_output_v8_20261113/paired_sign_test_20261113.json",
+          "sha256": "588a05a61ce3e4cc9acbfce03c85750e8289958db0b44d1d8332883717f0d9da"
+        }
+      },
+      "bootstrap": {
+        "absent": {
+          "bootstrap95": [
+            -0.8539325842696629,
+            0.0
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.8695,
+          "delta_mae": -0.32222222222222224,
+          "n_queries": 90
+        },
+        "all": {
+          "bootstrap95": [
+            -1.5333333333333334,
+            0.3611111111111111
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.8897,
+          "delta_mae": -0.5666666666666667,
+          "n_queries": 180
+        },
+        "clusters": 180,
+        "present": {
+          "bootstrap95": [
+            -2.652173913043478,
+            1.0506329113924051
+          ],
+          "bootstrap_fraction_delta_lt_zero": 0.8139,
+          "delta_mae": -0.8111111111111111,
+          "n_queries": 90
+        },
+        "resamples": 10000,
+        "rows": 180,
+        "seed": 20261113,
+        "status": "FQIE_PAIRED_BOOTSTRAP_CLUSTERED_BY_SOURCE_IMAGE"
+      },
+      "count_metrics": {
+        "absent_baseline": {
+          "bias": 0.32222222222222224,
+          "exact": 0.9777777777777777,
+          "mae": 0.32222222222222224,
+          "n": 90
+        },
+        "absent_safe_iic": {
+          "bias": 0.0,
+          "exact": 1.0,
+          "mae": 0.0,
+          "n": 90
+        },
+        "baseline": {
+          "bias": -0.5888888888888889,
+          "exact": 0.5611111111111111,
+          "mae": 3.077777777777778,
+          "n": 180
+        },
+        "improved": 36,
+        "manifest_queries": 180,
+        "matched_queries": 180,
+        "missing_evidence_queries": [],
+        "present_baseline": {
+          "bias": -1.5,
+          "exact": 0.14444444444444443,
+          "mae": 5.833333333333333,
+          "n": 90
+        },
+        "present_safe_iic": {
+          "bias": -4.355555555555555,
+          "exact": 0.07777777777777778,
+          "mae": 5.022222222222222,
+          "n": 90
+        },
+        "safe_iic": {
+          "bias": -2.1777777777777776,
+          "exact": 0.5388888888888889,
+          "mae": 2.511111111111111,
+          "n": 180
+        },
+        "status": "SAFE_IIC_V10_OFFLINE_COUNT_METRICS",
+        "uses_gt_for_inference": false,
+        "worsened": 22
+      },
+      "coverage": {
+        "baseline_only_queries": 165,
+        "manifest_queries": 180,
+        "output_queries": 180,
+        "rescue_evidence_queries": 15
+      },
+      "interval_metrics": {
+        "absent": {
+          "interval_coverage": 1.0,
+          "lower_mae": 0.0,
+          "mean_width": 0.32222222222222224,
+          "n": 90,
+          "upper_mae": 0.32222222222222224
+        },
+        "all": {
+          "interval_coverage": 0.8111111111111111,
+          "lower_mae": 2.511111111111111,
+          "mean_width": 2.2333333333333334,
+          "n": 180,
+          "upper_mae": 2.7666666666666666
+        },
+        "present": {
+          "interval_coverage": 0.6222222222222222,
+          "lower_mae": 5.022222222222222,
+          "mean_width": 4.144444444444445,
+          "n": 90,
+          "upper_mae": 5.211111111111111
+        },
+        "rows": [
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 1,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 2,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 3,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 4,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 5,
+            "id": 5,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 17
+          },
+          {
+            "covered": false,
+            "gt": 35,
+            "id": 6,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 7,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 8,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 9,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 10,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 11,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 12
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 12,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 13,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 14,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 15,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 16,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 17,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 13
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 18,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 19,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 20,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 21,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 22,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 23,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 24,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 25,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 26,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 27,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 28,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 29,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 30,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 31,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 32,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 33,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 34,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 35,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 36,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 37,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 11
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 38,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 39,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 4,
+            "id": 40,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 41,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 42,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 43,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 44,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 10
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 45,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 46,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 47,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 48,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 5
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 49,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 50,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 22,
+            "id": 51,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 52,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 53,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 13,
+            "id": 54,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 21
+          },
+          {
+            "covered": true,
+            "gt": 5,
+            "id": 55,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 11
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 56,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 57,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 10,
+            "id": 58,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 59,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 60,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 61,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 62,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 63,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 64,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 65,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 6,
+            "id": 66,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": false,
+            "gt": 22,
+            "id": 67,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 68,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 69,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 70,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 71,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 72,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 73,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 20
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 74,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 75,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 76,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": false,
+            "gt": 5,
+            "id": 77,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 78,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 79,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 80,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 81,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 82,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 83,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 84,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 85,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": false,
+            "gt": 8,
+            "id": 86,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 87,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 88,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 89,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 90,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 3,
+            "id": 91,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 92,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 93,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 94,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 95,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 52,
+            "id": 96,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 52
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 97,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 98,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 99,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 100,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 101,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 102,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 103,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 104,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 105,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 106,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 107,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 108,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 109,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 110,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 111,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 6,
+            "id": 112,
+            "lower": 3,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 113,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 114,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 115,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 116,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 117,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 118,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 119,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 55,
+            "id": 120,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 121,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 122,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 123,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 124,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 125,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 126,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 127,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 128,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 129,
+            "lower": 1,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 1
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 130,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 131,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 132,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 133,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 134,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "partial",
+            "upper": 18
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 135,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 136,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 8
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 137,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 138,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 139,
+            "lower": 7,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 7
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 140,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 141,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 142,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 143,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 144,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 145,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 146,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 147,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 148,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 149,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 4
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 150,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 151,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 152,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": false,
+            "gt": 64,
+            "id": 153,
+            "lower": 49,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 49
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 154,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 155,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 156,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 157,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 158,
+            "lower": 2,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 159,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 160,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 161,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 1,
+            "id": 162,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 35,
+            "id": 163,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 2,
+            "id": 164,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 15,
+            "id": 165,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 12
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 166,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 167,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 7,
+            "id": 168,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 9
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 169,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 170,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 171,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 172,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 4,
+            "id": 173,
+            "lower": 0,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 174,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 32
+          },
+          {
+            "covered": true,
+            "gt": 2,
+            "id": 175,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 6
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 176,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 1,
+            "id": 177,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 2
+          },
+          {
+            "covered": true,
+            "gt": 0,
+            "id": 178,
+            "lower": 0,
+            "status": "verified_absent",
+            "status_count": "exact",
+            "upper": 0
+          },
+          {
+            "covered": false,
+            "gt": 25,
+            "id": 179,
+            "lower": 48,
+            "status": "present",
+            "status_count": "exact",
+            "upper": 48
+          },
+          {
+            "covered": true,
+            "gt": 3,
+            "id": 180,
+            "lower": 0,
+            "status": "present",
+            "status_count": "partial",
+            "upper": 3
+          }
+        ],
+        "status": "FQIE_INTERVAL_COUNT_DEV_METRICS",
+        "uses_gt_for_inference": false
+      },
+      "sign_test": {
+        "absent": {
+          "losses": 0,
+          "n_non_tie": 2,
+          "p_two_sided": 0.5,
+          "wins": 2
+        },
+        "absent_false_positive": {
+          "baseline": 2,
+          "n": 90,
+          "safe_iic": 0
+        },
+        "all": {
+          "losses": 22,
+          "n_non_tie": 58,
+          "p_two_sided": 0.08694889972991099,
+          "wins": 36
+        },
+        "present": {
+          "losses": 22,
+          "n_non_tie": 56,
+          "p_two_sided": 0.14089542359848076,
+          "wins": 34
+        },
+        "status": "FQIE_PAIRED_EXACT_SIGN_TEST"
+      }
+    }
+  },
+  "schema": "fqie_final_cpu_validation_report_v1",
+  "uses_gt_for_inference": false
+}

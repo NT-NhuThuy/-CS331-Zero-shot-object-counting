@@ -1,0 +1,249 @@
+{
+  "status": "V14_HOLDOUT_FAILURE_AUDIT_POSTFREEZE",
+  "method_changed": false,
+  "cases": [
+    {
+      "id": 52,
+      "source_image_id": 4130,
+      "status": "present",
+      "gt": 11,
+      "baseline": 9,
+      "method": 4,
+      "delta": 5,
+      "controller": {
+        "accepted_rescues": 0,
+        "baseline_total": 9,
+        "rejected_baseline": 5,
+        "type": "bidirectional_controller",
+        "unknown_baseline": 0,
+        "unknown_rescues": 0
+      },
+      "tasks": [
+        {
+          "task_id": "baseline:52:73",
+          "role": "baseline",
+          "box_xyxy": [
+            415.0,
+            266.0,
+            439.0,
+            309.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        },
+        {
+          "task_id": "baseline:52:74",
+          "role": "baseline",
+          "box_xyxy": [
+            312.0,
+            163.0,
+            551.0,
+            306.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        },
+        {
+          "task_id": "baseline:52:75",
+          "role": "baseline",
+          "box_xyxy": [
+            333.0,
+            161.0,
+            366.0,
+            182.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:52:76",
+          "role": "baseline",
+          "box_xyxy": [
+            329.0,
+            258.0,
+            346.0,
+            296.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        },
+        {
+          "task_id": "baseline:52:77",
+          "role": "baseline",
+          "box_xyxy": [
+            222.0,
+            224.0,
+            244.0,
+            247.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:52:78",
+          "role": "baseline",
+          "box_xyxy": [
+            523.0,
+            296.0,
+            546.0,
+            315.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        },
+        {
+          "task_id": "baseline:52:79",
+          "role": "baseline",
+          "box_xyxy": [
+            200.0,
+            223.0,
+            223.0,
+            244.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:52:80",
+          "role": "baseline",
+          "box_xyxy": [
+            133.0,
+            226.0,
+            158.0,
+            253.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:52:81",
+          "role": "baseline",
+          "box_xyxy": [
+            166.0,
+            226.0,
+            195.0,
+            248.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        }
+      ],
+      "failure_mode": "strict NO/NO false rejection or excessive rejection on a present query"
+    },
+    {
+      "id": 72,
+      "source_image_id": 555050,
+      "status": "present",
+      "gt": 2,
+      "baseline": 2,
+      "method": 1,
+      "delta": 1,
+      "controller": {
+        "accepted_rescues": 0,
+        "baseline_total": 2,
+        "rejected_baseline": 1,
+        "type": "bidirectional_controller",
+        "unknown_baseline": 0,
+        "unknown_rescues": 0
+      },
+      "tasks": [
+        {
+          "task_id": "baseline:72:162",
+          "role": "baseline",
+          "box_xyxy": [
+            1.0,
+            176.0,
+            231.0,
+            268.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:72:163",
+          "role": "baseline",
+          "box_xyxy": [
+            38.0,
+            144.0,
+            66.0,
+            170.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        }
+      ],
+      "failure_mode": "strict NO/NO false rejection or excessive rejection on a present query"
+    },
+    {
+      "id": 152,
+      "source_image_id": 142454,
+      "status": "present",
+      "gt": 3,
+      "baseline": 3,
+      "method": 1,
+      "delta": 2,
+      "controller": {
+        "accepted_rescues": 0,
+        "baseline_total": 3,
+        "rejected_baseline": 2,
+        "type": "bidirectional_controller",
+        "unknown_baseline": 0,
+        "unknown_rescues": 0
+      },
+      "tasks": [
+        {
+          "task_id": "baseline:152:299",
+          "role": "baseline",
+          "box_xyxy": [
+            533.0,
+            71.0,
+            585.0,
+            144.0
+          ],
+          "semantic": "YES",
+          "whole": "YES",
+          "eligible": true
+        },
+        {
+          "task_id": "baseline:152:300",
+          "role": "baseline",
+          "box_xyxy": [
+            3.0,
+            275.0,
+            65.0,
+            383.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        },
+        {
+          "task_id": "baseline:152:301",
+          "role": "baseline",
+          "box_xyxy": [
+            476.0,
+            106.0,
+            511.0,
+            148.0
+          ],
+          "semantic": "NO",
+          "whole": "NO",
+          "eligible": false
+        }
+      ],
+      "failure_mode": "strict NO/NO false rejection or excessive rejection on a present query"
+    }
+  ],
+  "conclusion": "All losses are present-query over-pruning failures. The frozen rule is retained; these are reported limitations, not tuning targets on holdout."
+}
