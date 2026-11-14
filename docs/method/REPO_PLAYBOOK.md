@@ -2,41 +2,41 @@
 
 ## Team convention
 
-Branch from `research/unified-method-v1` (until approved into `main`). **Never each develop separate alternative full pipelines.** Each PR modifies a well-defined stage under `src/countlab/` with fixtures and tests; `legacy/` is archival and read-only.
+Branch from `research/unified-integration-verified` (until approved into `main`). **Never each develop separate alternative full pipelines.** Each PR modifies a well-defined stage under `src/countlab/` with fixtures and tests; `legacy/` is archival and read-only.
 
 | Person | Module to own now | Primary deliverable | Must pass before merge |
 |---|---|---|---|
-| Thư | `src/countlab/method/router.py`; `src/countlab/adapters/thu_risk.py` (to add) | GT-blind risk scores and adaptive verification allocation, DEV-trained only | Strong uncertainty/margin baseline, matched calls and source-disjoint calibration; no train/test contamination |
-| Lộc | `src/countlab/method/verifier.py`; `src/countlab/adapters/loc_recovery.py` (to add) | Native CountGD++ multi-view recovery and frozen per-instance Qwen evidence | Original coordinates, exact model prompts, revision/SHA, per-instance unary fixture, runtime and strong false-rejection analysis |
+| Thư | `src/countlab/method/router.py`; `src/countlab/integrations/thu_features.py` | GT-blind risk scores and adaptive verification allocation, DEV-trained only | Strong uncertainty/margin baseline, matched calls and source-disjoint calibration; no train/test contamination |
+| Lộc | `src/countlab/method/verifier.py`; `src/countlab/integrations/recovery.py` and `qwen_unary.py` | Native CountGD++ multi-view recovery and frozen per-instance Qwen evidence | Original coordinates, exact model prompts, revision/SHA, per-instance unary fixture, runtime and strong false-rejection analysis |
 | Thúy | `src/countlab/method/identity.py`; `pipeline.py`; `adapters/fqie_legacy.py` | Safe association and bidirectional arbitration, validated against GT region identity | False merge/split vs NMS and naive Union-Find, over-pruning report, full output invariants |
 | All | `tests/`, `configs/regimes`, `experiments/`, `paper/claim_ledger.csv` | Repeatable experiments, independent evaluation, falsifiable paper story | Reviewer-ready reproducibility / novelty / paired statistics |
 
 ## First-time setup, Windows PowerShell or Linux
 
 ```bash
-git clone https://github.com/NT-NhuThuy/-CS331-Zero-shot-object-counting.git
-cd -CS331-Zero-shot-object-counting
-git fetch origin research/unified-method-v1
-git switch --track origin/research/unified-method-v1
+git clone https://github.com/NT-NhuThuy/-CS331-Zero-shot-object-counting.git cs331-unicount
+cd cs331-unicount
+git fetch origin research/unified-integration-verified
+git switch --track origin/research/unified-integration-verified
 python -m pip install -e ".[test]"
 python -m pytest -q tests/
-countlab-method --input fixtures/unified_toy.json --out local_toy_output.json
+countlab-method --input fixtures/unified_toy.json --config configs/method/unicount_v1.json --out local_toy_output.json
 ```
 
-This works **after** someone pushes `research/unified-method-v1` to `origin`. The prepared bundle is local only; nothing was pushed to GitHub by the assistant.
+This works **after** someone pushes `research/unified-integration-verified` to `origin`. Read `docs/TEAM_START_HERE.md` for the bundle publishing workflow. The prepared bundle is local only; nothing was pushed to GitHub by the assistant.
 
 ## Work on the exact same method
 
 ```bash
-git switch research/unified-method-v1
-git pull --ff-only origin research/unified-method-v1
-git switch -c feat/thu-risk-adapter # Thư; others use feat/loc-unary-adapter or feat/thuy-safe-iic
+git switch research/unified-integration-verified
+git pull --ff-only origin research/unified-integration-verified
+git switch -c feat/thu-split-audit # Thư; others use feat/loc-countgd-adapter or feat/thuy-v14-import
 git add src/countlab tests docs/method
 git commit -m "feat(router): integrate frozen risk features with tests"
-git push -u origin feat/thu-risk-adapter
+git push -u origin feat/thu-split-audit
 ```
 
-Open PR into **`research/unified-method-v1`**, not immediately into `main`; require independent review. Never rewrite historical results. Use `experiments/runs/<immutable_id>` for new frozen artifacts (untracked files local by default).
+Open PR into **`research/unified-integration-verified`**, not immediately into `main`; require independent review. Never rewrite historical results. Use `experiments/runs/<immutable_id>` for new frozen artifacts (untracked files local by default).
 
 ## Single integration protocol
 

@@ -6,6 +6,8 @@
 
 ## Start here
 
+**For all three contributors, read [`docs/TEAM_START_HERE.md`](docs/TEAM_START_HERE.md) before creating a feature branch.** This is the latest onboarding and G0–G4 owner checklist.
+
 1. **Verified audit and A* GO/NO-GO:** [`docs/verification/UNIFIED_RESEARCH_AUDIT_20261114.md`](docs/verification/UNIFIED_RESEARCH_AUDIT_20261114.md)
 2. **Method spec and conservative semantics:** [`docs/method/METHOD_V1.md`](docs/method/METHOD_V1.md)
 3. **Original research trees:** [`legacy/{thu,loc,thuy}/`](legacy/) (original source preserved)
