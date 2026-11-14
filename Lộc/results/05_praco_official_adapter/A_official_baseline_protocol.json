@@ -1,0 +1,12 @@
+{
+  "type": "PrACo Test1 native CountGDPlusPlusModel",
+  "praco_commit": "438a968aef9d31ded7519733bd84e89baae68896",
+  "roster_sha256": "b73d78d0e21d089cdd875913fe861929904bc7842e600e84ff5a562d439eae39",
+  "ckpt_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "synth_json_sha256": "36f2142946464917f95b4503a7baa76a5d58a3a501a9db28554d9a64f0ec7fc2",
+  "seed": 123,
+  "negative_text": "original class positive/negative split",
+  "text_method": "original get_text_prompt",
+  "synth_and_pseudo_exemplars": true,
+  "protocol_sha256": "ab3a19afe6447047e71e4688fab39111b3c0ae90e02868a486bbecca341ba91c"
+}
