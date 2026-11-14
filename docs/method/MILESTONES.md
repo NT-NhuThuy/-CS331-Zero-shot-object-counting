@@ -31,3 +31,9 @@ Build a joint risk- and evidence-consistent arbitration mechanism, not a stack o
 ## M5 — A* paper gate
 
 Method must answer: (1) new technical idea compared with closest prior art, (2) controlled ablation showing WHY it helps, (3) strong/fair empirical results, (4) reproducible source/threshold provenance, (5) clear limitations. Conference rank/acceptance and SOTA are targets, never guaranteed.
+
+## 2026-11-14 audited integration update
+
+**Software M0 extended:** `countlab-online` and `countlab-preflight` now exist. The online runner lazily invokes the preserved CountGD++ single-pass backend and Lộc-style actual Qwen3-VL generation; original-coordinate multi-view crops, optional Qwen pair identity and exact-key Thư frozen V4/A3 features are wired into the same root pipeline. CPU tests exercise the end-to-end call graph with injected model doubles; the GPU version has NOT been run and is not V14 pseudo-exemplar parity.
+
+**Outstanding mandatory G0 blocker:** the original V14 full-cohort predictions (SHA prefix `94e71b3f`) and timestamps, official pseudo-exemplar=3 adapter, native checkpoints, source-split manifests and pinned Qwen runtime on a server. Read `docs/verification/UNIFIED_RESEARCH_AUDIT_20261114.md` before proposing new method claims.

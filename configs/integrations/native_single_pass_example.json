@@ -1,0 +1,30 @@
+{
+  "protocol_id": "CGD_NATIVE_SINGLE_PASS_NO_PSEUDO_DIAGNOSTIC_V1",
+  "native_countgd": {
+    "repo": "/REPLACE_WITH_CLONED_CountGDPlusPlus",
+    "checkpoint": "/REPLACE_WITH_COUNTGDPP_CHECKPOINT",
+    "bert_dir": "/REPLACE_WITH_LOCAL_BERT",
+    "device": "cuda:0",
+    "resize_short": 800,
+    "resize_max": 1333,
+    "grid_size": 7,
+    "context_scale": 2.0,
+    "feature_levels": [0, 1],
+    "text_threshold": 0.0,
+    "threshold": 0.23
+  },
+  "recovery": {"trigger_baseline_le": 0, "grids": [2], "overlap": 0.2, "max_tiles": 4},
+  "verification_budget": 32,
+  "qwen": {
+    "model_id": "Qwen/Qwen3-VL-4B-Instruct",
+    "revision": "REPLACE_WITH_EXACT_COMMIT_SHA",
+    "max_new_tokens": 16
+  },
+  "method_policy": {
+    "baseline_rescue_match_iou": 0.5,
+    "identity_min_same_iou": 0.1,
+    "identity_overlap_ambiguity_iou": 0.3
+  },
+  "identity": {"enabled": false, "max_pairs": 16, "min_overlap": 0.1},
+  "abstain_on_conflict": true
+}
