@@ -15,6 +15,9 @@ test = ["pytest>=7"]
 [project.scripts]
 countlab-audit = "countlab.audit:main"
 countlab-inventory = "countlab.inventory:main"
+countlab-method = "countlab.method.cli:main"
+countlab-import-fqie = "countlab.adapters.fqie_legacy:main"
+countlab-batch = "countlab.method.batch:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

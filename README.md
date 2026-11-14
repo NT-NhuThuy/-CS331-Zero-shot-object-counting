@@ -1,63 +1,64 @@
-# CS331 CountLab — A*-oriented research unification
+# UNICOUNT — one unified CountGD++ research method (CS331)
 
-**Status (snapshot 2026-11-14):** A non-destructive local research reorganization
-of all three contributions. NOT a published, benchmark-verified SOTA system.
-The refactor is in Git branch `research/a-star-unification`, not pushed to the
-original GitHub repository.
+**Research working name only**. One pipeline with three module owners, not three disconnected notebook-based methods. The code in this branch runs **GT-blind CPU replay on frozen proposals/evidence**; GPU source/model adapters and any new A* novelty are future tasks. This repo is not a benchmark-verified SOTA method.
 
-## Read first
-
-1. [`docs/A_STAR_RESEARCH_REPORT.md`](docs/A_STAR_RESEARCH_REPORT.md): full audit,
-   owner-by-owner decisions, novelty hazards, architecture, SOTA protocol,
-   staged roadmap, release gates.
-2. [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md): data types and proposed method.
-3. [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md): splits, hashes and rules.
-4. [`paper/claim_ledger.csv`](paper/claim_ledger.csv): results vs evidence level.
-
-## Repository
+## One method, one executable
 
 ```text
-src/countlab/             Shared CPU-only contracts, method registry and audits
-configs/regimes/          Separate LVIS, FSC experimental, PrACo protocols
-tests/                    CPU smoke / contract tests
-experiments/              Future frozen experiment registry and protocol templates
-paper/                    Claim ledger and paper scaffold
-docs/                     Architecture, audit and A* roadmap
-legacy/loc/               Lộc V4–V7.6 including official PrACo adapter
-legacy/thu/               Thư V4, Joint V3.2 and A3
-legacy/thuy/              Thúy FQIE PR/IIC/Safe-IIC and bidirectional evidence
+image, category query
+  → frozen CountGD++ baseline boxes
+  → Thư: risk-aware verification budget / routing
+  → Lộc: multi-view candidate recovery + per-instance verifier
+  → Thúy: identity-consistent bidirectional arbitration
+  → count + accepted/rejected/unknown + trace
 ```
 
-**Why legacy?** The historical notebook/script trees are retained intact,
-including their exact subdirectory layout, for auditability. They are not
-silently merged into a fictitious single working model. New pipelines must
-reference a provenance-locked adapter and pass validation first. `legacy/loc`
-includes V7.6 additions from `loc/praco-official-adapter-v76-full`.
+**Start here:** [`docs/method/METHOD_V1.md`](docs/method/METHOD_V1.md) (scientific formulation), [`docs/method/REPO_PLAYBOOK.md`](docs/method/REPO_PLAYBOOK.md) (who implements what), [`docs/method/INTERFACE_CONTRACT.md`](docs/method/INTERFACE_CONTRACT.md) (exact I/O), [`docs/method/MILESTONES.md`](docs/method/MILESTONES.md) (A* go/no-go gates).
 
-## Local CPU checks
+## Try the unified method's CPU replay
 
 ```bash
 python -m pip install -e '.[test]'
+countlab-method --input fixtures/unified_toy.json --config configs/method/unicount_v1.json --out toy_result.json
 python -m pytest -q tests/
-python -m pytest -q legacy/thuy/branch
-python -m pytest -q legacy/loc/tools/praco_test1/test_verify_praco_artifacts.py
-countlab-inventory
 ```
 
-Use `countlab-audit --help` to evaluate NEW matched and frozen CSVs. It never
-runs inference or chooses thresholds from test GT.
+The toy fixture expects **2 chairs** according to synthetic labels supplied only here as example reasoning, not a model prediction: baseline count 2, one explicit false detection removed, two multi-view rescue proposals merged into one physical instance, final point count 2. The replay uses frozen synthetic YES/NO + SAME inputs, so this is a **contract smoke test, not accuracy evidence**.
 
-## Rules
+To import actual old FQIE task records into the shared schema (still no GPU):
 
-- NEVER train, tune or debug on a sealed test set; V14 must not be reused to
-  select a new method variant.
-- Never conflate FSC147 positive, mined hard-negative, PrACo mismatch, LVIS
-  verified-absent, or free-form query-only evaluation.
-- Training status must be explicit: Thu correction heads are trained;
-  frozen-backbone is not equivalent to fully training-free.
-- No claim of exact physical count or certified absence from schema alone.
-- Keep original Git history and author attribution. No destructive cleanup.
+```bash
+countlab-import-fqie --index /path/to/bidirectional_task_index.json \
+  --unary /path/to/identity_unary_decisions.jsonl --out-dir local_fqie_manifests
+```
 
-For offline environments with pytest already installed, omit pip and run
-`PYTHONPATH=src python -m pytest -q tests legacy/thuy/branch` and
-`PYTHONPATH=src python -m countlab.audit --help`.
+Then `countlab-batch --inputs local_fqie_manifests --outputs local_unified_results --config configs/method/unicount_v1.json` runs the same decision method on every converted pair.
+
+Generated outputs are create-only. Outputs are **observed-candidate**, not guaranteed scene-wide bounds. The evaluation/GT path remains isolated (`countlab-audit` on already frozen prediction CSVs).
+
+## Repository map
+
+```text
+src/countlab/method/{schema,router,verifier,identity,pipeline,cli}.py  # ONE method
+src/countlab/adapters/fqie_legacy.py                           # legacy → shared I/O
+fixtures/                                                     # deterministic CPU examples
+tests/                                                        # shared method unit tests
+configs/regimes/                                               # separate legitimate protocols
+docs/method/                                                   # shared method + owners + milestones
+experiments/                                                   # versioned future runs
+paper/                                                         # claims with evidence level
+legacy/{thu,loc,thuy}/                                         # original work preserved unchanged
+.github/workflows/ci.yml                                       # tests
+```
+
+Historical evidence and the first broad comparative audit are preserved under [`docs/A_STAR_RESEARCH_REPORT.md`](docs/A_STAR_RESEARCH_REPORT.md). The older [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) should now defer to `docs/method/METHOD_V1.md` when specifications differ.
+
+## Critical boundaries
+
+- **V14** reports improvement from 1.7611 to 1.1000 MAE, but its raw frozen inference outputs were not included in this mirror; do not call the new unified CPU runner a reproduction of that result.
+- **Thư** has trained Joint V3.2 on exploratory FSC data; its direct scalar count head is a separately supervised baseline until tied to candidate decisions properly.
+- **Lộc** V7.6 global Qwen veto is not the same as a region-level semantic/whole verifier and worsened positive MAE on PrACo despite excellent mismatch suppression.
+- V14 and FSC-147 TEST are exposed. Need NEW calibration and untouched final tests for a newly designed combined method.
+- No claim of first-ever novelty, general SOTA or conference acceptance until matched research baselines and external benchmarks support it.
+
+For Git collaboration, have the repository owner push `research/unified-method-v1` after reviewing the supplied bundle. Then everyone clones and branches from it using the playbook.
