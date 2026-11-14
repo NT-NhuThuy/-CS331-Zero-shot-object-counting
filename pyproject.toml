@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "countlab-cs331"
+version = "0.1.0"
+description = "Protocol-first integration and auditing layer for CS331 object-counting research"
+requires-python = ">=3.10"
+authors = [{name = "CS331 research team"}]
+
+[project.optional-dependencies]
+test = ["pytest>=7", "numpy>=1.24", "Pillow>=9", "pandas>=2.0"]
+online = ["Pillow>=9", "torch>=2.2", "transformers>=4.57", "accelerate", "qwen-vl-utils"]
+
+[project.scripts]
+countlab-audit = "countlab.audit:main"
+countlab-inventory = "countlab.inventory:main"
+countlab-method = "countlab.method.cli:main"
+countlab-import-fqie = "countlab.adapters.fqie_legacy:main"
+countlab-batch = "countlab.method.batch:main"
+countlab-online = "countlab.integrations.online:main"
+countlab-preflight = "countlab.integrations.preflight:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

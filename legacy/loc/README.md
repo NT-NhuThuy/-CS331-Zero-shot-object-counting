@@ -15,6 +15,7 @@
 - `notebooks/03_refinements/`: ablation V7.1 và các phiên bản V7.2–V7.4.
 - `notebooks/04_validation/`: V7.5 multi-scale trên hai bộ validation khác nhau.
 - `notebooks/05_fresh_negative/`: chuẩn bị và kiểm thử safety trên hard-negative mới.
+- [PrACo Test-1 official adapter A/B + V7.6](docs/PRACO_TEST1_A_B_RESULTS.md): notebook, kết quả FULL 34.510 cặp, audit và giới hạn đánh giá riêng.
 - `results/`: kết quả dự đoán từng ảnh, metrics, audit và protocol.
 - `data/`: bảng nhãn và metadata **không chứa ảnh gốc FSC-147**.
 - `reports/`, `docs/`, `tools/`: phân tích và công cụ phụ trợ.

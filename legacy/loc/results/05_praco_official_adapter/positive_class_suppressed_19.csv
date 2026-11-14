@@ -1,0 +1,20 @@
+image_name,target,positive_class,baseline_count,semantic_count,first_label,second_label,decision_source
+2016.jpg,sunglasses,sunglasses,40.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2027.jpg,sunglasses,sunglasses,26.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2039.jpg,sunglasses,sunglasses,60.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2042.jpg,sunglasses,sunglasses,93.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2044.jpg,sunglasses,sunglasses,27.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2048.jpg,sunglasses,sunglasses,31.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2054.jpg,sunglasses,sunglasses,133.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+2180.jpg,apples,apples,241.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+3111.jpg,crab cakes,crab cakes,21.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+3112.jpg,crab cakes,crab cakes,10.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+3114.jpg,crab cakes,crab cakes,17.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+6839.jpg,watches,watches,74.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+7065.jpg,elephants,elephants,17.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+7253.jpg,comic books,comic books,48.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+7359.jpg,comic books,comic books,42.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+7611.jpg,legos,legos,900.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+989.jpg,watches,watches,73.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+995.jpg,watches,watches,22.0,0.0,NO,NO,NEW_QWEN_INFERENCE
+996.jpg,watches,watches,19.0,0.0,NO,NO,NEW_QWEN_INFERENCE

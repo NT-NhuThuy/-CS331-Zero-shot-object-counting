@@ -1,0 +1,11 @@
+{
+  "regime_id": "FSC147_TEST_1190_PLUS_ABSENT111_EXPLORATORY",
+  "components": ["Thu Joint V3.2 and A3", "Loc V7/V7.5"],
+  "n_positive": 1190,
+  "n_hard_negative": 111,
+  "hard_negative_origin": "mined/observed during method development",
+  "positive_exemplars": 3,
+  "negative_exemplar_alignment": "NOT_EQUAL_TO_POSITIVE_VERIFY_PER_ARM",
+  "status": "EXPLORATORY_ALREADY_EXPOSED",
+  "forbidden_claim": "independent test generalization"
+}

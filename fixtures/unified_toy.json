@@ -1,0 +1,17 @@
+{
+  "schema": "countlab_candidate_pool_v1",
+  "image_id": "toy-image-001",
+  "query_id": "toy-chair-001",
+  "query_text": "chair",
+  "baseline_count": 2,
+  "baseline": [
+    {"candidate_id": "b-chair", "view_id": "full", "box_xyxy": [0, 0, 20, 20], "confidence": 0.96, "risk_hint": 0.1, "evidence": {"semantic": "YES", "whole_instance": "YES"}},
+    {"candidate_id": "b-false", "view_id": "full", "box_xyxy": [40, 0, 58, 18], "confidence": 0.47, "risk_hint": 0.95, "evidence": {"semantic": "NO", "whole_instance": "NO"}}
+  ],
+  "rescue": [
+    {"candidate_id": "r-tile-left", "view_id": "tile-left", "box_xyxy": [76, 3, 94, 21], "confidence": 0.77, "risk_hint": 0.7, "evidence": {"semantic": "YES", "whole_instance": "YES"}},
+    {"candidate_id": "r-tile-right", "view_id": "tile-right", "box_xyxy": [77, 3, 95, 21], "confidence": 0.73, "risk_hint": 0.65, "evidence": {"semantic": "YES", "whole_instance": "YES"}}
+  ],
+  "identity_edges": [{"a": "r-tile-left", "b": "r-tile-right", "relation": "SAME"}],
+  "metadata": {"protocol_version": "demo-only-not-an-experiment", "model_checkpoint_sha256": "toy-placeholder"}
+}

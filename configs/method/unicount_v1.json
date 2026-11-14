@@ -1,0 +1,9 @@
+{
+  "method_id": "UNICOUNT_V1_CPU_REPLAY",
+  "policy": {
+    "baseline_rescue_match_iou": 0.5,
+    "identity_min_same_iou": 0.1,
+    "identity_overlap_ambiguity_iou": 0.3
+  },
+  "status": "freeze-before-new-evaluation; demonstration only; not an A-star method claim"
+}

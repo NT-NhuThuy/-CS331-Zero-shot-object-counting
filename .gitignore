@@ -1,0 +1,21 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.env.*
+!.env.example
+**/checkpoints/
+**/weights/
+**/raw_images/
+**/datasets/
+**/wandb/
+**/runs/
+**/logs/
+**/tmp/
+.DS_Store
+# Local unified-method outputs and scratch replay data
+local_*_manifests/
+toy_result.json
+local_toy_output.json
