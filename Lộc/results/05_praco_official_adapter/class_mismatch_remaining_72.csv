@@ -1,0 +1,73 @@
+image_name,target,positive_class,baseline_count,semantic_count,first_label,second_label,decision_source
+1106.jpg,stamps,markers,69.0,69.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+1467.jpg,apples,keyboard keys,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2152.jpg,finger foods,apples,12.0,12.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2162.jpg,finger foods,apples,16.0,16.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2189.jpg,finger foods,apples,5.0,5.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2243.jpg,finger foods,apples,39.0,39.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2244.jpg,sauce bottles,apples,2.0,2.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+2920.jpg,apples,stamps,9.0,9.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+296.jpg,finger foods,strawberries,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3111.jpg,finger foods,crab cakes,3.0,3.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3114.jpg,finger foods,crab cakes,2.0,2.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3114.jpg,sauce bottles,crab cakes,6.0,6.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3154.jpg,finger foods,cashew nuts,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3269.jpg,crab cakes,finger foods,20.0,20.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3276.jpg,eggs,finger foods,18.0,18.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3279.jpg,candy pieces,finger foods,23.0,23.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3283.jpg,potato chips,finger foods,37.0,37.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+329.jpg,candy pieces,strawberries,48.0,48.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3315.jpg,finger foods,green peas,207.0,207.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3328.jpg,marbles,green peas,18.0,18.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3332.jpg,finger foods,green peas,10.0,10.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+3338.jpg,finger foods,green peas,28.0,28.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+343.jpg,finger foods,strawberries,14.0,14.0,NO,YES,NEW_QWEN_INFERENCE
+3697.jpg,finger foods,candy pieces,11.0,11.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4084.jpg,candy pieces,marbles,13.0,13.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4088.jpg,green peas,marbles,15.0,15.0,NO,YES,NEW_QWEN_INFERENCE
+4118.jpg,candy pieces,finger foods,13.0,13.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4118.jpg,crab cakes,finger foods,5.0,5.0,NO,YES,NEW_QWEN_INFERENCE
+4170.jpg,finger foods,potato chips,34.0,34.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4173.jpg,finger foods,potato chips,6.0,6.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4290.jpg,marbles,green peas,10.0,10.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4301.jpg,finger foods,green peas,7.0,7.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4498.jpg,tree logs,skis,236.0,236.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4918.jpg,finger foods,strawberries,22.0,22.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4921.jpg,candy pieces,strawberries,22.0,22.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4921.jpg,finger foods,strawberries,22.0,22.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+4921.jpg,sauce bottles,strawberries,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5145.jpg,finger foods,cashew nuts,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5371.jpg,red beans,marbles,11.0,11.0,NO,YES,NEW_QWEN_INFERENCE
+5376.jpg,potato chips,finger foods,14.0,14.0,NO,YES,NEW_QWEN_INFERENCE
+5377.jpg,crab cakes,finger foods,4.0,4.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5379.jpg,strawberries,finger foods,19.0,19.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5382.jpg,candy pieces,finger foods,9.0,9.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5382.jpg,eggs,finger foods,9.0,9.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5382.jpg,marbles,finger foods,9.0,9.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5459.jpg,marbles,green peas,75.0,75.0,NO,YES,NEW_QWEN_INFERENCE
+5505.jpg,finger foods,green peas,4.0,4.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5562.jpg,eggs,finger foods,13.0,13.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5563.jpg,candy pieces,finger foods,193.0,193.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5566.jpg,cashew nuts,finger foods,27.0,27.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5574.jpg,candy pieces,marbles,103.0,103.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5599.jpg,carrom board pieces,marbles,1.0,1.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5800.jpg,finger foods,cashew nuts,1.0,1.0,NO,YES,NEW_QWEN_INFERENCE
+5822.jpg,finger foods,strawberries,6.0,6.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5856.jpg,finger foods,strawberries,2.0,2.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+5922.jpg,sauce bottles,eggs,5.0,5.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+6042.jpg,sheep,stamps,12.0,12.0,NO,YES,NEW_QWEN_INFERENCE
+6049.jpg,stamps,keyboard keys,86.0,86.0,NO,YES,NEW_QWEN_INFERENCE
+6254.jpg,finger foods,apples,9.0,9.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+6713.jpg,tree logs,sheep,47.0,47.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+6869.jpg,sheep,elephants,12.0,12.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7023.jpg,apples,keyboard keys,74.0,74.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7131.jpg,sticky notes,keyboard keys,129.0,129.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7219.jpg,markers,nail polish,51.0,51.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7219.jpg,sauce bottles,nail polish,51.0,51.0,NO,YES,NEW_QWEN_INFERENCE
+7339.jpg,green peas,markers,106.0,106.0,NO,YES,NEW_QWEN_INFERENCE
+7345.jpg,apples,keyboard keys,75.0,75.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7424.jpg,apples,eggs,7.0,7.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
+7522.jpg,marbles,keyboard keys,83.0,83.0,NO,YES,NEW_QWEN_INFERENCE
+7522.jpg,sheep,keyboard keys,84.0,84.0,NO,YES,NEW_QWEN_INFERENCE
+7522.jpg,stamps,keyboard keys,88.0,88.0,NO,YES,NEW_QWEN_INFERENCE
+7714.jpg,sticky notes,eggs,8.0,8.0,YES,NOT_RUN,NEW_QWEN_INFERENCE
