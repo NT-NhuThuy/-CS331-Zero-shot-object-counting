@@ -1,0 +1,6 @@
+claim_id,owner,cohort,n,baseline_mae,method_mae,claim_strength,restriction,source_path
+T1,Thu,FSC147 TEST+hard-negative unified,1301,15.9908,13.2280,exploratory,TEST and negatives observed; mixed exemplar settings,legacy/thu/RESEARCH.md
+L1,Loc,PrACo Test1 positive,1190,12.180672,13.528571,audited descriptive,positive MAE worsens; not independent test,legacy/loc/docs/PRACO_TEST1_A_B_RESULTS.md
+L2,Loc,PrACo Test1 mismatch,34510,,,aided descriptive,mismatch_nonzero 9.3427% to 0.2161%; not absence FPR,legacy/loc/docs/PRACO_TEST1_A_B_RESULTS.md
+Y1,Thuy,V14 LVIS-derived locked reported,180,1.761111,1.1,holdout reported,raw inference artifacts absent from mirror; source split unverified,legacy/thuy/branch/FQIE_BIDIRECTIONAL_HOLDOUT_RESULTS_20261116.md
+Y2,Thuy,V13 development reported,180,4.116667,2.894444,development,do not use as independent test,legacy/thuy/results/fqie_bidirectional/dev/offline_metrics.json

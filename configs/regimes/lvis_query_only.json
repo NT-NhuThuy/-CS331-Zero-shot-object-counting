@@ -1,0 +1,14 @@
+{
+  "regime_id": "LVIS_QUERY_ONLY_FROZEN",
+  "primary_input": "image + category query",
+  "official_test_seen_by_team": "VERIFY_FOR_EACH_SOURCE",
+  "backbone": "CountGD++",
+  "checkpoint_sha256": "FILL_FROM_RUN_LOCK",
+  "prompt": "FILL_FROM_RUN_LOCK",
+  "num_pseudo_exemplars": "FILL_FROM_RUN_LOCK",
+  "evidence_annotation": ["target_box", "whole_instance", "semantic_confuser", "identity_id", "source_image_id"],
+  "query_gt_access_before_prediction_freeze": false,
+  "fallback": "preserve baseline count for no-evidence cases",
+  "claims": ["count MAE on locked split", "verified-instance quality ONLY if region GT is available"],
+  "status": "TEMPLATE_ONLY_NOT_EXECUTABLE"
+}

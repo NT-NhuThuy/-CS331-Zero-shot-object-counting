@@ -1,0 +1,14 @@
+{
+  "stage": "PrACo Test1 official adapter + frozen V7.6",
+  "official_checkpoint_sha": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "official_synth_json_sha": "36f2142946464917f95b4503a7baa76a5d58a3a501a9db28554d9a64f0ec7fc2",
+  "official_protocol_sha": "ab3a19afe6447047e71e4688fab39111b3c0ae90e02868a486bbecca341ba91c",
+  "roster_sha": "b73d78d0e21d089cdd875913fe861929904bc7842e600e84ff5a562d439eae39",
+  "qwen_model": "Qwen/Qwen3-VL-4B-Instruct",
+  "qwen_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "prompt_sha256": "100ad406e0f099eae92857fec1cf8a4412d234aba1bb484db04e37378991f2d0",
+  "parse_policy": "exact single YES|NO|UNCERTAIN, else UNCERTAIN",
+  "suppress_policy": "baseline>0 and first==NO and second==NO",
+  "generation": "max_new_tokens=32, do_sample=False; original FP16 model",
+  "protocol_sha256": "dbca095a01558ce10361255ac2c94a71e070560f7f24be8b712a1cb192d6cbc7"
+}

@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+.venv/
+.env
+.env.*
+!.env.example
+**/checkpoints/
+**/weights/
+**/raw_images/
+**/datasets/
+**/wandb/
+**/runs/
+**/logs/
+**/tmp/
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "regime_id": "PRACO_TEST1_OFFICIAL_ADAPTER",
+  "source": "legacy/loc/docs/PRACO_TEST1_A_B_RESULTS.md",
+  "n_image_query_pairs": 34510,
+  "n_images": 1190,
+  "n_queries_per_image": 29,
+  "baseline_type": "CountGD++ native PrACo adapter with synthetic/pseudo exemplars",
+  "model_revision": "Qwen/Qwen3-VL-4B-Instruct@ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "test_seen": true,
+  "benchmark_note": "negative-label CLASS MISMATCH is not verified visual absence",
+  "warning": "positive MAE worsened 12.1807 to 13.5286; 19 positives suppressed",
+  "status": "AUDITED_ARCHIVE_NOT_FRESH_HOLDOUT"
+}

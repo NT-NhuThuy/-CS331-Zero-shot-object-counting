@@ -1,0 +1,34 @@
+{
+  "n_pairs": 1301,
+  "n_source_clusters": 1190,
+  "baseline_mae": 15.990776325903152,
+  "method_mae": 13.228045811446934,
+  "paired_delta_mae": -2.7627305144562175,
+  "relative_mae_reduction_pct": 17.277025568676883,
+  "wins": 744,
+  "losses": 557,
+  "ties": 0,
+  "two_sided_sign_test_p": 2.401241442379692e-07,
+  "source_cluster_bootstrap_ci95": [
+    -3.4068224394645057,
+    -2.2155406026397175
+  ],
+  "bootstrap_replicates": 1000,
+  "seed": 20261114,
+  "strata": {
+    "0": {
+      "n": 111,
+      "baseline_mae": 62.52252252252252,
+      "method_mae": 46.239354391355775
+    },
+    "1": {
+      "n": 1190,
+      "baseline_mae": 11.650420168067226,
+      "method_mae": 10.148839717018463
+    }
+  },
+  "caveat": "Exploratory until lineage, locked split, GT access, and independence are externally verified.",
+  "claim_level": "EXPLORATORY_OLD_TEST_EXPOSED_NOT_SOTA",
+  "input_file": "legacy/thu/outputs/joint_semantic_counting_v1/p17_01_three_view_paired_v1/paired_predictions_and_errors.csv",
+  "input_sha256": "c2199af655a13368b11a3fb2a379641380ec4633498d0f6ec2f5fffa90bdc0c3"
+}

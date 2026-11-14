@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "benchmark": "PrACo Test-1 Negative Label (NOT Mosaic Test-2)",
+  "n_pairs": 34510,
+  "n_images": 1190,
+  "n_classes": 29,
+  "a_baseline_positive": 4303,
+  "zero_no_qwen": 30207,
+  "new_qwen_inference": 4303,
+  "reused_qwen": 0,
+  "suppressed_total": 3060,
+  "positive_class_suppressed": 19,
+  "class_mismatch_suppressed": 3041,
+  "class_mismatch_remaining_nonzero": 72,
+  "negative_elapsed_sec_audit": 299,
+  "zip_a_sha256": "523db846cd2f46ce8df7c7ae6f3b472ddffa9ceaa8cf5a17e1b05f3e90355e27",
+  "zip_b_sha256": "e0301ef2d65bfa77310f6386105ea4b9716e07beb2d5769022e49b04da6c7b62",
+  "a_protocol_sha256": "ab3a19afe6447047e71e4688fab39111b3c0ae90e02868a486bbecca341ba91c",
+  "b_protocol_sha256": "dbca095a01558ce10361255ac2c94a71e070560f7f24be8b712a1cb192d6cbc7",
+  "qwen_revision": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+  "sealed_predictions_sha256": "0346f78f2727ee50d8a67e477a8d70bb56ccedf56e94580d46bb97fc662a6b6a",
+  "note": "Class mismatch is not the same as verified target absence. TEST has already been viewed; do not retune prompts to claim held-out performance.",
+  "metrics_from_archive": [
+    {
+      "Model": "baseline_count",
+      "n_images": 1190,
+      "AvgNP": 1.085749682562181,
+      "AvgNMN": 0.08110061170521,
+      "PCCN": 97.98319327731092,
+      "MAE": 12.180672268907562,
+      "RMSE": 100.0072308310124,
+      "mismatch_nonzero_rate": 0.0934273709483793,
+      "positive_zero": 0
+    },
+    {
+      "Model": "semantic_count",
+      "n_images": 1190,
+      "AvgNP": 1.0684610465072386,
+      "AvgNMN": 0.00204186364673,
+      "PCCN": 97.05882352941175,
+      "MAE": 13.528571428571428,
+      "RMSE": 115.14547977495704,
+      "mismatch_nonzero_rate": 0.0021608643457382,
+      "positive_zero": 19
+    }
+  ]
+}
