@@ -1,0 +1,214 @@
+{
+  "byte_duplicate_examples": [
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "06434b801db1671a0dd579d497dfb1b40994606281fa7872c0519de4f26ec6f3",
+      "source_image_ids": [
+        "FSC147:5460.jpg",
+        "FSC147:5503.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "0b00528a82c68b5b111f928bd521574674340ebfd4e76eedb86baab5cfc6eabf",
+      "source_image_ids": [
+        "FSC147:3282.jpg",
+        "FSC147:3285.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "4604e365f7298ea8ca9c29db73bf18d636ccd09547bd75cb44eba09001b7e0ae",
+      "source_image_ids": [
+        "FSC147:4300.jpg",
+        "FSC147:5506.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "60c0e2098aead899d61c94a7bbe436a10551b4f4d37e282f5caa08928a5a18be",
+      "source_image_ids": [
+        "FSC147:3648.jpg",
+        "FSC147:5141.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "67be40730f1409e971f6e5bc677396e4903895253e23fe38109d6807906f9bc1",
+      "source_image_ids": [
+        "FSC147:5142.jpg",
+        "FSC147:5801.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "73ea0d8ea00385eeb546d4b78e55d56642b5b324091668dcb1d28865abb903d3",
+      "source_image_ids": [
+        "FSC147:3652.jpg",
+        "FSC147:5147.jpg",
+        "FSC147:5806.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "75d52b4e39be1170eb4742ef7a7648caffa2719d2c244faddef8d44baddc4343",
+      "source_image_ids": [
+        "FSC147:4114.jpg",
+        "FSC147:5391.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "7728c3d1c45a0a915ea09c255cae42dc863639820f9c6ae69261ff135787f23c",
+      "source_image_ids": [
+        "FSC147:3647.jpg",
+        "FSC147:5144.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "8714b6e17e342a79af0adb67bfee08e6102cf56bd3713808d948e94de81051d8",
+      "source_image_ids": [
+        "FSC147:3644.jpg",
+        "FSC147:5794.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "adb56dbda4a0ccd6de83095e4d0d9c301fccb35128af2853511c6f8a417e5feb",
+      "source_image_ids": [
+        "FSC147:3646.jpg",
+        "FSC147:5145.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "b30993bcc95b63ec2de8b5f48a43fe9e756049745d37db5853cae42bdd206c07",
+      "source_image_ids": [
+        "FSC147:3656.jpg",
+        "FSC147:5798.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "b5bf2e245ff29ee2f1fb8107fef429db1daec21d071f946b5eb6f7ef2a57065d",
+      "source_image_ids": [
+        "FSC147:5148.jpg",
+        "FSC147:5803.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "ec90b1781edfb6fc3f0497808584731a2a9d55cfb94cdd6ea2aaad471745bd3c",
+      "source_image_ids": [
+        "FSC147:5149.jpg",
+        "FSC147:5807.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "ecd129c1d4de6bd48f89207b2a655aa599cc8be0d9e161e3d6184f5e42a64c2e",
+      "source_image_ids": [
+        "FSC147:7640.jpg",
+        "FSC147:7665.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "eefe516f70c048d6ad964441bc35c0ddc4ac91b02a37b96656d0b86ede629bd7",
+      "source_image_ids": [
+        "FSC147:3645.jpg",
+        "FSC147:5797.jpg"
+      ]
+    },
+    {
+      "cohorts": [
+        "FSC147_1301"
+      ],
+      "image_sha256": "f4ad616858fc34902eb3ad14f9eacc8c21a40d495d055b1425940fe808dcf1eb",
+      "source_image_ids": [
+        "FSC147:4290.jpg",
+        "FSC147:5458.jpg"
+      ]
+    }
+  ],
+  "cohort_pair_counts": {
+    "FSC147_1301": 1301,
+    "LVIS_DEV": 2000,
+    "LVIS_TEST": 2000,
+    "LVIS_TRAIN": 20000
+  },
+  "file_integrity_status": "PASS",
+  "g0_decision": "HOLD",
+  "historical_manifest_comparison": {
+    "extra_in_manifest": 0,
+    "missing_in_manifest": 0
+  },
+  "id_path_conflict_examples": [],
+  "kind": "byte_exact_identity_only",
+  "ledger_sha256": "b99acf9c1b71bbbef1af435b2f20822f0053a5b4946638adc974d2b26245481f",
+  "limits": [
+    "SHA256 only detects byte-identical images.",
+    "Re-encoded or cropped duplicates may be missed.",
+    "Historical cohorts remain exposed.",
+    "No independent FINAL_SEALED split is established.",
+    "Thuy/Loc original-image lineage is not yet verified.",
+    "GT values are not used by this audit."
+  ],
+  "missing_image_examples": [],
+  "n_byte_duplicate_groups_across_distinct_source_ids": 16,
+  "n_id_path_conflicts": 0,
+  "n_images_hashed": 13190,
+  "n_missing_images": 0,
+  "n_pairs": 25301,
+  "n_unique_declared_source_ids": 13190,
+  "schema": "countlab_p03_image_identity_report_v1",
+  "source_csvs": {
+    "FSC147_1301": {
+      "path": "generated/fsc147_presence_v4/test_pairs_1301.csv",
+      "sha256": "7bc6800d0d9a7a06ad332e69f5381cd88c9e3bd436fa0b8ea94d28f628437509"
+    },
+    "LVIS_DEV": {
+      "path": "generated/joint_semantic_counting_v1/lvis_semantic_dev_pairs_v1.csv",
+      "sha256": "d6a81892c3fdf5efc913e97f3e66e93d2e0943178d12afcebd9da90cc4de610e"
+    },
+    "LVIS_TEST": {
+      "path": "generated/joint_semantic_counting_v1/lvis_semantic_test_pairs_v1.csv",
+      "sha256": "1dfe36ff4be07a69e0a38f6379406931a531b9c9dddca027f60a3da1f8b9fff1"
+    },
+    "LVIS_TRAIN": {
+      "path": "generated/joint_semantic_counting_v1/lvis_train_semantic_pairs_v1.csv",
+      "sha256": "ca0044258c74ad2706c7e066528010b935c375f542b51426291f7e6693c35808"
+    }
+  }
+}
