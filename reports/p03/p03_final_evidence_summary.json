@@ -1,0 +1,26 @@
+{
+  "schema": "countlab_p03_final_evidence_v1",
+  "pairs": 25301,
+  "source_ids": 13190,
+  "images_hashed": 13190,
+  "missing_images": 0,
+  "byte_duplicate_groups": 16,
+  "cross_cohort_byte_duplicates": 0,
+  "loc_thu_shared_absent111": 111,
+  "thuy_experiments": 11,
+  "thuy_with_source_roster": 0,
+  "fresh126_rows": 126,
+  "manual160_rows": 160,
+  "fresh_shared_image_query_keys": 126,
+  "fresh_shared_image_names": 126,
+  "source_hashes": {
+    "historical_manifest": "96c61927c473036b9415f5c875c823b5b3b220ddf13e850e6a43d0e7c770f110",
+    "image_ledger": "b99acf9c1b71bbbef1af435b2f20822f0053a5b4946638adc974d2b26245481f",
+    "source_identity_report": "778ff7d491593ce11451aab81b66adadab154bafd892ab4716ad543da521e211",
+    "team_lineage_report": "a44aae9a1f5f74e44c48e946677cce3f9d1f4bbe95d744e8fa060cbac3c88f66",
+    "fresh126": "371e4b99d72ee4fbbffd752cbe1dea1ead35c1f0e0ed939529d0f11642d4b829",
+    "manual160": "4a520cf8ecf5c615cf6eca6d76da09e5bf175ff487a287c5859133d68914b7ec"
+  },
+  "historical_file_integrity": "PASS",
+  "g0_decision": "HOLD"
+}

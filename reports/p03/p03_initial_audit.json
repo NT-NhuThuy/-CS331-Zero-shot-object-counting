@@ -1,0 +1,16 @@
+{
+  "metadata_audit": {
+    "status": "PASS",
+    "n_rows": 25301,
+    "n_source_images": 13190,
+    "split_counts": {
+      "EXPOSED_REFERENCE": 25301
+    },
+    "issues": [],
+    "note": "PASS verifies declared metadata only; independent source identity and sealed status need provenance evidence."
+  },
+  "g0_decision": "HOLD",
+  "reason": "No independent FINAL_SEALED cohort established",
+  "cross_dataset_pixel_identity": "UNVERIFIED",
+  "manifest_sha256": "96c61927c473036b9415f5c875c823b5b3b220ddf13e850e6a43d0e7c770f110"
+}

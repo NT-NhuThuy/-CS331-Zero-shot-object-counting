@@ -1,0 +1,122 @@
+{
+  "schema": "countlab_p03_team_lineage_v1",
+  "fsc147": {
+    "rows": 1301,
+    "absent_pairs": 111,
+    "sha256": "7bc6800d0d9a7a06ad332e69f5381cd88c9e3bd436fa0b8ea94d28f628437509"
+  },
+  "loc": {
+    "verified_hard_negatives_111.csv": {
+      "rows": 111,
+      "sha256": "edb4865e448afdf6a5b1cef9fec74810227494cadabe951d6f808bb7394b3f01",
+      "unique_images": 96,
+      "image_overlap_with_fsc": 96,
+      "image_query_overlap_with_fsc": 111,
+      "image_query_overlap_with_fsc_absent111": 111,
+      "pair_id_overlap_with_fsc_absent111": 111,
+      "unique_pair_ids": 111
+    },
+    "fresh_negative_126_absent.csv": {
+      "rows": 126,
+      "sha256": "371e4b99d72ee4fbbffd752cbe1dea1ead35c1f0e0ed939529d0f11642d4b829",
+      "unique_images": 126,
+      "image_overlap_with_fsc": 0,
+      "image_query_overlap_with_fsc": 0,
+      "image_query_overlap_with_fsc_absent111": 0
+    },
+    "fresh_negative_160_manual_review.csv": {
+      "rows": 160,
+      "sha256": "4a520cf8ecf5c615cf6eca6d76da09e5bf175ff487a287c5859133d68914b7ec",
+      "unique_images": 160,
+      "image_overlap_with_fsc": 0,
+      "image_query_overlap_with_fsc": 0,
+      "image_query_overlap_with_fsc_absent111": 0
+    }
+  },
+  "thuy": [
+    {
+      "experiment": "E00_baseline_m0",
+      "sha256": "557d5e1a446c6528bb2313d9ceb4d063906e5d7e41d7be2e1332550fc63db8e6",
+      "status": "reported_pending_audit",
+      "cohort_id": "fsc_primary100_absent111",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E01_pseudo_exemplars",
+      "sha256": "3634c5d5f8ad9befdc17fb212ff4b0bce6cf183aa671a436a89e71e9ec3c3662",
+      "status": "reported_pending_audit",
+      "cohort_id": "pseudo_exemplar_runs",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E02_candidate_recall",
+      "sha256": "03661684bc67f1607e2df5c5a3d73f20ab901f97ef060dec6e5140c0e3120846",
+      "status": "reported_pending_audit",
+      "cohort_id": "candidate_recall_top900",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E03_a4_crop_nms",
+      "sha256": "63339f8ecc710cf1a5c9fdb85909f01bcd73f09583cba2e6b9fa61b8507e4883",
+      "status": "reported_pending_audit",
+      "cohort_id": "fsc_val_source_disjoint_300",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E04_b0_sam3",
+      "sha256": "d6ba7558ebe1d21857e38291e2b9d9188169ce88d3bc84c259d9a6636b30f79d",
+      "status": "reported_pending_audit",
+      "cohort_id": "fsc_primary100_sam3_transfer",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E05_multiview",
+      "sha256": "d5aa7795dd892a3cf4b688a6767f22a94868aaa07824e2fbaf1cad9e71c9a9c0",
+      "status": "reported_pending_audit",
+      "cohort_id": "raw_multiview_support",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E06_owlv2",
+      "sha256": "e188536ab0d762151b8e7adf5717eec75c5a413c727c2a84934f9b2e62d54167",
+      "status": "reported_pending_audit",
+      "cohort_id": "owlv2_hard_filter",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E07_box_merging",
+      "sha256": "f22e9c63a075042c09368a1d93b685036e94ef9ab79824b9c01f0e62bb2031ca",
+      "status": "reported_pending_audit",
+      "cohort_id": "containment_merging",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E08_sam2",
+      "sha256": "6e37b2f6f139ece2a7eefebf5dc23174823697cb4454d24272f4c4de058103ac",
+      "status": "reported_pending_audit",
+      "cohort_id": "sam2_relation_audit",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E09_resolution",
+      "sha256": "9f4f93ff9da4e110e3bec645551ae3a535e317e51930ca26d813f77a85383ab5",
+      "status": "reported_pending_audit",
+      "cohort_id": "higher_resolution_intervention",
+      "image_id_count": 0
+    },
+    {
+      "experiment": "E10_pseudo_sensitivity",
+      "sha256": "0f562522e7447a9ff2809850031997b7dbd77b054dd34aa59b56b384b8da24b8",
+      "status": "reported_pending_audit",
+      "cohort_id": "pseudo_exemplar_sensitivity",
+      "image_id_count": 0
+    }
+  ],
+  "g0_decision": "HOLD",
+  "limitations": [
+    "Name and query matching do not prove shared protocol.",
+    "Thuy manifests lack source image rosters.",
+    "Fresh negative label verification is not established.",
+    "No independent FINAL_SEALED cohort is proven."
+  ]
+}
