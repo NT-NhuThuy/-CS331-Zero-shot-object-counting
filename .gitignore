@@ -9,12 +9,27 @@ __pycache__/
 **/checkpoints/
 **/weights/
 **/raw_images/
+# Keep legacy/external datasets dirs ignored but allow our tracked metadata root.
 **/datasets/
+!/datasets/
 **/wandb/
 **/runs/
 **/logs/
 **/tmp/
 .DS_Store
+# Dataset metadata is tracked. Binary data stays local, not in Git.
+/datasets/_local/
+/datasets/**/raw/
+/datasets/**/images/
+/datasets/**/cache/
+/datasets/**/*.jpg
+/datasets/**/*.jpeg
+/datasets/**/*.png
+/datasets/**/*.npy
+/datasets/**/*.npz
+/datasets/**/*.pt
+/datasets/**/*.pth
+/datasets/**/*.safetensors
 # Local unified-method outputs and scratch replay data
 local_*_manifests/
 toy_result.json
