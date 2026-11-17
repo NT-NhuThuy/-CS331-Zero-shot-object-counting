@@ -1,0 +1,19 @@
+{
+  "schema": "countlab_p03_split_proposal_summary_v1",
+  "pair_rows": 25301,
+  "declared_source_ids": 13190,
+  "byte_exact_source_groups": 13173,
+  "multi_id_byte_groups": 16,
+  "rows_per_historical_cohort": {
+    "FSC147_1301": 1301,
+    "LVIS_DEV": 2000,
+    "LVIS_TEST": 2000,
+    "LVIS_TRAIN": 20000
+  },
+  "proposed_split": "EXPOSED_REFERENCE_ONLY",
+  "new_train_dev_cal_final_sealed": "NONE_APPROVED",
+  "g0_decision": "HOLD",
+  "source_ledger_sha256": "b99acf9c1b71bbbef1af435b2f20822f0053a5b4946638adc974d2b26245481f",
+  "roster_sha256": "424b59956e611e835e1c9ef9578d063d2023495c26bb5338cfa48e0c0bc7c676",
+  "warning": "Byte-exact grouping is provisional. Re-encoded duplicates and exposure history remain unverified."
+}
