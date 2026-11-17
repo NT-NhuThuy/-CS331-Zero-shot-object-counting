@@ -1,0 +1,1472 @@
+{
+  "experiments": [
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E00",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E01",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E02",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E03",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E04",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E05",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E06",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E07",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E08",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E09",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "E10",
+      "run_id": null
+    },
+    {
+      "detail": "no manifest, task index, per-query output, or source-image lineage artifact located in ZOC/, ZOC_research/, UNICOUNT_PRIVATE/",
+      "evidence_status": "NOT_LOCATED_IN_SCOPED_ROOTS",
+      "experiment_id": "V13",
+      "run_id": null
+    },
+    {
+      "detail": "query/manifests/results recovered; source image paths, source hashes and task index bytes absent",
+      "evidence_status": "PARTIAL_RECOVERED",
+      "experiment_id": "V14",
+      "n_entries": 54,
+      "run_id": "v14_original_cpu_repro_20261114"
+    }
+  ],
+  "missing_provenance_entries": [
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_6b86b273ff34fce1.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_6b86b273ff34fce1.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "210708",
+      "image_sha256": null,
+      "query_id": "1",
+      "query_text": "elephant .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_7902699be42c8a8e.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_7902699be42c8a8e.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "209503",
+      "image_sha256": null,
+      "query_id": "7",
+      "query_text": "jersey .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_6f4b6612125fb3a0.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_6f4b6612125fb3a0.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "175387",
+      "image_sha256": null,
+      "query_id": "21",
+      "query_text": "doorknob .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_785f3ec7eb32f30b.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_785f3ec7eb32f30b.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "117156",
+      "image_sha256": null,
+      "query_id": "22",
+      "query_text": "dress .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_b7a56873cd771f2c.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_b7a56873cd771f2c.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "324527",
+      "image_sha256": null,
+      "query_id": "25",
+      "query_text": "wet suit .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_5f9c4ab08cac7457.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_5f9c4ab08cac7457.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "514318",
+      "image_sha256": null,
+      "query_id": "26",
+      "query_text": "headlight .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_624b60c58c9d8bfb.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_624b60c58c9d8bfb.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "100253",
+      "image_sha256": null,
+      "query_id": "30",
+      "query_text": "saddle (on an animal) .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_c6f3ac57944a5314.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_c6f3ac57944a5314.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "2658",
+      "image_sha256": null,
+      "query_id": "33",
+      "query_text": "shoe .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_86e5014965866131.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_86e5014965866131.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "170398",
+      "image_sha256": null,
+      "query_id": "34",
+      "query_text": "candle .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_0b918943df0962bc.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_0b918943df0962bc.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "367386",
+      "image_sha256": null,
+      "query_id": "39",
+      "query_text": "flower arrangement .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_811786ad1ae74adf.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_811786ad1ae74adf.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "516553",
+      "image_sha256": null,
+      "query_id": "45",
+      "query_text": "wineglass .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_98010bd9270f9b10.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_98010bd9270f9b10.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "211737",
+      "image_sha256": null,
+      "query_id": "48",
+      "query_text": "baseball cap .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_031b4af5197ec30a.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_031b4af5197ec30a.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "276285",
+      "image_sha256": null,
+      "query_id": "51",
+      "query_text": "lettuce .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_41cfc0d1f2d127b0.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_41cfc0d1f2d127b0.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "4130",
+      "image_sha256": null,
+      "query_id": "52",
+      "query_text": "wheel .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_c837649cce43f272.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_c837649cce43f272.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "118065",
+      "image_sha256": null,
+      "query_id": "57",
+      "query_text": "scale (measuring instrument) .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_81b8a03f97e8787c.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_81b8a03f97e8787c.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "421834",
+      "image_sha256": null,
+      "query_id": "62",
+      "query_text": "bird .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_da4ea2a5506f2693.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_da4ea2a5506f2693.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "317169",
+      "image_sha256": null,
+      "query_id": "63",
+      "query_text": "giraffe .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_3ada92f28b4ceda3.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_3ada92f28b4ceda3.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "529813",
+      "image_sha256": null,
+      "query_id": "66",
+      "query_text": "street sign .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_49d180ecf5613281.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_49d180ecf5613281.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "350230",
+      "image_sha256": null,
+      "query_id": "67",
+      "query_text": "plate .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_a21855da08cb102d.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_a21855da08cb102d.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "129565",
+      "image_sha256": null,
+      "query_id": "68",
+      "query_text": "helmet .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_8722616204217edd.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_8722616204217edd.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "555050",
+      "image_sha256": null,
+      "query_id": "72",
+      "query_text": "minivan .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_f74efabef12ea619.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_f74efabef12ea619.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "298468",
+      "image_sha256": null,
+      "query_id": "76",
+      "query_text": "cruise ship .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_a88a7902cb4ef697.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_a88a7902cb4ef697.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "104568",
+      "image_sha256": null,
+      "query_id": "77",
+      "query_text": "sweet potato .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_98a3ab7c340e8a03.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_98a3ab7c340e8a03.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "21587",
+      "image_sha256": null,
+      "query_id": "79",
+      "query_text": "skateboard .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_bbb965ab0c80d653.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_bbb965ab0c80d653.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "80369",
+      "image_sha256": null,
+      "query_id": "83",
+      "query_text": "painting .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_8c1f1046219ddd21.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_8c1f1046219ddd21.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "194724",
+      "image_sha256": null,
+      "query_id": "99",
+      "query_text": "magazine .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_454f63ac30c83229.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_454f63ac30c83229.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "421762",
+      "image_sha256": null,
+      "query_id": "103",
+      "query_text": "broccoli .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_1253e9373e781b75.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_1253e9373e781b75.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "95908",
+      "image_sha256": null,
+      "query_id": "105",
+      "query_text": "mouse (computer equipment) .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_482d9673cfee5de3.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_482d9673cfee5de3.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "386321",
+      "image_sha256": null,
+      "query_id": "106",
+      "query_text": "wet suit .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_b1556dea32e9d0cd.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_b1556dea32e9d0cd.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "42471",
+      "image_sha256": null,
+      "query_id": "112",
+      "query_text": "clock tower .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_6c658ee83fb7e812.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_6c658ee83fb7e812.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "154399",
+      "image_sha256": null,
+      "query_id": "113",
+      "query_text": "cone .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_28dae7c8bde2f3ca.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_28dae7c8bde2f3ca.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "256844",
+      "image_sha256": null,
+      "query_id": "115",
+      "query_text": "toilet .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_2ac878b0e2180616.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_2ac878b0e2180616.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "232840",
+      "image_sha256": null,
+      "query_id": "117",
+      "query_text": "boom microphone .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_a665a45920422f9d.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_a665a45920422f9d.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "140203",
+      "image_sha256": null,
+      "query_id": "123",
+      "query_text": "watch .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_0f8ef3377b30fc47.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_0f8ef3377b30fc47.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "285748",
+      "image_sha256": null,
+      "query_id": "125",
+      "query_text": "toilet .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_65a699905c026193.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_65a699905c026193.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "534286",
+      "image_sha256": null,
+      "query_id": "126",
+      "query_text": "bird .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_38d66d9692ac5900.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_38d66d9692ac5900.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "357291",
+      "image_sha256": null,
+      "query_id": "130",
+      "query_text": "handbag .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_d2f483672c0239f6.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_d2f483672c0239f6.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "220732",
+      "image_sha256": null,
+      "query_id": "133",
+      "query_text": "truck .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_d6f0c71ef0c88e45.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_d6f0c71ef0c88e45.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "83382",
+      "image_sha256": null,
+      "query_id": "143",
+      "query_text": "broach .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_be47addbcb8f6056.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_be47addbcb8f6056.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "109136",
+      "image_sha256": null,
+      "query_id": "145",
+      "query_text": "windshield wiper .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_0a5b046d07f6f971.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_0a5b046d07f6f971.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "575574",
+      "image_sha256": null,
+      "query_id": "146",
+      "query_text": "frisbee .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_05ada863a4cf9660.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_05ada863a4cf9660.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "122597",
+      "image_sha256": null,
+      "query_id": "149",
+      "query_text": "ball .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_9ae2bdd7beedc2e7.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_9ae2bdd7beedc2e7.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "448410",
+      "image_sha256": null,
+      "query_id": "150",
+      "query_text": "railcar (part of a train) .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_8e612bd1f5d132a3.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_8e612bd1f5d132a3.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "18432",
+      "image_sha256": null,
+      "query_id": "151",
+      "query_text": "fork .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_043066daf2109523.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_043066daf2109523.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "142454",
+      "image_sha256": null,
+      "query_id": "152",
+      "query_text": "wall socket .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_620c9c332101a5ba.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_620c9c332101a5ba.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "441553",
+      "image_sha256": null,
+      "query_id": "153",
+      "query_text": "street sign .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_1d0ebea552eb43d0.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_1d0ebea552eb43d0.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "185282",
+      "image_sha256": null,
+      "query_id": "154",
+      "query_text": "candle .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_c75de23d89df36ba.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_c75de23d89df36ba.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "377183",
+      "image_sha256": null,
+      "query_id": "157",
+      "query_text": "cup .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_ff2ccb6ba423d356.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_ff2ccb6ba423d356.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "280307",
+      "image_sha256": null,
+      "query_id": "159",
+      "query_text": "tennis racket .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_bb668ca955632160.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_bb668ca955632160.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "444209",
+      "image_sha256": null,
+      "query_id": "161",
+      "query_text": "taillight .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_bc52dd634277c4a3.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_bc52dd634277c4a3.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "106498",
+      "image_sha256": null,
+      "query_id": "165",
+      "query_text": "clock .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_e0f05da93a0f5a86.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_e0f05da93a0f5a86.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "12991",
+      "image_sha256": null,
+      "query_id": "166",
+      "query_text": "laptop computer .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_73d3f1ba062585bc.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_73d3f1ba062585bc.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "427055",
+      "image_sha256": null,
+      "query_id": "167",
+      "query_text": "flower arrangement .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    },
+    {
+      "artifact_path": [
+        "UNICOUNT_PRIVATE/outputs/v14_original_cpu_repro_20261114/bidirectional_output.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/manifests/q_734d0759cdb4e0d0.json",
+        "UNICOUNT_PRIVATE/outputs/v14_unicount_import_20261114/results/q_734d0759cdb4e0d0.json"
+      ],
+      "dataset": "LVIS-v1-val (claimed by legacy artifact; source image unverified)",
+      "evidence": {
+        "import_manifest_present": true,
+        "original_output_sha256": "555b012828dbfd8cced2381474e13792a198d93ef274ff6db7cc34778c23454d",
+        "per_query_result_present": true,
+        "source_image_hash_evidence": "absent",
+        "source_image_path": null,
+        "task_index_sha256_claim": "d35b92f975efbf4c3077196b35575aef9aa47e8a8c57b7992acc40e27592b5c6",
+        "unary_sha256_claim": "3ee584aa07ea3aeed69a705ea2e117e3a0d55ca64bef69825fef1512af4b48ca"
+      },
+      "evidence_status": "ARTIFACT_QUERY_VERIFIED_SOURCE_UNVERIFIED",
+      "experiment_id": "V14",
+      "image_id": "416451",
+      "image_sha256": null,
+      "query_id": "170",
+      "query_text": "sofa .",
+      "run_id": "v14_original_cpu_repro_20261114",
+      "source_group": null
+    }
+  ],
+  "policy": {
+    "image_hash_required_for_cross_check": true,
+    "private_images_or_checkpoints_embedded": false,
+    "source_disjoint_inference": "FORBIDDEN_FROM_FILENAME_OR_QUERY_ONLY"
+  },
+  "schema": "historical_experiment_lineage_audit_v1",
+  "scope": [
+    "ZOC/",
+    "ZOC_research/ (if present)",
+    "UNICOUNT_PRIVATE/"
+  ],
+  "shareable": true,
+  "summary": {
+    "experiments_requested": [
+      "E00",
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "V13",
+      "V14"
+    ],
+    "experiments_with_recovered_entries": [
+      "V14"
+    ],
+    "g0_status": "BLOCKED_SOURCE_HASH_AND_HISTORICAL_SPLIT_USAGE_INCOMPLETE",
+    "n_missing_provenance_entries": 54,
+    "n_verified_entries": 0
+  },
+  "uses_gt": false,
+  "verified_entries": []
+}
