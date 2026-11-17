@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UNICOUNT image-query pair metadata v2 (evaluation/dataset only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pair_id",
+    "source_image_id",
+    "source_group_id",
+    "query_text",
+    "presence_label",
+    "count_target",
+    "annotation_status",
+    "split_role",
+    "protocol_id"
+  ],
+  "properties": {
+    "pair_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_image_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_group_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_image_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "query_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "presence_label": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "enum": [
+        0,
+        1,
+        null
+      ]
+    },
+    "count_target": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "annotation_status": {
+      "type": "string",
+      "enum": [
+        "DOUBLE_VERIFIED",
+        "SINGLE_REVIEW",
+        "LEGACY_VERIFIED_CLAIM",
+        "UNVERIFIED",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "split_role": {
+      "type": "string",
+      "enum": [
+        "EXPOSED_REFERENCE",
+        "TRAIN",
+        "DEV",
+        "CAL",
+        "FINAL_SEALED",
+        "UNASSIGNED"
+      ]
+    },
+    "protocol_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "image_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_dataset": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exemplar_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "reviewer_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "presence_label": {
+            "const": 0
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "count_target": {
+            "enum": [
+              0,
+              null
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "presence_label": {
+            "const": 1
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "count_target": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          }
+        }
+      }
+    }
+  ],
+  "description": "GT/presence fields here must not be forwarded to countlab_candidate_pool_v1 inference inputs. Unknown counts may remain null."
+}
