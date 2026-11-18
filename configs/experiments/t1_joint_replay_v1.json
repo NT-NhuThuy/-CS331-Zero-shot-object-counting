@@ -1,0 +1,17 @@
+{
+  "schema": "countlab_t1_experiment_config_v1",
+  "experiment_id": "T1_JOINT_REPLAY_V1",
+  "status": "SYNTHETIC_OR_FROZEN_EVIDENCE_REPLAY_ONLY",
+  "arms": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9"],
+  "include_experimental_joint": true,
+  "verification_budget": 4,
+  "pairwise_verification_budget": 4,
+  "policy": {
+    "score_threshold": 0.5,
+    "nms_iou": 0.5,
+    "identity_min_same_iou": 0.1,
+    "identity_ambiguity_iou": 0.3
+  },
+  "claims_allowed": false,
+  "note": "Thresholds are replay defaults only. Real method selection requires an approved CAL split; outputs contain no GT metrics."
+}
