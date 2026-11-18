@@ -36,7 +36,27 @@ def validate_policy(policy: dict | None) -> dict[str, float]:
 
 def run_method(data: dict[str, Any], *, budget: int | None = None,
                enable_recovery: bool = True, enable_identity: bool = True,
-               abstain_on_conflict: bool = False, policy: dict | None = None) -> dict[str, Any]:
+               abstain_on_conflict: bool = False, policy: dict | None = None,
+               arbitration: str = "sequential_v1", pairwise_budget: int | None = None,
+               pairwise_strategy: str = "impact") -> dict[str, Any]:
+    if arbitration not in {"sequential_v1", "joint_t1"}:
+        raise ValueError("arbitration must be sequential_v1 or joint_t1")
+    if arbitration == "joint_t1":
+        frozen_policy = validate_policy(policy)
+        from .joint_arbitration import run_joint_arbitration
+        out = run_joint_arbitration(
+            data,
+            budget=budget,
+            collision_iou=frozen_policy["baseline_rescue_match_iou"],
+            identity_min_same_iou=frozen_policy["identity_min_same_iou"],
+            pairwise_budget=pairwise_budget,
+            pairwise_strategy=pairwise_strategy,
+            abstain_on_unresolved=abstain_on_conflict,
+            enable_recovery=enable_recovery,
+            enable_identity=enable_identity,
+        )
+        out["method_variant"] = "joint_t1"
+        return out
     policy = validate_policy(policy)
     baseline, rescues, edges = parse_input(data)
     original_hash = hashlib.sha256(json.dumps(data, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
@@ -114,6 +134,7 @@ def run_method(data: dict[str, Any], *, budget: int | None = None,
                            {"stage": "bidirectional_reconcile", "count": point_count, "conflicts": conflicts}],
         "method_options": {"enable_recovery": enable_recovery,
                            "enable_identity": enable_identity, "abstain_on_conflict": abstain_on_conflict},
+        "method_variant": "sequential_v1",
         "input_sha256": original_hash,
         "method_policy": policy,
         "method_policy_sha256": hashlib.sha256(json.dumps(policy, sort_keys=True).encode()).hexdigest(),
