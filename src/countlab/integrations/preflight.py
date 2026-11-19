@@ -17,6 +17,21 @@ def hash_file(path: Path) -> str:
 
 
 def inspect(config: dict) -> dict:
+    from .countgd_official import PROTOCOL_ID as OFFICIAL_PROTOCOL_ID, inspect_assets
+    if config.get('protocol_id') == OFFICIAL_PROTOCOL_ID:
+        result = inspect_assets(config.get('official_countgd', {}))
+        if config.get('verification_budget', 0) > 0 or config.get('identity', {}).get('enabled'):
+            for pkg in ('transformers', 'qwen_vl_utils'):
+                if importlib.util.find_spec(pkg) is None:
+                    result['blockers'].append(f'Python dependency missing: {pkg}')
+            qwen = config.get('qwen', {})
+            if qwen.get('revision', 'main') in ('main', 'latest', 'REPLACE_WITH_EXACT_COMMIT_SHA', ''):
+                result['blockers'].append('exact pinned Qwen3-VL revision not set')
+        if config.get('identity', {}).get('enabled') and config['identity'].get('max_pairs', 0) < 1:
+            result['blockers'].append('identity enabled but verification budget is zero')
+        if result['blockers']:
+            result['status'] = 'BLOCKED'
+        return result
     blockers=[]; verified=[]
     if config.get('protocol_id')!=PROTOCOL_ID:
         blockers.append('Unexpected protocol: do not claim CountGD++ V14 parity')
