@@ -1,0 +1,8 @@
+{
+  "name": "T01/G0 Official pseudo3 frozen candidate review",
+  "status": "HOLD_WITH_EVIDENCE_NOT_DONE",
+  "source_snapshot": "UNICOUNT_V2_LOC_HARDENED_SOURCE_R1.zip",
+  "not_an_independent_reference": true,
+  "reference_approval": false,
+  "gpu_evidence_original": "UNICOUNT_T01_R10_GPU_EVIDENCE.zip"
+}

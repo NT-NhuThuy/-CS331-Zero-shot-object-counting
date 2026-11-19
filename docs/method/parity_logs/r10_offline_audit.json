@@ -1,0 +1,42 @@
+{
+  "audit_result": "EVIDENCE_INTEGRITY_PASS_EXTERNAL_PARITY_NOT_MEASURED",
+  "candidate_count_distribution": {
+    "0": 24,
+    "1": 1,
+    "2": 4,
+    "3": 1,
+    "8": 1,
+    "18": 1
+  },
+  "cautions": [],
+  "checkpoint_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "errors": [],
+  "g0": "HOLD",
+  "gpu_status": "T01_REAL_PSEUDO3_DIAGNOSTIC_32_PASS_PARITY_HOLD",
+  "historical_v14_parity": "HOLD",
+  "inference_seconds_median": 1.868,
+  "inference_seconds_sum": 59.024,
+  "matched_independent_reference_available_in_zip": false,
+  "pairs_nonzero": 8,
+  "pairs_zero": 24,
+  "parity_absent": "NOT_MEASURED",
+  "parity_present": "NOT_MEASURED",
+  "peak_gpu_allocated_mib_max": 1632.14,
+  "processed_pairs": 32,
+  "protocol_sha256": "121786020bead2e87d58e9dd6896d022ba2068d58feecfbbc4026113b57f497e",
+  "protocol_status": "CANDIDATE_FROZEN_P02_FP32_NOT_TEAM_APPROVED",
+  "pseudo_exemplars_per_pair": {
+    "0": 24,
+    "1": 3,
+    "2": 3,
+    "3": 2
+  },
+  "raw_npz_count": 32,
+  "schema": "unicount_t01_r10_offline_evidence_audit_v1",
+  "sha256_of_submitted_zip": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+  "t01_done": false,
+  "total_candidates": 38,
+  "two_pass_calls_total": 64,
+  "unique_candidate_ids": 38,
+  "verified_present_absent_labels_available_in_zip": false
+}

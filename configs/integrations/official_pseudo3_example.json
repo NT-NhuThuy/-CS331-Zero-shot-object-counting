@@ -1,0 +1,95 @@
+{
+  "protocol_id": "CGD_OFFICIAL_QUERY_ONLY_PSEUDO3_V1",
+  "official_countgd": {
+    "repo": "/REPLACE_WITH_PINNED_UPSTREAM_CHECKOUT",
+    "checkpoint": "/REPLACE_WITH_V14_CHECKPOINT",
+    "bert_dir": "/REPLACE_WITH_HASH_LOCKED_BERT",
+    "device": "cuda:0",
+    "protocol": {
+      "adapter": "CGD_OFFICIAL_QUERY_ONLY_PSEUDO3_V1",
+      "source_repo": "https://github.com/niki-amini-naieni/CountGDPlusPlus",
+      "source_commit": "2ecbc4331d6730d017f52a4a97bbcbae7d5d714a",
+      "source_git_blobs": {
+        "engine_inference.py": "32e2cecc2648975d3252985a18b86eed332d4f62",
+        "cfg_app.py": "d9ce134c0a2c3f9d864b5c39f9407b4068e4a685",
+        "datasets/transforms_app.py": "e4ac7ac8afde6e7a3d3d9746dbd87d2bde2e6879",
+        "util/misc.py": "4a3d759dea39fe8ad01f04d2bb19842b995f53e3",
+        "models/GroundingDINO/groundingdino_app.py": "710c95f0e4d6cbebbd5dcc29c1c72ecec3369586",
+        "models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.cu": "d6d583647cce987196d5ad1968a8a365a379e774"
+      },
+      "operating_point": {
+        "num_exemplars": 0,
+        "num_pseudo_exemplars": 3,
+        "caption_template": "{query} .",
+        "resize_short": 800,
+        "resize_max": 1333,
+        "normalization_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "normalization_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "box_threshold": 0.23,
+        "text_threshold": 0.0,
+        "seed": 42,
+        "precision": "float32",
+        "amp": false,
+        "crop": false,
+        "tt_norm": false,
+        "batch_size": 1,
+        "use_synth_exemplars": false,
+        "negative_prompts": [],
+        "query_handling": "verbatim_no_singularization",
+        "nms": false,
+        "pseudo_selection": "upstream_get_pseudo_exemplars_max_sigmoid_torch_sort_descending",
+        "final_filter": "max_sigmoid_gt_box_threshold_and_all_content_tokens_gt_text_threshold"
+      },
+      "checkpoint_sha256": "FILL_FROM_V14_RUN_LOCK_NOT_PRACO_MIRROR",
+      "cuda_extension_sha256": "FILL_FROM_V14_RUN_LOCK",
+      "bert_files_sha256": {
+        "config.json": "FILL_FROM_V14_RUN_LOCK",
+        "vocab.txt": "FILL_FROM_V14_RUN_LOCK",
+        "model.safetensors": "FILL_FROM_V14_RUN_LOCK"
+      },
+      "library_versions": {
+        "torch": "FILL_FROM_V14_RUN_LOCK",
+        "torchvision": "FILL_FROM_V14_RUN_LOCK",
+        "transformers": "FILL_FROM_V14_RUN_LOCK",
+        "timm": "FILL_FROM_V14_RUN_LOCK",
+        "numpy": "FILL_FROM_V14_RUN_LOCK",
+        "Pillow": "FILL_FROM_V14_RUN_LOCK"
+      },
+      "cuda_runtime": "FILL_FROM_V14_RUN_LOCK",
+      "runtime_flags": {
+        "matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_benchmark": false,
+        "deterministic_algorithms": false
+      }
+    },
+    "protocol_sha256": "a5c58bce922474d73def2afdf2f644ece184b22359f56e7a20b9cd4aafce921c"
+  },
+  "recovery": {
+    "trigger_baseline_le": -1,
+    "grids": [
+      2
+    ],
+    "overlap": 0.2,
+    "max_tiles": 4
+  },
+  "verification_budget": 0,
+  "method_policy": {
+    "baseline_rescue_match_iou": 0.5,
+    "identity_min_same_iou": 0.1,
+    "identity_overlap_ambiguity_iou": 0.3
+  },
+  "identity": {
+    "enabled": false,
+    "max_pairs": 0
+  },
+  "abstain_on_conflict": true
+}

@@ -1,0 +1,19 @@
+Fresh T01 CPU verification on integration base 3fb58ccedb690212270806313fe005c4c0c16213
+
+.....................................................                    [100%]
+53 passed in 4.22s
+CPU_IMPORT_EVIDENCE={"torch_imported": false, "transformers_imported": false}
+
+Raw CPU replay CLI:
+RAW_CPU_PARSER_REPLAY_PASS_NOT_INDEPENDENT_PARITY 32 38
+
+No-reference parity gate (expected exit 2):
+{
+  "schema": "t01_matched_reference_parity_v1",
+  "status": "HOLD_REFERENCE_LABELS_AND_SIGNOFF_REQUIRED",
+  "g0": "HOLD",
+  "r10_pairs_checked": 32,
+  "r10_archive_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+  "numeric_parity": "NOT_MEASURED",
+  "note": "No matched independent FP32 reference + verified separate strata + approval was supplied."
+}

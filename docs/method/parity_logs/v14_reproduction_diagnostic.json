@@ -1,0 +1,293 @@
+{
+  "by_stratum": {
+    "present": {
+      "counts_equal": 14,
+      "pairs": 15
+    },
+    "verified_absent": {
+      "counts_equal": 17,
+      "pairs": 17
+    }
+  },
+  "count_equal": 31,
+  "g0": "HOLD",
+  "matched_image_sha_and_query": 32,
+  "mismatch_source": "V14 AMP vs R10 FP32 is not a matched operating point",
+  "mismatches": [
+    {
+      "equal": false,
+      "image_id": 113,
+      "query": "cone",
+      "r10_count": 18,
+      "stratum": "present",
+      "v14_count": 19
+    }
+  ],
+  "missing_from_v14": [
+    "raw second-pass native indices",
+    "float original boxes at parity precision",
+    "full runtime/dirty source attestation"
+  ],
+  "r10_zip_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+  "rows": [
+    {
+      "equal": true,
+      "image_id": 138,
+      "query": "duckling",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 1,
+      "query": "elephant",
+      "r10_count": 2,
+      "stratum": "present",
+      "v14_count": 2
+    },
+    {
+      "equal": true,
+      "image_id": 144,
+      "query": "water scooter",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 36,
+      "query": "trash can",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 31,
+      "query": "typewriter",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 83,
+      "query": "painting",
+      "r10_count": 8,
+      "stratum": "present",
+      "v14_count": 8
+    },
+    {
+      "equal": true,
+      "image_id": 47,
+      "query": "tag",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": false,
+      "image_id": 113,
+      "query": "cone",
+      "r10_count": 18,
+      "stratum": "present",
+      "v14_count": 19
+    },
+    {
+      "equal": true,
+      "image_id": 112,
+      "query": "clock tower",
+      "r10_count": 2,
+      "stratum": "present",
+      "v14_count": 2
+    },
+    {
+      "equal": true,
+      "image_id": 107,
+      "query": "baseball glove",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 155,
+      "query": "puppet",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 127,
+      "query": "goggles",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 62,
+      "query": "bird",
+      "r10_count": 1,
+      "stratum": "present",
+      "v14_count": 1
+    },
+    {
+      "equal": true,
+      "image_id": 115,
+      "query": "toilet",
+      "r10_count": 2,
+      "stratum": "present",
+      "v14_count": 2
+    },
+    {
+      "equal": true,
+      "image_id": 179,
+      "query": "sour cream",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 91,
+      "query": "dish",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 49,
+      "query": "soap",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 28,
+      "query": "pepper mill",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 53,
+      "query": "watch",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 132,
+      "query": "banana",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 27,
+      "query": "ring",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 92,
+      "query": "grizzly",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 178,
+      "query": "cleat (for securing rope)",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 160,
+      "query": "pot",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 42,
+      "query": "beachball",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 177,
+      "query": "bed",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 24,
+      "query": "shoulder bag",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 25,
+      "query": "wet suit",
+      "r10_count": 0,
+      "stratum": "present",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 61,
+      "query": "salami",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 106,
+      "query": "wet suit",
+      "r10_count": 2,
+      "stratum": "verified_absent",
+      "v14_count": 2
+    },
+    {
+      "equal": true,
+      "image_id": 114,
+      "query": "wristlet",
+      "r10_count": 0,
+      "stratum": "verified_absent",
+      "v14_count": 0
+    },
+    {
+      "equal": true,
+      "image_id": 77,
+      "query": "sweet potato",
+      "r10_count": 3,
+      "stratum": "present",
+      "v14_count": 3
+    }
+  ],
+  "schema": "t01_v14_amp_fp32_count_diagnostic_v1",
+  "status": "DIAGNOSTIC_ONLY_NOT_G0_PARITY",
+  "v14_tar_sha256": "b82325773d4512897ac70fec44926d8f6cd75282e34b68d3576e605d54adb386"
+}

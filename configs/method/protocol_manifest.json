@@ -1,0 +1,121 @@
+{
+  "checkpoint_provenance": "P02 mirror; equivalence to V14 not established",
+  "dataset": "P02 32-pair GT-free exposed diagnostic; not approved G0 roster",
+  "full_config_protocol": {
+    "adapter": "CGD_OFFICIAL_QUERY_ONLY_PSEUDO3_V1",
+    "bert_files_sha256": {
+      "config.json": "f2375bb637ff0932102389231414227f0517017a8b8d724d084d9229fd5966e1",
+      "model.safetensors": "5875f83030335d194f35b15a32e7f4e654aa302aa83af032a3f36d035dcaf8af",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "f62a57a75856b93282501c92a86f62b169997c81e93cf6f75b7cc15d6285968e",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "checkpoint_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+    "cuda_extension_sha256": "3150183bc39192673cce028c53775fe73417a6c66ff309c1f505fdf61ca7aac4",
+    "cuda_runtime": "12.8",
+    "library_versions": {
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "timm": "0.9.16",
+      "torch": "2.9.1+cu128",
+      "torchvision": "0.24.1+cu128",
+      "transformers": "4.39.1"
+    },
+    "operating_point": {
+      "amp": false,
+      "batch_size": 1,
+      "box_threshold": 0.23,
+      "caption_template": "{query} .",
+      "crop": false,
+      "final_filter": "max_sigmoid_gt_box_threshold_and_all_content_tokens_gt_text_threshold",
+      "negative_prompts": [],
+      "nms": false,
+      "normalization_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "normalization_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "num_exemplars": 0,
+      "num_pseudo_exemplars": 3,
+      "precision": "float32",
+      "pseudo_selection": "upstream_get_pseudo_exemplars_max_sigmoid_torch_sort_descending",
+      "query_handling": "verbatim_no_singularization",
+      "resize_max": 1333,
+      "resize_short": 800,
+      "seed": 42,
+      "text_threshold": 0.0,
+      "tt_norm": false,
+      "use_synth_exemplars": false
+    },
+    "runtime_flags": {
+      "cudnn_allow_tf32": true,
+      "cudnn_benchmark": false,
+      "deterministic_algorithms": false,
+      "matmul_allow_tf32": false
+    },
+    "source_commit": "2ecbc4331d6730d017f52a4a97bbcbae7d5d714a",
+    "source_git_blobs": {
+      "cfg_app.py": "d9ce134c0a2c3f9d864b5c39f9407b4068e4a685",
+      "datasets/transforms_app.py": "e4ac7ac8afde6e7a3d3d9746dbd87d2bde2e6879",
+      "engine_inference.py": "32e2cecc2648975d3252985a18b86eed332d4f62",
+      "models/GroundingDINO/groundingdino_app.py": "710c95f0e4d6cbebbd5dcc29c1c72ecec3369586",
+      "models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.cu": "d6d583647cce987196d5ad1968a8a365a379e774",
+      "util/misc.py": "4a3d759dea39fe8ad01f04d2bb19842b995f53e3"
+    },
+    "source_repo": "https://github.com/niki-amini-naieni/CountGDPlusPlus"
+  },
+  "g0": "HOLD",
+  "historical_v14": "HOLD",
+  "model_source_git_blobs_verified": {
+    "cfg_app.py": "d9ce134c0a2c3f9d864b5c39f9407b4068e4a685",
+    "datasets/transforms_app.py": "e4ac7ac8afde6e7a3d3d9746dbd87d2bde2e6879",
+    "engine_inference.py": "32e2cecc2648975d3252985a18b86eed332d4f62",
+    "models/GroundingDINO/groundingdino_app.py": "710c95f0e4d6cbebbd5dcc29c1c72ecec3369586",
+    "models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.cu": "d6d583647cce987196d5ad1968a8a365a379e774",
+    "util/misc.py": "4a3d759dea39fe8ad01f04d2bb19842b995f53e3"
+  },
+  "observed_official_adapter_sha256": "b0890cd15a5e46d055ad6680a0a29bdaf2aae9c73e125bb9cbf9892c69a87773",
+  "operating_point": {
+    "amp": false,
+    "batch_size": 1,
+    "box_threshold": 0.23,
+    "caption_template": "{query} .",
+    "crop": false,
+    "final_filter": "max_sigmoid_gt_box_threshold_and_all_content_tokens_gt_text_threshold",
+    "negative_prompts": [],
+    "nms": false,
+    "normalization_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "normalization_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "num_exemplars": 0,
+    "num_pseudo_exemplars": 3,
+    "precision": "float32",
+    "pseudo_selection": "upstream_get_pseudo_exemplars_max_sigmoid_torch_sort_descending",
+    "query_handling": "verbatim_no_singularization",
+    "resize_max": 1333,
+    "resize_short": 800,
+    "seed": 42,
+    "text_threshold": 0.0,
+    "tt_norm": false,
+    "use_synth_exemplars": false
+  },
+  "paired_present_absent_parity": "NOT_MEASURED",
+  "protocol_sha256": "121786020bead2e87d58e9dd6896d022ba2068d58feecfbbc4026113b57f497e",
+  "runtime_label": "KAGGLE_R6_P02_FP32",
+  "schema": "unicount_t01_r10_protocol_candidate_v1",
+  "source_historical_v14": "different unverified commit / AMP path",
+  "status": "CANDIDATE_FROZEN_P02_FP32_NOT_TEAM_APPROVED"
+}

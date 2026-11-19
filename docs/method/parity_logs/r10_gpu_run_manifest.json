@@ -1,0 +1,26 @@
+{
+  "checkpoint_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "failed_pairs": [],
+  "g0": "HOLD",
+  "gt_or_labels_read": false,
+  "historical_v14": "HOLD",
+  "model_inference": "T01_REAL_EXPOSED_DIAGNOSTIC",
+  "parity_absent": "NOT_MEASURED",
+  "parity_present": "NOT_MEASURED",
+  "processed": 32,
+  "protocol_sha256": "121786020bead2e87d58e9dd6896d022ba2068d58feecfbbc4026113b57f497e",
+  "reference_comparison": "NO_INDEPENDENT_MATCHED_PRESENT_ABSENT_REFERENCE",
+  "reference_parity": "NOT_MEASURED",
+  "runtime": {
+    "Pillow": "13.0.0",
+    "numpy": "2.5.4",
+    "timm": "0.9.16",
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "transformers": "4.39.1"
+  },
+  "status": "T01_REAL_PSEUDO3_DIAGNOSTIC_32_PASS_PARITY_HOLD",
+  "t01_done": false,
+  "t04": "NOT_MEASURED",
+  "upstream_commit": "2ecbc4331d6730d017f52a4a97bbcbae7d5d714a"
+}

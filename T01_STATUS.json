@@ -1,0 +1,22 @@
+{
+  "schema": "unicount_t01_submission_status_20261119_v1",
+  "task": "T01",
+  "owner": "Loc",
+  "deadline": "2026-11-20",
+  "status": "HOLD_WITH_EVIDENCE_NOT_DONE",
+  "r10_gpu": {"pairs": 32, "two_pass_calls": 64, "candidates": 38, "status": "PASS_EXPOSED_DIAGNOSTIC"},
+  "cpu_replay": {"pairs": 32, "candidates": 38, "stage_raw_hashes": 64, "status": "PASS_INTERNAL"},
+  "v14_exploratory": {"matched_pairs": 32, "count_matches": 31,
+    "absent_count_matches": "17/17", "present_count_matches": "14/15",
+    "mismatch": {"image_id": 113, "query": "cone", "r10": 18, "v14": 19},
+    "parity_scope": "COUNT_ONLY_AMP_VS_FP32_NOT_OFFICIAL"},
+  "cpu_tests": {"passed": 53, "failed": 0},
+  "protocol_sha256": "121786020bead2e87d58e9dd6896d022ba2068d58feecfbbc4026113b57f497e",
+  "g0": "HOLD",
+  "blockers": [
+    "G0 team signoff for candidate FP32 operating point not supplied",
+    "Independent raw/native reference matching the R10 protocol not supplied",
+    "Approved present/verified-absent cohort and review provenance not supplied",
+    "Git branch PR not created"
+  ]
+}

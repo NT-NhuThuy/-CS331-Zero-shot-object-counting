@@ -1,0 +1,9 @@
+{
+  "g0": "HOLD",
+  "note": "No matched independent FP32 reference + verified separate strata + approval was supplied.",
+  "numeric_parity": "NOT_MEASURED",
+  "r10_archive_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+  "r10_pairs_checked": 32,
+  "schema": "t01_matched_reference_parity_v1",
+  "status": "HOLD_REFERENCE_LABELS_AND_SIGNOFF_REQUIRED"
+}
