@@ -1,0 +1,604 @@
+{
+  "schema": "t01_local_submission_verification_20261119_v1",
+  "base_commit": "3fb58ccedb690212270806313fe005c4c0c16213",
+  "working_branch": "feat/loc-t01-g0-review-20261119",
+  "overlay_zip_sha256": "843b19630d0b8424dacd618da3c989da24de27dda41fa4b44278f8f33cf59d94",
+  "source_commit_P02": "92e0f43c851d6f39b9fc7373bd17ee05643cd664",
+  "official_adapter_sha256": "b0890cd15a5e46d055ad6680a0a29bdaf2aae9c73e125bb9cbf9892c69a87773",
+  "protocol_candidate_sha256": "121786020bead2e87d58e9dd6896d022ba2068d58feecfbbc4026113b57f497e",
+  "new_CPU_tests": {
+    "passed": 53,
+    "failed": 0,
+    "reported_pytest_seconds": 4.22,
+    "torch_imported": false,
+    "transformers_imported": false
+  },
+  "commands": [
+    {
+      "name": "cpu_tests",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_countgd_official.py",
+        "tests/test_t01_parity.py",
+        "tests/test_t01_r10_replay.py",
+        "tests/test_t01_v14_diagnostic.py",
+        "--basetemp",
+        ".venv/t01_submission_20261119/pytest_cpu",
+        "-p",
+        "no:cacheprovider",
+        "--tb=short"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 4.940868400008185
+    },
+    {
+      "name": "raw_cpu_replay",
+      "command": [
+        "python",
+        "tools/t01/audit_r10_raw_cpu_replay.py",
+        "--r10-zip",
+        "docs/method/parity_logs/UNICOUNT_T01_R10_GPU_EVIDENCE.zip",
+        "--image-dimensions",
+        "docs/method/parity_logs/r10_image_dimensions_verified.json",
+        "--out",
+        ".venv/t01_submission_20261119/r10_raw_replay_local.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "elapsed_seconds": 3.037599000002956
+    },
+    {
+      "name": "hold_gate",
+      "command": [
+        "python",
+        "src/countlab/integrations/t01_parity.py",
+        "--r10-zip",
+        "docs/method/parity_logs/UNICOUNT_T01_R10_GPU_EVIDENCE.zip",
+        "--out",
+        ".venv/t01_submission_20261119/g0_hold_gate_local.json"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "elapsed_seconds": 0.0955375999910757
+    }
+  ],
+  "raw_cpu_replay_actual": {
+    "candidates": 38,
+    "external_absent_parity": "NOT_MEASURED",
+    "external_present_parity": "NOT_MEASURED",
+    "g0": "HOLD",
+    "pairs": 32,
+    "records": [
+      {
+        "count": 0,
+        "image_id": "138",
+        "passed": true,
+        "query": "duckling",
+        "r10_index": 0
+      },
+      {
+        "count": 2,
+        "image_id": "1",
+        "passed": true,
+        "query": "elephant",
+        "r10_index": 1
+      },
+      {
+        "count": 0,
+        "image_id": "144",
+        "passed": true,
+        "query": "water scooter",
+        "r10_index": 2
+      },
+      {
+        "count": 0,
+        "image_id": "36",
+        "passed": true,
+        "query": "trash can",
+        "r10_index": 3
+      },
+      {
+        "count": 0,
+        "image_id": "31",
+        "passed": true,
+        "query": "typewriter",
+        "r10_index": 4
+      },
+      {
+        "count": 8,
+        "image_id": "83",
+        "passed": true,
+        "query": "painting",
+        "r10_index": 5
+      },
+      {
+        "count": 0,
+        "image_id": "47",
+        "passed": true,
+        "query": "tag",
+        "r10_index": 6
+      },
+      {
+        "count": 18,
+        "image_id": "113",
+        "passed": true,
+        "query": "cone",
+        "r10_index": 7
+      },
+      {
+        "count": 2,
+        "image_id": "112",
+        "passed": true,
+        "query": "clock tower",
+        "r10_index": 8
+      },
+      {
+        "count": 0,
+        "image_id": "107",
+        "passed": true,
+        "query": "baseball glove",
+        "r10_index": 9
+      },
+      {
+        "count": 0,
+        "image_id": "155",
+        "passed": true,
+        "query": "puppet",
+        "r10_index": 10
+      },
+      {
+        "count": 0,
+        "image_id": "127",
+        "passed": true,
+        "query": "goggles",
+        "r10_index": 11
+      },
+      {
+        "count": 1,
+        "image_id": "62",
+        "passed": true,
+        "query": "bird",
+        "r10_index": 12
+      },
+      {
+        "count": 2,
+        "image_id": "115",
+        "passed": true,
+        "query": "toilet",
+        "r10_index": 13
+      },
+      {
+        "count": 0,
+        "image_id": "179",
+        "passed": true,
+        "query": "sour cream",
+        "r10_index": 14
+      },
+      {
+        "count": 0,
+        "image_id": "91",
+        "passed": true,
+        "query": "dish",
+        "r10_index": 15
+      },
+      {
+        "count": 0,
+        "image_id": "49",
+        "passed": true,
+        "query": "soap",
+        "r10_index": 16
+      },
+      {
+        "count": 0,
+        "image_id": "28",
+        "passed": true,
+        "query": "pepper mill",
+        "r10_index": 17
+      },
+      {
+        "count": 0,
+        "image_id": "53",
+        "passed": true,
+        "query": "watch",
+        "r10_index": 18
+      },
+      {
+        "count": 0,
+        "image_id": "132",
+        "passed": true,
+        "query": "banana",
+        "r10_index": 19
+      },
+      {
+        "count": 0,
+        "image_id": "27",
+        "passed": true,
+        "query": "ring",
+        "r10_index": 20
+      },
+      {
+        "count": 0,
+        "image_id": "92",
+        "passed": true,
+        "query": "grizzly",
+        "r10_index": 21
+      },
+      {
+        "count": 0,
+        "image_id": "178",
+        "passed": true,
+        "query": "cleat (for securing rope)",
+        "r10_index": 22
+      },
+      {
+        "count": 0,
+        "image_id": "160",
+        "passed": true,
+        "query": "pot",
+        "r10_index": 23
+      },
+      {
+        "count": 0,
+        "image_id": "42",
+        "passed": true,
+        "query": "beachball",
+        "r10_index": 24
+      },
+      {
+        "count": 0,
+        "image_id": "177",
+        "passed": true,
+        "query": "bed",
+        "r10_index": 25
+      },
+      {
+        "count": 0,
+        "image_id": "24",
+        "passed": true,
+        "query": "shoulder bag",
+        "r10_index": 26
+      },
+      {
+        "count": 0,
+        "image_id": "25",
+        "passed": true,
+        "query": "wet suit",
+        "r10_index": 27
+      },
+      {
+        "count": 0,
+        "image_id": "61",
+        "passed": true,
+        "query": "salami",
+        "r10_index": 28
+      },
+      {
+        "count": 2,
+        "image_id": "106",
+        "passed": true,
+        "query": "wet suit",
+        "r10_index": 29
+      },
+      {
+        "count": 0,
+        "image_id": "114",
+        "passed": true,
+        "query": "wristlet",
+        "r10_index": 30
+      },
+      {
+        "count": 3,
+        "image_id": "77",
+        "passed": true,
+        "query": "sweet potato",
+        "r10_index": 31
+      }
+    ],
+    "schema": "t01_r10_cpu_raw_replay_v1",
+    "stage_raw_sha_checked": 64,
+    "status": "RAW_CPU_PARSER_REPLAY_PASS_NOT_INDEPENDENT_PARITY"
+  },
+  "replay_matches_supplied_frozen_record": true,
+  "no_reference_gate_actual": {
+    "g0": "HOLD",
+    "note": "No matched independent FP32 reference + verified separate strata + approval was supplied.",
+    "numeric_parity": "NOT_MEASURED",
+    "r10_archive_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+    "r10_pairs_checked": 32,
+    "schema": "t01_matched_reference_parity_v1",
+    "status": "HOLD_REFERENCE_LABELS_AND_SIGNOFF_REQUIRED"
+  },
+  "baseline_files_preserved": 668,
+  "G0": "HOLD",
+  "T01": "HOLD_WITH_EVIDENCE_NOT_DONE",
+  "new_GPU_inference": "NOT_RUN",
+  "v14_diagnostic_scope": "Stored archived count-only comparison; V14 tar replay not repeated in this integration",
+  "documentation_only_adjustment": "Removed two Markdown trailing spaces; original CHECKSUMS_SHA256.json remains a historical overlay/snapshot inventory, not current-base attestation",
+  "existing_base_context_change_preserved": "PR11 changed method/pipeline.py; not an overlay target and intentionally not overwritten",
+  "integrated_overlay_files": [
+    {
+      "path": "BUNDLE_METADATA.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "5ba0be6e5b025c6e09a09b09a99422139a64bda07a02bfc8803e962b026b10d8",
+      "working_sha256": "5ba0be6e5b025c6e09a09b09a99422139a64bda07a02bfc8803e962b026b10d8",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "CHECKSUMS_SHA256.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "7078fceb05b49a27e835ae433369c58fa1377b1fc915de5d44ab53ff10c54333",
+      "working_sha256": "7078fceb05b49a27e835ae433369c58fa1377b1fc915de5d44ab53ff10c54333",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "PR_GIT_ONLY_CODEX_PROMPT.md",
+      "action": "ADDED",
+      "original_overlay_sha256": "33fcfe2fb3c96c6b9c0ad85ebf9c36858eaa85c7c4d27a5f484456e737205292",
+      "working_sha256": "33fcfe2fb3c96c6b9c0ad85ebf9c36858eaa85c7c4d27a5f484456e737205292",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "README_T01_HUONG_DAN.md",
+      "action": "ADDED",
+      "original_overlay_sha256": "2d2184facf1d856172f4e89182763072e22f46d1dfe15f65862ec28785a56a5a",
+      "working_sha256": "2d2184facf1d856172f4e89182763072e22f46d1dfe15f65862ec28785a56a5a",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "T01_STATUS.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "a7f1611559a317f437d87ea61e2c6d4137562354e3ca5497a10d3cfd0ab8a995",
+      "working_sha256": "a7f1611559a317f437d87ea61e2c6d4137562354e3ca5497a10d3cfd0ab8a995",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "TEST_RESULTS_LOCAL_20261119.txt",
+      "action": "ADDED",
+      "original_overlay_sha256": "fcf88929ed9b6609b0bc1ced6ea7a09ad4afc9d7661d19fa6c5a604428619e22",
+      "working_sha256": "fcf88929ed9b6609b0bc1ced6ea7a09ad4afc9d7661d19fa6c5a604428619e22",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "configs/integrations/official_pseudo3_example.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "814c82dc72d7acaa39d4e15d72e9b69194fdada9ac78f3910ed317e1cdd0e842",
+      "working_sha256": "814c82dc72d7acaa39d4e15d72e9b69194fdada9ac78f3910ed317e1cdd0e842",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "configs/integrations/official_pseudo3_parity_plan.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "827949de9609e0a1aa1115653e07c342d4689b7b4eefa477b2922d2e097266c6",
+      "working_sha256": "827949de9609e0a1aa1115653e07c342d4689b7b4eefa477b2922d2e097266c6",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "configs/method/protocol_manifest.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "fac4cfa43a9839e25d3235d9e6af1637b4422d4e1c32bcb8601f4a4bbe79d87d",
+      "working_sha256": "fac4cfa43a9839e25d3235d9e6af1637b4422d4e1c32bcb8601f4a4bbe79d87d",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/T01_REVIEW_REQUEST.md",
+      "action": "ADDED",
+      "original_overlay_sha256": "382a6fcf5f95177e1244925bf0465126f8db83430e90b08ba4d0d55330ce6076",
+      "working_sha256": "382a6fcf5f95177e1244925bf0465126f8db83430e90b08ba4d0d55330ce6076",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/UNICOUNT_T01_R10_GPU_EVIDENCE.zip",
+      "action": "ADDED",
+      "original_overlay_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+      "working_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/g0_parity_gate_current_status.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "75fce8e6b98a5517d7222e153afa0686cd59816078c3c001c4d1203b8dffd0bf",
+      "working_sha256": "75fce8e6b98a5517d7222e153afa0686cd59816078c3c001c4d1203b8dffd0bf",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_candidates_diagnostic.jsonl",
+      "action": "ADDED",
+      "original_overlay_sha256": "50888857afa60c8ec6008e231af310c7a5a7a401599a86863e661d6beca1f8c9",
+      "working_sha256": "50888857afa60c8ec6008e231af310c7a5a7a401599a86863e661d6beca1f8c9",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_gpu_run_manifest.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "f480c945f37b30d5623f048a8da52d37d174584d8b1e835a023f07ff7ecd5e21",
+      "working_sha256": "f480c945f37b30d5623f048a8da52d37d174584d8b1e835a023f07ff7ecd5e21",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_image_dimensions_verified.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "99f55bc354a759a24dfa1e19e31008fe6f36aefa202af268e46e23925fc50f04",
+      "working_sha256": "99f55bc354a759a24dfa1e19e31008fe6f36aefa202af268e46e23925fc50f04",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_internal_parser_replay.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "9dd3279a9c18393448adfd901344a997aa534d3bf1c44cf6bbc1ac740976907b",
+      "working_sha256": "9dd3279a9c18393448adfd901344a997aa534d3bf1c44cf6bbc1ac740976907b",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_offline_audit.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "2598261da11f5be7794c6c2b4240df4926cd5d7bbd0de8086740ad41b9948d24",
+      "working_sha256": "2598261da11f5be7794c6c2b4240df4926cd5d7bbd0de8086740ad41b9948d24",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_original_parity_report.md",
+      "action": "ADDED",
+      "original_overlay_sha256": "301f19454d3f0230ded575ce3b8b27f53c047470d01ba20c4328463db927d3e9",
+      "working_sha256": "301f19454d3f0230ded575ce3b8b27f53c047470d01ba20c4328463db927d3e9",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_per_pair_gpu_trace.jsonl",
+      "action": "ADDED",
+      "original_overlay_sha256": "2418ad28f95cae44f2488dfc9b852a9fbebe8d54c1948f632db8affd890df11c",
+      "working_sha256": "2418ad28f95cae44f2488dfc9b852a9fbebe8d54c1948f632db8affd890df11c",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_roster_gt_free.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "cbab6cd5ed88475b28363f198ad7b31700fcc616c020bc11a04599d69c8eec6e",
+      "working_sha256": "cbab6cd5ed88475b28363f198ad7b31700fcc616c020bc11a04599d69c8eec6e",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/r10_v14_strata_diagnostic.csv",
+      "action": "ADDED",
+      "original_overlay_sha256": "4d22f91ae18d9ceeb768fad5fc77c634097990f71a633496fc52f448b66bc772",
+      "working_sha256": "4d22f91ae18d9ceeb768fad5fc77c634097990f71a633496fc52f448b66bc772",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/v14_count_overlap_diagnostic.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "e67b37f2ac120b23255a27db93828b87536249ccdad3d921d15c3ad22dcd563c",
+      "working_sha256": "e67b37f2ac120b23255a27db93828b87536249ccdad3d921d15c3ad22dcd563c",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_logs/v14_reproduction_diagnostic.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "7ad112cc05d0fca7e2465893f7e817dd44e6b27de06ead86262e860771506359",
+      "working_sha256": "7ad112cc05d0fca7e2465893f7e817dd44e6b27de06ead86262e860771506359",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "docs/method/parity_report.md",
+      "action": "ADDED",
+      "original_overlay_sha256": "b5a5200074f8ef3a4f8660cf9b53fc1703cdf91a1814e50a88ca7e9e72d28633",
+      "working_sha256": "134b035f5996d9d82c0b8e4a45623dc5e255c354a071e05c4ced32c2d9c1d8e7",
+      "byte_identical_to_overlay": false,
+      "integration_adjustment": "Remove two trailing spaces in Markdown owner/deadline line only"
+    },
+    {
+      "path": "fixtures/countgd_official_gpu_smoke.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "e57594ecf3e4d5c84469a3f1543a9b3d24f3999ccbb308d8b947c89b5d115020",
+      "working_sha256": "e57594ecf3e4d5c84469a3f1543a9b3d24f3999ccbb308d8b947c89b5d115020",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "fixtures/countgd_official_gpu_smoke_summary.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "4132dc1e4491052f303aaceb8729f308e9e9da45a77ae416d5cee18a5cc572a5",
+      "working_sha256": "4132dc1e4491052f303aaceb8729f308e9e9da45a77ae416d5cee18a5cc572a5",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "fixtures/countgd_official_software.json",
+      "action": "ADDED",
+      "original_overlay_sha256": "119972aa657bf43bc770bc5275c2eea2e5b97306ecd954f9cea317ec139b270b",
+      "working_sha256": "119972aa657bf43bc770bc5275c2eea2e5b97306ecd954f9cea317ec139b270b",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "src/countlab/integrations/countgd_official.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "b0890cd15a5e46d055ad6680a0a29bdaf2aae9c73e125bb9cbf9892c69a87773",
+      "working_sha256": "b0890cd15a5e46d055ad6680a0a29bdaf2aae9c73e125bb9cbf9892c69a87773",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "src/countlab/integrations/t01_parity.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "073929a771bbd49d49598008a9d82c7bc681cfde6618b638cf7c1b2dec58ab75",
+      "working_sha256": "073929a771bbd49d49598008a9d82c7bc681cfde6618b638cf7c1b2dec58ab75",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tests/test_countgd_official.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "610d0f3e62e19c18e770608c606a98d7a97989d90ac6c9d5fdbd07d85b970a2d",
+      "working_sha256": "610d0f3e62e19c18e770608c606a98d7a97989d90ac6c9d5fdbd07d85b970a2d",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tests/test_t01_parity.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "a3e5336b0ccb8ecf9154ba50409c72938a3a1eec611da6aa555ce37bc7a1aff3",
+      "working_sha256": "a3e5336b0ccb8ecf9154ba50409c72938a3a1eec611da6aa555ce37bc7a1aff3",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tests/test_t01_r10_replay.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "e4503549167158166e39307c953b3b68897e4320cf52831aa6ef589ab83801d6",
+      "working_sha256": "e4503549167158166e39307c953b3b68897e4320cf52831aa6ef589ab83801d6",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tests/test_t01_v14_diagnostic.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "1f5a6bbebc01aa14114400869f790224171dd7d368951d792f08a4347c8209a2",
+      "working_sha256": "1f5a6bbebc01aa14114400869f790224171dd7d368951d792f08a4347c8209a2",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tools/t01/audit_r10_raw_cpu_replay.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "ccc49589a41855458d914e5650db124e92a224c0ac3071f99f5cda4a71ce20af",
+      "working_sha256": "ccc49589a41855458d914e5650db124e92a224c0ac3071f99f5cda4a71ce20af",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    },
+    {
+      "path": "tools/t01/reproduce_v14_count_diagnostic.py",
+      "action": "ADDED",
+      "original_overlay_sha256": "caca2f10db41b6b55a809ae1297ae127bd015015e1623003cfcda6d1c1cdceba",
+      "working_sha256": "caca2f10db41b6b55a809ae1297ae127bd015015e1623003cfcda6d1c1cdceba",
+      "byte_identical_to_overlay": true,
+      "integration_adjustment": null
+    }
+  ]
+}

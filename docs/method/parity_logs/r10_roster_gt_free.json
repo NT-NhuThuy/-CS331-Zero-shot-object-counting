@@ -1,0 +1,354 @@
+[
+  {
+    "index": 0,
+    "identity": {
+      "image_id": 138,
+      "query_id": 138
+    },
+    "query": "duckling",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000558124.jpg",
+    "image_sha256": "8e0561506b1fd37cb39e4fa187694828dbf9fdf880fb93c0492de37746fbf15f",
+    "caption_sha256": "793828c188c8b01c032d04d6b32eec54231b2637c1feffaa77582e6a5b426adf"
+  },
+  {
+    "index": 1,
+    "identity": {
+      "image_id": 1,
+      "query_id": 1
+    },
+    "query": "elephant",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000210708.jpg",
+    "image_sha256": "0c999b00f5af2db5fce67022234c5f97eeb1550cbcfb217b322625f2d43e9152",
+    "caption_sha256": "03629159690210e7bdbc2a2dfda48aadc6033a4ffebcd1654e9ea7d9e689cee0"
+  },
+  {
+    "index": 2,
+    "identity": {
+      "image_id": 144,
+      "query_id": 144
+    },
+    "query": "water scooter",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000009946.jpg",
+    "image_sha256": "c5404476e7cd05a47a8c4abfa8ca18916e4f4b5e375de3e438c7833074accf87",
+    "caption_sha256": "34cd6afdb2b13770265c77dd098a81a0b241665d4b9e13bfc60d6e3d963f2121"
+  },
+  {
+    "index": 3,
+    "identity": {
+      "image_id": 36,
+      "query_id": 36
+    },
+    "query": "trash can",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000555361.jpg",
+    "image_sha256": "d87e5fd85188beea9196b4aa3226c0372ebd7ae3f36e4b551684f7ac3c658e79",
+    "caption_sha256": "b25edcde6876d3e69be0d9250c61c23671da1217f226979d1aed6a5bc7c43142"
+  },
+  {
+    "index": 4,
+    "identity": {
+      "image_id": 31,
+      "query_id": 31
+    },
+    "query": "typewriter",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000119845.jpg",
+    "image_sha256": "330da0d742ef6f3dd9e8070fc12aeeebdb4b5593046c8eca2d13d195942ba182",
+    "caption_sha256": "f86b84db691e5ab796dd84c524826f026d716cc2b25e94d347c9637507315863"
+  },
+  {
+    "index": 5,
+    "identity": {
+      "image_id": 83,
+      "query_id": 83
+    },
+    "query": "painting",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000080369.jpg",
+    "image_sha256": "eec949406d7e94460dcc015a1ffcd0f625ec5336bd471aee03bc38a34ebb6bd6",
+    "caption_sha256": "e685c5438d42e6a7b57770e4688055bb079cbe13f5887f3fb9759dfa4c5c559c"
+  },
+  {
+    "index": 6,
+    "identity": {
+      "image_id": 47,
+      "query_id": 47
+    },
+    "query": "tag",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000555444.jpg",
+    "image_sha256": "d70553097cdd590b5dba8a4aa2a20080dbeffd1499093dc4f5bf127b9977a9b3",
+    "caption_sha256": "9aedfd2423548ea384d194b3a92c53e25fe5f809a5966b46401398bb1e429b8b"
+  },
+  {
+    "index": 7,
+    "identity": {
+      "image_id": 113,
+      "query_id": 113
+    },
+    "query": "cone",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000154399.jpg",
+    "image_sha256": "a476bf85097dd712e48b4d635b3dc2649fea1683c5c09865c6028118d8ff4254",
+    "caption_sha256": "0ac32fdce44383e566fdfd9c500506533a3fa77b3edd5e550adb30fde6f37209"
+  },
+  {
+    "index": 8,
+    "identity": {
+      "image_id": 112,
+      "query_id": 112
+    },
+    "query": "clock tower",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000042471.jpg",
+    "image_sha256": "a5a2dde7711e487beadcd503388f79604c08fa1a050b5e121812224dc7085a7d",
+    "caption_sha256": "e07f4b913f4ec3cd63c4b7d096e8e6ea0241378b10043508ec9e8275213727ff"
+  },
+  {
+    "index": 9,
+    "identity": {
+      "image_id": 107,
+      "query_id": 107
+    },
+    "query": "baseball glove",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000151524.jpg",
+    "image_sha256": "a9c167fdac709bf9cb5ddfdacacef1ffd9ec659b6d9c2a8baf44cd332e4b24da",
+    "caption_sha256": "01ab3cc37cfa4037ff453a81eb15b7fe8c13fb8c1b5dc6245d193f8405bb7f4f"
+  },
+  {
+    "index": 10,
+    "identity": {
+      "image_id": 155,
+      "query_id": 155
+    },
+    "query": "puppet",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000091885.jpg",
+    "image_sha256": "4de77215a9c3b7166d88c24fd58a3cc50c13946ccec50c83426b091f77703671",
+    "caption_sha256": "31ac319ed436b5381c0582f858330bf62f32a3691e1d3c6828010ca1c611cea9"
+  },
+  {
+    "index": 11,
+    "identity": {
+      "image_id": 127,
+      "query_id": 127
+    },
+    "query": "goggles",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000228166.jpg",
+    "image_sha256": "fb7fa16b734e01507682f8628aa23b5bff8ff5fc0d69080517e86991d4c8ece9",
+    "caption_sha256": "52cdda1af4da2aad4e1301b9584060b03ee3839a949ee48b4bf21db64c62a0ea"
+  },
+  {
+    "index": 12,
+    "identity": {
+      "image_id": 62,
+      "query_id": 62
+    },
+    "query": "bird",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000421834.jpg",
+    "image_sha256": "4525b61045e6f7542e6637fdf27b1e4096944ed932a484f139872bc4520a553a",
+    "caption_sha256": "9350ae76f4e62527a5a4f42aba07a261c647834b07e1876fa26d478a1cf7074a"
+  },
+  {
+    "index": 13,
+    "identity": {
+      "image_id": 115,
+      "query_id": 115
+    },
+    "query": "toilet",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000256844.jpg",
+    "image_sha256": "2aa388e6c8958ca94120276eaea8faafb54cec059b8445f8f173519d1d5ea208",
+    "caption_sha256": "0f75a9dd25cb1b12edbdf37ce270849cfc7324367140a6fde470c9bfaec5dbdd"
+  },
+  {
+    "index": 14,
+    "identity": {
+      "image_id": 179,
+      "query_id": 179
+    },
+    "query": "sour cream",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000027829.jpg",
+    "image_sha256": "0f8636c2d18735356b5650488c7561d6e6c8849bd1c1d65c7f94d4a3802c89af",
+    "caption_sha256": "afb9927591312f31081d98a8b6fe9f2f5370f3e0ff51916c27a102d8f4f7769f"
+  },
+  {
+    "index": 15,
+    "identity": {
+      "image_id": 91,
+      "query_id": 91
+    },
+    "query": "dish",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000199977.jpg",
+    "image_sha256": "c5d981fedb47d7cbf1608c9196ed6302617cbda171d6e6a18077f5df32a2a4e9",
+    "caption_sha256": "1ca548743f2dd6364e470e613e9b3e5ec13794d0dbdd9c913975fe6cafab7c71"
+  },
+  {
+    "index": 16,
+    "identity": {
+      "image_id": 49,
+      "query_id": 49
+    },
+    "query": "soap",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000006818.jpg",
+    "image_sha256": "99479f61ef2931ea70e161db0859e8706c6e48f13e8cb0798959f52433b01b98",
+    "caption_sha256": "04c1dcc0e3399360b63b399e83b9ce57664e41bad3ee0b2cc8b56cb349893811"
+  },
+  {
+    "index": 17,
+    "identity": {
+      "image_id": 28,
+      "query_id": 28
+    },
+    "query": "pepper mill",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000216254.jpg",
+    "image_sha256": "ba92c1bf16fa171aa25781cadbb56d8d20722ff01b7e17a913d30466c0db9d84",
+    "caption_sha256": "5345abf73eb6e1cafd82bb4150531c4d7f033443d14d1a451a7c55f4c6495742"
+  },
+  {
+    "index": 18,
+    "identity": {
+      "image_id": 53,
+      "query_id": 53
+    },
+    "query": "watch",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000109190.jpg",
+    "image_sha256": "fcd4d3d20c3655f251395bca0f50a8f3522b57d19f0d55eae4489634efea46a4",
+    "caption_sha256": "0794d0765432b37448d68a03e54ad679be02c2f0976743a15e930d8f2da55106"
+  },
+  {
+    "index": 19,
+    "identity": {
+      "image_id": 132,
+      "query_id": 132
+    },
+    "query": "banana",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000064723.jpg",
+    "image_sha256": "96679b4dd430cc7bd184bdb1e8832c89c85c0e510e48cb05a298f8c5683570d8",
+    "caption_sha256": "6ba9a67822dac8686410f4595fddc5cb79da6a364e6282d508894eaca830e008"
+  },
+  {
+    "index": 20,
+    "identity": {
+      "image_id": 27,
+      "query_id": 27
+    },
+    "query": "ring",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000233497.jpg",
+    "image_sha256": "116d1a19543dd5c060a5ac6648b99c500e9b1a8e19deb372afc97efd2957bcb4",
+    "caption_sha256": "2e7189d2dd48ea2f997d8dd0eaac80816a78b6df5415b0ccc9abbf1f76c7f12e"
+  },
+  {
+    "index": 21,
+    "identity": {
+      "image_id": 92,
+      "query_id": 92
+    },
+    "query": "grizzly",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000095251.jpg",
+    "image_sha256": "f2f52dfb9356fc76cc9553073af24d63c0aff010a2c14aa584412293c9e3a131",
+    "caption_sha256": "941f65f6c0e0c8a784a14c2d10f0368784a84c1394b4d48bbee2101fc98eac3a"
+  },
+  {
+    "index": 22,
+    "identity": {
+      "image_id": 178,
+      "query_id": 178
+    },
+    "query": "cleat (for securing rope)",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000480556.jpg",
+    "image_sha256": "dc3a2a6867a6d799d01e07f6af24034dcc0a4b40024085d5602ab73fc1636ec7",
+    "caption_sha256": "6420835660b979eef3f096c735f1cd851ab0a4c6a1d3692f446ee079558c1579"
+  },
+  {
+    "index": 23,
+    "identity": {
+      "image_id": 160,
+      "query_id": 160
+    },
+    "query": "pot",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000202740.jpg",
+    "image_sha256": "80ff54d63d6951830e6cac4dd9b10b326b8bb358e02f373f9742d0816898dbf1",
+    "caption_sha256": "23f7802e2b4d45888deb15bf419f348d333d3770b48fc692c82c4a00cae99e1b"
+  },
+  {
+    "index": 24,
+    "identity": {
+      "image_id": 42,
+      "query_id": 42
+    },
+    "query": "beachball",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000511145.jpg",
+    "image_sha256": "f2da6d6e78cca18fcada8e3a8307b8195224a25d5786ba99f6a0984e806a322a",
+    "caption_sha256": "e9dd86745dd8926743062e1eefb687349465371a0e16901f7c2248e82c5e02ea"
+  },
+  {
+    "index": 25,
+    "identity": {
+      "image_id": 177,
+      "query_id": 177
+    },
+    "query": "bed",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000291330.jpg",
+    "image_sha256": "268ed6a645b1342597478770071351d8688f5d16af38714b189d7ccdc014f988",
+    "caption_sha256": "27596acdbd8b90bc656ee5df15c500785ca4ff7970a3da17a5339b6026314c5e"
+  },
+  {
+    "index": 26,
+    "identity": {
+      "image_id": 24,
+      "query_id": 24
+    },
+    "query": "shoulder bag",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000490437.jpg",
+    "image_sha256": "14aa52edf6309a4a236532a150e2c62626b97b21be0bea0937d4104a0668120c",
+    "caption_sha256": "738940427f95bb1198ed0695f929bdfe6974019789b18bda2a8b1e0c8a8d45e2"
+  },
+  {
+    "index": 27,
+    "identity": {
+      "image_id": 25,
+      "query_id": 25
+    },
+    "query": "wet suit",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000324527.jpg",
+    "image_sha256": "5fac6c9390e69d4d683be4b37fb9a6f74987c8dfaab678cc9715089a59a9dca5",
+    "caption_sha256": "df53681a467eafb49863c09f519e3962a3b1edd3913e9bc50340b212d6a93558"
+  },
+  {
+    "index": 28,
+    "identity": {
+      "image_id": 61,
+      "query_id": 61
+    },
+    "query": "salami",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000192306.jpg",
+    "image_sha256": "c7d866b60f651f4d11b4ed90acd67b1fd262a0a0b76722f5aa9930427e863e28",
+    "caption_sha256": "97367c99e2852a28d33883d8992350ab9f1bc5c728473d78745c5ab767569f32"
+  },
+  {
+    "index": 29,
+    "identity": {
+      "image_id": 106,
+      "query_id": 106
+    },
+    "query": "wet suit",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000386321.jpg",
+    "image_sha256": "d44b97bfc8f34c44e08c682b7ef873435a6dca5a7db4373698db6523b21841dd",
+    "caption_sha256": "df53681a467eafb49863c09f519e3962a3b1edd3913e9bc50340b212d6a93558"
+  },
+  {
+    "index": 30,
+    "identity": {
+      "image_id": 114,
+      "query_id": 114
+    },
+    "query": "wristlet",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000388854.jpg",
+    "image_sha256": "934f672c34375d911166d0fce9db7b7f34c544c145aa04133535435a6f9c72cc",
+    "caption_sha256": "6720c1cce9dc829b48491bcb7d5b7dd60caf962b768651d7d6ae8f7092fb44b1"
+  },
+  {
+    "index": 31,
+    "identity": {
+      "image_id": 77,
+      "query_id": 77
+    },
+    "query": "sweet potato",
+    "image": "/kaggle/input/datasets/eoquiither/unicount-p02-kaggle-assets-v1/p02-kaggle-assets-v1-20261117-r2/inputs/images/000000104568.jpg",
+    "image_sha256": "5a85a0823d6033c2a617fa6925c77b90a1cb6ab2e2ef193c9b97d95eaa4885d6",
+    "caption_sha256": "4cacdbaedf3cf36451c9ccf0a52e87a21dda08934e8f2eb1826a2fc5e89ee9f0"
+  }
+]

@@ -1,0 +1,2 @@
+# Preserve the archived diagnostic CSV bytes, including its original CRLF.
+r10_v14_strata_diagnostic.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

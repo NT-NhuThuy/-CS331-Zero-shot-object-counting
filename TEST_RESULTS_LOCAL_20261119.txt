@@ -1,0 +1,12 @@
+UNICOUNT T01 G0 REVIEW — LOCAL TEST RECORD
+Date: 2026-11-19
+Command:
+ PYTHONPATH=src python -m pytest -q tests/test_countgd_official.py tests/test_t01_parity.py tests/test_t01_r10_replay.py tests/test_t01_v14_diagnostic.py --tb=short
+
+Result: 53 passed in 4.10s (CPU-only)
+GPU evidence: R10 32/32 actual Kaggle (external user-uploaded archive)
+Internal replay: 32/32, candidates=38, raw first/second hashes=64/64
+V14 count-only diagnostic: 31/32 counts match (17/17 archived absent, 14/15 present)
+Mismatch: image_id=113, query=cone, R10 FP32=18 vs archived V14 AMP=19
+G0: HOLD; team approval + independent matched FP32 raw reference absent
+No GPU run in local test environment. No Git modification.

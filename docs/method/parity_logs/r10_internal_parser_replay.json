@@ -1,0 +1,236 @@
+{
+  "candidates": 38,
+  "external_absent_parity": "NOT_MEASURED",
+  "external_present_parity": "NOT_MEASURED",
+  "g0": "HOLD",
+  "pairs": 32,
+  "records": [
+    {
+      "count": 0,
+      "image_id": "138",
+      "passed": true,
+      "query": "duckling",
+      "r10_index": 0
+    },
+    {
+      "count": 2,
+      "image_id": "1",
+      "passed": true,
+      "query": "elephant",
+      "r10_index": 1
+    },
+    {
+      "count": 0,
+      "image_id": "144",
+      "passed": true,
+      "query": "water scooter",
+      "r10_index": 2
+    },
+    {
+      "count": 0,
+      "image_id": "36",
+      "passed": true,
+      "query": "trash can",
+      "r10_index": 3
+    },
+    {
+      "count": 0,
+      "image_id": "31",
+      "passed": true,
+      "query": "typewriter",
+      "r10_index": 4
+    },
+    {
+      "count": 8,
+      "image_id": "83",
+      "passed": true,
+      "query": "painting",
+      "r10_index": 5
+    },
+    {
+      "count": 0,
+      "image_id": "47",
+      "passed": true,
+      "query": "tag",
+      "r10_index": 6
+    },
+    {
+      "count": 18,
+      "image_id": "113",
+      "passed": true,
+      "query": "cone",
+      "r10_index": 7
+    },
+    {
+      "count": 2,
+      "image_id": "112",
+      "passed": true,
+      "query": "clock tower",
+      "r10_index": 8
+    },
+    {
+      "count": 0,
+      "image_id": "107",
+      "passed": true,
+      "query": "baseball glove",
+      "r10_index": 9
+    },
+    {
+      "count": 0,
+      "image_id": "155",
+      "passed": true,
+      "query": "puppet",
+      "r10_index": 10
+    },
+    {
+      "count": 0,
+      "image_id": "127",
+      "passed": true,
+      "query": "goggles",
+      "r10_index": 11
+    },
+    {
+      "count": 1,
+      "image_id": "62",
+      "passed": true,
+      "query": "bird",
+      "r10_index": 12
+    },
+    {
+      "count": 2,
+      "image_id": "115",
+      "passed": true,
+      "query": "toilet",
+      "r10_index": 13
+    },
+    {
+      "count": 0,
+      "image_id": "179",
+      "passed": true,
+      "query": "sour cream",
+      "r10_index": 14
+    },
+    {
+      "count": 0,
+      "image_id": "91",
+      "passed": true,
+      "query": "dish",
+      "r10_index": 15
+    },
+    {
+      "count": 0,
+      "image_id": "49",
+      "passed": true,
+      "query": "soap",
+      "r10_index": 16
+    },
+    {
+      "count": 0,
+      "image_id": "28",
+      "passed": true,
+      "query": "pepper mill",
+      "r10_index": 17
+    },
+    {
+      "count": 0,
+      "image_id": "53",
+      "passed": true,
+      "query": "watch",
+      "r10_index": 18
+    },
+    {
+      "count": 0,
+      "image_id": "132",
+      "passed": true,
+      "query": "banana",
+      "r10_index": 19
+    },
+    {
+      "count": 0,
+      "image_id": "27",
+      "passed": true,
+      "query": "ring",
+      "r10_index": 20
+    },
+    {
+      "count": 0,
+      "image_id": "92",
+      "passed": true,
+      "query": "grizzly",
+      "r10_index": 21
+    },
+    {
+      "count": 0,
+      "image_id": "178",
+      "passed": true,
+      "query": "cleat (for securing rope)",
+      "r10_index": 22
+    },
+    {
+      "count": 0,
+      "image_id": "160",
+      "passed": true,
+      "query": "pot",
+      "r10_index": 23
+    },
+    {
+      "count": 0,
+      "image_id": "42",
+      "passed": true,
+      "query": "beachball",
+      "r10_index": 24
+    },
+    {
+      "count": 0,
+      "image_id": "177",
+      "passed": true,
+      "query": "bed",
+      "r10_index": 25
+    },
+    {
+      "count": 0,
+      "image_id": "24",
+      "passed": true,
+      "query": "shoulder bag",
+      "r10_index": 26
+    },
+    {
+      "count": 0,
+      "image_id": "25",
+      "passed": true,
+      "query": "wet suit",
+      "r10_index": 27
+    },
+    {
+      "count": 0,
+      "image_id": "61",
+      "passed": true,
+      "query": "salami",
+      "r10_index": 28
+    },
+    {
+      "count": 2,
+      "image_id": "106",
+      "passed": true,
+      "query": "wet suit",
+      "r10_index": 29
+    },
+    {
+      "count": 0,
+      "image_id": "114",
+      "passed": true,
+      "query": "wristlet",
+      "r10_index": 30
+    },
+    {
+      "count": 3,
+      "image_id": "77",
+      "passed": true,
+      "query": "sweet potato",
+      "r10_index": 31
+    }
+  ],
+  "schema": "t01_r10_cpu_raw_replay_v1",
+  "stage_raw_sha_checked": 64,
+  "status": "RAW_CPU_PARSER_REPLAY_PASS_NOT_INDEPENDENT_PARITY"
+}

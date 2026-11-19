@@ -1,0 +1,48 @@
+{
+  "by_historical_stratum": {
+    "present": {
+      "count_equal": 14,
+      "pairs": 15,
+      "r10_predicted_zero": 8,
+      "v14_predicted_zero": 8
+    },
+    "verified_absent": {
+      "count_equal": 17,
+      "pairs": 17,
+      "r10_predicted_zero": 16,
+      "v14_predicted_zero": 16
+    }
+  },
+  "comparability_limits": [
+    "V14 AMP vs R10 FP32",
+    "V14 integer postprocessed boxes, no raw native index/score matching",
+    "V14 dirty execution provenance not fully locked",
+    "No team-signed G0 comparison plan or reviewer-verified label ledger"
+  ],
+  "count_matching_total": 31,
+  "g0": "HOLD",
+  "gt_stratum_labels": "ARCHIVED_V14_EVALUATOR_MANIFEST_NOT_INFERENCE_INPUT",
+  "image_bytes_identical": 32,
+  "image_query_pairs_identical": 32,
+  "mismatches": [
+    {
+      "count_equal": false,
+      "historical_stratum": "present",
+      "image_id": 113,
+      "image_sha256": "a476bf85097dd712e48b4d635b3dc2649fea1683c5c09865c6028118d8ff4254",
+      "query": "cone",
+      "r10_fp32_count": 18,
+      "r10_index": 7,
+      "v14_amp_count": 19
+    }
+  ],
+  "r10_precision": "FP32",
+  "schema": "unicount_t01_v14_count_only_exploratory_v1",
+  "source_r10_archive_sha256": "ac20048bf11fd858951caa71a7c3bcec576e371b40013b1b84c73eea91c12554",
+  "source_v14_archive_sha256": "b82325773d4512897ac70fec44926d8f6cd75282e34b68d3576e605d54adb386",
+  "status": "DIAGNOSTIC_COUNTS_31_OF_32_NOT_G0_PARITY",
+  "t01_done": false,
+  "total_pairs": 32,
+  "v14_precision": "AMP_ENABLED",
+  "v14_raw_native_indices_available": false
+}
