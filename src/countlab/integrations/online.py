@@ -1,7 +1,8 @@
 """One online method: CountGD++ native -> tiles -> router -> Qwen -> identity -> count.
 
-This module is runnable with installed checkpoints (not shipped). The native
-baseline is single-pass diagnostic, NOT V14 parity, SOTA or a paper result.
+This module requires local checkpoints (not shipped). Selection is explicit:
+single-pass diagnostic or pinned query-only pseudo=3. Neither certifies V14
+parity, SOTA or a paper result without its own raw-model validation.
 """
 from __future__ import annotations
 import argparse
@@ -13,6 +14,7 @@ from countlab.method.schema import parse_input
 from countlab.method.router import select_for_verification
 from countlab.method.pipeline import run_method
 from .countgd_native import NativeCountGD, PROTOCOL_ID
+from .countgd_official import OfficialCountGD, PROTOCOL_ID as OFFICIAL_PROTOCOL_ID
 from .recovery import recover_from_native
 from .qwen_unary import QwenRegionUnary, verify_identity_pairs
 
@@ -35,9 +37,21 @@ def execute_online(*, image_path: Path, query: str, image_id: str, query_id: str
     """
     if not image_path.is_file():
         raise FileNotFoundError(image_path)
-    if config.get("protocol_id") != PROTOCOL_ID:
-        raise ValueError("native single-pass protocol id must be explicit")
-    provider = backend if backend is not None else NativeCountGD(config["native_countgd"])
+    protocol_id = config.get("protocol_id")
+    if protocol_id not in (PROTOCOL_ID, OFFICIAL_PROTOCOL_ID):
+        raise ValueError("CountGD++ protocol id must be explicit")
+    official = protocol_id == OFFICIAL_PROTOCOL_ID
+    if official:
+        from .countgd_official import validate_protocol
+        from countlab.method.schema import _validate_no_gt
+        _validate_no_gt(config)
+        validate_protocol(config.get("official_countgd", {}))
+        if backend is not None and getattr(backend, "protocol_id", None) != OFFICIAL_PROTOCOL_ID:
+            raise ValueError("injected backend does not match official protocol")
+        if backend is not None and getattr(backend, "config", {}).get("protocol_sha256") != config["official_countgd"]["protocol_sha256"]:
+            raise ValueError("official backend protocol hash differs from requested config")
+    provider = backend if backend is not None else (
+        OfficialCountGD(config["official_countgd"]) if official else NativeCountGD(config["native_countgd"]))
     base = provider.infer(image_path, query, role="baseline", view_id="full", image_id=image_id)
     recovery_config = config["recovery"]
     rescues = []
@@ -49,10 +63,13 @@ def execute_online(*, image_path: Path, query: str, image_id: str, query_id: str
     manifest = {"schema":"countlab_candidate_pool_v1", "image_id":image_id, "query_id":query_id,
                 "query_text":query, "baseline_count":len(base), "baseline":base,
                 "rescue":rescues, "identity_edges":[],
-                "metadata": {"backend_protocol":PROTOCOL_ID,
+                "metadata": {"backend_protocol":protocol_id,
                              "image_sha256":file_sha(image_path),
                              "backend_provenance":getattr(provider,"provenance", {"injected_test_double":True}),
-                             "protocol_limits":"NO pseudo exemplars; identity edges not yet produced online"}}
+                             "protocol_limits": ("Query-only pseudo=3 full-image core; HOLD for V14 parity" if official else
+                                                 "NO pseudo exemplars; identity edges not yet produced online")}}
+    if official:
+        manifest["metadata"]["detector_runs"] = list(provider.runs)
     # Optional exact-key *FSC exploratory* adapter from Thư. Never silently
     # transfer its source-specific frozen node features onto LVIS/other data.
     thu_config=config.get('thu_frozen_features')
@@ -99,13 +116,15 @@ def execute_online(*, image_path: Path, query: str, image_id: str, query_id: str
     result = run_method(manifest, budget=config.get("verification_budget"),
                         abstain_on_conflict=bool(config.get("abstain_on_conflict",True)),
                         policy=config["method_policy"])
-    result["limitations"].append("Online native adapter uses no pseudo-exemplars and does not reproduce V14")
+    result["limitations"].append("Official query-only pseudo=3 adapter: HOLD for V14 parity" if official else
+                                  "Online native adapter uses no pseudo-exemplars and does not reproduce V14")
     if not identity_cfg.get("enabled", False):
         result["limitations"].append("No online pairwise physical identity verifier is attached")
     else:
         result["limitations"].append("Pairwise Qwen edges are uncalibrated and not GT-validated")
-    result["evidence_trace"].append({"stage":"actual_inference",
-                                      "native_protocol":PROTOCOL_ID,
+    contract_test = official and provider.provenance.get("evidence_level") == "SOFTWARE_CONTRACT_TEST"
+    result["evidence_trace"].append({"stage":"software_contract_test" if contract_test else "actual_inference",
+                                      "native_protocol":protocol_id,
                                       "verifier_calls":getattr(verifier,"calls",0),
                                       "tile_proposals":len(rescues)})
     return manifest, result
@@ -131,7 +150,7 @@ def main():
             json.dump(data,fd,ensure_ascii=False,indent=2,sort_keys=True)
             fd.write("\n")
     print(json.dumps({"count":output["count"],"status":output["count_status"],
-                      "source":PROTOCOL_ID,"output":str(a.out_dir)},ensure_ascii=False))
+                      "source":manifest["metadata"]["backend_protocol"],"output":str(a.out_dir)},ensure_ascii=False))
 
 if __name__ == "__main__":
     main()

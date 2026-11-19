@@ -1,0 +1,52 @@
+{
+  "schema": "unicount_dataset_registry_v2",
+  "branch_basis": "research/unified-integration-verified",
+  "review_date": "2026-11-17",
+  "g0_decision": "HOLD",
+  "entries": [
+    {
+      "dataset_id": "fsc147_extended_1301",
+      "status": "EXPOSED_REFERENCE",
+      "pair_count": 1301,
+      "present_pairs": 1190,
+      "absent_pairs": 111,
+      "absent_unique_source_images": 96,
+      "pair_manifest": "legacy/thu/generated/fsc147_presence_v4/test_pairs_1301.csv",
+      "pair_manifest_sha256": "7bc6800d0d9a7a06ad332e69f5381cd88c9e3bd436fa0b8ea94d28f628437509",
+      "legacy_empty_annotation": "legacy/thu/generated/fsc147_presence_v4/annotation_absent111_empty.json",
+      "loc_mirror": "legacy/loc/data/verified_hard_negatives_111.csv",
+      "loc_mirror_sha256": "edb4865e448afdf6a5b1cef9fec74810227494cadabe951d6f808bb7394b3f01",
+      "lineage": "111/111 pair_id and image-query identity overlap: same historical cohort, not independent tests",
+      "annotation_notes": "Verified absent according to legacy manual audit; independent label review not re-established",
+      "protocol_warning": "Legacy present has 3 exemplars; absent has 0; not a matched text-only comparison",
+      "paper_use": "exploratory/reproduction only"
+    },
+    {
+      "dataset_id": "loc_fresh160",
+      "status": "EXPOSED_REFERENCE",
+      "pair_count": 160,
+      "one_reviewer_absent": 126,
+      "one_reviewer_present": 34,
+      "pair_manifest": "legacy/loc/data/fresh_negative_160_manual_review.csv",
+      "pair_manifest_sha256": "4a520cf8ecf5c615cf6eca6d76da09e5bf175ff487a287c5859133d68914b7ec",
+      "annotation_notes": "Manual review by one person, not independently double-confirmed",
+      "paper_use": "diagnostic; cannot call FINAL_SEALED"
+    },
+    {
+      "dataset_id": "loc_fresh126",
+      "status": "EXPOSED_REFERENCE_SUBSET",
+      "pair_count": 126,
+      "absent_pairs": 126,
+      "pair_manifest": "legacy/loc/data/fresh_negative_126_absent.csv",
+      "pair_manifest_sha256": "371e4b99d72ee4fbbffd752cbe1dea1ead35c1f0e0ed939529d0f11642d4b829",
+      "lineage": "126 of 160 image-query pairs in loc_fresh160",
+      "paper_use": "diagnostic; not a second independent dataset"
+    }
+  ],
+  "provenance_refs": [
+    "docs/method/P03_SPLIT_AUDIT.md",
+    "docs/method/P03_SPLIT_PROPOSAL.md",
+    "reports/p03/p03_team_lineage_report.json",
+    "legacy/thu/RESEARCH.md"
+  ]
+}

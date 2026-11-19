@@ -1,0 +1,130 @@
+{
+  "candidate_fixture_sha256": "e57594ecf3e4d5c84469a3f1543a9b3d24f3999ccbb308d8b947c89b5d115020",
+  "checkpoint_provenance": {
+    "official_author_equivalence": "UNVERIFIED",
+    "source": "existing third-party HF mirror used for PrACo A",
+    "v14_correspondence": "NOT ESTABLISHED"
+  },
+  "checkpoint_sha256": "b89395d79711c9b9f13f3ef80cd2e528386fb1d70453f99443be4eccab33592f",
+  "confidence_range": [
+    0.8570859432220459,
+    0.9615222811698914
+  ],
+  "cuda_extension_build_provenance": {
+    "audit": "all 12 build-source files checked against pinned upstream; only declared type-API patch differs",
+    "base_cuda_git_blob": "d6d583647cce987196d5ad1968a8a365a379e774",
+    "compatibility_patch": "two AT_DISPATCH_FLOATING_TYPES sites: value.type() to value.scalar_type()",
+    "ops_source_manifest_sha256": "05d0a7df4f2730c6843df2d808bf0d8e0f65877ec828e6e322f42eef304b3c55",
+    "patched_cuda_sha256": "c8918c5222fb7e74ac040f7f6cca549d617e3ea15ad498396852b3bb79bb6b9b"
+  },
+  "cuda_extension_sha256": "cfed81c8b0b0ade63907ba8c4796beb2de046ba2378a44fb7518f979955a5650",
+  "detector_run": {
+    "caption_sha256": "678e2e7a6495b71e4f949cc6c10fee0dc276add75b250cc0dce677005f1c5e73",
+    "detector_calls": 2,
+    "elapsed_sec": 1.9294661079999997,
+    "first_stage_queries": 900,
+    "first_stage_raw_sha256": "485867fca6e617308e66113f648158b0a11d71c24ff0eb28e497fc4095ec283c",
+    "image_sha256": "aea3767562c09cc516f972743428152d6c796394624f68e4a9f5507394bae2c9",
+    "initial_exemplars": 0,
+    "original_size": [
+      458,
+      384
+    ],
+    "output_candidates": 16,
+    "peak_vram_bytes": 1498123776,
+    "pseudo_exemplars_resized_xyxy": [
+      [
+        330.41107177734375,
+        143.6458740234375,
+        426.734619140625,
+        281.13226318359375
+      ],
+      [
+        420.84417724609375,
+        186.09774780273438,
+        512.6966552734375,
+        297.41192626953125
+      ],
+      [
+        241.00973510742188,
+        169.29588317871094,
+        323.6709899902344,
+        284.57257080078125
+      ]
+    ],
+    "resized_size": [
+      954,
+      800
+    ],
+    "second_stage_queries": 900,
+    "second_stage_raw_sha256": "7a10bd45d93e759ba271f410a50dca4cb3adeeca079f353ba1888644b1c43af0",
+    "view_id": "full"
+  },
+  "evidence_level": "REAL_GPU_SMOKE_NOT_V14_PARITY",
+  "gpu_smoke": "PASS",
+  "image_file": "336.jpg",
+  "image_sha256": "aea3767562c09cc516f972743428152d6c796394624f68e4a9f5507394bae2c9",
+  "latency_note": "Single instrumented pair, includes preprocessing/capture/transfers; excludes model load. Not a throughput benchmark.",
+  "model_load_sec": 14.056250685999998,
+  "protocol_id": "CGD_OFFICIAL_QUERY_ONLY_PSEUDO3_V1",
+  "protocol_sha256": "d0ff6f37830bf3a8ac535414dda47b9e9c0ed6a49c77583fdc192f1b690a6213",
+  "query_text": "strawberry",
+  "raw_consistency_audit": {
+    "artifacts_sha256": "PASS",
+    "candidate_count": 16,
+    "final_indices_scores_original_coordinates": "PASS_EXACT",
+    "gt_blind_schema": "PASS",
+    "note": "Internal consistency on the actual smoke output; not reference-model or V14 parity",
+    "pseudo_top3_from_raw": "PASS_EXACT",
+    "raw_frame_hashes": "PASS",
+    "status": "PASS"
+  },
+  "raw_predictions_file_sha256": "fe24225d5d66a8e93db501aa033266e801502258c2aaf90d35212d810691bd94",
+  "repeat_raw_frame_hashes_identical": true,
+  "runtime": {
+    "cuda": "12.8",
+    "cudnn_allow_tf32": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "loader_source_sha256": "c1e53c43d5624cbf95d8fe07deddc18863b4418f7315d10fab5987a272eaa119",
+    "matmul_allow_tf32": false,
+    "source_sha256": {
+      "cfg_app.py": "b7e7061e8f343f054adff6b9417a6acd4e7c155e767c22cf58f533c8d8fd0587",
+      "datasets/transforms_app.py": "ff3340a91173bbda058cbe809f33c7b28398ffe511d49fb88829942c04c59087",
+      "engine_inference.py": "78398449f65517e08ffcddc8eb87965749edb476c37058da42bf9b28471b51e5",
+      "models/GroundingDINO/groundingdino_app.py": "83da2f46d2c0a7489ce20425a07ebbd622ffd37da59abfde06dad5d912ad6f45",
+      "models/GroundingDINO/ops/src/cuda/ms_deform_attn_cuda.cu": "65cf318c67d99d6b163027e7190bc8776ff16a7197b332ad537f70cf6cc12be0",
+      "util/misc.py": "821bf3b3a643a872981da5080b11bd35167c0c81ca3c34577f3b882ab6a866d5"
+    },
+    "versions": {
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "timm": "0.9.16",
+      "torch": "2.9.1+cu128",
+      "torchvision": "0.24.1+cu128",
+      "transformers": "4.39.1"
+    }
+  },
+  "same_fixed_pair_executions": 2,
+  "smoke_script_sha256": "04dd802a0bebba04304c5dcb36de6c6c858502cd79cf052fa1e42ab4b851be2b",
+  "software_contract": "PASS",
+  "source_commit": "2ecbc4331d6730d017f52a4a97bbcbae7d5d714a",
+  "source_smoke_summary_sha256": "63200229fe11c01e8bb06013e1b1a10be62e9f367e31ad1ca11c410236e7c937",
+  "supplementary_complete_cuda_source_audit": {
+    "files": 13,
+    "includes_cuda_cuh_headers": true,
+    "manifest_sha256": "2e4bfed286c13f4603f33f99ab865eed2038fb20b2e05d87eab27fe4232f3799",
+    "note": "Supplemental complete tracked source-tree check; original smoke lock and prediction artifacts left unchanged",
+    "only_difference": [
+      "src/cuda/ms_deform_attn_cuda.cu"
+    ],
+    "status": "PASS"
+  },
+  "total_wall_sec": 16.568024161,
+  "unique_image_query_pairs": 1,
+  "v14_bbox_parity": "NOT MEASURED",
+  "v14_count_parity": "NOT MEASURED",
+  "vram_note": "torch.cuda.max_memory_allocated, not total NVML usage or reserved memory"
+}

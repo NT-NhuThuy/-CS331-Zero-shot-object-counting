@@ -1,0 +1,28 @@
+{
+  "status": "PROPOSED_BEFORE_OPENING_RAW_V14_NOT_AN_APPROVED_RUN_LOCK",
+  "protocol_id": "CGD_OFFICIAL_QUERY_ONLY_PSEUDO3_V1",
+  "evidence_level": "NO_GPU_SMOKE_OR_V14_PARITY_MEASURED",
+  "prerequisites": [
+    "V14 run lock: exact upstream commit, checkpoint/BERT hashes, prompts, configuration, precision, versions and runtime flags",
+    "GT-free image/query cohort with source split and image hashes; exclude FINAL_SEALED",
+    "Raw full_cohort_output.json plus baseline boxes, scores and native query indices with immutable hashes",
+    "Reference coordinate/preprocessing/NMS/cropping semantics and complete per-query coverage",
+    "Independent reviewer approves this tolerance plan before raw outputs are opened"
+  ],
+  "comparison": {
+    "count": "exact for every query; report separately from boxes",
+    "box_coordinates": "original_image_pixel_xyxy",
+    "box_matching": "native_query_index; never hide dropped/extra candidates through nearest-neighbor matching",
+    "box_atol_pixels": 0.0001,
+    "box_rtol": 0,
+    "confidence_atol": 0.000001,
+    "confidence_rtol": 0,
+    "coverage": "100 percent of the locked cohort; any missing/nonfinite prediction fails"
+  },
+  "stop_rules": [
+    "Source/checkpoint/prompt/config mismatch: HOLD, do not reuse the V14 label",
+    "Count or box mismatch: report both; no tuning tolerances or thresholds after opening results",
+    "Count/density-only PrACo results cannot certify bbox parity",
+    "GPU smoke success does not certify frozen parity or benchmark accuracy"
+  ]
+}
