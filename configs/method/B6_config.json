@@ -1,0 +1,12 @@
+{
+  "schema": "countlab_t12_b6_fixed_schedule_config_v1",
+  "verification_budget_calls": 5,
+  "max_pair_actions": 16,
+  "min_pair_iou": 0.05,
+  "solver_config": {
+    "max_search_states": 20000,
+    "max_candidates": 512,
+    "max_hints": 32,
+    "min_same_iou": 0.05
+  }
+}

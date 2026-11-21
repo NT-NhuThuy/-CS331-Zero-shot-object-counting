@@ -1,0 +1,37 @@
+{
+  "b7_matched_measured_cost": "HOLD_T10_T11",
+  "delivery_scope": "CPU_CONTRACT_REPLAY_ONLY_NOT_REAL_COST_EVALUATION",
+  "exported_source_available_tests": {
+    "deselected": 3,
+    "deselected_reason": "Partial Git archive omitted fixtures/unified_toy.json and manifests/historical_experiment_lineage_audit_v1.json",
+    "failed": 0,
+    "passed": 306
+  },
+  "files_sha256": {
+    "README_T12_WINDOWS_HANDOFF.md": "5572c49516802593ba4e0fe0946fb6b6e23108f420dee53794dcd53a86e38a5a",
+    "configs/method/B5_config.json": "9a98aea98a4cf017f80d7cee159bf68d48f4124d4ad15dbdd29da14098d26de0",
+    "configs/method/B6_config.json": "4bace3afa2f9b4322f85f5182bbd8e7de532b958280bfa6198327fcf3979d6f3",
+    "docs/method/B5_B6_predictions_SYNTHETIC.jsonl": "9957c9f8256c28b3cf117d7e8a77dce514c03d6317c78a72f528f849526d6feb",
+    "docs/method/T12_B5_B6_CONTRACT_V1.md": "607dc4e53f64826680c1cdfceb9f211ce44f46ce83f88d67c8f40a5f02b280c7",
+    "docs/method/T12_B5_B6_SYNTHETIC_INPUTS.jsonl": "14c1f7a0f9b529717ce7d94d0129874d79c2884a4d7b8cc9d971fdb448b1d17c",
+    "docs/method/T12_LOCAL_ACCEPTANCE_REPORT.md": "e10e853823d5143971e53fac06091743d0d57e1efe05b24aff753d6b824b6e42",
+    "docs/method/T12_SYNTHETIC_REPLAY_LOCK.json": "3ac1ca5592d716ec4087e54e02708930287274288e10f56a8177e3f58f98623b",
+    "src/countlab/method/t12_fixed_baselines_v1.py": "bd51db48e6aecb7fcd7c8fcda19b2e6be3fc1979b10aefe1fc5515a352ede2c4",
+    "tests/test_thuy_t12_fixed_baselines_v1.py": "0e8da79fbe0a05a6f87a38428df5104d8078b8103c7abeed4234209c44c59b9b",
+    "tools/thuy/t12_b5_b6_replay_v1.py": "967abcb81ef4b692c0841a4b88aff33222fd0683ae82deda2cca063ef42b0111"
+  },
+  "git_mutations_performed": false,
+  "local_contract_tests": {
+    "failed": 0,
+    "passed": 26
+  },
+  "offline_predictions": "SIX_SYNTHETIC_CONTRACT_CASES_ONLY",
+  "real_canonical_roster": "HOLD_T04_T05_T07",
+  "schema": "countlab_c3_t12_windows_handoff_v1",
+  "server_source_mutations_performed": false,
+  "source_branch_reported": "feat/thuy-v2-t03-t06",
+  "source_commit_reported": "3da8aa2",
+  "source_zip": "UNICOUNT_T12_LOCAL_AUDIT.zip",
+  "source_zip_sha256": "183b0376e58d2f92b987d9ff0a15198efa159b31312149550cf70f5af1ed14c0",
+  "task": "T12"
+}

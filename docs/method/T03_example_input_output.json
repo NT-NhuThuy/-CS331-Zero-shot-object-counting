@@ -1,0 +1,759 @@
+{
+  "schema": "countlab_t03_example_bundle_v1",
+  "scope": "SYNTHETIC_CPU_CONTRACT_FIXTURES_NOT_BENCHMARK",
+  "examples": [
+    {
+      "case": "empty_zero",
+      "method": "sequential_v1",
+      "options": {},
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:empty_zero",
+        "query_text": "object",
+        "baseline_count": 0,
+        "baseline": [],
+        "rescue": [],
+        "identity_edges": [],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_unified_method_output_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:empty_zero",
+        "count": 0,
+        "evaluation_fallback_count": 0,
+        "count_lower_bound": 0,
+        "count_upper_bound": 0,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "partial",
+        "query_abstained": false,
+        "accepted_instances": [],
+        "rejected_regions": [],
+        "unknown_regions": [],
+        "matched_rescue_to_baseline": [],
+        "evidence_trace": [
+          {
+            "stage": "frozen_baseline",
+            "baseline_count": 0
+          },
+          {
+            "stage": "risk_router_replay",
+            "budget": null,
+            "selected": []
+          },
+          {
+            "stage": "unary_verifier_replay",
+            "explicit_rejections": 0
+          },
+          {
+            "stage": "safe_identity",
+            "promoted_components": 0,
+            "unresolved": []
+          },
+          {
+            "stage": "bidirectional_reconcile",
+            "count": 0,
+            "conflicts": []
+          }
+        ],
+        "method_options": {
+          "enable_recovery": true,
+          "enable_identity": true,
+          "abstain_on_conflict": false
+        },
+        "method_variant": "sequential_v1",
+        "input_sha256": "9e79a7e69ab9cec7289712b7c977bad759e893db7794b4c3fae8f7cfc995946f",
+        "method_policy": {
+          "baseline_rescue_match_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "identity_overlap_ambiguity_iou": 0.3
+        },
+        "method_policy_sha256": "07df162ee5a9eade180bec9816a41a9f4e24c78d2bd768586da12a22720a10aa",
+        "limitations": [
+          "Evidence was supplied by precomputed artifact, not generated online",
+          "YES/NO provenance must be verified in frozen source experiment",
+          "Not an exact scene count or certified absence",
+          "Only current candidate-set coverage is represented"
+        ]
+      }
+    },
+    {
+      "case": "unknown_baseline_k",
+      "method": "sequential_v1",
+      "options": {},
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:unknown_baseline_k",
+        "query_text": "object",
+        "baseline_count": 1,
+        "baseline": [
+          {
+            "candidate_id": "b1",
+            "view_id": "full",
+            "box_xyxy": [
+              0,
+              0,
+              10,
+              10
+            ],
+            "evidence": {
+              "semantic": "UNKNOWN",
+              "whole_instance": "UNKNOWN"
+            },
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "rescue": [],
+        "identity_edges": [],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_unified_method_output_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:unknown_baseline_k",
+        "count": 1,
+        "evaluation_fallback_count": 1,
+        "count_lower_bound": 0,
+        "count_upper_bound": 1,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "partial",
+        "query_abstained": false,
+        "accepted_instances": [],
+        "rejected_regions": [],
+        "unknown_regions": [
+          {
+            "candidate_id": "b1",
+            "role": "baseline",
+            "view_id": "full",
+            "box_xyxy": [
+              0.0,
+              0.0,
+              10.0,
+              10.0
+            ],
+            "semantic": "UNKNOWN",
+            "whole_instance": "UNKNOWN",
+            "decision": "UNKNOWN",
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "matched_rescue_to_baseline": [],
+        "evidence_trace": [
+          {
+            "stage": "frozen_baseline",
+            "baseline_count": 1
+          },
+          {
+            "stage": "risk_router_replay",
+            "budget": null,
+            "selected": [
+              "b1"
+            ]
+          },
+          {
+            "stage": "unary_verifier_replay",
+            "explicit_rejections": 0
+          },
+          {
+            "stage": "safe_identity",
+            "promoted_components": 0,
+            "unresolved": []
+          },
+          {
+            "stage": "bidirectional_reconcile",
+            "count": 1,
+            "conflicts": []
+          }
+        ],
+        "method_options": {
+          "enable_recovery": true,
+          "enable_identity": true,
+          "abstain_on_conflict": false
+        },
+        "method_variant": "sequential_v1",
+        "input_sha256": "c75e4231def9f0a9098297e314480eaff406a0f5c19f84e625f07c30da0d30f4",
+        "method_policy": {
+          "baseline_rescue_match_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "identity_overlap_ambiguity_iou": 0.3
+        },
+        "method_policy_sha256": "07df162ee5a9eade180bec9816a41a9f4e24c78d2bd768586da12a22720a10aa",
+        "limitations": [
+          "Evidence was supplied by precomputed artifact, not generated online",
+          "YES/NO provenance must be verified in frozen source experiment",
+          "Not an exact scene count or certified absence",
+          "Only current candidate-set coverage is represented"
+        ]
+      }
+    },
+    {
+      "case": "dual_no_reject_zero",
+      "method": "sequential_v1",
+      "options": {},
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:dual_no_reject_zero",
+        "query_text": "object",
+        "baseline_count": 1,
+        "baseline": [
+          {
+            "candidate_id": "b1",
+            "view_id": "full",
+            "box_xyxy": [
+              0,
+              0,
+              10,
+              10
+            ],
+            "evidence": {
+              "semantic": "NO",
+              "whole_instance": "NO"
+            },
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "rescue": [],
+        "identity_edges": [],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_unified_method_output_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:dual_no_reject_zero",
+        "count": 0,
+        "evaluation_fallback_count": 0,
+        "count_lower_bound": 0,
+        "count_upper_bound": 0,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "partial",
+        "query_abstained": false,
+        "accepted_instances": [],
+        "rejected_regions": [
+          {
+            "candidate_id": "b1",
+            "role": "baseline",
+            "view_id": "full",
+            "box_xyxy": [
+              0.0,
+              0.0,
+              10.0,
+              10.0
+            ],
+            "semantic": "NO",
+            "whole_instance": "NO",
+            "decision": "REJECTED",
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "unknown_regions": [],
+        "matched_rescue_to_baseline": [],
+        "evidence_trace": [
+          {
+            "stage": "frozen_baseline",
+            "baseline_count": 1
+          },
+          {
+            "stage": "risk_router_replay",
+            "budget": null,
+            "selected": [
+              "b1"
+            ]
+          },
+          {
+            "stage": "unary_verifier_replay",
+            "explicit_rejections": 1
+          },
+          {
+            "stage": "safe_identity",
+            "promoted_components": 0,
+            "unresolved": []
+          },
+          {
+            "stage": "bidirectional_reconcile",
+            "count": 0,
+            "conflicts": []
+          }
+        ],
+        "method_options": {
+          "enable_recovery": true,
+          "enable_identity": true,
+          "abstain_on_conflict": false
+        },
+        "method_variant": "sequential_v1",
+        "input_sha256": "621932bb674ef329a1ef7c2f872fbbbfee0d5a9274bafb890156d2bfb3cd7a84",
+        "method_policy": {
+          "baseline_rescue_match_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "identity_overlap_ambiguity_iou": 0.3
+        },
+        "method_policy_sha256": "07df162ee5a9eade180bec9816a41a9f4e24c78d2bd768586da12a22720a10aa",
+        "limitations": [
+          "Evidence was supplied by precomputed artifact, not generated online",
+          "YES/NO provenance must be verified in frozen source experiment",
+          "Not an exact scene count or certified absence",
+          "Only current candidate-set coverage is represented"
+        ]
+      }
+    },
+    {
+      "case": "abstain_conflict",
+      "method": "sequential_v1",
+      "options": {
+        "abstain_on_conflict": true
+      },
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:abstain_conflict",
+        "query_text": "object",
+        "baseline_count": 1,
+        "baseline": [
+          {
+            "candidate_id": "b1",
+            "view_id": "full",
+            "box_xyxy": [
+              0,
+              0,
+              10,
+              10
+            ],
+            "evidence": {
+              "semantic": "NO",
+              "whole_instance": "NO"
+            },
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "rescue": [
+          {
+            "candidate_id": "r1",
+            "view_id": "tile",
+            "box_xyxy": [
+              1,
+              0,
+              11,
+              10
+            ],
+            "evidence": {
+              "semantic": "YES",
+              "whole_instance": "YES"
+            },
+            "evidence_refs": [
+              "t03:synthetic:r1"
+            ]
+          }
+        ],
+        "identity_edges": [],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_unified_method_output_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:abstain_conflict",
+        "count": null,
+        "evaluation_fallback_count": 1,
+        "count_lower_bound": 0,
+        "count_upper_bound": 1,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "abstained",
+        "query_abstained": true,
+        "accepted_instances": [],
+        "rejected_regions": [],
+        "unknown_regions": [
+          {
+            "candidate_id": "b1",
+            "role": "baseline",
+            "view_id": "full",
+            "box_xyxy": [
+              0.0,
+              0.0,
+              10.0,
+              10.0
+            ],
+            "semantic": "NO",
+            "whole_instance": "NO",
+            "decision": "UNKNOWN",
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "matched_rescue_to_baseline": [
+          {
+            "rescue_id": "r1",
+            "baseline_id": "b1",
+            "iou": 0.818182,
+            "note": "IoU match is duplicate-prevention heuristic, NOT identity proof"
+          }
+        ],
+        "evidence_trace": [
+          {
+            "stage": "frozen_baseline",
+            "baseline_count": 1
+          },
+          {
+            "stage": "risk_router_replay",
+            "budget": null,
+            "selected": [
+              "b1",
+              "r1"
+            ]
+          },
+          {
+            "stage": "unary_verifier_replay",
+            "explicit_rejections": 0
+          },
+          {
+            "stage": "safe_identity",
+            "promoted_components": 0,
+            "unresolved": []
+          },
+          {
+            "stage": "bidirectional_reconcile",
+            "count": 1,
+            "conflicts": [
+              "contradictory_evidence:b1/r1"
+            ]
+          }
+        ],
+        "method_options": {
+          "enable_recovery": true,
+          "enable_identity": true,
+          "abstain_on_conflict": true
+        },
+        "method_variant": "sequential_v1",
+        "input_sha256": "db1b07a35351357c83ff124b2f558cf820b3ca33e92e3559cc47c298b8559184",
+        "method_policy": {
+          "baseline_rescue_match_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "identity_overlap_ambiguity_iou": 0.3
+        },
+        "method_policy_sha256": "07df162ee5a9eade180bec9816a41a9f4e24c78d2bd768586da12a22720a10aa",
+        "limitations": [
+          "Evidence was supplied by precomputed artifact, not generated online",
+          "YES/NO provenance must be verified in frozen source experiment",
+          "Not an exact scene count or certified absence",
+          "Only current candidate-set coverage is represented"
+        ]
+      }
+    },
+    {
+      "case": "joint_same",
+      "method": "joint_t1",
+      "options": {},
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:joint_same",
+        "query_text": "object",
+        "baseline_count": 1,
+        "baseline": [
+          {
+            "candidate_id": "b1",
+            "view_id": "full",
+            "box_xyxy": [
+              0,
+              0,
+              10,
+              10
+            ],
+            "evidence": {
+              "semantic": "YES",
+              "whole_instance": "YES"
+            },
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "rescue": [
+          {
+            "candidate_id": "r1",
+            "view_id": "tile",
+            "box_xyxy": [
+              1,
+              0,
+              11,
+              10
+            ],
+            "evidence": {
+              "semantic": "YES",
+              "whole_instance": "YES"
+            },
+            "evidence_refs": [
+              "t03:synthetic:r1"
+            ]
+          }
+        ],
+        "identity_edges": [
+          {
+            "a": "b1",
+            "b": "r1",
+            "relation": "SAME",
+            "evidence_refs": [
+              "t03:synthetic:relation"
+            ]
+          }
+        ],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_joint_arbitration_experimental_v1",
+        "experimental": true,
+        "joint_policy": {
+          "collision_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "pairwise_budget": null,
+          "pairwise_strategy": "impact",
+          "abstain_on_unresolved": false,
+          "enable_recovery": true,
+          "enable_identity": true
+        },
+        "input_sha256": "dec12bf23e50a090449acb5050864203d58e41d11bc18789a09b8ca7f4097777",
+        "count": 1,
+        "evaluation_fallback_count": 1,
+        "count_lower_bound": 1,
+        "count_upper_bound": 1,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "partial",
+        "query_abstained": false,
+        "fallback_baseline_candidate_ids": [
+          "b1"
+        ],
+        "selected_candidate_ids": [
+          "b1",
+          "r1"
+        ],
+        "pairwise_query_plan": [
+          {
+            "pair": [
+              "b1",
+              "r1"
+            ],
+            "priority": 4,
+            "iou": 0.8181818181818182,
+            "risk": 0.5,
+            "purpose": "baseline_rescue_collision",
+            "strategy": "impact"
+          }
+        ],
+        "pairwise_allocation_summary": {
+          "n_planned_pairs": 1,
+          "n_collision_pairs": 1,
+          "n_duplicate_pairs": 0,
+          "relation_outcomes_used_for_planning": false
+        },
+        "visible_pairwise_edge_count": 1,
+        "accepted_candidate_ids": [
+          "b1"
+        ],
+        "accepted_components": [
+          [
+            "r1"
+          ]
+        ],
+        "predicted_components": [
+          [
+            "b1",
+            "r1"
+          ]
+        ],
+        "rejected_candidate_ids": [],
+        "unresolved_candidates": [],
+        "joint_trace": [
+          {
+            "rescue_component": [
+              "r1"
+            ],
+            "action": "COALESCE",
+            "reason": "observed_same",
+            "relations": {
+              "b1": [
+                "SAME"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Synthetic/CPU experimental arbitration only",
+          "No calibration or real-data effectiveness claim",
+          "Only observed pairwise relations change collision handling",
+          "Does not replace v1 pipeline"
+        ]
+      }
+    },
+    {
+      "case": "joint_different",
+      "method": "joint_t1",
+      "options": {},
+      "manifest": {
+        "schema": "countlab_candidate_pool_v1",
+        "image_id": "t03-fixture-image",
+        "query_id": "t03:joint_different",
+        "query_text": "object",
+        "baseline_count": 1,
+        "baseline": [
+          {
+            "candidate_id": "b1",
+            "view_id": "full",
+            "box_xyxy": [
+              0,
+              0,
+              10,
+              10
+            ],
+            "evidence": {
+              "semantic": "YES",
+              "whole_instance": "YES"
+            },
+            "evidence_refs": [
+              "t03:synthetic:b1"
+            ]
+          }
+        ],
+        "rescue": [
+          {
+            "candidate_id": "r1",
+            "view_id": "tile",
+            "box_xyxy": [
+              1,
+              0,
+              11,
+              10
+            ],
+            "evidence": {
+              "semantic": "YES",
+              "whole_instance": "YES"
+            },
+            "evidence_refs": [
+              "t03:synthetic:r1"
+            ]
+          }
+        ],
+        "identity_edges": [
+          {
+            "a": "b1",
+            "b": "r1",
+            "relation": "DIFFERENT",
+            "evidence_refs": [
+              "t03:synthetic:relation"
+            ]
+          }
+        ],
+        "metadata": {
+          "scope": "T03_SYNTHETIC_CONTRACT_FIXTURE_NO_GT"
+        }
+      },
+      "prediction": {
+        "schema": "countlab_joint_arbitration_experimental_v1",
+        "experimental": true,
+        "joint_policy": {
+          "collision_iou": 0.5,
+          "identity_min_same_iou": 0.1,
+          "pairwise_budget": null,
+          "pairwise_strategy": "impact",
+          "abstain_on_unresolved": false,
+          "enable_recovery": true,
+          "enable_identity": true
+        },
+        "input_sha256": "fd83dbb6be542e8630dd30607591d4031958506b51bd16931d72cd2d7ccc057b",
+        "count": 2,
+        "evaluation_fallback_count": 2,
+        "count_lower_bound": 2,
+        "count_upper_bound": 2,
+        "count_interval_scope": "observed_candidates_only_not_scene_ground_truth_bounds",
+        "count_status": "partial",
+        "query_abstained": false,
+        "fallback_baseline_candidate_ids": [
+          "b1"
+        ],
+        "selected_candidate_ids": [
+          "b1",
+          "r1"
+        ],
+        "pairwise_query_plan": [
+          {
+            "pair": [
+              "b1",
+              "r1"
+            ],
+            "priority": 4,
+            "iou": 0.8181818181818182,
+            "risk": 0.5,
+            "purpose": "baseline_rescue_collision",
+            "strategy": "impact"
+          }
+        ],
+        "pairwise_allocation_summary": {
+          "n_planned_pairs": 1,
+          "n_collision_pairs": 1,
+          "n_duplicate_pairs": 0,
+          "relation_outcomes_used_for_planning": false
+        },
+        "visible_pairwise_edge_count": 1,
+        "accepted_candidate_ids": [
+          "b1",
+          "r1"
+        ],
+        "accepted_components": [
+          [
+            "r1"
+          ]
+        ],
+        "predicted_components": [
+          [
+            "b1"
+          ],
+          [
+            "r1"
+          ]
+        ],
+        "rejected_candidate_ids": [],
+        "unresolved_candidates": [],
+        "joint_trace": [
+          {
+            "rescue_component": [
+              "r1"
+            ],
+            "action": "ADD",
+            "reason": "observed_different",
+            "relations": {
+              "b1": [
+                "DIFFERENT"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Synthetic/CPU experimental arbitration only",
+          "No calibration or real-data effectiveness claim",
+          "Only observed pairwise relations change collision handling",
+          "Does not replace v1 pipeline"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "additive_only": true,
+  "expected_windows_head": "d313721",
+  "files": [
+    {
+      "bytes": 1620,
+      "path": "README_T06_WINDOWS_HANDOFF.md",
+      "sha256": "1842b2272002f1de44dc4a2d158dcf8d58145ad29db4df75e2f92d9e2eea7a9d"
+    },
+    {
+      "bytes": 212,
+      "path": "configs/method/t06_pilot_replay_config.json",
+      "sha256": "14d276903bcf0ba8bf0584d732a1ee461797cea26c2e85cd3fb78e6af520135f"
+    },
+    {
+      "bytes": 834,
+      "path": "docs/method/T06_INTEGRATION_TEST_LOG.txt",
+      "sha256": "4f2473b65b4d7aa92e3ab3e56fd5eea5bdc073365a211d984c7e178da9dbabe7"
+    },
+    {
+      "bytes": 1969,
+      "path": "docs/method/T06_LOCAL_ACCEPTANCE_REPORT.md",
+      "sha256": "046c2756e677d2e0f27ff54311a5fbadbea3aac23a6b1780f68d8eaf150c65a2"
+    },
+    {
+      "bytes": 5781,
+      "path": "docs/method/T06_PILOT_GRAPH_REPLAY_CONTRACT_V1.md",
+      "sha256": "bac1f374d8bade1c757332971ee9b7d200c04acbd94e50a9dc297a73847851ec"
+    },
+    {
+      "bytes": 7301,
+      "path": "docs/method/T06_SYNTHETIC_PILOT_INPUTS.jsonl",
+      "sha256": "7ba4967053c4994df3589ecc2162a39df6c247e120c58f8bda88454d83fa9a53"
+    },
+    {
+      "bytes": 617,
+      "path": "docs/method/T06_SYNTHETIC_REPLAY_LOCK.json",
+      "sha256": "fa435a093956e4383686223636ea30d26d54a261c67b15b98fd2a3643dd0cdc0"
+    },
+    {
+      "bytes": 16967,
+      "path": "docs/method/T06_SYNTHETIC_graph_trace.jsonl",
+      "sha256": "effdebc6c01a374cd30b5bf9dc9cbcdba3d8d64a4c7ae3d0f81237c945d2881d"
+    },
+    {
+      "bytes": 7748,
+      "path": "docs/method/T06_SYNTHETIC_pilot_predictions.jsonl",
+      "sha256": "3cbec9fcdedf4fda8ec2a483cf518f4bc01249f3233b9b346960c92a5f6ac038"
+    },
+    {
+      "bytes": 14642,
+      "path": "src/countlab/method/t06_pilot_replay_v1.py",
+      "sha256": "67471e87d3c5347a981d1fdb4949a9d844865004e92623447db92d456a8f65be"
+    },
+    {
+      "bytes": 12885,
+      "path": "tests/test_thuy_t06_pilot_replay_v1.py",
+      "sha256": "d3dbf7b2d251e2d04aef6c5ef7cfb72dea18ff2a206da490547581eeb8d4f01f"
+    },
+    {
+      "bytes": 846,
+      "path": "tools/thuy/t06_pilot_replay_v1.py",
+      "sha256": "7b006cd8f44e04381581cee0a2605a565f5104e6cc8fa32dd8561d3e8cbffaff"
+    }
+  ],
+  "full_repository_tests_passed_snapshot": 349,
+  "n_patch_files_excluding_manifest": 12,
+  "official_c1_c2_handoff_status": "HOLD_UNVERIFIED",
+  "real_gpu_calls": 0,
+  "schema": "countlab_t06_windows_handoff_manifest_v1",
+  "source_audit_zip": "UNICOUNT_T06_LOCAL_AUDIT.zip",
+  "source_audit_zip_sha256": "9398c523e6d27cecd0d37e78401ee30cd4f7032a44f0221b873e74b8ae809523",
+  "synthetic_replay_pairs": 9,
+  "t06_new_acceptance_tests_passed": 40,
+  "version": "2026-11-21"
+}
