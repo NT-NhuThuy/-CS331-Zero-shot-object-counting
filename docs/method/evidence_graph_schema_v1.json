@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/countlab/evidence_graph_schema_v1.json",
+  "title": "CountLab T03 GT-blind candidate-pool boundary (structural)",
+  "description": "Closed-key syntax only; use t03_contract_v1.py for candidate uniqueness, no-GT recursive scan, pair uniqueness, and positive area checks. Not a semantic truth validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "image_id",
+    "query_id",
+    "query_text",
+    "baseline_count",
+    "baseline",
+    "rescue",
+    "identity_edges"
+  ],
+  "properties": {
+    "schema": {
+      "const": "countlab_candidate_pool_v1"
+    },
+    "image_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "query_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "query_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseline_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "baseline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id",
+          "box_xyxy"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "box_xyxy": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "risk_hint": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "semantic": {
+                "enum": [
+                  "YES",
+                  "NO",
+                  "UNKNOWN"
+                ]
+              },
+              "whole_instance": {
+                "enum": [
+                  "YES",
+                  "NO",
+                  "UNKNOWN"
+                ]
+              }
+            }
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "rescue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id",
+          "box_xyxy"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "view_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "box_xyxy": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "risk_hint": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "semantic": {
+                "enum": [
+                  "YES",
+                  "NO",
+                  "UNKNOWN"
+                ]
+              },
+              "whole_instance": {
+                "enum": [
+                  "YES",
+                  "NO",
+                  "UNKNOWN"
+                ]
+              }
+            }
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "identity_edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "a",
+          "b",
+          "relation"
+        ],
+        "properties": {
+          "a": {
+            "type": "string",
+            "minLength": 1
+          },
+          "b": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relation": {
+            "enum": [
+              "SAME",
+              "DIFFERENT",
+              "UNKNOWN"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

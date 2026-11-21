@@ -1,0 +1,9 @@
+{
+  "schema": "countlab_t12_b5_config_v1",
+  "policy": {
+    "score_threshold": 0.5,
+    "nms_iou": 0.5,
+    "identity_min_same_iou": 0.1,
+    "identity_ambiguity_iou": 0.3
+  }
+}

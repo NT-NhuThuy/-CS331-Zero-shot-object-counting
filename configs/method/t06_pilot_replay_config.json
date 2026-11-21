@@ -1,0 +1,10 @@
+{
+  "schema": "countlab_t06_pilot_replay_config_v1",
+  "solver_config": {
+    "max_search_states": 20000,
+    "max_candidates": 512,
+    "max_hints": 32,
+    "min_same_iou": 0.05
+  },
+  "claims_allowed": false
+}

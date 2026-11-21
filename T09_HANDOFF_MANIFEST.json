@@ -1,0 +1,66 @@
+{
+  "schema": "unicount_c3_t09_windows_local_handoff_v1",
+  "date": "2026-11-21",
+  "source_windows_branch": "feat/thuy-v2-t03-t06",
+  "source_windows_commit_at_export": "e7b905a",
+  "source_uploaded_git_archive": "UNICOUNT_T09_LOCAL_AUDIT.zip",
+  "source_uploaded_git_archive_sha256": "b33304dfd3719e1503307f2b125132dbf479036fc658e2efd42065c3329feec7",
+  "base_source_sha256_canonical_lf": {
+    "src/countlab/method/joint_solver_v2.py": "e1cad9113eb81392dcfe039cc2ba2ea9fa2a0ecd50144bf764dbc30e7b902135",
+    "src/countlab/method/t09_event_grounded_solver.py": "c794bd36fcd21f7d65930d0d5a51fd3922daced5b793edc4b0ab2af17fc4eec9",
+    "src/countlab/method/t03_contract_v1.py": "c6ee4dc79272dd1fe50b1160dc407de55dc546cc77f37183dd317f968bb6b9b4"
+  },
+  "additive_only": true,
+  "modifies_frozen_core": false,
+  "model_calls": 0,
+  "uses_gt": false,
+  "counting_evaluation_performed": false,
+  "software_tests_offline": {
+    "new_t09_tests_passed": 47,
+    "available_snapshot_tests_passed": 265,
+    "excluded": "tests/test_thuy_t12_offline_score_v2.py required unprovided tools/thuy/t12_offline_score_v2.py"
+  },
+  "windows_acceptance": "HOLD until tests on current repo and PR/CI signoff",
+  "files": [
+    {
+      "path": "README_T09_WINDOWS_HANDOFF.md",
+      "sha256": "e90d5a1125e1a67da8f185697c55d30fb41049295f0cd5d1281b059f933053e6",
+      "bytes": 2458
+    },
+    {
+      "path": "configs/method/solver_config.json",
+      "sha256": "4f026f32524c74fb962adcd7be0eaf8b74d0a8dccd8220364b056c2b3c6dcd16",
+      "bytes": 101
+    },
+    {
+      "path": "docs/method/T09_LOCAL_ACCEPTANCE_REPORT.md",
+      "sha256": "f2fc54f098459cc3a094332e4363f115da6d46f5d2b2b6067421716aadd4e5d3",
+      "bytes": 2797
+    },
+    {
+      "path": "docs/method/T09_SOLVER_OUTPUT_CONTRACT_V1.md",
+      "sha256": "b2976afed6ec7850a002eb7b3f316646b8f77df49e42d315b8b24ae6b4f651bd",
+      "bytes": 5239
+    },
+    {
+      "path": "docs/method/solver_trace_examples.jsonl",
+      "sha256": "7e5d2358d73b29e41d090193d943f6a7b9430369dff48c7f4e2948377444ab5f",
+      "bytes": 51407
+    },
+    {
+      "path": "src/countlab/method/t09_delivery_v1.py",
+      "sha256": "df6a3bca31de27c5fa850ed350cdf64daa58caaf1d706aad104be0b51a7102ab",
+      "bytes": 7124
+    },
+    {
+      "path": "tests/test_thuy_t09_delivery_v1.py",
+      "sha256": "c7cd7e5afccf20bd26877b936867bcb2221ce68693412090dcd5f1b7a7d25ac0",
+      "bytes": 11729
+    },
+    {
+      "path": "tools/thuy/t09_validate_v1.py",
+      "sha256": "722533be56d914d131c035b2bee12693ae2fdf38ae864db62941ef22df50e18d",
+      "bytes": 2866
+    }
+  ]
+}

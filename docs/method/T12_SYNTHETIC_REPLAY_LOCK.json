@@ -1,0 +1,12 @@
+{
+  "actual_model_calls": null,
+  "b5_config_sha256": "9a98aea98a4cf017f80d7cee159bf68d48f4124d4ad15dbdd29da14098d26de0",
+  "b6_config_sha256": "4bace3afa2f9b4322f85f5182bbd8e7de532b958280bfa6198327fcf3979d6f3",
+  "gt_used": false,
+  "input_sha256": "14c1f7a0f9b529717ce7d94d0129874d79c2884a4d7b8cc9d971fdb448b1d17c",
+  "matched_to_b7_measured_cost": false,
+  "predictions_sha256": "9957c9f8256c28b3cf117d7e8a77dce514c03d6317c78a72f528f849526d6feb",
+  "roster_pairs": 6,
+  "schema": "countlab_t12_b5_b6_replay_lock_v1",
+  "status": "CPU_CONTRACT_REPLAY_ONLY_PENDING_C2_COST_AND_B7"
+}
