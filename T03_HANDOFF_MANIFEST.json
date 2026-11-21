@@ -1,0 +1,55 @@
+{
+  "schema": "c3_t03_additive_local_handoff_v1",
+  "created_date": "2026-11-21",
+  "scope": "LOCAL_WINDOWS_GIT_ONLY",
+  "base_archive": "UNICOUNT_V2_3fb58ccedb69.tar",
+  "base_schema_sha256": "41f57a0c4eb0890ac09cf5cc35e75ce488953a1cb4a545ed9615f64af5947dda",
+  "status": "OFFLINE_CONTRACT_TESTS_PASS_WINDOWS_BRANCH_AND_INTEGRATION_HOLD",
+  "offline_snapshot_full_test_result": "172 passed",
+  "new_tests": 60,
+  "gt_used": false,
+  "server_modified": false,
+  "git_used_on_server": false,
+  "entries": [
+    {
+      "path": "README_T03_WINDOWS_HANDOFF.md",
+      "sha256": "ea5f9bf238a7f9ff33aec9feceb624c0936e5139bc555b33b4781b41f0ad3263",
+      "bytes": 2879
+    },
+    {
+      "path": "docs/method/T03_LOCAL_ACCEPTANCE_REPORT.md",
+      "sha256": "02981dec12420e75a2e1ea5dbae20fb55b905aaadfc9ce14f7d31127130f095b",
+      "bytes": 2646
+    },
+    {
+      "path": "docs/method/T03_OUTPUT_CONTRACT_V1.md",
+      "sha256": "1aa59f877601157d2a974ba7b8c25d5e1ebbe452370b2e2c4717654a28db4726",
+      "bytes": 5555
+    },
+    {
+      "path": "docs/method/T03_example_input_output.json",
+      "sha256": "4ca8b9ee2d0a2705b6f67d67d72a0c0977ee6fb850aaa1bdbc027f30bd299dac",
+      "bytes": 21530
+    },
+    {
+      "path": "docs/method/evidence_graph_schema_v1.json",
+      "sha256": "1a697f1cf1be1deae8fc4a7a03fd8ec3eca99cf6ed1dcb2c2c9671044061494f",
+      "bytes": 5884
+    },
+    {
+      "path": "src/countlab/method/t03_contract_v1.py",
+      "sha256": "00203fa4f6eb157fa3510f7c7b6702434e051eab677dbd6ecb423aee3763a827",
+      "bytes": 11939
+    },
+    {
+      "path": "tests/test_thuy_t03_contract_v1.py",
+      "sha256": "ae516d303a39729277a35f8829d7cd99a4ab5e1fb34a45f0eba634c72c768f06",
+      "bytes": 8970
+    },
+    {
+      "path": "tools/thuy/t03_validate_v1.py",
+      "sha256": "333ddb101f0b7bea20bff87d56aff74328a3f53836ec950c2372c795069cf3bf",
+      "bytes": 1650
+    }
+  ]
+}
